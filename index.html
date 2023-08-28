@@ -4,14 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css" rel="stylesheet" /> -->
+    <title>Wetterdaten Südtirol</title>
     <link rel="stylesheet" href="primer.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Wetterdaten Südtirol</title>
     <link rel="SHORTCUT ICON" href="github-mark/github-mark-white.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
 </head>
 
 <body class="p-2">
@@ -25,16 +24,13 @@
                 <div class="SelectMenu-modal">
                     <div class="SelectMenu-list">
                         <button id="toggleModeBtn" class="SelectMenu-item">
-                            <i class="fa-solid fa-circle-half-stroke mr-2"></i><span
-                                class="Button-label">Hell/Dunkel</span></button>
+                            <i class="fa-solid fa-circle-half-stroke mr-2"></i><span class="Button-label">Hell/Dunkel</span></button>
                         <div class="SelectMenu-divider"></div>
-                        <a href="https://www.github.com/leyonad" target="_blank" rel="noopener noreferrer"
-                            class="SelectMenu-item">
+                        <a href="https://www.github.com/leyonad" target="_blank" rel="noopener noreferrer" class="SelectMenu-item">
                             <i class="fa-brands fa-github mr-2"></i>
                             <span class="Button-label">Github/Leyonad</span>
                         </a>
-                        <a href="https://play.google.com/" target="_blank" rel="noopener noreferrer"
-                            class="SelectMenu-item color-bg-success">
+                        <a href="https://play.google.com/" target="_blank" rel="noopener noreferrer" class="SelectMenu-item color-bg-success">
                             <i class="fa-brands fa-google-play mr-2"></i>
                             <span class="Button-label">App herunterladen</span>
                         </a>
@@ -46,64 +42,55 @@
 
     <div class="d-flex flex-justify-center flex-items-center flex-column">
         <div class="mt-3 d-flex flex-justify-center flex-items-center flex-column" style="min-width: 220px;">
-            <div
-                class="Box width-full p-1 mb-2 d-flex flex-items-center flex-column flex-justify-center color-bg-subtle">
+            <div class="Box width-full p-1 mb-2 d-flex flex-items-center flex-column flex-justify-center color-bg-subtle">
                 <h3 class="text-center">Temperatur (° Celsius)</h3>
                 <h5 class="text-center color-fg-muted">Zuletzt aktualisiert: 19:20 Uhr</h5>
             </div>
             <div class="BtnGroup d-block mb-2 ml-0">
                 <button class="btn mx-0 px-0 sensor-button" type="button" aria-label="Desktop icon">
-                    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960"
-                        width="48">
+                    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="48">
                         <path
                             d="M480-80q-83 0-141.5-58.5T280-280q0-51 23-96t68-67v-328q0-45.417 31.792-77.208Q434.583-880 480-880t77.208 31.792Q589-816.417 589-771v328q45 22 68 67t23 96q0 83-58.5 141.5T480-80Zm-49-435h98v-53h-49v-39h49v-87h-49v-38.5h49V-771q0-20.825-14.123-34.912-14.123-14.088-35-14.088Q459-820 445-805.912 431-791.825 431-771v256Z" />
                     </svg>
                 </button>
                 <button class="btn mx-0 px-0 sensor-button" type="button" aria-label="Desktop icon">
-                    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960"
-                        width="48">
+                    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="48">
                         <path
                             d="M480-80q-137 0-228.5-94T160-408q0-64 29-127t72.5-121q43.5-58 94-108.5T450-854q7-6 14.5-8.5T480-865q8 0 15.5 2.5T510-854q44 39 94.5 89.5t94 108.5Q742-598 771-535t29 127q0 140-91.5 234T480-80Zm0-60q112 0 186-76.5T740-408q0-79-66.5-179.5T480-800Q353-688 286.5-587.5T220-408q0 115 74 191.5T480-140Zm0-340Zm-1 272q16 0 24.5-5.5T512-230q0-11-8.5-17t-25.5-6q-42 0-85.5-26.5T337-373q-2-9-9-14.5t-15-5.5q-11 0-17 8.5t-4 17.5q15 84 71 121.5T479-208Z" />
                     </svg>
                 </button>
                 <button class="btn mx-0 px-0 sensor-button" type="button" aria-label="Desktop icon">
-                    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960"
-                        width="48">
+                    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="48">
                         <path
                             d="M229.825-120Q217-120 208.5-128.625T200-150v-620q0-12.75 8.625-21.375T230-800h289q10.5 0 18.75 6.5T548-776l14 62h208q12.75 0 21.375 8.625T800-684v310q0 12.75-8.625 21.375T770-344H568q-10.5 0-18.75-6T539-367l-14-62H260v279q0 12.75-8.675 21.375-8.676 8.625-21.5 8.625ZM500-572Zm95 168h145v-250H511l-19-86H260v251h316l19 85Z" />
                     </svg>
                 </button>
                 <button class="btn mx-0 px-0 sensor-button" type="button" aria-label="Desktop icon">
-                    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960"
-                        width="48">
+                    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="48">
                         <path
                             d="M480-80q-137 0-228.5-94T160-408q0-64 29-127t72.5-121q43.5-58 94-108.5T450-854q7-6 14.5-8.5T480-865q8 0 15.5 2.5T510-854q44 39 94.5 89.5t94 108.5Q742-598 771-535t29 127q0 140-91.5 234T480-80Zm-1-128q16 0 24.5-5.5T512-230q0-11-8.5-17t-25.5-6q-42 0-85.5-26.5T337-373q-2-9-9-14.5t-15-5.5q-11 0-17 8.5t-4 17.5q15 84 71 121.5T479-208Z" />
                     </svg>
                 </button>
                 <button class="btn mx-0 px-0 sensor-button" type="button" aria-label="Desktop icon">
-                    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960"
-                        width="48">
+                    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="48">
                         <path
                             d="M479.825-810Q467-810 458.5-818.625T450-840v-50q0-12.75 8.675-21.375 8.676-8.625 21.5-8.625 12.825 0 21.325 8.625T510-890v50q0 12.75-8.675 21.375-8.676 8.625-21.5 8.625Zm0 770Q467-40 458.5-48.625T450-70v-50q0-12.75 8.675-21.375 8.676-8.625 21.5-8.625 12.825 0 21.325 8.625T510-120v50q0 12.75-8.675 21.375Q492.649-40 479.825-40ZM840-450q-12.75 0-21.375-8.675-8.625-8.676-8.625-21.5 0-12.825 8.625-21.325T840-510h50q12.75 0 21.375 8.675 8.625 8.676 8.625 21.5 0 12.825-8.625 21.325T890-450h-50Zm-770 0q-12.75 0-21.375-8.675Q40-467.351 40-480.175 40-493 48.625-501.5T70-510h50q12.75 0 21.375 8.675 8.625 8.676 8.625 21.5 0 12.825-8.625 21.325T120-450H70Zm651-272q-9-8.698-9-21.349T721-765l23-23q8-8 21-8.5t22 8.5q9 9 9 21.5t-9 21.5l-24 24q-8.25 8-20.625 8T721-722ZM174-173q-9-9-9-21.5t9-21.5l23-23q8-8 21-8.5t22.391 8.714Q249-230.339 249-217.67q0 12.67-9 21.67l-24 24q-8.067 8-20.533 8Q183-164 174-173Zm570 0-24-23q-8-8-8.5-21t8.714-22.391Q728.661-248 741.33-248q12.67 0 21.67 9l24 24q8 8 8.5 20.5T787-173q-9 9-21.5 9t-21.5-9ZM197-722l-24-23q-8-8-8.5-21t8.5-22q9-9 21.5-9t21.5 9l24 24q8 8 8.5 20.5T240-722q-8.698 9-21.349 9T197-722Zm282.824 467Q386-255 320.5-320.676q-65.5-65.677-65.5-159.5Q255-574 320.676-639.5q65.677-65.5 159.5-65.5Q574-705 639.5-639.323 705-573.647 705-479.824 705-386 639.323-320.5 573.647-255 479.824-255Zm.11-60Q549-315 597-362.934t48-117Q645-549 597.066-597t-117-48Q411-645 363-597.066t-48 117Q315-411 362.934-363t117 48ZM480-480Z" />
                     </svg>
                 </button>
                 <button class="btn mx-0 px-0 sensor-button" type="button" aria-label="Desktop icon">
-                    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960"
-                        width="48">
+                    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="48">
                         <path
                             d="M461-160q-42 0-71-21.5T351-241q-3-13 6-23t24-10q9 0 17.5 7t14.5 19q6 14 18.5 21t29.5 7q24 0 39-15t15-39q0-24-15-39t-39-15H110q-13 0-21.5-8.5T80-358q0-13 8.5-21.5T110-388h351q50 0 82 32t32 82q0 50-32 82t-82 32ZM110-568q-13 0-21.5-8.5T80-598q0-13 8.5-21.5T110-628h513q35 0 55.5-20.5T699-704q0-35-20.5-55.5T623-780q-28 0-44.5 12.5T555-735q-4 12-12.5 19.5T523-708q-14 0-22.5-10t-5.5-22q10-41 43-70.5t85-29.5q57 0 96.5 39.5T759-704q0 57-39.5 96.5T623-568H110Zm670 321q-12 2-22-6.5T748-276q0-11 7.5-19.5T775-308q22-7 33.5-24t11.5-44q0-35-18.5-53.5T748-448H110q-13 0-21.5-8.5T80-478q0-13 8.5-21.5T110-508h638q59 0 95.5 36.5T880-376q0 51-27 85t-73 44Z" />
                     </svg>
                 </button>
                 <button class="btn mx-0 px-0 sensor-button" type="button" aria-label="Desktop icon">
-                    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960"
-                        width="48">
+                    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="48">
                         <path
                             d="M450-275 321-146q-8 8-20.5 8t-21.5-8q-9-9-9-21.5t9-21.5l171-171v-90h-90L192-282q-8 8-20.5 8.5T150-281q-9-9-9.5-21.5T150-325l125-125H109q-12 0-20.5-8.5T80-480q0-12 8.5-21t21.5-9h165L146-638q-9-9-9-21.5t9-21.5q9-9 21.5-9t21.5 9l171 171h90v-91L282-768q-8-8-8-20.5t8-21.5q9-9 21.5-9t22.5 9l124 124v-164q0-12 8.5-21t21.5-9q12 0 21 9t9 21v164l128-128q9-9 21.5-9t21.5 9q8 9 8 21.5t-9 21.5L510-601v91h91l168-168q8-8 20.5-8t21.5 8q9 9 9 21.5t-9 21.5L686-510h164q12 0 21 9t9 21q0 13-9 21.5t-21 8.5H686l127 129q9 8 9 20.5t-9 20.5q-8 10-20.5 10t-21.5-9L601-450h-91v90l171 173q9 8 9 20.5t-9 20.5q-8 10-20.5 10t-21.5-9L510-275v166q0 12-9 20.5T480-80q-13 0-21.5-8.5T450-110v-165Z" />
                     </svg>
                 </button>
                 <button class="btn mx-0 px-0 sensor-button" type="button" aria-label="Desktop icon">
-                    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960"
-                        width="48">
+                    <svg class="octicon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="48">
                         <path
                             d="M195-410q-14 0-24.5-10.5T160-445q0-14 10.5-24.5T195-480h570q14 0 24.5 10.5T800-445q0 14-10.5 24.5T765-410H195Zm-5-121q-13 0-21.5-8.5T160-561q0-13 8.5-21.5T190-591h580q13 0 21.5 8.5T800-561q0 13-8.5 21.5T770-531H190ZM479-80q-13 0-21.5-8.5T449-110v-128l-56 55q-9 8-21 8.5t-21-8.5q-9-9-9-21t9-21l107-106q5-5 10-7t11-2q6 0 11 2t10 7l105 106q8 9 8.5 21t-8.5 21q-9 9-21 9t-21-9l-54-55v128q0 13-8.5 21.5T479-80Zm0-580q-6 0-11-2t-10-7L352-775q-8-8-8.5-20.5T352-817q9-9 21-9t21 9l54 55v-128q0-13 8.5-21.5T478-920q13 0 21.5 8.5T508-890v128l56-55q9-8 21-8.5t21 8.5q9 9 9 21t-9 21L500-669q-5 5-10 7t-11 2Z" />
                     </svg>
