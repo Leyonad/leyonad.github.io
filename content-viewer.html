@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-page-title="Inhalt"></title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <script>
+        (function () {
+            const theme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (theme === 'dark' || (!theme && prefersDark)) {
+                document.documentElement.classList.add('dark-mode');
+            }
+            document.addEventListener('DOMContentLoaded', () => {
+                if (document.documentElement.classList.contains('dark-mode')) {
+                    document.body.classList.add('dark-mode');
+                }
+            });
+        })();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo"><a href="index.html" data-config="websiteName">Lädt...</a></div>
+            <div class="header-right">
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" data-config="navHome">Startseite</a></li>
+                        <li><a href="geschichten.html" data-config="navStories">Geschichten</a></li>
+                        <li><a href="gedichte.html" data-config="navPoems">Gedichte</a></li>
+                        <li><a href="gedichtsromane.html" data-config="navPoeticNovels">Gedichtsromane</a></li>
+                        <li><a href="ueber-mich.html" data-config="navAbout">Über mich</a></li>
+                    </ul>
+                </nav>
+                <button id="dark-mode-toggle" aria-label="Farbschema wechseln">🌙 Dunkel</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <nav id="breadcrumb-nav" class="container" aria-label="Breadcrumb">
+            <!-- Breadcrumbs werden hier dynamisch von JS eingefügt -->
+            <p>Navigation wird geladen...</p>
+        </nav>
+
+        <article id="content-area" class="container">
+            <!-- Wrapper für Bild (links) und rechte Spalte (Info/Titel/Gedicht) -->
+            <div class="content-main-wrapper">
+                <!-- Bild (wird von JS befüllt) -->
+                <img id="content-image" src="" alt="Bild zum Inhalt" class="content-main-image" style="display: none;">
+                <!-- Rechte Spalte -->
+                <div class="content-right-column">
+                    <h1 id="work-title" class="content-title">Lädt Titel...</h1>
+                    <div id="content-description" class="content-description"></div>
+                    <p id="content-date" class="content-date"></p>
+                    <!-- NEU: Platzhalter für Gedicht-Anzeige -->
+                    <div id="poem-display-area" style="display: none;">
+                         <!-- Gedicht wird hier von JS eingefügt -->
+                    </div>
+                    <!-- "Lesen beginnen" Button (wird von JS für Stories/Novels gesteuert) -->
+                    <a id="start-reading" href="#" class="cta-button" style="display: none;">Mit dem Lesen beginnen</a>
+                    <!-- Kapitelübersicht (wird von JS für Stories/Novels gesteuert) -->
+                    <nav id="chapter-toc" class="chapter-toc" style="display: none;">
+                        <h3>Kapitelübersicht</h3>
+                        <ul></ul>
+                    </nav>
+                </div>
+            </div>
+        </article>
+
+        <!-- Navigation (Zurück-Link) -->
+        <nav class="story-nav container" style="margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border-color);">
+            <a id="back-link" href="index.html" style="display: none;">« Zurück</a>
+        </nav>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="copyright-year"></span> <span data-config="authorName">Autor</span>. <span data-config="footerCopyrightText">Alle Rechte
+                    vorbehalten</span>.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

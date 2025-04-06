@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-page-title="Kapitel">Kapitel</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Marked.js Bibliothek für Markdown-Konvertierung -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo"><a href="index.html" data-config="websiteName">Lädt...</a></div>
+            <div class="header-right">
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" data-config="navHome">Startseite</a></li>
+                        <li><a href="geschichten.html" data-config="navStories">Geschichten</a></li>
+                        <li><a href="gedichte.html" data-config="navAbout">Gedichte</a></li>
+                        <li><a href="gedichtsromane.html" data-config="navPoeticNovels">Gedichtsromane</a></li>
+                        <li><a href="ueber-mich.html" data-config="navAbout">Über mich</a></li>
+                    </ul>
+                </nav>
+                <button id="dark-mode-toggle" aria-label="Farbschema wechseln">🌙 Dunkel</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <nav id="breadcrumb-nav" class="container" aria-label="Breadcrumb">
+            <!-- Breadcrumbs werden hier dynamisch von JS eingefügt -->
+            <p>Navigation wird geladen...</p>
+        </nav>
+        
+        <article id="content-area" class="container">
+            <div id="content-text" class="main-content">
+                <!-- Kapitelinhalt wird hier dynamisch geladen -->
+                <p data-config="loadingText">Kapitel wird geladen...</p>
+            </div>
+        </article>
+
+        <nav class="chapter-nav container" aria-label="Kapitelnavigation">
+            <button id="prev-chapter" disabled>« Vorheriges Kapitel</button>
+            <span id="chapter-indicator"></span>
+            <button id="next-chapter" disabled>Nächstes Kapitel »</button>
+        </nav>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span id="copyright-year"></span> <span data-config="authorName">Autor</span>. <span data-config="footerCopyrightText">Alle Rechte
+                    vorbehalten</span>.</p>
+        </div>
+    </footer>
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

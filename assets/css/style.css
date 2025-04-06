@@ -1,0 +1,1254 @@
+/* assets/css/style.css */
+
+/* Basic Reset & Font Import */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Sanfter Übergang für Farbwechsel - ENTFERNT für initiales Laden */
+    /* transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; */
+}
+
+/* Farbvariablen definieren */
+:root {
+    --bg-color: #fdfdfd;
+    --text-color: #333;
+    --text-color-light: #555;
+    --text-color-lighter: #777;
+    --heading-color: #222;
+    --link-color: #007bff;
+    --link-hover-color: #0056b3;
+    --border-color: #eee;
+    --header-bg: #fff;
+    --footer-bg: #f8f9fa;
+    --footer-text-color: #6c757d;
+    --button-bg: #007bff;
+    --button-text: #fff;
+    --button-hover-bg: #0056b3;
+    --code-bg: #f0f0f0; /* Beispiel für Code-Blöcke, falls benötigt */
+    --blockquote-border: #eee;
+    --blockquote-text: #666;
+
+    /* Schriftarten (wie zuvor) */
+    --font-ui: 'Poppins', sans-serif;
+    --font-reading: 'Georgia', serif;
+
+    /* Übergänge spezifischer definieren, falls gewünscht */
+    --theme-transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Dark Mode Variablen auf html.dark-mode anwenden */
+html.dark-mode {
+    --bg-color: #1a1a1a;
+    --text-color: #e0e0e0;
+    --text-color-light: #b0b0b0;
+    --text-color-lighter: #888;
+    --heading-color: #f5f5f5;
+    --link-color: #58a6ff; /* Helleres Blau für dunklen Hintergrund */
+    --link-hover-color: #8ec1ff;
+    --border-color: #333;
+    --header-bg: #252525;
+    --footer-bg: #222;
+    --footer-text-color: #aaa;
+    --button-bg: #58a6ff;
+    --button-text: #1a1a1a;
+    --button-hover-bg: #8ec1ff;
+    --code-bg: #2c2c2c;
+    --blockquote-border: #444;
+    --blockquote-text: #bbb;
+}
+
+/* Body übernimmt Farben von :root oder html.dark-mode */
+body {
+    font-family: var(--font-ui);
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    /* Übergang hier anwenden, damit er nach dem initialen Laden wirkt */
+    transition: var(--theme-transition);
+}
+
+/* Wichtig: Auch andere Elemente, die Farben direkt setzen, sollten die Transition bekommen */
+.site-header, .site-footer, .page-title, .cta-button, #dark-mode-toggle, .story-content blockquote {
+    transition: var(--theme-transition);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-ui);
+    margin-bottom: 0.75em;
+    line-height: 1.3;
+    font-weight: 600;
+    color: var(--heading-color);
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.4rem; }
+
+p {
+    color: var(--text-color); /* Sicherstellen, dass Absätze die Haupttextfarbe verwenden */
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+/* Layout Containers */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-narrow {
+    width: 90%;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header & Navigation */
+.site-header {
+    background-color: var(--header-bg);
+    padding: 15px 0;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 30px;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Erlaubt Umbruch bei schmalen Bildschirmen */
+    position: relative;
+}
+
+.logo a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--heading-color); /* Angepasst an Heading-Farbe */
+    text-decoration: none;
+}
+.logo a:hover {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-nav li {
+    margin-left: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--text-color-light);
+    font-weight: 400;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+}
+
+.main-nav a:hover,
+.main-nav a:focus {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.main-nav a.active {
+    color: var(--text-color);
+    font-weight: 600;
+    border-bottom-color: var(--link-color);
+}
+
+/* Dark Mode Toggle Button */
+#dark-mode-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: var(--button-bg);
+    color: var(--button-text);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 100;
+    transition: transform 0.2s ease;
+}
+
+#dark-mode-toggle:hover {
+    transform: scale(1.05);
+    background: var(--button-hover-bg);
+}
+
+/* Footer */
+.site-footer {
+    background-color: var(--footer-bg);
+    color: var(--footer-text-color);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 60px;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.9em;
+}
+.site-footer p {
+     color: var(--footer-text-color); /* Explizit setzen */
+     margin-bottom: 0;
+}
+
+/* Page Specific Sections */
+.hero {
+    text-align: center;
+    padding: 60px 0 40px;
+    background-color: var(--header-bg); /* Gleicher Hintergrund wie Header für Einheitlichkeit */
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: var(--heading-color);
+}
+
+.hero .subtitle {
+    font-size: 1.2rem;
+    color: var(--text-color-light);
+    margin-top: 10px;
+}
+
+.featured-stories, .featured-poems, .author-intro, .story-archive, .about-content, .content-navigation { /* .content-navigation hinzugefügt */
+    padding: 40px 0;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Kachelmuster */
+    gap: 20px; /* Abstand zwischen den Karten */
+}
+
+.content-type-card {
+    background-color: var(--header-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden; /* Wichtig für bündige Bilder */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    height: 650px; /* Feste Höhe statt min-height */
+    margin-bottom: 40px;
+}
+
+.content-type-card:hover {
+    border-color: var(--link-color);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.content-type-card .card-content {
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+}
+
+.content-type-card .card-image {
+    width: 45%;
+    height: 100%; /* Volle Höhe der Card */
+    object-fit: cover;
+    margin: 0;
+    display: block;
+    transition: opacity 0.3s ease-in-out; /* Sanfte Transition für Opacity */
+}
+
+.content-type-card .card-text {
+    width: 55%;
+    padding: 30px; /* Etwas weniger Padding */
+    display: flex;
+    flex-direction: column;
+}
+
+.content-type-card h2 {
+    font-size: 2.0rem; /* Verkleinert, um Abschneiden zu verhindern */
+    margin: 0 0 20px 0; /* Weniger Abstand nach unten */
+    color: var(--heading-color);
+}
+
+.content-type-card h2 a {
+    color: var(--heading-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.content-type-card h2 a:hover {
+    color: var(--link-color);
+}
+
+.content-type-card .card-titles {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    flex-grow: 1;
+    color: var(--text-color-light);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.content-type-card .card-titles li {
+    border-bottom: 1px solid var(--border-color);
+    transition: background-color 0.2s ease; /* Leichter Hover-Effekt für das ganze li */
+}
+
+.content-type-card .card-titles li:hover {
+    background-color: rgba(128, 128, 128, 0.1); /* Leichter Hintergrund beim Hovern */
+}
+
+.content-type-card .card-titles li a {
+    color: var(--text-color); /* Standard-Textfarbe für den Link */
+    text-decoration: none; /* Kein Unterstrich standardmäßig */
+    display: flex; /* Flexbox für Titel und Pfeil */
+    justify-content: space-between; /* Titel links, Pfeil rechts */
+    align-items: center; /* Vertikal zentrieren */
+    padding: 8px 5px; /* Kleiner Innenabstand für besseres Hovern */
+    transition: color 0.2s ease;
+}
+
+.content-type-card .card-titles li a:hover {
+    color: var(--link-hover-color); /* Farbe ändern beim Hovern */
+    text-decoration: none; /* Unterstrich nicht nötig, da ganzer Bereich hovert */
+}
+
+.content-type-card .card-titles li .item-title {
+    flex-grow: 1; /* Nimmt den verfügbaren Platz ein, drückt den Pfeil nach rechts */
+    margin-right: 10px; /* Kleiner Abstand zum Pfeil */
+    padding-left: 10px;
+}
+
+.content-type-card .card-titles li .arrow-indicator {
+    font-size: 1.2em; /* Pfeil etwas größer */
+    color: var(--text-color-lighter); /* Pfeil etwas heller */
+    pointer-events: none; /* Pfeil selbst nicht klickbar machen */
+    flex-shrink: 0; /* Verhindert, dass der Pfeil schrumpft */
+}
+
+.content-type-card .card-description {
+    color: var(--text-color-light);
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    flex-grow: 1; /* Beschreibung nimmt verfügbaren Platz ein */
+    max-width: 90%; /* Verhindert, dass Text zu breit wird */
+}
+
+.content-type-card .card-count {
+    font-size: 0.9rem;
+    color: var(--text-color-lighter);
+    margin-bottom: 25px;
+}
+
+.content-type-card .card-count span {
+    font-weight: 600;
+    color: var(--text-color-light);
+}
+
+.content-type-card .cta-button {
+    align-self: flex-start;
+    margin-top: auto;
+}
+
+.read-button {
+    font-size: 1rem;
+    padding: 6px 16px;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    align-self: flex-start; /* Standard-Ausrichtung, wird für Archivkarten überschrieben */
+}
+
+.read-button:hover {
+    background-color: var(--button-hover-bg);
+    transform: translateY(-1px);
+    text-decoration: none;
+    color: var(--button-text);
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+    border: none; /* Wichtig, falls es von woanders geerbt wird */
+    cursor: pointer;
+}
+
+.cta-button:hover, .cta-button:focus {
+    background-color: var(--button-hover-bg);
+    color: var(--button-text);
+    text-decoration: none;
+}
+
+.cta-button-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cta-button.card-button {
+    font-weight: 400; /* Schrift normal */
+}
+
+.story-archive .story-item-full,
+.poem-archive .poem-item-full { /* Klasse für Gedichte im Archiv hinzugefügt */
+    display: flex;
+    align-items: stretch;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.story-archive .story-item-full img,
+.poem-archive .poem-item-full img {
+    width: 30%; /* Bild nimmt 30% der Breite ein */
+    height: auto;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.story-archive h2,
+.poem-archive h2 { /* Klasse für Gedichte im Archiv hinzugefügt */
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.story-archive h2 .read-button,
+.poem-archive h2 .read-button {
+    font-size: 0.85rem;
+    padding: 4px 12px;
+    margin-left: auto;
+}
+
+.story-archive h2 a,
+.poem-archive h2 a {
+    color: var(--heading-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+.story-archive h2 a:hover,
+.poem-archive h2 a:hover {
+    color: var(--link-color);
+}
+
+.item-excerpt {
+    font-size: 1rem;
+    color: var(--text-color-light);
+}
+
+.item-meta {
+    font-size: 0.85em;
+    color: var(--text-color-lighter);
+    margin-bottom: 0;
+}
+
+.content-description {
+    font-family: var(--font-ui);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 2em;
+}
+
+.chapter-toc li.active a {
+    background-color: var(--button-hover-bg); /* Oder eine andere Farbe */
+    /* box-shadow: inset 0 2px 4px rgba(0,0,0,0.2); */ /* Innen-Schatten als Indikator */
+}
+
+.content-date {
+    margin-top: 10px;
+}
+
+/* Content Viewer Layout */
+#content-area {
+    display: flex;
+    flex-direction: column; /* Ändert die Ausrichtung auf vertikal */
+    align-items: center; /* Zentriert den Inhalt horizontal */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 20px; /* Abstand zwischen den Elementen */
+}
+
+/* Seitenleiste (Bild + Beschreibung) */
+.media-container {
+    width: 100%; /* Breiter, um mehr Platz einzunehmen */
+    max-width: 800px; /* Maximale Breite */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Zentriert den Inhalt */
+    gap: 20px;
+    text-align: center; /* Zentriert den Text */
+    padding: 20px;
+    background-color: var(--header-bg); /* Hintergrundfarbe */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Schatten für visuelle Tiefe */
+}
+
+#content-image {
+    width: 100%; /* Volle Breite innerhalb des Containers */
+    max-width: 300px; /* Maximale Breite des Bildes */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#content-date {
+    font-size: 1rem;
+    color: var(--text-color-lighter);
+}
+
+/* Haupttext-Bereich */
+#content-text {
+    order: 2; /* Haupttext rechts */
+    flex-grow: 1; /* Nimmt den restlichen Platz ein */
+    min-width: 0; /* Verhindert Überlauf bei langen Wörtern */
+}
+
+#content-text {
+    margin-top: 20px;
+}
+
+h1[data-page-title] {
+    font-size: 2.5rem;
+    color: var(--heading-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* About Page Specific */
+.about-content {
+    display: flex; /* Flexbox für Bild-Text-Layout */
+    flex-direction: row;
+    gap: 30px; /* Abstand zwischen Bild und Text */
+    align-items: flex-start; /* Oben ausrichten */
+}
+
+.about-content .profile-image { /* Stile für das neue Profilbild */
+    width: 300px; /* Breite des Bildes - ERHÖHT */
+    max-width: 40%; /* Maximal 40% der Containerbreite - ANGEPASST */
+    height: auto;
+    border-radius: 8px; /* Abgerundete Ecken */
+    border: 1px solid var(--border-color);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex-shrink: 0; /* Verhindert, dass das Bild schrumpft */
+}
+
+.about-content .about-text { /* Container für den Text */
+    flex-grow: 1; /* Nimmt den restlichen Platz ein */
+    font-family: var(--font-reading);
+}
+
+.about-content p {
+     font-size: 1.1rem;
+     line-height: 1.8;
+     color: var(--text-color);
+     /* Margin-Bottom wird beibehalten für Absätze im Text */
+}
+
+/* Verbesserte Card Styles für Archivseiten */
+.archive-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-bottom: 20px;
+    background-color: var(--header-bg); /* Hintergrund für Konsistenz */
+}
+
+.archive-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.archive-card .card-image-link { /* NEU: Link um das Bild */
+    display: block; /* Damit der Link den Bildbereich einnimmt */
+    line-height: 0; /* Verhindert zusätzlichen Leerraum unter dem Bild */
+}
+
+.archive-card .card-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block; /* Verhindert Leerraum unter dem Bild */
+}
+
+.archive-card .card-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Abstand zwischen Elementen reduziert */
+    flex-grow: 1; /* Nimmt verfügbaren Platz ein */
+}
+
+.archive-card .item-meta {
+    font-size: 0.9rem;
+    color: var(--text-color-lighter);
+    margin-bottom: 5px; /* Abstand nach unten reduziert */
+}
+
+.archive-card .read-button { /* Spezifische Stile für den Button in Archivkarten */
+    margin-top: auto; /* Schiebt Button nach unten */
+    align-self: flex-end; /* Schiebt Button nach rechts */
+}
+
+/* Archiv Grid Layout */
+.story-archive,
+.poem-archive,
+.poetic-novel-archive { /* NEU */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+/* Grid Layout für die Startseite (Content Navigation) */
+.content-navigation .card-grid {
+    display: grid;
+    /* Maximal 2 Spalten, passt sich an, min. 400px Breite pro Karte */
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr));
+    gap: 30px; /* Etwas mehr Abstand */
+}
+
+/* NEU: Styling für die Karte über die volle Breite */
+.content-navigation .card-grid .full-width-card {
+    /* Spannt über alle Spalten des Grids */
+    grid-column: 1 / -1;
+}
+
+/* Content Viewer Styles */
+.main-content {
+    clear: both;
+    margin-top: 2em;
+    /* white-space:  pre-wrap; */
+    font-family: var(--font-reading);
+    color: var(--text-color);
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+#content-text .main-content br {
+    display: block; /* Zeilenumbrüche als Blockelemente behandeln */
+    text-indent: 2em; /* Einzug für Zeilenumbrüche */
+    margin-top: 0.5em; /* Optional: Abstand zwischen Zeilen */
+}
+
+/* Stelle sicher, dass die Kapitelüberschrift (H2) keinen Einzug erhält */
+#content-text .main-content h2 {
+    text-indent: 0;
+}
+
+/* Chapter Body Styles */
+.chapter-poem-body {
+    white-space:  pre-wrap;
+    font-family: var(--font-reading);
+    font-size: 1.3rem;
+    line-height: 1.7;
+    color: var(--text-color);
+}
+
+/* Chapter Body Styles */
+.chapter-body p {
+    font-family: var(--font-reading);
+    font-size: 1.3rem;
+    line-height: 1.7;
+    color: var(--text-color);
+    margin-bottom: 1em; /* Füge einen Standard-Absatzabstand hinzu */
+    margin-top: 2rem;
+}
+
+/* NEU: Styling für Dialogzeilen */
+.chapter-body p.dialogue-line {
+    text-indent: 1.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+blockquote {
+    border-left: 3px solid var(--border-color);
+}
+
+blockquote p {
+    font-style: italic;
+    margin-left: 2rem;
+    text-indent: 0 !important; 
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/* Styling für "In Arbeit"-Badge */
+.status-badge {
+    display: inline-block;
+    background-color: #ffc107; /* Warnfarbe (Gelb) */
+    color: #333; /* Dunkler Text für Kontrast */
+    padding: 2px 8px;
+    font-size: 0.75em; /* Kleiner als der Titel */
+    font-weight: 600;
+    border-radius: 4px;
+    margin-left: 8px; /* Abstand zum Titel */
+    vertical-align: middle; /* Vertikal zum Titel ausrichten */
+    line-height: 1.2; /* Zeilenhöhe anpassen */
+}
+
+/* Anpassung für Badge im Content Viewer H1 */
+#content-text h1 .status-badge {
+    font-size: 0.5em; /* Noch kleiner im Haupttitel */
+    vertical-align: super; /* Etwas höher setzen */
+}
+
+/* Anpassung für Badge in Archivkarten H2 */
+.archive-card h2 .status-badge {
+    font-size: 0.6em;
+}
+
+/* Anpassung für Badge in der Startseiten-Vorschau */
+.content-type-card .card-titles .item-title .status-badge {
+    font-size: 0.8em; /* Etwas größer in der Liste */
+    vertical-align: baseline;
+}
+
+/* NEU: Kapitelnavigation */
+.chapter-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px; /* Abstand nach oben */
+    padding-top: 20px; /* Innenabstand oben */
+    border-top: 1px solid var(--border-color); /* Trennlinie oben */
+}
+
+.chapter-nav button {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.chapter-nav button:hover:not(:disabled) {
+    background-color: var(--button-hover-bg);
+    transform: scale(1.05);
+}
+
+.chapter-nav button:disabled {
+    background-color: var(--text-color-lighter); /* Ausgegrauter Hintergrund */
+    color: var(--bg-color); /* Hellerer Text für Kontrast */
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+#chapter-indicator {
+    font-size: 0.9rem;
+    color: var(--text-color-light);
+}
+
+/* Inhaltsverzeichnis */
+.chapter-toc {
+    margin-top: 20px;
+}
+
+.chapter-toc ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.chapter-toc ul li {
+    border-bottom: 1px solid var(--border-color);
+    transition: background-color 0.2s ease; /* Leichter Hover-Effekt für das ganze li */
+}
+
+.chapter-toc ul li:hover {
+    background-color: rgba(128, 128, 128, 0.1); /* Leichter Hintergrund beim Hovern */
+}
+
+.chapter-toc ul li a {
+    color: var(--text-color); /* Standard-Textfarbe für den Link */
+    text-decoration: none; /* Kein Unterstrich standardmäßig */
+    display: flex; /* Flexbox für Titel und Pfeil */
+    justify-content: space-between; /* Titel links, Pfeil rechts */
+    align-items: center; /* Vertikal zentrieren */
+    padding: 8px 5px; /* Kleiner Innenabstand für besseres Hovern */
+    background-color: var(--header-bg); /* Hintergrundfarbe wie bei Karten */
+    border-radius: 5px; /* Abgerundete Ecken */
+    transition: background-color 0.2s ease, color 0.2s ease; /* Sanfte Übergänge */
+}
+
+.chapter-toc ul li a:hover {
+    background-color: rgba(128, 128, 128, 0.1); /* Hintergrundfarbe beim Hovern */
+    color: var(--link-hover-color); /* Farbe ändern beim Hovern */
+    text-decoration: none; /* Unterstrich nicht nötig, da ganzer Bereich hovert */
+}
+
+/* #content-area: Grundstruktur (Titel oben, dann Wrapper) */
+#content-area {
+    display: flex;
+    flex-direction: column; /* Titel oben, dann content-main-wrapper */
+    align-items: stretch; /* Elemente auf volle Breite strecken */
+    margin: 30px auto;
+    gap: 30px; /* Abstand zwischen Titel und Wrapper */
+    max-width: 960px; /* Etwas breiter für Bild+Text */
+}
+
+/* Titel des Werks */
+#work-title.content-title {
+    width: 100%;
+    text-align: left;
+    font-size: 2.8rem; /* Ggf. Größe anpassen */
+}
+
+/* Wrapper für Bild (links) und rechte Spalte (rechts) */
+.content-main-wrapper {
+    display: flex;
+    gap: 40px; /* Größerer Abstand zwischen Bild und rechter Spalte */
+    width: 100%;
+    align-items: flex-start; /* Oben ausrichten */
+}
+
+/* Das Hauptbild (links) */
+#content-image.content-main-image {
+    display: block; /* Sicherstellen, dass es sichtbar ist, wenn src gesetzt wird */
+    width: 35%; /* Breite des Bildes */
+    max-width: 450px; /* Maximale Breite erhöhen */
+    height: auto; /* Höhe automatisch */
+    border-radius: 12px; /* Etwas mehr Radius */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Leichter Schatten */
+    flex-shrink: 0; /* Verhindert, dass das Bild schrumpft */
+    object-fit: cover; /* Stellt sicher, dass das Bild den Bereich füllt */
+}
+
+/* Wrapper für die rechte Spalte (Info/TOC/Text) */
+.content-right-column {
+    flex-grow: 1; /* Nimmt den restlichen Platz ein */
+    display: flex;
+    flex-direction: column;
+    min-width: 0; /* Wichtig für Flexbox, verhindert Überlaufen */
+}
+
+/* media-container (jetzt nur Info/TOC/Button) - Styling zurücksetzen/anpassen */
+.media-container {
+    width: 100%; /* Volle Breite innerhalb der rechten Spalte */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Abstand zwischen Info, TOC, Button */
+    padding: 0; /* Kein extra Padding mehr */
+    background-color: transparent; /* Kein eigener Hintergrund */
+    border-radius: 0;
+    box-shadow: none; /* Kein eigener Schatten mehr */
+    border: none; /* Kein Rahmen */
+    /* border-bottom: 1px solid var(--border-color); */ /* Optional: Linie unter der Info */
+    /* margin-bottom: 20px; */ /* Optional: Abstand zum Text */
+}
+
+/* media-content (jetzt nur Info) */
+.media-content {
+    display: block; /* Einfaches Block-Layout */
+    gap: 0;
+    align-items: initial;
+}
+
+/* content-info (Beschreibung, Datum) */
+.content-info {
+    text-align: left; /* Text linksbündig */
+}
+
+#content-description {
+    font-size: 1.1rem; /* Größe beibehalten */
+    line-height: 1.7; /* Zeilenhöhe ggf. anpassen */
+    margin-bottom: 10px;
+    color: var(--text-color-light); /* Etwas hellerer Text */
+}
+
+#content-date {
+    font-size: 0.9rem;
+    color: var(--text-color-lighter);
+}
+
+/* Haupttext-Container */
+#content-text {
+    width: 100%; /* Volle Breite in der rechten Spalte */
+}
+
+/* Start Reading Button */
+#start-reading {
+    margin-top: 10px; /* Abstand nach oben anpassen */
+    align-self: flex-start; /* Links ausrichten */
+}
+
+/* ------- STYLING FÜR KAPITELÜBERSICHT LINKS (WIE BUTTONS) ------- */
+
+/* TOC-Container anpassen */
+.chapter-toc {
+    width: 100%; /* Volle Breite in rechter Spalte */
+    position: relative; /* Statisch im Fluss */
+    margin-top: 20px; /* Abstand nach oben */
+    box-shadow: none;
+    border-top: 1px solid var(--border-color); /* Linie über dem TOC */
+    padding-top: 20px;
+}
+
+.chapter-toc h3 {
+    margin-bottom: 15px; /* Abstand unter der Überschrift */
+    font-size: 1.2rem; /* Ggf. Größe anpassen */
+}
+
+.chapter-toc ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Flexbox für nebeneinander oder untereinander */
+    flex-direction: column; /* Untereinander */
+    gap: 8px; /* Abstand zwischen den Links */
+}
+
+.chapter-toc li {
+    margin-bottom: 0; /* Wird durch gap auf ul geregelt */
+}
+
+/* Das ist der Kern: TOC Links wie Buttons stylen */
+.chapter-toc ul li a {
+    display: block; /* Block-Level für volle Breite (innerhalb li) */
+    background-color: var(--button-bg);
+    color: var(--button-text) !important; /* Wichtig, um Linkfarbe zu überschreiben */
+    padding: 10px 18px; /* Padding anpassen - etwas weniger als Haupt-CTA */
+    border-radius: 5px;
+    text-decoration: none !important; /* Wichtig, um Unterstrich zu entfernen */
+    font-weight: 400; /* Normale Schriftstärke */
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    line-height: 1.4; /* Zeilenhöhe anpassen */
+    margin-left: 0; /* Alten margin entfernen */
+}
+
+.chapter-toc ul li a:hover,
+.chapter-toc ul li a:focus {
+    background-color: var(--button-hover-bg);
+    color: var(--button-text) !important; /* Textfarbe beibehalten */
+    text-decoration: none !important;
+    transform: translateY(-1px); /* Leichter Hover-Effekt */
+    outline: none; /* Fokus-Outline entfernen (ggf. ersetzen) */
+}
+
+/* Styling für die Nummer innerhalb des Links */
+.chapter-toc ul li a .chapter-number {
+    margin-right: 8px; /* Abstand zwischen Nummer und Titel */
+    font-weight: 600; /* Nummer hervorheben */
+    display: inline-block; /* Sicherstellen, dass margin wirkt */
+}
+
+#start-reading {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+    float: right;
+}
+
+#start-reading:hover {
+    background-color: var(--button-hover-bg);
+}
+
+/* --- Breadcrumbs --- */
+.breadcrumbs {
+    padding: 15px 0; /* Mehr vertikales Padding */
+    margin-bottom: 30px; /* Mehr Abstand nach unten */
+    font-size: 1rem;   /* Größere Schriftgröße (vorher 0.9rem) */
+    border-bottom: 1px solid var(--border-color); /* Linie unten beibehalten */
+    line-height: 1.5; /* Ggf. Zeilenhöhe anpassen */
+}
+
+.breadcrumbs ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; /* Erlaubt Umbruch */
+    gap: 8px; /* Etwas mehr Abstand zwischen Elementen */
+    align-items: center;
+}
+
+.breadcrumbs li {
+    display: flex;
+    align-items: center;
+    /* Standardfarbe für Listenelemente (nicht die Links selbst) */
+    color: var(--text-color);
+}
+
+/* Styling für die Links in den Breadcrumbs */
+.breadcrumbs a {
+    color: var(--text-color); /* Standard-Textfarbe, nicht die Link-Farbe */
+    text-decoration: none;    /* Keine Unterstreichung */
+    padding: 2px 6px;         /* Kleines Padding für besseres Hover-Ziel (optional) */
+    border-radius: 3px;       /* Leichte Abrundung (optional) */
+    transition: color 0.2s ease, background-color 0.2s ease; /* Übergänge */
+}
+
+/* Hover/Focus-Effekt für die Links */
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+    color: var(--link-color);       /* Ändere Farbe auf Link-Farbe bei Interaktion */
+    background-color: rgba(128, 128, 128, 0.1); /* Sehr leichter Hintergrund bei Hover (optional) */
+    text-decoration: none;          /* Immer noch keine Unterstreichung */
+    outline: none; /* Ggf. Standard-Fokus-Outline entfernen/anpassen */
+}
+
+/* Separator zwischen den Elementen */
+.breadcrumbs li:not(:last-child)::after {
+    content: '›'; /* Chevron statt Slash für elegantere Optik */
+    /* content: '/'; */ /* Alternative: Slash beibehalten */
+    margin: 0 10px; /* Mehr Abstand um den Separator */
+    color: var(--text-color-lighter); /* Dezente Farbe für den Separator */
+    display: inline-block;
+    font-weight: bold; /* Chevron etwas dicker */
+    font-size: 1.2em; /* Chevron etwas größer */
+    line-height: 1; /* Verhindert zusätzlichen Zeilenabstand durch Chevron */
+}
+
+/* Aktuelle Seite (letztes Element) */
+.breadcrumbs li[aria-current="page"] {
+    font-weight: 600; /* Etwas dicker, um sie hervorzuheben */
+    color: var(--text-color); /* Normale Textfarbe */
+    padding: 2px 4px; /* Gleiches Padding wie Links für Konsistenz (optional) */
+    /* Dieses Element sollte keine Hover-Effekte haben */
+}
+
+/* Ladeanzeige (unverändert) */
+.breadcrumbs p {
+    color: var(--text-color-lighter);
+    margin: 0;
+    padding: 5px 0;
+    font-style: italic;
+}
+
+/* --- Filter/Sort Controls --- */
+.filter-controls-container {
+    margin-bottom: 20px; /* Abstand zur Liste */
+    padding-top: 10px; /* Kleiner Abstand nach oben */
+    border-bottom: 1px solid var(--border-color); /* Leichte Trennlinie */
+    padding-bottom: 15px;
+}
+
+.filter-controls {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* NEU: Richtet die Elemente rechts aus */
+    gap: 15px; /* Abstand zwischen "Sortieren nach:" und Buttons */
+    flex-wrap: wrap; /* Umbruch auf kleinen Bildschirmen */
+}
+
+.filter-controls span {
+    font-weight: 500;
+    color: var(--text-color-light);
+}
+
+button.filter-chip {
+    padding: 6px 14px;
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-color); /* Hintergrund passend zum Body */
+    color: var(--text-color-light);
+    border-radius: 16px; /* Chip-Form */
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+button.filter-chip:hover {
+    background-color: var(--border-color); /* Leichter Hover-Effekt */
+    border-color: var(--text-color-lighter);
+    color: var(--text-color);
+}
+
+button.filter-chip.active {
+    background-color: var(--link-color);
+    color: var(--button-text); /* Heller Text auf dunklem Button */
+    border-color: var(--link-color);
+    font-weight: 500;
+}
+
+/* Dark Mode Anpassungen für Filter Chips */
+html.dark-mode button.filter-chip {
+    background-color: var(--header-bg); /* Etwas dunkler als Body */
+    border-color: var(--border-color);
+    color: var(--text-color-light);
+}
+
+html.dark-mode button.filter-chip:hover {
+    background-color: var(--border-color);
+    border-color: var(--text-color-lighter);
+    color: var(--text-color);
+}
+
+html.dark-mode button.filter-chip.active {
+    background-color: var(--link-color);
+    color: var(--button-text); /* Dunkler Text auf hellem Button im Dark Mode */
+    border-color: var(--link-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 { font-size: 2rem; }
+    .hero h1 { font-size: 2.5rem; }
+    h2 { font-size: 1.6rem; }
+
+    .site-header .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo { margin-bottom: 15px; }
+    .header-right { margin-top: 15px; } /* Abstand nach oben für Navi+Button */
+    .main-nav ul { padding-left: 0; }
+    .main-nav li { margin: 0 10px; }
+
+    .container, .container-narrow {
+        width: 95%;
+    }
+
+    /* Sicherstellen, dass Startseiten-Grid auf 1 Spalte geht */
+    .content-navigation .card-grid {
+        grid-template-columns: 1fr; /* Eine Spalte auf schmalen Bildschirmen */
+    }
+    /* Auf schmalen Bildschirmen ist grid-column: 1 / -1; bereits korrekt, keine Änderung nötig */
+
+    /* Anpassungen für die Karten auf der Startseite bei schmalen Bildschirmen */
+    .content-type-card .card-content {
+        flex-direction: column; /* Bild über Text */
+        align-items: stretch; /* Elemente strecken sich */
+    }
+    .content-type-card .card-image {
+        width: 100%; /* Volle Breite */
+        height: 250px; /* Feste Höhe für das Bild */
+        object-fit: cover;
+    }
+    .content-type-card .card-text {
+        width: 100%; /* Volle Breite */
+        padding: 20px; /* Angepasstes Padding */
+    }
+    .content-type-card {
+        min-height: unset; /* Mindesthöhe aufheben, Höhe ergibt sich aus Inhalt - BLEIBT SO FÜR MOBIL */
+        height: auto; /* Höhe automatisch anpassen lassen auf Mobilgeräten */
+    }
+
+    /* About Page Layout auf Mobilgeräten anpassen */
+    .about-content {
+        flex-direction: column; /* Bild über Text */
+        align-items: center; /* Bild zentrieren */
+        text-align: center; /* Text zentrieren */
+    }
+
+    .about-content .profile-image {
+        max-width: 220px; /* Bild etwas größer auf Mobilgeräten - ERHÖHT */
+        margin-bottom: 20px; /* Abstand unter dem Bild */
+    }
+
+    .about-content .about-text {
+        text-align: left; /* Text wieder linksbündig */
+    }
+
+    /* Anpassungen für Content Viewer auf Mobilgeräten */
+    #content-area {
+        flex-direction: column; /* Seitenleiste über dem Text */
+    }
+
+    .media-container {
+        order: 1; /* Seitenleiste zuerst */
+        width: 100%; /* Volle Breite */
+        padding-right: 0;
+        border-right: none;
+        /* Optional: Abstand nach unten hinzufügen */
+        margin-bottom: 20px;
+        /* Optional: Rahmen unten */
+        /* border-bottom: 1px solid var(--border-color); */
+        /* padding-bottom: 20px; */
+    }
+
+    #content-text {
+        order: 2; /* Text danach */
+        width: 100%;
+    }
+
+    #content-description {
+        font-size: 1rem; /* Größe beibehalten oder anpassen */
+    }
+
+    /* NEU: Kapitelnavigation auf Mobilgeräten anpassen */
+    .chapter-nav {
+        flex-direction: column; /* Untereinander anordnen */
+        gap: 15px; /* Abstand zwischen Elementen */
+    }
+
+    .chapter-nav button {
+        width: 100%; /* Volle Breite für Buttons */
+        text-align: center;
+    }
+
+    #chapter-indicator {
+        order: -1; /* Indikator nach oben verschieben */
+    }
+
+    .breadcrumbs {
+        font-size: 0.95rem; /* Leicht kleiner auf Mobilgeräten */
+        padding: 12px 0;
+    }
+    .breadcrumbs li:not(:last-child)::after {
+        margin: 0 8px; /* Weniger Abstand um den Separator */
+    }
+}
+
+
+/* Styling für den Gedicht-Anzeigebereich direkt in der rechten Spalte */
+#poem-display-area {
+    white-space: pre-wrap;
+    font-family: var(--font-reading);
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--text-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Styling für Absätze innerhalb des Gedichts (falls <p> verwendet wird) */
+#poem-display-area p {
+    margin-bottom: 0; /* Kein extra Abstand zwischen Gedichtzeilen */
+}
+
+/* Layout-Anpassungen im content-viewer (bleiben evtl. gleich) */
+.content-viewer-layout .content-main-wrapper {
+    margin-bottom: 30px; /* Ggf. anpassen, falls der untere Bereich wegfällt */
+}

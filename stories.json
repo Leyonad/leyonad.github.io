@@ -1,0 +1,158 @@
+{
+  "items": [
+    {
+      "id": "der-siebte-brief",
+      "title": "Der siebte Brief",
+      "teaser": "Ein Vater ist auf der Suche nach seiner Tochter.",
+      "description": "Als die Briefe seiner Tochter aus Amerika plötzlich ausbleiben, beginnt ein besorgter Vater loszuziehen und der Sache auf den Grund zu gehen. Eine Geschichte über Familie, Verzweiflung und die Angst um geliebte Menschen.",
+      "image": "../assets/img/der-siebte-brief.webp",
+      "type": "story",
+      "started": "2023-01-01",
+      "completed": "",
+      "contentPath": "stories/der-siebte-brief.md"
+    },
+    {
+      "id": "ankunft-der-suedlinge",
+      "title": "Ankunft der Südlinge",
+      "teaser": "Historie über längst vergangene Reiche.",
+      "description": "Eine epische Erzählung über die Kriege der Reiche des Westens und des Nordens gegen Kuldokin und Sorgot und über große Namen, die durch Mut, Tapferkeit und Stärke nicht vergessen worden sind in den Erzählungen nach ihrer Zeit.",
+      "image": "../assets/img/ankunft_der_suedlinge.webp",
+      "type": "story",
+      "started": "2023-03-02",
+      "completed": "",
+      "contentPath": "stories/ankunft-der-suedlinge.md"
+    },
+    {
+      "id": "die-legende-des-schwarzbrocks",
+      "title": "Die Legende des Schwarzbrocks",
+      "teaser": "Über das Schicksal eines großen Hauses.",
+      "description": "Nach der furchterregenden Weissagung über den Untergang der Familie Felman, setzt diese alles daran, ihrem Schicksal zu entrinnen.",
+      "image": "../assets/img/die-legende-des-schwarzbrocks.webp",
+      "type": "story",
+      "started": "2023-02-28",
+      "completed": "2023-02-28",
+      "contentPath": "stories/die-legende-des-schwarzbrocks.md"
+    },
+    {
+      "id": "morgan-catwick-der-hutmacher",
+      "title": "Der Hutmacher Morgan Catwick",
+      "teaser": "Ein Hutmacher wird Opfer krimineller Machenschaften.",
+      "description": "Morgan Catwick ist ein angesehener Hutmacher in London, doch eines Tages gerät er in den Blick eines geistreichen Halunken, der ihn um sein Vermögen bringen will.",
+      "image": "../assets/img/morgan_catwick_der_hutmacher.webp",
+      "type": "story",
+      "started": "2022-12-13",
+      "completed": "2022-12-15",
+      "contentPath": "stories/morgan-catwick-der-hutmacher.md"
+    },
+    {
+      "id": "die-beginnende-geschichte",
+      "title": "Die beginnende Geschichte",
+      "teaser": "Fangen Sie erst gar nicht an, diese Geschichte zu lesen.",
+      "description": "Jede Art von Beschreibung dieser Erzählung scheint mir irreführend, da sie entweder den wahren Charakter der Geschichte oder dessen Ende preisgeben würde. Warnen kann ich Sie nur, sich nicht so tief hineinziehen zu lassen, wie es mir passiert ist, sodass die Geschichte gar nicht erst an Sie rankommt.",
+      "image": "../assets/img/die-beginnende-geschichte.webp",
+      "type": "story",
+      "started": "2024-12-18",
+      "completed": "",
+      "contentPath": "stories/die-beginnende-geschichte.md"
+    },
+    {
+      "id": "der-neffe-des-leopoldius",
+      "title": "Der Neffe des Leopoldius",
+      "teaser": "Über den Nachfolger des größten Zirkusmeisters.",
+      "description": "Der junge Benedikt will in die Fußstapfen seines Onkels treten und den Leuten Unterhaltung an den Tag legen, wie sie sie noch nie zuvor erlebt haben, doch viele Steine werden ihm in den Weg gelegt und mehr als einmal denkt er an's Aufgeben.",
+      "image": "../assets/img/der-neffe-des-leopoldius.webp",
+      "type": "story",
+      "started": "2025-03-19",
+      "completed": "",
+      "contentPath": "stories/der-neffe-des-leopoldius.md"
+    },
+    {
+      "id": "jonathan-smith-der-pirat",
+      "title": "Der Pirat Jonathan Smith",
+      "teaser": "Ein wackerer Bursche sehnt sich danach, die Meere zu befahren.",
+      "description": "Die Geschichte des Jonathan Richard Smith, der sich im Jahre 1684 auf eine große Reise begeben sollte, das Schicksal aber andere Pläne für ihn hatte. Hier wird über sein Leben berichtet von einem, der ihm nahestand. Mein Name ist Arthur Lensbourgh und ich versuche, wiederzugeben, was es mit dem Burschen auf sich hat, dessen Name zu seinen Lebzeiten schon weit über seine Heimatstadt hinaus bekannt war und dem viel Wahres und Falsches nachgesagt wird. Diese Erzählung jedoch enthält die Wahrheit.",
+      "image": "../assets/img/jonathan-smith-der-pirat.webp",
+      "type": "story",
+      "started": "2022-12-16",
+      "completed": "",
+      "contentPath": "stories/jonathan-smith-der-pirat.md"
+    },
+    {
+      "id": "der-frosch-auf-dem-stein",
+      "title": "Der Frosch auf dem Stein",
+      "teaser": "Ein Frosch schwingt eine Rede, er würde schon bald König sein.",
+      "description": "Ein selbstgefälliger Frosch verkündet seine zukünftige Herrschaft über den Teich, doch das Schicksal hat andere Pläne.",
+      "image": "../assets/img/frog_on_stone.webp",
+      "type": "poem",
+      "started": "2024-02-24",
+      "completed": "2024-02-24",
+      "contentPath": "stories/der-frosch-auf-dem-stein.md"
+    },
+    {
+      "id": "der-protest",
+      "title": "Der Protest",
+      "teaser": "Ein Vogel kam und setzte sich.",
+      "description": "So etwas wie eine Beschreibung würde vermutlich den Rahmen sprengen, deswegen lasse ich es gleich sein.",
+      "image": "../assets/img/der-protest.webp",
+      "type": "poem",
+      "started": "2024-02-24",
+      "completed": "2024-02-24",
+      "contentPath": "stories/der-protest.md"
+    },
+    {
+      "id": "der-kluge-wolf",
+      "title": "Der kluge Wolf",
+      "teaser": "Ein Wolf, der klüger ist als andere.",
+      "description": "Eine Fabel über einen Wolf, der sich für besonders schlau hält.",
+      "image": "../assets/img/der-kluge-wolf.webp",
+      "type": "poem",
+      "started": "2024-02-24",
+      "completed": "2024-02-24",
+      "contentPath": "stories/der-kluge-wolf.md"
+    },
+    {
+      "id": "das-gold-in-der-saat",
+      "title": "Das Gold in der Saat",
+      "teaser": "Ein Bauer sät sein Feld.",
+      "description": "Ein Gedicht über Ehrlichkeit und unerwarteten Lohn.",
+      "image": "../assets/img/das-gold-in-der-saat.webp",
+      "type": "poem",
+      "started": "2024-03-10",
+      "completed": "2024-03-10",
+      "contentPath": "stories/das-gold-in-der-saat.md"
+    },
+    {
+      "id": "knabenheit",
+      "title": "Knabenheit",
+      "teaser": "Ein Junge wird auf Reisen geschickt.",
+      "description": "Über das Abenteuer des Knaben, der von Zuhause weggeschickt wird, um die Tugenden eines guten Dieners zu lernen. Er wird lernen, dass nicht alle Menschen auf Gutes aus sind.",
+      "image": "../assets/img/knabenheit.webp",
+      "type": "poetic-novel",
+      "started": "2023-06-11",
+      "completed": "2024-02-21",
+      "contentPath": "stories/knabenheit.md"
+    },
+    {
+      "id": "hexenmeister",
+      "title": "Hexenmeister",
+      "teaser": "Wie ein armer Müller das Hexenreich aufwühlte.",
+      "description": "Die Geschichte eines einfachen Müllers, der überraschend in die Welt der Zauberei gerät. Seine Begegnung mit dem Reich der Hexen verändert sein Leben nicht nur zum Guten, sondern riskiert das Zerbrechen seiner Familie.",
+      "image": "../assets/img/hexenmeister.webp",
+      "type": "poetic-novel",
+      "started": "2024-02-18",
+      "completed": "",
+      "contentPath": "stories/hexenmeister.md"
+    },
+    {
+      "id": "zukunft-version-1",
+      "title": "Zukunft Version 1",
+      "teaser": "Von einer möglichen Zeit in vielen Jahren.",
+      "description": "Die erste Geschichte, die ich begonnen und nach einer Woche bis auf immer unvollendet weggesperrt habe. Zum alleinigen Zweck der geschichtlichen Vollständigkeit ist sie hier einzusehen.",
+      "image": "../assets/img/zukunft-version-1.webp",
+      "type": "story",
+      "started": "2020-07-07",
+      "completed": "2020-07-15",
+      "contentPath": "stories/zukunft-version-1.md"
+    }
+  ]
+}

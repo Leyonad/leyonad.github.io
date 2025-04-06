@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titel wird von JS gesetzt, Basis aus config.js -->
+    <title data-page-title="Gedichtsromane"></title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Inline Script to apply theme instantly -->
+    <script>
+      (function() {
+        const theme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (theme === 'dark' || (!theme && prefersDark)) {
+          document.documentElement.classList.add('dark-mode'); // Apply to html tag
+        }
+         // Apply to body tag as well, once it exists
+        document.addEventListener('DOMContentLoaded', () => {
+           if (document.documentElement.classList.contains('dark-mode')) {
+               document.body.classList.add('dark-mode');
+           }
+        });
+      })();
+    </script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="logo"><a href="index.html" data-config="websiteName">Lädt...</a></div>
+            <div class="header-right">
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" data-config="navHome">Startseite</a></li>
+                        <li><a href="geschichten.html" data-config="navStories">Geschichten</a></li>
+                        <li><a href="gedichte.html" data-config="navPoems">Gedichte</a></li>
+                        <li><a href="gedichtsromane.html" class="active">Gedichtsromane</a></li>
+                        <li><a href="ueber-mich.html" data-config="navAbout">Über mich</a></li>
+                    </ul>
+                </nav>
+                <button id="dark-mode-toggle" aria-label="Farbschema wechseln">🌙 Dunkel</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <div class="container">
+                <h1>Gedichtsromane</h1>
+            </div>
+        </section>
+        
+        <section class="filter-controls-container container">
+            <div class="filter-controls">
+                <span>Sortieren nach:</span>
+                <button id="sort-newest" class="filter-chip active" data-sort="newest">Neuste zuerst</button>
+                <button id="sort-oldest" class="filter-chip" data-sort="oldest">Älteste zuerst</button>
+            </div>
+        </section>
+
+        <section class="poetic-novel-archive container" id="poetic-novel-archive" data-poetic-novel-list-archive>
+            <!-- Inhalte werden dynamisch durch JavaScript geladen -->
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+       <div class="container">
+            <p>© <span id="copyright-year"></span> <span data-config="authorName">Autor</span>. <span data-config="footerCopyrightText">Alle Rechte vorbehalten</span></p>
+        </div>
+    </footer>
+
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
