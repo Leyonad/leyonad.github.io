@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,24 +9,26 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
     <!-- Inline Script to apply theme instantly -->
     <script>
-      (function() {
-        const theme = localStorage.getItem('theme');
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        if (theme === 'dark' || (!theme && prefersDark)) {
-          document.documentElement.classList.add('dark-mode'); // Apply to html tag
-        }
-         // Apply to body tag as well, once it exists
-        document.addEventListener('DOMContentLoaded', () => {
-           if (document.documentElement.classList.contains('dark-mode')) {
-               document.body.classList.add('dark-mode');
-           }
-        });
-      })();
+        (function () {
+            const theme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (theme === 'dark' || (!theme && prefersDark)) {
+                document.documentElement.classList.add('dark-mode'); // Apply to html tag
+            }
+            // Apply to body tag as well, once it exists
+            document.addEventListener('DOMContentLoaded', () => {
+                if (document.documentElement.classList.contains('dark-mode')) {
+                    document.body.classList.add('dark-mode');
+                }
+            });
+        })();
     </script>
 </head>
+
 <body>
     <header class="site-header">
         <div class="container">
@@ -58,18 +61,22 @@
 
             <!-- NEU: Wrapper für den Text -->
             <div class="about-text">
-                <p>Ich heiße Daniel Holzknecht und schreibe gerne. Dennoch ist mit größter Vorsicht der Umstand zu beachten, dass eine Fortsetzung der sich in Arbeit befindenen Geschichten und Geschichtsromane nicht immer zu erwarten ist - ich wollte selbst, es wäre so. Jedenfalls kann sich ein Leser mit den Geschichten begnügen, die schon da sind.</p>
+                <p>Ich heiße Daniel Holzknecht und schreibe gerne. Dennoch ist mit größter Vorsicht der Umstand zu beachten, dass eine Fortsetzung der
+                    sich in Arbeit befindenen Geschichten und Geschichtsromane nicht immer zu erwarten ist - ich wollte selbst, es wäre so. Jedenfalls
+                    kann sich ein Leser mit den Geschichten begnügen, die schon da sind.</p>
             </div>
         </section>
     </main>
 
     <footer class="site-footer">
         <div class="container">
-            <p>© <span id="copyright-year"></span> <span data-config="authorName">Autor</span>. <span data-config="footerCopyrightText">Alle Rechte vorbehalten</span></p>
+            <p>© <span id="copyright-year"></span> <span data-config="authorName">Autor</span>. <span data-config="footerCopyrightText">Alle Rechte
+                    vorbehalten</span></p>
         </div>
     </footer>
 
     <script src="assets/js/config.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>

@@ -6,6 +6,7 @@ let currentSortOrder = 'newest'; // Default sort order: newest first
 
 document.addEventListener('DOMContentLoaded', async () => {
 	applyConfigValues();
+	setupMobileMenu(); // Mobiles Menü initialisieren
 	setupDarkMode();
 
 	// --- Daten einmalig laden, wenn auf einer relevanten Seite ---
@@ -17,11 +18,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 	try {
 		// Pfad zum Manifest - annehmen, dass es im Root liegt oder relativer Pfad korrekt ist
-        let manifestPath = siteConfig.storiesManifestPath;
-        // Pfad ggf. anpassen, wenn von einer Unterseite (z.B. stories/) geladen wird
-        if (window.location.pathname.includes('/stories/')) {
-           manifestPath = `../${siteConfig.storiesManifestPath}`; // Beispiel: ../data/stories.json
-        }
+		let manifestPath = siteConfig.storiesManifestPath;
+		// Pfad ggf. anpassen, wenn von einer Unterseite (z.B. stories/) geladen wird
+		if (window.location.pathname.includes('/stories/')) {
+			manifestPath = `../${siteConfig.storiesManifestPath}`; // Beispiel: ../data/stories.json
+		}
 		const response = await fetch(manifestPath);
 		if (!response.ok) throw new Error(`Fehler beim Laden der Inhalte (${manifestPath}): ${response.status}`);
 		allItemsData = await response.json(); // Rohdaten speichern
@@ -42,10 +43,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 		if (isHomePage) {
 			// Fehler auf Startseite anzeigen (optional)
 			console.error("Konnte Vorschau auf Startseite nicht laden.");
-            // Ggf. Fehlermeldungen in die Preview-Listen einfügen
-            document.getElementById('story-preview-list')?.insertAdjacentHTML('beforeend', `<li>Fehler: ${error.message}</li>`);
-            document.getElementById('poem-preview-list')?.insertAdjacentHTML('beforeend', `<li>Fehler: ${error.message}</li>`);
-            document.getElementById('poetic-novel-preview-list')?.insertAdjacentHTML('beforeend', `<li>Fehler: ${error.message}</li>`);
+			// Ggf. Fehlermeldungen in die Preview-Listen einfügen
+			document.getElementById('story-preview-list')?.insertAdjacentHTML('beforeend', `<li>Fehler: ${error.message}</li>`);
+			document.getElementById('poem-preview-list')?.insertAdjacentHTML('beforeend', `<li>Fehler: ${error.message}</li>`);
+			document.getElementById('poetic-novel-preview-list')?.insertAdjacentHTML('beforeend', `<li>Fehler: ${error.message}</li>`);
 		}
 		const errorMsg = `<p>Fehler beim Laden: ${error.message}</p>`;
 		if (storyArchiveContainer) storyArchiveContainer.innerHTML = errorMsg;
@@ -68,7 +69,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 		}
 
 		if (itemId) { // Nur laden, wenn eine ID vorhanden ist
-			 if (isChapterViewer) {
+			if (isChapterViewer) {
 				loadAndRenderChapter(itemId).catch(error => {
 					console.error('Fehler beim Laden des Kapitels:', error);
 					document.getElementById('content-area').innerHTML = '<p>Fehler: Kapitel konnte nicht geladen werden.</p>';
@@ -91,13 +92,52 @@ document.addEventListener('DOMContentLoaded', async () => {
 	});
 });
 
+function setupMobileMenu() {
+	const menuToggle = document.querySelector('.menu-toggle');
+	const mobileNav = document.querySelector('.header-right'); // Das ist jetzt der Menü-Container
+	const navOverlay = document.querySelector('.nav-overlay');
+	const navLinks = document.querySelectorAll('.main-nav a'); // Alle Links im Menü
+
+	if (!menuToggle || !mobileNav || !navOverlay) {
+		console.warn("Mobile menu elements not found.");
+		return;
+	}
+
+	menuToggle.addEventListener('click', () => {
+		const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+		menuToggle.setAttribute('aria-expanded', !isExpanded);
+		document.body.classList.toggle('nav-open');
+	});
+
+	// Schließen-Funktion
+	const closeMenu = () => {
+		menuToggle.setAttribute('aria-expanded', 'false');
+		document.body.classList.remove('nav-open');
+	}
+
+	// Schließen bei Klick auf Overlay
+	navOverlay.addEventListener('click', closeMenu);
+
+	// Schließen bei Klick auf einen Menü-Link
+	navLinks.forEach(link => {
+		link.addEventListener('click', closeMenu);
+	});
+
+	// Optional: Schließen bei Druck auf Escape-Taste
+	document.addEventListener('keydown', (event) => {
+		if (event.key === 'Escape' && document.body.classList.contains('nav-open')) {
+			closeMenu();
+		}
+	});
+}
+
 
 // --- Ausgelagerte Funktion für Startseiten-Vorschau ---
 function renderHomePagePreviews() {
 	if (!allItemsData) {
-        console.warn("Daten für Startseiten-Vorschau noch nicht verfügbar.");
-        return; // Daten müssen geladen sein
-    }
+		console.warn("Daten für Startseiten-Vorschau noch nicht verfügbar.");
+		return; // Daten müssen geladen sein
+	}
 
 	const storiesCard = document.getElementById('stories-card');
 	const poemsCard = document.getElementById('poems-card');
@@ -118,8 +158,8 @@ function renderHomePagePreviews() {
 		const badgeHtml = inProgress ? '<span class="status-badge">In Arbeit</span>' : '';
 		// Pfad zum content-viewer (angenommen im Root)
 		const viewerPath = `content-viewer.html?item=${item.id}`;
-        // Pfad zum Bild (angenommen, Pfad im Manifest ist korrekt relativ zum Root oder absolut)
-        const imagePath = item.image;
+		// Pfad zum Bild (angenommen, Pfad im Manifest ist korrekt relativ zum Root oder absolut)
+		const imagePath = item.image;
 		return `
       <li data-image-src="${imagePath}" data-image-alt="Illustration zu: ${item.title}">
         <a href="${viewerPath}">
@@ -188,7 +228,7 @@ function renderHomePagePreviews() {
 			const listItem = event.target.closest('li');
 			if (listItem && listItem.dataset.imageSrc) {
 				if (imageElement.src !== listItem.dataset.imageSrc) {
-                    // Verwende den Pfad aus dem data-Attribut, der beim Erstellen gesetzt wurde
+					// Verwende den Pfad aus dem data-Attribut, der beim Erstellen gesetzt wurde
 					imageElement.src = listItem.dataset.imageSrc;
 					imageElement.alt = listItem.dataset.imageAlt;
 				}
@@ -206,12 +246,12 @@ function setupArchivePage() {
 	if (!allItemsData) {
 		console.error("Daten noch nicht geladen für Archivseite.");
 		// Optional: Fehlermeldung im Container anzeigen
-        const potentialContainers = document.querySelectorAll('[data-story-list-archive], [data-poem-list-archive], [data-poetic-novel-list-archive]');
-        potentialContainers.forEach(container => {
-            if (!container.innerHTML.includes('Fehler')) { // Nur wenn noch keine Fehlermeldung da ist
-                 container.innerHTML = '<p>Fehler: Inhalte konnten nicht geladen werden.</p>';
-            }
-        });
+		const potentialContainers = document.querySelectorAll('[data-story-list-archive], [data-poem-list-archive], [data-poetic-novel-list-archive]');
+		potentialContainers.forEach(container => {
+			if (!container.innerHTML.includes('Fehler')) { // Nur wenn noch keine Fehlermeldung da ist
+				container.innerHTML = '<p>Fehler: Inhalte konnten nicht geladen werden.</p>';
+			}
+		});
 		return;
 	}
 
@@ -223,20 +263,20 @@ function setupArchivePage() {
 
 	let currentItemType = null;
 	let currentContainer = null;
-    let emptyMessage = "Keine Einträge verfügbar."; // Default empty message
+	let emptyMessage = "Keine Einträge verfügbar."; // Default empty message
 
 	if (storyArchiveContainer) {
 		currentItemType = 'story';
 		currentContainer = storyArchiveContainer;
-        emptyMessage = siteConfig.emptyListMessages?.stories || "Keine Geschichten verfügbar.";
+		emptyMessage = siteConfig.emptyListMessages?.stories || "Keine Geschichten verfügbar.";
 	} else if (poemArchiveContainer) {
 		currentItemType = 'poem';
 		currentContainer = poemArchiveContainer;
-         emptyMessage = siteConfig.emptyListMessages?.poems || "Keine Gedichte verfügbar.";
+		emptyMessage = siteConfig.emptyListMessages?.poems || "Keine Gedichte verfügbar.";
 	} else if (poeticNovelArchiveContainer) {
 		currentItemType = 'poetic-novel';
 		currentContainer = poeticNovelArchiveContainer;
-         emptyMessage = siteConfig.emptyListMessages?.poeticNovels || "Keine Gedichtsromane verfügbar.";
+		emptyMessage = siteConfig.emptyListMessages?.poeticNovels || "Keine Gedichtsromane verfügbar.";
 	}
 
 	if (!currentItemType || !currentContainer) {
@@ -244,7 +284,7 @@ function setupArchivePage() {
 		return;
 	}
 
-	 // Ladeanzeige entfernen, bevor initial gerendert wird
+	// Ladeanzeige entfernen, bevor initial gerendert wird
 	const loadingParagraph = currentContainer.querySelector('p[data-config="loadingText"]');
 	if (loadingParagraph) {
 		loadingParagraph.remove();
@@ -272,8 +312,8 @@ function setupArchivePage() {
 
 		// Update button active state
 		if (sortNewestButton && sortOldestButton) {
-			 sortNewestButton.classList.toggle('active', sortOrder === 'newest');
-			 sortOldestButton.classList.toggle('active', sortOrder === 'oldest');
+			sortNewestButton.classList.toggle('active', sortOrder === 'newest');
+			sortOldestButton.classList.toggle('active', sortOrder === 'oldest');
 		}
 
 		// Render the sorted items
@@ -283,17 +323,17 @@ function setupArchivePage() {
 	// Event Listeners für Sortier-Buttons
 	if (sortNewestButton) {
 		sortNewestButton.addEventListener('click', () => {
-            if (!sortNewestButton.classList.contains('active')) { // Nur ausführen, wenn nicht schon aktiv
-                sortAndRenderItems('newest');
-            }
-        });
+			if (!sortNewestButton.classList.contains('active')) { // Nur ausführen, wenn nicht schon aktiv
+				sortAndRenderItems('newest');
+			}
+		});
 	}
 	if (sortOldestButton) {
 		sortOldestButton.addEventListener('click', () => {
-            if (!sortOldestButton.classList.contains('active')) { // Nur ausführen, wenn nicht schon aktiv
-                 sortAndRenderItems('oldest');
-            }
-        });
+			if (!sortOldestButton.classList.contains('active')) { // Nur ausführen, wenn nicht schon aktiv
+				sortAndRenderItems('oldest');
+			}
+		});
 	}
 
 	// --- Initiales Rendern mit Default-Sortierung ("Neuste zuerst") ---
@@ -304,18 +344,18 @@ function setupArchivePage() {
 	const poemsCountElement = document.getElementById('poems-count'); // Falls vorhanden
 	const poeticNovelsCountElement = document.getElementById('poetic-novels-count'); // Falls vorhanden
 
-    // Zähler nur aktualisieren, wenn Daten vorhanden sind
-    if (allItemsData && allItemsData.items) {
-        if (storiesCountElement) {
-             storiesCountElement.textContent = allItemsData.items.filter(item => item.type === 'story').length;
-        }
-         if (poemsCountElement) {
-            poemsCountElement.textContent = allItemsData.items.filter(item => item.type === 'poem').length;
-        }
-        if (poeticNovelsCountElement) {
-            poeticNovelsCountElement.textContent = allItemsData.items.filter(item => item.type === 'poetic-novel').length;
-        }
-    }
+	// Zähler nur aktualisieren, wenn Daten vorhanden sind
+	if (allItemsData && allItemsData.items) {
+		if (storiesCountElement) {
+			storiesCountElement.textContent = allItemsData.items.filter(item => item.type === 'story').length;
+		}
+		if (poemsCountElement) {
+			poemsCountElement.textContent = allItemsData.items.filter(item => item.type === 'poem').length;
+		}
+		if (poeticNovelsCountElement) {
+			poeticNovelsCountElement.textContent = allItemsData.items.filter(item => item.type === 'poetic-novel').length;
+		}
+	}
 }
 
 
@@ -343,14 +383,14 @@ function applyConfigValues() {
 	}
 	// Navigationstexte (using endsWith to be more robust with relative paths)
 	document.querySelectorAll('nav a[href$="index.html"]').forEach(el => el.textContent = siteConfig.navHome);
-    document.querySelectorAll('nav a[href$="geschichten.html"]').forEach(el => el.textContent = siteConfig.navStories);
-    document.querySelectorAll('nav a[href$="gedichte.html"]').forEach(el => el.textContent = siteConfig.navPoems);
-    document.querySelectorAll('nav a[href$="gedichtsromane.html"]').forEach(el => el.textContent = siteConfig.navPoeticNovels);
+	document.querySelectorAll('nav a[href$="geschichten.html"]').forEach(el => el.textContent = siteConfig.navStories);
+	document.querySelectorAll('nav a[href$="gedichte.html"]').forEach(el => el.textContent = siteConfig.navPoems);
+	document.querySelectorAll('nav a[href$="gedichtsromane.html"]').forEach(el => el.textContent = siteConfig.navPoeticNovels);
 	document.querySelectorAll('nav a[href$="ueber-mich.html"]').forEach(el => el.textContent = siteConfig.navAbout);
 	// Button "Alle Geschichten/Gedichte/etc ansehen" auf Startseite
 	document.querySelectorAll('[data-config="readAllStoriesBtn"]').forEach(el => el.textContent = siteConfig.readAllStoriesBtn);
-    document.querySelectorAll('[data-config="readAllPoemsBtn"]').forEach(el => el.textContent = siteConfig.readAllPoemsBtn); // Add to config.js if needed
-    document.querySelectorAll('[data-config="readAllPoeticNovelsBtn"]').forEach(el => el.textContent = siteConfig.readAllPoeticNovelsBtn); // Add to config.js if needed
+	document.querySelectorAll('[data-config="readAllPoemsBtn"]').forEach(el => el.textContent = siteConfig.readAllPoemsBtn); // Add to config.js if needed
+	document.querySelectorAll('[data-config="readAllPoeticNovelsBtn"]').forEach(el => el.textContent = siteConfig.readAllPoeticNovelsBtn); // Add to config.js if needed
 	// Footer Copyright
 	const yearSpan = document.getElementById('copyright-year');
 	if (yearSpan) {
@@ -361,17 +401,17 @@ function applyConfigValues() {
 		el.textContent = siteConfig.footerCopyrightText;
 	});
 	// Lade-Texte - Initialer Text aus HTML, kann hier überschrieben werden falls leer
-    document.querySelectorAll('[data-config="loadingText"]').forEach(el => {
-        if (!el.textContent.trim()) { // Nur wenn leer
-           el.textContent = siteConfig.loadingText || 'Wird geladen...';
-        }
-    });
+	document.querySelectorAll('[data-config="loadingText"]').forEach(el => {
+		if (!el.textContent.trim()) { // Nur wenn leer
+			el.textContent = siteConfig.loadingText || 'Wird geladen...';
+		}
+	});
 	// Titel für Featured Sections auf der Startseite
 	document.querySelectorAll('[data-config="featuredStoriesTitle"]').forEach(el => el.textContent = siteConfig.featuredStoriesTitle);
 	document.querySelectorAll('[data-config="featuredPoemsTitle"]').forEach(el => el.textContent = siteConfig.featuredPoemsTitle);
-    document.querySelectorAll('[data-config="featuredPoeticNovelsTitle"]').forEach(el => el.textContent = siteConfig.featuredPoeticNovelsTitle);
-    // Backlink Texte (aus config.js)
-    // Diese werden spezifischer in loadAndRenderPreview gesetzt
+	document.querySelectorAll('[data-config="featuredPoeticNovelsTitle"]').forEach(el => el.textContent = siteConfig.featuredPoeticNovelsTitle);
+	// Backlink Texte (aus config.js)
+	// Diese werden spezifischer in loadAndRenderPreview gesetzt
 }
 
 function setupDarkMode() {
@@ -382,42 +422,42 @@ function setupDarkMode() {
 	if (!toggleButton) return;
 
 	// Funktion zum Setzen des Themes und Button-Textes
-    const setTheme = (theme) => {
-        if (theme === 'dark') {
-            htmlElement.classList.add('dark-mode');
-            body.classList.add('dark-mode');
-            toggleButton.textContent = siteConfig.darkModeToggleText.dark;
-            localStorage.setItem('theme', 'dark');
-        } else {
-            htmlElement.classList.remove('dark-mode');
-            body.classList.remove('dark-mode');
-            toggleButton.textContent = siteConfig.darkModeToggleText.light;
-            localStorage.setItem('theme', 'light');
-        }
-    };
+	const setTheme = (theme) => {
+		if (theme === 'dark') {
+			htmlElement.classList.add('dark-mode');
+			body.classList.add('dark-mode');
+			toggleButton.textContent = siteConfig.darkModeToggleText.dark;
+			localStorage.setItem('theme', 'dark');
+		} else {
+			htmlElement.classList.remove('dark-mode');
+			body.classList.remove('dark-mode');
+			toggleButton.textContent = siteConfig.darkModeToggleText.light;
+			localStorage.setItem('theme', 'light');
+		}
+	};
 
-    // Initiales Setzen beim Laden der Seite
-    const storedTheme = localStorage.getItem('theme');
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+	// Initiales Setzen beim Laden der Seite
+	const storedTheme = localStorage.getItem('theme');
+	const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-    if (storedTheme) {
-        setTheme(storedTheme);
-    } else if (prefersDark) {
-        setTheme('dark');
-    } else {
-        setTheme('light'); // Default auf light, falls keine Präferenz/Storage
-    }
+	if (storedTheme) {
+		setTheme(storedTheme);
+	} else if (prefersDark) {
+		setTheme('dark');
+	} else {
+		setTheme('light'); // Default auf light, falls keine Präferenz/Storage
+	}
 
 	// Event Listener für den Button
 	toggleButton.addEventListener('click', () => {
 		const currentTheme = htmlElement.classList.contains('dark-mode') ? 'dark' : 'light';
-        setTheme(currentTheme === 'dark' ? 'light' : 'dark');
+		setTheme(currentTheme === 'dark' ? 'light' : 'dark');
 	});
 
 	// Auf Systempräferenz hören (nur wenn kein Theme manuell gesetzt wurde)
 	window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
 		if (!localStorage.getItem('theme')) { // Nur reagieren, wenn User nicht manuell gewählt hat
-            setTheme(event.matches ? 'dark' : 'light');
+			setTheme(event.matches ? 'dark' : 'light');
 		}
 	});
 }
@@ -427,11 +467,11 @@ function setupDarkMode() {
 async function loadAndRenderPreview() {
 	const contentArea = document.getElementById('content-area');
 	// Elemente holen
-    const workTitleElement = document.getElementById('work-title');
+	const workTitleElement = document.getElementById('work-title');
 	const contentImage = document.getElementById('content-image');
 	const contentDescription = document.getElementById('content-description'); // Wird jetzt für Gedichte ausgeblendet
 	const contentDate = document.getElementById('content-date');
-    const poemDisplayArea = document.getElementById('poem-display-area');
+	const poemDisplayArea = document.getElementById('poem-display-area');
 	const chapterToc = document.getElementById('chapter-toc');
 	const chapterTocList = chapterToc?.querySelector('ul');
 	const startReadingLink = document.getElementById('start-reading');
@@ -439,11 +479,11 @@ async function loadAndRenderPreview() {
 	const breadcrumbNav = document.getElementById('breadcrumb-nav'); // Neu: Breadcrumb-Element
 
 	// Grundlegende Elemente prüfen
-    if (!contentArea || !workTitleElement || !contentImage || !contentDescription || !contentDate || !poemDisplayArea || !chapterToc || !startReadingLink || !backLinkNav || !breadcrumbNav) {
-        console.error("Fehlende HTML-Grundelemente auf der content-viewer Seite.");
-        if(contentArea) contentArea.innerHTML = "<p>Fehler: Seitenstruktur unvollständig.</p>";
-        return;
-    }
+	if (!contentArea || !workTitleElement || !contentImage || !contentDescription || !contentDate || !poemDisplayArea || !chapterToc || !startReadingLink || !backLinkNav || !breadcrumbNav) {
+		console.error("Fehlende HTML-Grundelemente auf der content-viewer Seite.");
+		if (contentArea) contentArea.innerHTML = "<p>Fehler: Seitenstruktur unvollständig.</p>";
+		return;
+	}
 
 	const urlParams = new URLSearchParams(window.location.search);
 	const itemId = urlParams.get('item');
@@ -456,17 +496,17 @@ async function loadAndRenderPreview() {
 	// Initialzustand für dynamische Teile
 	chapterToc.style.display = 'none';
 	if (chapterTocList) chapterTocList.innerHTML = '';
-    startReadingLink.style.display = 'none';
-    poemDisplayArea.style.display = 'none';
-    poemDisplayArea.innerHTML = '';
-    contentDescription.style.display = 'block'; // Standardmäßig Beschreibung anzeigen
-    backLinkNav.style.display = 'none';
+	startReadingLink.style.display = 'none';
+	poemDisplayArea.style.display = 'none';
+	poemDisplayArea.innerHTML = '';
+	contentDescription.style.display = 'block'; // Standardmäßig Beschreibung anzeigen
+	backLinkNav.style.display = 'none';
 
 	try {
 		// Stelle sicher, dass allItemsData geladen ist
 		if (!allItemsData) {
 			console.log("Lade Manifest-Daten für Preview nach...");
-            let manifestPath = siteConfig.storiesManifestPath;
+			let manifestPath = siteConfig.storiesManifestPath;
 			const responseManifest = await fetch(manifestPath);
 			if (!responseManifest.ok) throw new Error(`Manifest nicht ladbar: ${responseManifest.status}`);
 			allItemsData = await responseManifest.json();
@@ -480,30 +520,30 @@ async function loadAndRenderPreview() {
 		contentArea.className = `container ${itemMeta.type}-type content-viewer-layout`;
 
 		contentImage.src = itemMeta.image || 'assets/images/placeholder.jpg';
-        contentImage.alt = `Illustration zu: ${itemMeta.title}`;
-        contentImage.onerror = () => {
-            console.warn(`Bild für ${itemMeta.title} konnte nicht geladen werden: ${contentImage.src}`);
-            contentImage.src = 'assets/images/placeholder.jpg';
-            contentImage.alt = 'Platzhalterbild';
-        };
-        if (itemMeta.image) {
-            contentImage.style.display = 'block';
-        } else {
-             contentImage.style.display = 'none';
-        }
+		contentImage.alt = `Illustration zu: ${itemMeta.title}`;
+		contentImage.onerror = () => {
+			console.warn(`Bild für ${itemMeta.title} konnte nicht geladen werden: ${contentImage.src}`);
+			contentImage.src = 'assets/images/placeholder.jpg';
+			contentImage.alt = 'Platzhalterbild';
+		};
+		if (itemMeta.image) {
+			contentImage.style.display = 'block';
+		} else {
+			contentImage.style.display = 'none';
+		}
 
-        // Beschreibung nur anzeigen, wenn es KEIN Gedicht ist
-        if (itemMeta.type !== 'poem') {
-            contentDescription.innerHTML = `<p>${itemMeta.description || ''}</p>`;
-            contentDescription.style.display = 'block';
-        } else {
-            contentDescription.innerHTML = ''; // Inhalt leeren
-            contentDescription.style.display = 'none'; // Ausblenden für Gedichte
-        }
+		// Beschreibung nur anzeigen, wenn es KEIN Gedicht ist
+		if (itemMeta.type !== 'poem') {
+			contentDescription.innerHTML = `<p>${itemMeta.description || ''}</p>`;
+			contentDescription.style.display = 'block';
+		} else {
+			contentDescription.innerHTML = ''; // Inhalt leeren
+			contentDescription.style.display = 'none'; // Ausblenden für Gedichte
+		}
 
 		contentDate.innerHTML = itemMeta.started
 			? `<p>Begonnen: ${new Date(itemMeta.started).toLocaleDateString('de-DE', { year: 'numeric', month: 'long', day: 'numeric' })}</p>` +
-			  (itemMeta.completed ? `<p>Fertiggestellt: ${new Date(itemMeta.completed).toLocaleDateString('de-DE', { year: 'numeric', month: 'long', day: 'numeric' })}</p>` : '')
+			(itemMeta.completed ? `<p>Fertiggestellt: ${new Date(itemMeta.completed).toLocaleDateString('de-DE', { year: 'numeric', month: 'long', day: 'numeric' })}</p>` : '')
 			: 'Startdatum unbekannt';
 
 		const inProgress = !itemMeta.completed;
@@ -517,8 +557,8 @@ async function loadAndRenderPreview() {
 
 		// --- Back Link (wie zuvor) ---
 		let backHref = 'index.html';
-        let backText = '« Zurück zur Übersicht';
-        let basePath = '.';
+		let backText = '« Zurück zur Übersicht';
+		let basePath = '.';
 
 		switch (itemMeta.type) {
 			case 'story':
@@ -530,38 +570,38 @@ async function loadAndRenderPreview() {
 				backText = siteConfig.backToPoemsLink || '« Zurück zu den Gedichten';
 				break;
 			case 'poetic-novel':
-				 backHref = `${basePath}/gedichtsromane.html`;
-				 backText = siteConfig.backToPoeticNovelsLink || '« Zurück zu den Gedichtsromanen';
-				 break;
-            default:
-                 backHref = `${basePath}/index.html`;
+				backHref = `${basePath}/gedichtsromane.html`;
+				backText = siteConfig.backToPoeticNovelsLink || '« Zurück zu den Gedichtsromanen';
+				break;
+			default:
+				backHref = `${basePath}/index.html`;
 		}
 		backLinkNav.href = backHref;
 		backLinkNav.innerHTML = backText;
 		backLinkNav.style.display = 'inline';
 
-        // --- Breadcrumbs generieren (neu) ---
-        let categoryName = "Übersicht";
-        let categoryPageFile = "index.html";
+		// --- Breadcrumbs generieren (neu) ---
+		let categoryName = "Übersicht";
+		let categoryPageFile = "index.html";
 
-        switch (itemMeta.type) {
-            case 'story':
-                categoryName = siteConfig.navStories || "Geschichten";
-                categoryPageFile = "geschichten.html";
-                break;
-            case 'poem':
-                categoryName = siteConfig.navPoems || "Gedichte";
-                categoryPageFile = "gedichte.html";
-                break;
-            case 'poetic-novel':
-                categoryName = siteConfig.navPoeticNovels || "Gedichtsromane";
-                categoryPageFile = "gedichtsromane.html";
-                break;
-        }
+		switch (itemMeta.type) {
+			case 'story':
+				categoryName = siteConfig.navStories || "Geschichten";
+				categoryPageFile = "geschichten.html";
+				break;
+			case 'poem':
+				categoryName = siteConfig.navPoems || "Gedichte";
+				categoryPageFile = "gedichte.html";
+				break;
+			case 'poetic-novel':
+				categoryName = siteConfig.navPoeticNovels || "Gedichtsromane";
+				categoryPageFile = "gedichtsromane.html";
+				break;
+		}
 
-        const categoryLink = `${basePath}/${categoryPageFile}`;
+		const categoryLink = `${basePath}/${categoryPageFile}`;
 
-        breadcrumbNav.innerHTML = `
+		breadcrumbNav.innerHTML = `
             <nav aria-label="breadcrumb" class="breadcrumbs">
                 <ol>
                     <li><a href="${categoryLink}">${categoryName}</a></li>
@@ -570,124 +610,124 @@ async function loadAndRenderPreview() {
             </nav>
         `;
 
-        // --- Inhaltsbehandlung je nach Typ ---
-        if (itemMeta.type === 'poem') {
-            // --- GEDICHT ---
-            chapterToc.style.display = 'none';
-            startReadingLink.style.display = 'none';
-            // Beschreibung wurde oben schon ausgeblendet
+		// --- Inhaltsbehandlung je nach Typ ---
+		if (itemMeta.type === 'poem') {
+			// --- GEDICHT ---
+			chapterToc.style.display = 'none';
+			startReadingLink.style.display = 'none';
+			// Beschreibung wurde oben schon ausgeblendet
 
-            if (itemMeta.contentPath) {
-                try {
-                    let markdownPath = itemMeta.contentPath;
-                    const markdownResponse = await fetch(markdownPath);
-                    if (!markdownResponse.ok) {
-                        throw new Error(`Gedicht-Datei '${markdownPath}' nicht ladbar: ${markdownResponse.status}`);
-                    }
-                    let markdownText = await markdownResponse.text();
+			if (itemMeta.contentPath) {
+				try {
+					let markdownPath = itemMeta.contentPath;
+					const markdownResponse = await fetch(markdownPath);
+					if (!markdownResponse.ok) {
+						throw new Error(`Gedicht-Datei '${markdownPath}' nicht ladbar: ${markdownResponse.status}`);
+					}
+					let markdownText = await markdownResponse.text();
 
-                    // Optional: Entferne eine einzelne H1 am Anfang des Markdown-Textes,
-                    // bevor er geparst wird. Funktioniert nur, wenn sie *ganz* am Anfang steht.
-                    markdownText = markdownText.trim().replace(/^#{1,6}\s*.*?\r?\n(\r?\n)?/, ''); // Entfernt Zeile mit # und optional folgende Leerzeile
-console.log(markdownText)
-                    // Markdown parsen
-                    let poemHtml = marked.parse(markdownText.trim()); // Trim nach Entfernung
+					// Optional: Entferne eine einzelne H1 am Anfang des Markdown-Textes,
+					// bevor er geparst wird. Funktioniert nur, wenn sie *ganz* am Anfang steht.
+					markdownText = markdownText.trim().replace(/^#{1,6}\s*.*?\r?\n(\r?\n)?/, ''); // Entfernt Zeile mit # und optional folgende Leerzeile
+					console.log(markdownText)
+					// Markdown parsen
+					let poemHtml = marked.parse(markdownText.trim()); // Trim nach Entfernung
 
-                    // HTML in den Gedichtbereich einfügen und anzeigen
-                    poemDisplayArea.innerHTML = poemHtml;
-                    poemDisplayArea.style.display = 'block';
+					// HTML in den Gedichtbereich einfügen und anzeigen
+					poemDisplayArea.innerHTML = poemHtml;
+					poemDisplayArea.style.display = 'block';
 
-                } catch (markdownError) {
-                    console.error(`Fehler beim Laden oder Verarbeiten des Gedichts (${itemMeta.contentPath}):`, markdownError);
-                    poemDisplayArea.innerHTML = `<p><em>Fehler: Gedicht konnte nicht geladen werden.</em></p>`;
-                    poemDisplayArea.style.display = 'block';
-                }
-            } else {
-                console.warn(`Gedicht '${itemId}' hat keinen 'contentPath' im Manifest.`);
-                poemDisplayArea.innerHTML = `<p><em>Für dieses Gedicht ist kein Inhalt hinterlegt.</em></p>`;
-                poemDisplayArea.style.display = 'block';
-            }
+				} catch (markdownError) {
+					console.error(`Fehler beim Laden oder Verarbeiten des Gedichts (${itemMeta.contentPath}):`, markdownError);
+					poemDisplayArea.innerHTML = `<p><em>Fehler: Gedicht konnte nicht geladen werden.</em></p>`;
+					poemDisplayArea.style.display = 'block';
+				}
+			} else {
+				console.warn(`Gedicht '${itemId}' hat keinen 'contentPath' im Manifest.`);
+				poemDisplayArea.innerHTML = `<p><em>Für dieses Gedicht ist kein Inhalt hinterlegt.</em></p>`;
+				poemDisplayArea.style.display = 'block';
+			}
 
-        } else {
-            // --- STORY / POETIC NOVEL ---
-            poemDisplayArea.style.display = 'none'; // Gedichtbereich ausblenden
-            contentDescription.style.display = 'block'; // Sicherstellen, dass Beschreibung sichtbar ist
+		} else {
+			// --- STORY / POETIC NOVEL ---
+			poemDisplayArea.style.display = 'none'; // Gedichtbereich ausblenden
+			contentDescription.style.display = 'block'; // Sicherstellen, dass Beschreibung sichtbar ist
 
-            if (itemMeta.contentPath && chapterToc && chapterTocList) {
-                try {
-                    let markdownPath = itemMeta.contentPath;
-                    const markdownResponse = await fetch(markdownPath);
-                    if (!markdownResponse.ok) {
-                        throw new Error(`Markdown-Datei '${markdownPath}' nicht ladbar: ${markdownResponse.status}`);
-                    }
-                    const markdownText = await markdownResponse.text();
+			if (itemMeta.contentPath && chapterToc && chapterTocList) {
+				try {
+					let markdownPath = itemMeta.contentPath;
+					const markdownResponse = await fetch(markdownPath);
+					if (!markdownResponse.ok) {
+						throw new Error(`Markdown-Datei '${markdownPath}' nicht ladbar: ${markdownResponse.status}`);
+					}
+					const markdownText = await markdownResponse.text();
 
-                    const chapters = [];
-                    const lines = markdownText.split('\n');
-                    let chapterIndex = 0;
+					const chapters = [];
+					const lines = markdownText.split('\n');
+					let chapterIndex = 0;
 
-                    lines.forEach(line => {
-                        const trimmedLine = line.trim();
-                        if (trimmedLine.startsWith('## ')) {
-                            const title = trimmedLine.substring(3).trim();
-                            if (title) {
-                                chapterIndex++;
-                                const chapterLink = `chapter-viewer.html?item=${itemId}&chapter=${chapterIndex}`;
-                                chapters.push({ title: title, link: chapterLink, index: chapterIndex });
-                            }
-                        }
-                    });
+					lines.forEach(line => {
+						const trimmedLine = line.trim();
+						if (trimmedLine.startsWith('## ')) {
+							const title = trimmedLine.substring(3).trim();
+							if (title) {
+								chapterIndex++;
+								const chapterLink = `chapter-viewer.html?item=${itemId}&chapter=${chapterIndex}`;
+								chapters.push({ title: title, link: chapterLink, index: chapterIndex });
+							}
+						}
+					});
 
-                    if (chapters.length > 0) {
-                        chapterToc.style.display = 'block';
-                        chapterTocList.innerHTML = chapters
-                            .map(chapter => `
+					if (chapters.length > 0) {
+						chapterToc.style.display = 'block';
+						chapterTocList.innerHTML = chapters
+							.map(chapter => `
                                 <li>
                                     <a href="${chapter.link}">
                                     <span class="chapter-number">Kapitel ${chapter.index}:</span> ${chapter.title}
                                     </a>
                                 </li>`)
-                            .join('');
+							.join('');
 
-                        if (startReadingLink && chapters[0]) {
-                            startReadingLink.href = chapters[0].link;
-                            startReadingLink.style.display = 'inline-block';
-                            startReadingLink.disabled = false;
-                            startReadingLink.textContent = siteConfig.startReadingBtnText || "Mit dem Lesen beginnen";
-                        } else if(startReadingLink) {
-                           startReadingLink.style.display = 'none';
-                        }
+						if (startReadingLink && chapters[0]) {
+							startReadingLink.href = chapters[0].link;
+							startReadingLink.style.display = 'inline-block';
+							startReadingLink.disabled = false;
+							startReadingLink.textContent = siteConfig.startReadingBtnText || "Mit dem Lesen beginnen";
+						} else if (startReadingLink) {
+							startReadingLink.style.display = 'none';
+						}
 
-                    } else {
-                        chapterToc.style.display = 'none';
-                        if (startReadingLink) {
-                            startReadingLink.style.display = 'inline-block';
-                            startReadingLink.href = `chapter-viewer.html?item=${itemId}&chapter=1`;
-                            startReadingLink.disabled = false;
-                            startReadingLink.textContent = siteConfig.startReadingBtnText || "Mit dem Lesen beginnen";
-                            console.log(`Keine '## ' Kapitelüberschriften in '${markdownPath}' gefunden, aber Link zu Kapitel 1 gesetzt.`);
-                        }
-                    }
+					} else {
+						chapterToc.style.display = 'none';
+						if (startReadingLink) {
+							startReadingLink.style.display = 'inline-block';
+							startReadingLink.href = `chapter-viewer.html?item=${itemId}&chapter=1`;
+							startReadingLink.disabled = false;
+							startReadingLink.textContent = siteConfig.startReadingBtnText || "Mit dem Lesen beginnen";
+							console.log(`Keine '## ' Kapitelüberschriften in '${markdownPath}' gefunden, aber Link zu Kapitel 1 gesetzt.`);
+						}
+					}
 
-                } catch (markdownError) {
-                    console.error(`Fehler beim Laden/Verarbeiten von Markdown für TOC (${itemMeta.contentPath}):`, markdownError);
-                    chapterToc.style.display = 'none';
-                    if (startReadingLink) startReadingLink.style.display = 'none';
-                }
-            } else {
-                if (!itemMeta.contentPath) {
-                    console.warn(`Item '${itemId}' hat keinen 'contentPath'. TOC/Button kann nicht generiert werden.`);
-                }
-                chapterToc.style.display = 'none';
-                if (startReadingLink) startReadingLink.style.display = 'none';
-            }
-        } // Ende if/else Typ
+				} catch (markdownError) {
+					console.error(`Fehler beim Laden/Verarbeiten von Markdown für TOC (${itemMeta.contentPath}):`, markdownError);
+					chapterToc.style.display = 'none';
+					if (startReadingLink) startReadingLink.style.display = 'none';
+				}
+			} else {
+				if (!itemMeta.contentPath) {
+					console.warn(`Item '${itemId}' hat keinen 'contentPath'. TOC/Button kann nicht generiert werden.`);
+				}
+				chapterToc.style.display = 'none';
+				if (startReadingLink) startReadingLink.style.display = 'none';
+			}
+		} // Ende if/else Typ
 
 	} catch (error) {
 		console.error("Fehler beim Laden des Inhalts:", error);
 		if (contentArea) contentArea.innerHTML = `<p>Fehler beim Laden des Inhalts: ${error.message}. Bitte versuche es später erneut.</p>`;
-        if (backLinkNav) backLinkNav.style.display = 'inline';
-        if (breadcrumbNav) breadcrumbNav.innerHTML = ''; // Breadcrumbs bei Fehler leeren
+		if (backLinkNav) backLinkNav.style.display = 'inline';
+		if (breadcrumbNav) breadcrumbNav.innerHTML = ''; // Breadcrumbs bei Fehler leeren
 	}
 }
 
@@ -700,26 +740,26 @@ async function loadAndRenderChapter(passedItemId = null) {
 	const pageTitleElement = document.querySelector('title'); // Browser-Tab Titel
 	const breadcrumbNav = document.getElementById('breadcrumb-nav'); // Breadcrumb-Navigation
 
-    // Prüfen ob wichtige Elemente vorhanden sind
-    if (!contentArea || !contentTextElement || !chapterIndicator || !prevButton || !nextButton || !breadcrumbNav) {
-         console.error("Fehlende HTML-Grundelemente auf der chapter-viewer Seite.");
-        if(contentArea) contentArea.innerHTML = "<p>Fehler: Seitenstruktur unvollständig.</p>";
-        return;
-    }
+	// Prüfen ob wichtige Elemente vorhanden sind
+	if (!contentArea || !contentTextElement || !chapterIndicator || !prevButton || !nextButton || !breadcrumbNav) {
+		console.error("Fehlende HTML-Grundelemente auf der chapter-viewer Seite.");
+		if (contentArea) contentArea.innerHTML = "<p>Fehler: Seitenstruktur unvollständig.</p>";
+		return;
+	}
 
 	// Initialzustand setzen (Laden...)
 	contentTextElement.innerHTML = `<p>${siteConfig.loadingText || 'Lade Inhalt...'}</p>`;
 	chapterIndicator.textContent = '';
 	prevButton.disabled = true;
 	nextButton.disabled = true;
-    prevButton.onclick = null; // Alte Handler entfernen
-    nextButton.onclick = null;
+	prevButton.onclick = null; // Alte Handler entfernen
+	nextButton.onclick = null;
 	breadcrumbNav.innerHTML = `<p>${siteConfig.loadingText || 'Navigation wird geladen...'}</p>`;
 
 	try {
 		const urlParams = new URLSearchParams(window.location.search);
 		// Item ID aus Parameter oder URL nehmen
-        const itemId = passedItemId || urlParams.get('item');
+		const itemId = passedItemId || urlParams.get('item');
 		const chapterIndexParam = urlParams.get('chapter'); // Kapitelindex aus URL lesen
 
 		if (!itemId) throw new Error('Keine Item-ID gefunden.');
@@ -730,8 +770,8 @@ async function loadAndRenderChapter(passedItemId = null) {
 
 		// Stelle sicher, dass allItemsData geladen ist
 		if (!allItemsData) {
-            console.log("Lade Manifest-Daten für Chapter nach...");
-            let manifestPath = siteConfig.storiesManifestPath;
+			console.log("Lade Manifest-Daten für Chapter nach...");
+			let manifestPath = siteConfig.storiesManifestPath;
 			const responseManifest = await fetch(manifestPath);
 			if (!responseManifest.ok) throw new Error(`Manifest nicht ladbar: ${responseManifest.status}`);
 			allItemsData = await responseManifest.json();
@@ -743,7 +783,7 @@ async function loadAndRenderChapter(passedItemId = null) {
 		if (!parentItem.contentPath) throw new Error(`Item '${itemId}' hat keinen 'contentPath' im Manifest definiert.`);
 
 		// Markdown-Datei des Haupt-Items laden
-        let markdownPath = parentItem.contentPath;
+		let markdownPath = parentItem.contentPath;
 		const markdownResponse = await fetch(markdownPath);
 		if (!markdownResponse.ok) throw new Error(`Markdown '${markdownPath}' nicht ladbar: ${markdownResponse.status}`);
 		const markdownText = await markdownResponse.text();
@@ -773,8 +813,8 @@ async function loadAndRenderChapter(passedItemId = null) {
 			} else if (!isFirstChapterContent) { // Inhalt sammeln, sobald das erste '## ' gefunden wurde
 				currentChapterContent.push(line); // Zeile zum aktuellen Kapitelinhalt hinzufügen
 			} else {
-                 // Inhalt *vor* dem ersten Kapitel wird aktuell ignoriert
-            }
+				// Inhalt *vor* dem ersten Kapitel wird aktuell ignoriert
+			}
 		});
 		// Füge das letzte Kapitel hinzu (auch wenn es das einzige ist)
 		if (!isFirstChapterContent && currentChapterTitle !== undefined) { // Nur hinzufügen, wenn mind. ein '## ' gefunden wurde
@@ -785,18 +825,18 @@ async function loadAndRenderChapter(passedItemId = null) {
 			});
 		}
 
-        // Korrektur: Wenn keine '##' gefunden wurden, aber Text da ist, behandle alles als Kapitel 1
-        if (chapters.length === 0 && markdownText.trim().length > 0) {
-             console.warn(`Keine '## ' Kapitelüberschriften in '${markdownPath}' gefunden. Behandle gesamten Inhalt als Kapitel 1.`);
-             chapters.push({
-                 index: 1,
-                 title: parentItem.title, // Fallback-Titel
-                 content: markdownText.trim() // Gesamten getrimmten Text nehmen
-             });
-             chapterCounter = 1; // Setze Zähler, damit die Navigation unten passt
-        } else if (chapters.length === 0) {
-            throw new Error(`Keine Kapitel (mit '## ') und kein Inhalt in '${markdownPath}' gefunden.`);
-        }
+		// Korrektur: Wenn keine '##' gefunden wurden, aber Text da ist, behandle alles als Kapitel 1
+		if (chapters.length === 0 && markdownText.trim().length > 0) {
+			console.warn(`Keine '## ' Kapitelüberschriften in '${markdownPath}' gefunden. Behandle gesamten Inhalt als Kapitel 1.`);
+			chapters.push({
+				index: 1,
+				title: parentItem.title, // Fallback-Titel
+				content: markdownText.trim() // Gesamten getrimmten Text nehmen
+			});
+			chapterCounter = 1; // Setze Zähler, damit die Navigation unten passt
+		} else if (chapters.length === 0) {
+			throw new Error(`Keine Kapitel (mit '## ') und kein Inhalt in '${markdownPath}' gefunden.`);
+		}
 
 
 		// Finde das spezifische Kapitel, das angezeigt werden soll
@@ -810,7 +850,7 @@ async function loadAndRenderChapter(passedItemId = null) {
 		if (breadcrumbNav) {
 			let categoryName = "Übersicht";
 			let categoryPageFile = "index.html";
-            let basePath = '.'; // Relative Pfade annehmen
+			let basePath = '.'; // Relative Pfade annehmen
 
 			switch (parentItem.type) {
 				case 'story':
@@ -830,8 +870,8 @@ async function loadAndRenderChapter(passedItemId = null) {
 
 			const categoryLink = `${basePath}/${categoryPageFile}`;
 			// Link zum übergeordneten Item, falls es eine Übersichtsseite pro Item gibt
-            // Annahme: content-viewer zeigt die Item-Übersicht, chapter-viewer ein Kapitel
-            // Wenn es keine separate Item-Übersicht gibt, könnte dieser Link wegfallen oder direkt zur Kategorie zeigen
+			// Annahme: content-viewer zeigt die Item-Übersicht, chapter-viewer ein Kapitel
+			// Wenn es keine separate Item-Übersicht gibt, könnte dieser Link wegfallen oder direkt zur Kategorie zeigen
 			const parentItemLink = `${basePath}/content-viewer.html?item=${itemId}`; // Passe ggf. an, falls es keine content-viewer Seite gibt
 
 			breadcrumbNav.innerHTML = `
@@ -843,68 +883,68 @@ async function loadAndRenderChapter(passedItemId = null) {
                   </ol>
                 </nav>
             `;
-            // Optional: Bei Gedichten den mittleren Breadcrumb (Link zum Gedicht selbst) entfernen, wenn chapter-viewer direkt von der Gedichte-Liste aufgerufen wird.
-            // Hier wurde eine einfache Logik hinzugefügt, die den Link für 'poem' ausblendet. Passe dies bei Bedarf an.
+			// Optional: Bei Gedichten den mittleren Breadcrumb (Link zum Gedicht selbst) entfernen, wenn chapter-viewer direkt von der Gedichte-Liste aufgerufen wird.
+			// Hier wurde eine einfache Logik hinzugefügt, die den Link für 'poem' ausblendet. Passe dies bei Bedarf an.
 		}
 
 		// --- Kernänderung HIER ---
-        let chapterHtml;
-        const markdownContentToParse = chapterToShow.content.trim(); // Immer trimmen
-        const isPoemLike = parentItem.type === "poem" || parentItem.type === "poetic-novel";
+		let chapterHtml;
+		const markdownContentToParse = chapterToShow.content.trim(); // Immer trimmen
+		const isPoemLike = parentItem.type === "poem" || parentItem.type === "poetic-novel";
 
-        if (isPoemLike) {
-            // Für Gedichte/Gedichtsromane: Zeilenumbrüche als <br> behandeln
-            // marked.js mit der Option { breaks: true } aufrufen.
-            console.log("Rendering poem-like content with breaks: true");
-            // Wichtig: Ggf. weitere marked Optionen wie 'gfm: true' hinzufügen, falls benötigt
-            chapterHtml = marked.parse(markdownContentToParse, { breaks: true, gfm: true });
-        } else {
-            // Für andere Typen (z.B. Story): Jeden Zeilenumbruch in einen doppelten umwandeln,
-            // damit marked.js daraus <p>-Tags macht (Standardverhalten).
-            console.log("Rendering story-like content with paragraph conversion");
-            const processedMarkdownContent = markdownContentToParse.replace(/(\r?\n)+/g, '\n\n');
-            // Wichtig: Ggf. weitere marked Optionen wie 'gfm: true' hinzufügen
-            chapterHtml = marked.parse(processedMarkdownContent, { gfm: true }); // Standard-Parsing (breaks: false ist default)
-        }
-        // --- Ende Kernänderung ---
+		if (isPoemLike) {
+			// Für Gedichte/Gedichtsromane: Zeilenumbrüche als <br> behandeln
+			// marked.js mit der Option { breaks: true } aufrufen.
+			console.log("Rendering poem-like content with breaks: true");
+			// Wichtig: Ggf. weitere marked Optionen wie 'gfm: true' hinzufügen, falls benötigt
+			chapterHtml = marked.parse(markdownContentToParse, { breaks: true, gfm: true });
+		} else {
+			// Für andere Typen (z.B. Story): Jeden Zeilenumbruch in einen doppelten umwandeln,
+			// damit marked.js daraus <p>-Tags macht (Standardverhalten).
+			console.log("Rendering story-like content with paragraph conversion");
+			const processedMarkdownContent = markdownContentToParse.replace(/(\r?\n)+/g, '\n\n');
+			// Wichtig: Ggf. weitere marked Optionen wie 'gfm: true' hinzufügen
+			chapterHtml = marked.parse(processedMarkdownContent, { gfm: true }); // Standard-Parsing (breaks: false ist default)
+		}
+		// --- Ende Kernänderung ---
 
 		if (!contentTextElement) throw new Error('Element #content-text nicht gefunden.');
 
 		// Erstelle ein temporäres Div, um Klassen hinzuzufügen und Dialoge zu stylen
-        const chapterBody = document.createElement('div');
-        // Setze eine spezifische Klasse basierend auf dem Typ für Styling
-        chapterBody.className = `chapter-body chapter-type-${parentItem.type || 'default'}`; // z.B. chapter-type-poem, chapter-type-story
+		const chapterBody = document.createElement('div');
+		// Setze eine spezifische Klasse basierend auf dem Typ für Styling
+		chapterBody.className = `chapter-body chapter-type-${parentItem.type || 'default'}`; // z.B. chapter-type-poem, chapter-type-story
 		chapterBody.innerHTML = chapterHtml;
 
-        // Dialog-Styling nur für Geschichten anwenden (auf die jetzt korrekt generierten <p>s)
+		// Dialog-Styling nur für Geschichten anwenden (auf die jetzt korrekt generierten <p>s)
 		if (parentItem.type === 'story') {
 			chapterBody.querySelectorAll('p').forEach(p => {
-                const text = p.textContent.trim();
+				const text = p.textContent.trim();
 				// Verbesserte Dialogerkennung (auch andere Anführungszeichen)
-                if (/^["„»]/.test(text)) {
+				if (/^["„»]/.test(text)) {
 					p.classList.add('dialogue-line');
 				}
-                // Optional: Entferne leere <p>-Tags, die durch die Vorverarbeitung entstehen könnten
-                if (!text && p.innerHTML.trim() === '') {
-                    p.remove();
-                }
+				// Optional: Entferne leere <p>-Tags, die durch die Vorverarbeitung entstehen könnten
+				if (!text && p.innerHTML.trim() === '') {
+					p.remove();
+				}
 			});
 		} else if (isPoemLike) {
-            // Spezifisches Handling für Gedichte, falls nötig (z.B. leere Zeilen entfernen, falls marked sie als <p><br></p> o.ä. rendert)
-            // Beispiel: Entferne leere Absätze, die nur <br> enthalten könnten
-            chapterBody.querySelectorAll('p').forEach(p => {
-                if (p.innerHTML.trim() === '<br>' || p.innerHTML.trim() === '') {
-                     // Wenn durch {breaks: true} leere <p> oder <p><br></p> entstehen, diese entfernen
-                     // Dies hängt vom genauen Verhalten von marked.js ab. Testen!
-                     // Vorsichtiger Ansatz: Nur komplett leere <p> entfernen.
-                     if(p.textContent.trim() === '') {
-                         p.remove();
-                     }
-                }
-            });
-        }
+			// Spezifisches Handling für Gedichte, falls nötig (z.B. leere Zeilen entfernen, falls marked sie als <p><br></p> o.ä. rendert)
+			// Beispiel: Entferne leere Absätze, die nur <br> enthalten könnten
+			chapterBody.querySelectorAll('p').forEach(p => {
+				if (p.innerHTML.trim() === '<br>' || p.innerHTML.trim() === '') {
+					// Wenn durch {breaks: true} leere <p> oder <p><br></p> entstehen, diese entfernen
+					// Dies hängt vom genauen Verhalten von marked.js ab. Testen!
+					// Vorsichtiger Ansatz: Nur komplett leere <p> entfernen.
+					if (p.textContent.trim() === '') {
+						p.remove();
+					}
+				}
+			});
+		}
 
-        // Füge Titel und den aufbereiteten Inhalt ein
+		// Füge Titel und den aufbereiteten Inhalt ein
 		contentTextElement.innerHTML = `<h1>${chapterToShow.title || `Kapitel ${chapterToShow.index}`}</h1>${chapterBody.outerHTML}`;
 
 		// Seitentitel und Kapitelindikator aktualisieren
@@ -922,70 +962,70 @@ async function loadAndRenderChapter(passedItemId = null) {
 			if (!prevButton.disabled) {
 				const prevChapterIndex = chapterToShow.index - 1;
 				prevButton.onclick = () => {
-						window.location.href = `${chapterViewerBase}/chapter-viewer.html?item=${itemId}&chapter=${prevChapterIndex}`;
+					window.location.href = `${chapterViewerBase}/chapter-viewer.html?item=${itemId}&chapter=${prevChapterIndex}`;
 				};
 			} else {
-                 prevButton.onclick = null;
-            }
+				prevButton.onclick = null;
+			}
 		}
 
 		if (nextButton) {
 			nextButton.disabled = chapterToShow.index >= chapterCounter;
 			if (!nextButton.disabled) {
-                const nextChapterIndex = chapterToShow.index + 1;
+				const nextChapterIndex = chapterToShow.index + 1;
 				nextButton.onclick = () => {
-						window.location.href = `${chapterViewerBase}/chapter-viewer.html?item=${itemId}&chapter=${nextChapterIndex}`;
+					window.location.href = `${chapterViewerBase}/chapter-viewer.html?item=${itemId}&chapter=${nextChapterIndex}`;
 				};
 			} else {
-                 nextButton.onclick = null;
-            }
+				nextButton.onclick = null;
+			}
 		}
 
 	} catch (error) {
 		console.error('Fehler beim Laden des Kapitels:', error);
 		const errorMsg = `<p>Fehler: Kapitel konnte nicht geladen werden. (${error.message})</p>`;
-        if (contentTextElement) contentTextElement.innerHTML = errorMsg;
+		if (contentTextElement) contentTextElement.innerHTML = errorMsg;
 		else if (contentArea) contentArea.innerHTML = errorMsg;
 
-        // Globale Elemente deaktivieren
-        if (chapterIndicator) chapterIndicator.textContent = '';
-        if (prevButton) { prevButton.disabled = true; prevButton.onclick = null; }
-        if (nextButton) { nextButton.disabled = true; nextButton.onclick = null; }
-        if (breadcrumbNav) breadcrumbNav.innerHTML = ''; // Breadcrumbs leeren bei Fehler
+		// Globale Elemente deaktivieren
+		if (chapterIndicator) chapterIndicator.textContent = '';
+		if (prevButton) { prevButton.disabled = true; prevButton.onclick = null; }
+		if (nextButton) { nextButton.disabled = true; nextButton.onclick = null; }
+		if (breadcrumbNav) breadcrumbNav.innerHTML = ''; // Breadcrumbs leeren bei Fehler
 
-        // Versuch, den Back-Link trotzdem sinnvoll zu setzen, falls möglich
-        const backLink = document.querySelector('.story-nav a#back-link'); // Selektor ggf. anpassen
-        if (backLink) {
-            let defaultBackHref = 'index.html';
-            let defaultBackText = '« Zurück zur Übersicht';
-            let finalBackHref = defaultBackHref;
-            let finalBackText = defaultBackText;
-            let basePath = '.';
+		// Versuch, den Back-Link trotzdem sinnvoll zu setzen, falls möglich
+		const backLink = document.querySelector('.story-nav a#back-link'); // Selektor ggf. anpassen
+		if (backLink) {
+			let defaultBackHref = 'index.html';
+			let defaultBackText = '« Zurück zur Übersicht';
+			let finalBackHref = defaultBackHref;
+			let finalBackText = defaultBackText;
+			let basePath = '.';
 
-            // Versuche, aus der URL oder den bereits geladenen Daten den Typ zu ermitteln
-            const urlParamsForError = new URLSearchParams(window.location.search);
-            const itemIdForError = urlParamsForError.get('item');
-            let itemTypeError = null;
+			// Versuche, aus der URL oder den bereits geladenen Daten den Typ zu ermitteln
+			const urlParamsForError = new URLSearchParams(window.location.search);
+			const itemIdForError = urlParamsForError.get('item');
+			let itemTypeError = null;
 
-            if (itemIdForError && allItemsData && allItemsData.items) {
-                 const parentItemMeta = allItemsData.items.find(i => i.id === itemIdForError);
-                 if (parentItemMeta) itemTypeError = parentItemMeta.type;
-            }
+			if (itemIdForError && allItemsData && allItemsData.items) {
+				const parentItemMeta = allItemsData.items.find(i => i.id === itemIdForError);
+				if (parentItemMeta) itemTypeError = parentItemMeta.type;
+			}
 
-             // Setze Link basierend auf dem Typ (falls bekannt)
-             switch (itemTypeError) {
-                case 'story': finalBackHref = `${basePath}/geschichten.html`; finalBackText = siteConfig.backToStoriesLink || '« Zurück zu den Geschichten'; break;
-                case 'poem': finalBackHref = `${basePath}/gedichte.html`; finalBackText = siteConfig.backToPoemsLink || '« Zurück zu den Gedichten'; break;
-                case 'poetic-novel': finalBackHref = `${basePath}/gedichtsromane.html`; finalBackText = siteConfig.backToPoeticNovelsLink || '« Zurück zu den Gedichtsromanen'; break;
-                default: // Fallback zur globalen Übersicht
-                    finalBackHref = `${basePath}/index.html`;
-                    finalBackText = '« Zurück zur Übersicht';
-            }
+			// Setze Link basierend auf dem Typ (falls bekannt)
+			switch (itemTypeError) {
+				case 'story': finalBackHref = `${basePath}/geschichten.html`; finalBackText = siteConfig.backToStoriesLink || '« Zurück zu den Geschichten'; break;
+				case 'poem': finalBackHref = `${basePath}/gedichte.html`; finalBackText = siteConfig.backToPoemsLink || '« Zurück zu den Gedichten'; break;
+				case 'poetic-novel': finalBackHref = `${basePath}/gedichtsromane.html`; finalBackText = siteConfig.backToPoeticNovelsLink || '« Zurück zu den Gedichtsromanen'; break;
+				default: // Fallback zur globalen Übersicht
+					finalBackHref = `${basePath}/index.html`;
+					finalBackText = '« Zurück zur Übersicht';
+			}
 
-            backLink.href = finalBackHref;
-            backLink.innerHTML = finalBackText;
-            backLink.style.display = 'inline'; // Sicherstellen, dass er sichtbar ist
-        }
+			backLink.href = finalBackHref;
+			backLink.innerHTML = finalBackText;
+			backLink.style.display = 'inline'; // Sicherstellen, dass er sichtbar ist
+		}
 	}
 }
 
@@ -995,9 +1035,9 @@ async function loadAndRenderChapter(passedItemId = null) {
 // --- Funktion zum Rendern der Items in einem Container ---
 function renderItems(container, items, displayType, emptyMessage) {
 	if (!container) {
-        console.error("Render-Container nicht gefunden.");
-        return;
-    }
+		console.error("Render-Container nicht gefunden.");
+		return;
+	}
 	container.innerHTML = ''; // Container leeren vor dem Rendern
 	if (items.length === 0) {
 		if (emptyMessage) container.innerHTML = `<p>${emptyMessage}</p>`;
@@ -1005,8 +1045,8 @@ function renderItems(container, items, displayType, emptyMessage) {
 		items.forEach(item => {
 			const itemElement = createContentElement(item, displayType);
 			if (itemElement) { // Nur hinzufügen, wenn Element erstellt wurde
-			     container.appendChild(itemElement);
-            }
+				container.appendChild(itemElement);
+			}
 		});
 	}
 }
@@ -1018,24 +1058,24 @@ function createContentElement(item, type = 'full') {
 		article.className = 'archive-card';
 
 		// Pfad zum content-viewer.html anpassen, relativ zur *Archivseite*
-        let viewerPath = 'content-viewer.html'; // Default für Root-Seiten (gedichte, romane)
-        let imagePath = item.image; // Default - Annahme: Pfad im Manifest ist korrekt vom Root aus
+		let viewerPath = 'content-viewer.html'; // Default für Root-Seiten (gedichte, romane)
+		let imagePath = item.image; // Default - Annahme: Pfad im Manifest ist korrekt vom Root aus
 
-        // Wenn die aktuelle Seite geschichten.html im Unterordner /stories/ ist
-        if (window.location.pathname.includes('/stories/')) {
-            viewerPath = `../content-viewer.html`; // Pfad vom Unterordner zum Viewer im Root
-            // Bildpfad anpassen, WENN er relativ ist UND NICHT mit / beginnt
-            if (imagePath && !imagePath.startsWith('/') && !imagePath.startsWith('http')) {
-                 // Nur relative Pfade müssen angepasst werden
-                 // Annahme: Pfad im Manifest ist z.B. 'assets/img/bild.jpg'
-                 // Dann wird er von /stories/ aus zu '../assets/img/bild.jpg'
-                // imagePath = `../${imagePath}`; // Diese Anpassung hängt STARK von der Struktur ab!
-                // Besser ist oft, absolute Pfade (/assets/img/bild.jpg) oder Pfade relativ zum Manifest im Manifest zu speichern.
-                // Wenn Manifest im Root ist und Pfade relativ dazu: Keine Anpassung hier nötig.
-            }
-        }
-        // Füge Item-ID zum Viewer-Pfad hinzu
-        viewerPath += `?item=${item.id}`;
+		// Wenn die aktuelle Seite geschichten.html im Unterordner /stories/ ist
+		if (window.location.pathname.includes('/stories/')) {
+			viewerPath = `../content-viewer.html`; // Pfad vom Unterordner zum Viewer im Root
+			// Bildpfad anpassen, WENN er relativ ist UND NICHT mit / beginnt
+			if (imagePath && !imagePath.startsWith('/') && !imagePath.startsWith('http')) {
+				// Nur relative Pfade müssen angepasst werden
+				// Annahme: Pfad im Manifest ist z.B. 'assets/img/bild.jpg'
+				// Dann wird er von /stories/ aus zu '../assets/img/bild.jpg'
+				// imagePath = `../${imagePath}`; // Diese Anpassung hängt STARK von der Struktur ab!
+				// Besser ist oft, absolute Pfade (/assets/img/bild.jpg) oder Pfade relativ zum Manifest im Manifest zu speichern.
+				// Wenn Manifest im Root ist und Pfade relativ dazu: Keine Anpassung hier nötig.
+			}
+		}
+		// Füge Item-ID zum Viewer-Pfad hinzu
+		viewerPath += `?item=${item.id}`;
 
 		const inProgress = !item.completed;
 		const badgeHtml = inProgress ? '<span class="status-badge">In Arbeit</span>' : '';
@@ -1049,7 +1089,7 @@ function createContentElement(item, type = 'full') {
 			})}`
 			: 'Unbekannt';
 
-        const teaserText = item.teaser || item.description || ''; // Teaser, Fallback auf Description
+		const teaserText = item.teaser || item.description || ''; // Teaser, Fallback auf Description
 
 		article.innerHTML = `
           <a href="${viewerPath}" class="card-image-link" aria-label="Details zu ${item.title} ansehen">

@@ -153,6 +153,17 @@
       "started": "2020-07-07",
       "completed": "2020-07-15",
       "contentPath": "stories/zukunft-version-1.md"
+    },
+    {
+      "id": "der-koenig-und-der-bettler",
+      "title": "Der König und der Bettler",
+      "teaser": "Ein großer König macht Bekanntschaft mit einem Bettler.",
+      "description": "Wie es einem von hohem Rang ergangen, als er einen Armen traf.",
+      "image": "../assets/img/der-koenig-und-der-bettler.webp",
+      "type": "poem",
+      "started": "2025-04-07",
+      "completed": "",
+      "contentPath": "stories/der-koenig-und-der-bettler.md"
     }
   ]
 }
