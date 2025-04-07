@@ -154,8 +154,18 @@ function renderHomePagePreviews() {
 
 	// Hilfsfunktion zum Erstellen der Listeneinträge
 	const createPreviewListItem = (item) => {
-		const inProgress = !item.completed;
-		const badgeHtml = inProgress ? '<span class="status-badge">In Arbeit</span>' : '';
+		const now = new Date();
+		const oneWeekAgo = new Date(now.setDate(now.getDate() - 7));
+		let badgeHtml = '';
+		if (item.completed) {
+			const completedDate = new Date(item.completed);
+			if (completedDate >= oneWeekAgo) {
+				badgeHtml = '<span class="new-badge">Neu</span>';
+			}
+		} else {
+			badgeHtml = '<span class="status-badge">In Arbeit</span>';
+		}
+
 		// Pfad zum content-viewer (angenommen im Root)
 		const viewerPath = `content-viewer.html?item=${item.id}`;
 		// Pfad zum Bild (angenommen, Pfad im Manifest ist korrekt relativ zum Root oder absolut)
@@ -546,8 +556,18 @@ async function loadAndRenderPreview() {
 			(itemMeta.completed ? `<p>Fertiggestellt: ${new Date(itemMeta.completed).toLocaleDateString('de-DE', { year: 'numeric', month: 'long', day: 'numeric' })}</p>` : '')
 			: 'Startdatum unbekannt';
 
-		const inProgress = !itemMeta.completed;
-		const badgeHtml = inProgress ? '<span class="status-badge">In Arbeit</span>' : '';
+		// Badge Logik: "Neu" wenn innerhalb 7 Tage abgeschlossen, sonst "In Arbeit" wenn nicht abgeschlossen
+		const now = new Date();
+		const oneWeekAgo = new Date(now.setDate(now.getDate() - 7));
+		let badgeHtml = '';
+		if (itemMeta.completed) {
+			const completedDate = new Date(itemMeta.completed);
+			if (completedDate >= oneWeekAgo) {
+				badgeHtml = '<span class="new-badge">Neu</span>';
+			}
+		} else {
+			badgeHtml = '<span class="status-badge">In Arbeit</span>';
+		}
 		workTitleElement.innerHTML = `${itemMeta.title}${badgeHtml}`;
 
 		const pageTitleElement = document.querySelector('title');
@@ -1077,8 +1097,18 @@ function createContentElement(item, type = 'full') {
 		// Füge Item-ID zum Viewer-Pfad hinzu
 		viewerPath += `?item=${item.id}`;
 
-		const inProgress = !item.completed;
-		const badgeHtml = inProgress ? '<span class="status-badge">In Arbeit</span>' : '';
+		// Badge Logik: "Neu" wenn innerhalb 7 Tage abgeschlossen, sonst "In Arbeit" wenn nicht abgeschlossen
+		const now = new Date();
+		const oneWeekAgo = new Date(now.setDate(now.getDate() - 7));
+		let badgeHtml = '';
+		if (item.completed) {
+			const completedDate = new Date(item.completed);
+			if (completedDate >= oneWeekAgo) {
+				badgeHtml = '<span class="new-badge">Neu</span>';
+			}
+		} else {
+			badgeHtml = '<span class="status-badge">In Arbeit</span>';
+		}
 
 		// Datum anzeigen: wenn completed, dann dieses, sonst started
 		const dateToShow = item.completed || item.started;

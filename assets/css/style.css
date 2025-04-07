@@ -717,6 +717,40 @@ blockquote p {
     line-height: 1.2; /* Zeilenhöhe anpassen */
 }
 
+/* NEU: Styling für "Neu"-Badge */
+.new-badge {
+    display: inline-block;
+    background-color: #28a745; /* Grüner Hintergrund für "Neu" */
+    color: #fff; /* Weißer Text */
+    padding: 2px 8px;
+    font-size: 0.75em;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-left: 8px;
+    vertical-align: middle;
+    line-height: 1.2;
+}
+
+/* Anpassung für Badge im Content Viewer H1 */
+#content-text h1 .status-badge,
+#content-text h1 .new-badge { /* .new-badge hinzugefügt */
+    font-size: 0.5em; /* Noch kleiner im Haupttitel */
+    vertical-align: super; /* Etwas höher setzen */
+}
+
+/* Anpassung für Badge in Archivkarten H2 */
+.archive-card h2 .status-badge,
+.archive-card h2 .new-badge { /* .new-badge hinzugefügt */
+    font-size: 0.6em;
+}
+
+/* Anpassung für Badge in der Startseiten-Vorschau */
+.content-type-card .card-titles .item-title .status-badge,
+.content-type-card .card-titles .item-title .new-badge { /* .new-badge hinzugefügt */
+    font-size: 0.8em; /* Etwas größer in der Liste */
+    vertical-align: baseline;
+}
+
 /* Anpassung für Badge im Content Viewer H1 */
 #content-text h1 .status-badge {
     font-size: 0.5em; /* Noch kleiner im Haupttitel */
@@ -726,6 +760,12 @@ blockquote p {
 /* Anpassung für Badge in Archivkarten H2 */
 .archive-card h2 .status-badge {
     font-size: 0.6em;
+}
+
+/* Anpassung für Badge in der Startseiten-Vorschau */
+.content-type-card .card-titles .item-title .status-badge {
+    font-size: 0.8em; /* Etwas größer in der Liste */
+    vertical-align: baseline;
 }
 
 /* Anpassung für Badge in der Startseiten-Vorschau */

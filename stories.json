@@ -155,15 +155,15 @@
       "contentPath": "stories/zukunft-version-1.md"
     },
     {
-      "id": "der-koenig-und-der-bettler",
-      "title": "Der König und der Bettler",
-      "teaser": "Ein großer König macht Bekanntschaft mit einem Bettler.",
-      "description": "Wie es einem von hohem Rang ergangen, als er einen Armen traf.",
-      "image": "../assets/img/der-koenig-und-der-bettler.webp",
+      "id": "der-koenig-im-sturm",
+      "title": "Der König im Sturm",
+      "teaser": "Ein großer König ist auf dem Weg zu seinem Schloss.",
+      "description": "Wie es einem von hohem Rang ergangen.",
+      "image": "../assets/img/der-koenig-im-sturm.webp",
       "type": "poem",
       "started": "2025-04-07",
-      "completed": "",
-      "contentPath": "stories/der-koenig-und-der-bettler.md"
+      "completed": "2025-04-07",
+      "contentPath": "stories/der-koenig-im-sturm.md"
     }
   ]
 }
