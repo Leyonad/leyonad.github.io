@@ -45,9 +45,9 @@ wie die Blätter flatterten,
 als der König auf dem Boden,
 zugepackt und stapfend war.
 
-"Womit nur hab ich das solche,
+"Wie nur habe ich das solche,
 Missgeschick von Gott verdient?
-Würdest du dich dran ergötzen,
+Willst du dich daran ergötzen,
 schicke noch die Wölfe mir!"
 
 Dort jedoch am Wegesrande,
@@ -91,7 +91,7 @@ Würden doch die beiden Diener,
 noch an seiner Seite sein.
 
 Auch käm da ein Ross gelegen,
-trüg' es doch den Mensche fort.
+trüg' es einen Mensch doch fort.
 Selbst ein Bettler würd genügen,
 zweien wären besser noch.
 
