@@ -109,7 +109,7 @@ a:hover, a:focus {
 }
 
 .container-narrow {
-    width: 90%;
+    width: 80%;
     max-width: 720px;
     margin: 0 auto;
     padding: 0 15px;
@@ -567,7 +567,7 @@ h1[data-page-title] {
 
 .about-content .about-text { /* Container für den Text */
     flex-grow: 1; /* Nimmt den restlichen Platz ein */
-    font-family: var(--font-reading);
+    font-family: var(--font-ui);
 }
 
 .about-content p {
@@ -1336,10 +1336,6 @@ html.dark-mode button.filter-chip.active {
     
     .header-right { 
         margin-top: 0; /* Keinen Abstand oben */
-    }
-
-    .container, .container-narrow {
-        width: 95%;
     }
 
     .content-main-wrapper {
