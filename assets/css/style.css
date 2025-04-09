@@ -700,6 +700,8 @@ h1[data-page-title] {
 
 blockquote {
     border-left: 3px solid var(--border-color);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 blockquote p {
@@ -800,7 +802,6 @@ blockquote p {
     cursor: pointer;
     font-size: 1rem;
     transition: background-color 0.2s ease, transform 0.2s ease, visibility 0s; /* NEU: Visibility nicht animieren */
-    visibility: hidden; /* NEU: Standardmäßig ausblenden */
 }
 
 .chapter-nav button:hover:not(:disabled) {

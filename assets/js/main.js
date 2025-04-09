@@ -860,12 +860,10 @@ async function loadAndRenderChapter(passedItemId = null) {
 
 	if (prevButton) {
 		prevButton.disabled = true;
-		prevButton.style.visibility = 'hidden'; // NEU: Ausblenden
 		prevButton.onclick = null; // Alte Handler entfernen
 	}
 	if (nextButton) {
 		nextButton.disabled = true;
-		nextButton.style.visibility = 'hidden'; // NEU: Ausblenden
 		nextButton.onclick = null;
 	}
 

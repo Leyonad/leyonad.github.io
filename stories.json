@@ -74,7 +74,7 @@
       "image": "../assets/img/jonathan-smith-der-pirat.webp",
       "type": "story",
       "started": "2022-12-16",
-      "completed": "",
+      "completed": "2025-04-09",
       "contentPath": "stories/jonathan-smith-der-pirat.md"
     },
     {
@@ -164,6 +164,28 @@
       "started": "2025-04-07",
       "completed": "2025-04-07",
       "contentPath": "stories/der-koenig-im-sturm.md"
+    },
+    {
+      "id": "die-blume",
+      "title": "Die Blume",
+      "teaser": "Über eine Blume im Blumenfeld.",
+      "description": "",
+      "image": "../assets/img/die-blume.webp",
+      "type": "poem",
+      "started": "2022-11-22",
+      "completed": "2022-11-22",
+      "contentPath": "stories/die-blume.md"
+    },
+    {
+      "id": "zum-anfang",
+      "title": "Zum Anfang",
+      "teaser": "Über den Beginn.",
+      "description": "Nur zur Vollständgkeit halber hier aufgelistet, war das der Versuch, einen Beginn aus dem Nichts zu schaffen.",
+      "image": "../assets/img/zum-anfang.webp",
+      "type": "story",
+      "started": "2022-11-08",
+      "completed": "2022-11-08",
+      "contentPath": "stories/zum-anfang.md"
     }
   ]
 }
