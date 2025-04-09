@@ -31,19 +31,32 @@
         <div class="container">
             <div class="logo"><a href="index.html" data-config="websiteName">Lädt...</a></div>
             <div class="header-right">
-                <nav class="main-nav">
-                    <ul>
-                        <li><a href="index.html" data-config="navHome">Startseite</a></li>
-                        <li><a href="geschichten.html" data-config="navStories">Geschichten</a></li>
-                        <li><a href="gedichte.html" class="active" data-config="navPoems">Gedichte</a></li>
-                        <li><a href="gedichtsromane.html" data-config="navPoeticNovels">Gedichtsromane</a></li>
-                        <li><a href="ueber-mich.html" data-config="navAbout">Über mich</a></li>
-                    </ul>
-                </nav>
+                <!-- NEU: Hamburger Button (nur mobil sichtbar) -->
+                <button id="mobile-menu-toggle" class="mobile-menu-button" aria-label="Menü öffnen" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <!-- Bestehende Navigation wird zum Sidebar-Inhalt -->
+                <div id="mobile-sidebar" class="sidebar-nav">
+                    <nav class="main-nav">
+                        <ul>
+                            <li><a href="index.html" data-config="navHome">Startseite</a></li>
+                            <li><a href="geschichten.html" data-config="navStories">Geschichten</a></li>
+                            <li class="active"><a href="gedichte.html" data-config="navPoems">Gedichte</a></li>
+                            <li><a href="gedichtsromane.html" data-config="navPoeticNovels">Gedichtsromane</a></li>
+                            <li><a href="ueber-mich.html" data-config="navAbout">Über mich</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- Dark Mode Toggle bleibt außerhalb der Sidebar für Desktop -->
                 <button id="dark-mode-toggle" aria-label="Farbschema wechseln">🌙 Dunkel</button>
             </div>
         </div>
     </header>
+
+    <!-- NEU: Overlay für Sidebar -->
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
 
     <main>
         <section class="page-title">
@@ -72,7 +85,7 @@
         </div>
     </footer>
 
-    <script src="./assets/js/config.js"></script>
-    <script src="./assets/js/main.js"></script>
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

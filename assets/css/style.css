@@ -248,7 +248,7 @@ a:hover, a:focus {
     overflow: hidden; /* Wichtig für bündige Bilder */
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
-    height: 650px; /* Feste Höhe statt min-height */
+    height: 700px; /* Feste Höhe statt min-height */
     margin-bottom: 40px;
 }
 
@@ -467,6 +467,13 @@ a:hover, a:focus {
     color: var(--text-color-lighter);
     margin-bottom: 0;
 }
+
+.reading-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    align-items: center;
+  }
 
 .content-description {
     font-family: var(--font-ui);
@@ -1161,6 +1168,156 @@ html.dark-mode button.filter-chip.active {
     border-color: var(--link-color);
 }
 
+#mobile-menu-toggle{
+    display: none;
+}
+
+@media (max-width: 940px) {
+    #mobile-menu-toggle{
+        display: block;
+    }
+
+    /* Dark Mode Toggle in der Sidebar */
+    .sidebar-nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 280px; /* Breite der Sidebar */
+        max-width: 80%; /* Maximalbreite */
+        height: 100%;
+        background-color: var(--header-bg); /* Gleicher Hintergrund wie Header */
+        box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+        transform: translateX(100%); /* Standardmäßig außerhalb des Bildschirms */
+        transition: transform 0.3s ease-in-out;
+        z-index: 1050; /* Über dem Inhalt, unter dem Button */
+        padding: 60px 20px 80px; /* Mehr Padding unten für den Dark Mode Button */
+        overflow-y: auto; /* Scrollen, falls nötig */
+        display: flex; /* Flexbox für Inhalt */
+        flex-direction: column; /* Inhalt untereinander */
+    }
+
+    .sidebar-nav.is-open {
+        transform: translateX(0); /* Sidebar sichtbar machen */
+    }
+
+    /* Navigation innerhalb der Sidebar */
+    .sidebar-nav .main-nav {
+        display: flex; /* Änderung von block zu flex */
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px; /* Abstand nach oben */
+    }
+
+    .sidebar-nav .main-nav ul {
+        display: flex; /* Explizit flex setzen */
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .sidebar-nav .main-nav li {
+        display: block; /* Block-Level für volle Breite */
+        width: 100%;
+        margin: 0;
+    }
+
+    .sidebar-nav .main-nav a {
+        display: block; /* Volle Breite für Klickfläche */
+        padding: 15px 10px; /* Größeres Padding für Touch */
+        color: var(--text-color); /* Textfarbe anpassen */
+        border-bottom: none; /* Keine Unterlinie wie im Desktop */
+        font-weight: 500; /* Etwas dicker */
+        transition: background-color 0.2s ease;
+    }
+     .sidebar-nav .main-nav a:hover,
+     .sidebar-nav .main-nav a:focus {
+        background-color: rgba(128, 128, 128, 0.1); /* Leichter Hover-Effekt */
+        color: var(--link-color); /* Hover-Farbe */
+    }
+    .sidebar-nav .main-nav a.active {
+        color: var(--link-color); /* Aktiven Link hervorheben */
+        font-weight: 600;
+        background-color: rgba(128, 128, 128, 0.05); /* Leichter Hintergrund für aktiv */
+    }
+
+    .sidebar-nav .main-nav::after {
+        content: '';
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid var(--border-color);
+        width: 100%;
+        display: block;
+    }
+
+    .sidebar-nav #dark-mode-toggle {
+        display: block;
+        position: static;
+        width: 100%;
+        margin: 0;
+        box-shadow: none;
+        border-radius: 5px;
+        padding: 12px;
+        text-align: center;
+    }
+
+    /* Overlay */
+    .sidebar-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); /* Dunkler Hintergrund */
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+        z-index: 1049; /* Unter der Sidebar */
+    }
+
+    .sidebar-overlay.is-visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /* Verhindert Scrollen des Body, wenn Sidebar offen ist */
+    body.sidebar-open {
+        overflow: hidden;
+    }
+    /* Hamburger-Button anzeigen */
+    .mobile-menu-button {
+        display: block; /* Nur auf Mobilgeräten anzeigen */
+        background: none;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        z-index: 1051; /* Über dem Overlay */
+        position: relative; /* Für z-index */
+        margin-left: auto; /* Rechts neben dem Logo, wenn Header umbricht */
+    }
+
+    .mobile-menu-button span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: var(--text-color);
+        margin: 5px 0;
+        transition: all 0.3s ease-in-out;
+        border-radius: 1px;
+    }
+
+    /* Hamburger-Animation (Kreuz) */
+    .mobile-menu-button.is-active span:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .mobile-menu-button.is-active span:nth-child(2) {
+        opacity: 0;
+    }
+    .mobile-menu-button.is-active span:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     h1 { font-size: 2rem; }
@@ -1168,16 +1325,25 @@ html.dark-mode button.filter-chip.active {
     h2 { font-size: 1.6rem; }
 
     .site-header .container {
-        flex-direction: column;
+        flex-direction: row; /* Horizontal statt vertikal */
+        justify-content: space-between;
         align-items: center;
     }
-    .logo { margin-bottom: 15px; }
-    .header-right { margin-top: 15px; } /* Abstand nach oben für Navi+Button */
-    .main-nav ul { padding-left: 0; }
-    .main-nav li { margin: 0 10px; }
+
+    .logo { 
+        margin-bottom: 0; /* Keinen Abstand unten */
+    }
+    
+    .header-right { 
+        margin-top: 0; /* Keinen Abstand oben */
+    }
 
     .container, .container-narrow {
         width: 95%;
+    }
+
+    .content-main-wrapper {
+        flex-direction: column;
     }
 
     /* Sicherstellen, dass Startseiten-Grid auf 1 Spalte geht */
@@ -1193,7 +1359,6 @@ html.dark-mode button.filter-chip.active {
     }
     .content-type-card .card-image {
         width: 100%; /* Volle Breite */
-        height: 250px; /* Feste Höhe für das Bild */
         object-fit: cover;
     }
     .content-type-card .card-text {
@@ -1271,7 +1436,6 @@ html.dark-mode button.filter-chip.active {
     }
 }
 
-
 /* Styling für den Gedicht-Anzeigebereich direkt in der rechten Spalte */
 #poem-display-area {
     white-space: pre-wrap;
@@ -1286,6 +1450,15 @@ html.dark-mode button.filter-chip.active {
 /* Styling für Absätze innerhalb des Gedichts (falls <p> verwendet wird) */
 #poem-display-area p {
     margin-bottom: 0; /* Kein extra Abstand zwischen Gedichtzeilen */
+}
+
+/* NEU: Styling für die Lesezeit von Gedichten */
+.poem-reading-time {
+    font-size: 0.9rem;
+    color: var(--text-color-light);
+    font-style: italic;
+    margin-bottom: 1.5em !important; /* Abstand zum Gedichttext */
+    text-align: left; /* Oder center, je nach Wunsch */
 }
 
 /* Layout-Anpassungen im content-viewer (bleiben evtl. gleich) */

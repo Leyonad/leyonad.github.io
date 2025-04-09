@@ -18,6 +18,8 @@ const siteConfig = {
   loadingText: "Inhalte werden geladen...",
   featuredStoriesTitle: "Ausgewählte Geschichten",
   featuredPoemsTitle: "Ausgewählte Gedichte",
+  words_per_minute_story: 220,
+  words_per_minute_poem: 150,
   darkModeToggleText: {
     light: "🌙 Dunkel",
     dark: "☀️ Hell"

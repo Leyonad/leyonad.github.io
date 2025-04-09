@@ -6,8 +6,9 @@ let currentSortOrder = 'newest'; // Default sort order: newest first
 
 document.addEventListener('DOMContentLoaded', async () => {
 	applyConfigValues();
-	setupMobileMenu(); // Mobiles Menü initialisieren
 	setupDarkMode();
+	// NEU: Mobile Sidebar Setup aufrufen
+	setupMobileSidebar();
 
 	// --- Daten einmalig laden, wenn auf einer relevanten Seite ---
 	const storyArchiveContainer = document.querySelector('[data-story-list-archive]');
@@ -91,45 +92,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 		}
 	});
 });
-
-function setupMobileMenu() {
-	const menuToggle = document.querySelector('.menu-toggle');
-	const mobileNav = document.querySelector('.header-right'); // Das ist jetzt der Menü-Container
-	const navOverlay = document.querySelector('.nav-overlay');
-	const navLinks = document.querySelectorAll('.main-nav a'); // Alle Links im Menü
-
-	if (!menuToggle || !mobileNav || !navOverlay) {
-		console.warn("Mobile menu elements not found.");
-		return;
-	}
-
-	menuToggle.addEventListener('click', () => {
-		const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
-		menuToggle.setAttribute('aria-expanded', !isExpanded);
-		document.body.classList.toggle('nav-open');
-	});
-
-	// Schließen-Funktion
-	const closeMenu = () => {
-		menuToggle.setAttribute('aria-expanded', 'false');
-		document.body.classList.remove('nav-open');
-	}
-
-	// Schließen bei Klick auf Overlay
-	navOverlay.addEventListener('click', closeMenu);
-
-	// Schließen bei Klick auf einen Menü-Link
-	navLinks.forEach(link => {
-		link.addEventListener('click', closeMenu);
-	});
-
-	// Optional: Schließen bei Druck auf Escape-Taste
-	document.addEventListener('keydown', (event) => {
-		if (event.key === 'Escape' && document.body.classList.contains('nav-open')) {
-			closeMenu();
-		}
-	});
-}
 
 
 // --- Ausgelagerte Funktion für Startseiten-Vorschau ---
@@ -371,6 +333,35 @@ function setupArchivePage() {
 
 // --- HILFSFUNKTIONEN (Konfiguration, Dark Mode, Content Rendering) ---
 
+// NEUE Hilfsfunktion zur Berechnung der Lesezeit
+function calculateReadingTime(text, wordsPerMinute = 200) {
+	if (!text || typeof text !== 'string') {
+		return ''; // Kein Text, keine Lesezeit
+	}
+	const words = text.match(/\S+/g)?.length || 0; // Zählt Wörter (Sequenzen von Nicht-Leerzeichen)
+	if (words === 0) {
+		return '';
+	}
+	const minutes = words / wordsPerMinute;
+	if (minutes < 1) {
+		return '1 Min. Lesezeit';
+	}
+
+	const roundedMinutes = Math.round(minutes);
+
+	if (roundedMinutes > 120) {
+		const hours = Math.floor(roundedMinutes / 60);
+		const remainingMinutes = roundedMinutes % 60;
+		if (remainingMinutes === 0) {
+			return `ca. ${hours} Std. Lesezeit`;
+		} else {
+			return `ca. ${hours} Std. ${remainingMinutes} Min. Lesezeit`;
+		}
+	} else {
+		return `${roundedMinutes} Min. Lesezeit`;
+	}
+}
+
 function applyConfigValues() {
 	// Website-Name/Logo
 	document.querySelectorAll('[data-config="websiteName"]').forEach(el => {
@@ -472,6 +463,64 @@ function setupDarkMode() {
 	});
 }
 
+// --- NEU: Mobile Sidebar ---
+function setupMobileSidebar() {
+    const toggleButton = document.getElementById('mobile-menu-toggle');
+    const sidebar = document.getElementById('mobile-sidebar');
+    const overlay = document.getElementById('sidebar-overlay');
+    const body = document.body;
+
+    if (!toggleButton || !sidebar || !overlay) {
+        // console.warn("Mobile sidebar elements not found.");
+        return; // Elemente nicht gefunden, Funktion beenden
+    }
+
+    const closeSidebar = () => {
+        sidebar.classList.remove('is-open');
+        overlay.classList.remove('is-visible');
+        toggleButton.classList.remove('is-active');
+        toggleButton.setAttribute('aria-expanded', 'false');
+        body.classList.remove('sidebar-open');
+    };
+
+    const openSidebar = () => {
+        sidebar.classList.add('is-open');
+        overlay.classList.add('is-visible');
+        toggleButton.classList.add('is-active');
+        toggleButton.setAttribute('aria-expanded', 'true');
+        body.classList.add('sidebar-open');
+    };
+
+    toggleButton.addEventListener('click', (e) => {
+        e.stopPropagation(); // Verhindert, dass Klick auf Body durchschlägt
+        if (sidebar.classList.contains('is-open')) {
+            closeSidebar();
+        } else {
+            openSidebar();
+        }
+    });
+
+    overlay.addEventListener('click', () => {
+        closeSidebar();
+    });
+
+    // Schließen, wenn auf einen Link in der Sidebar geklickt wird
+    sidebar.addEventListener('click', (e) => {
+        // Nur schließen, wenn direkt auf ein A-Tag geklickt wird
+        if (e.target.tagName === 'A') {
+            closeSidebar();
+        }
+    });
+
+    // Optional: Schließen mit der Escape-Taste
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && sidebar.classList.contains('is-open')) {
+            closeSidebar();
+        }
+    });
+}
+
+
 // --- Laden und Rendern von Markdown-Inhalt (Preview und Chapter) ---
 
 async function loadAndRenderPreview() {
@@ -551,10 +600,35 @@ async function loadAndRenderPreview() {
 			contentDescription.style.display = 'none'; // Ausblenden für Gedichte
 		}
 
-		contentDate.innerHTML = itemMeta.started
+		let dateHtml = itemMeta.started
 			? `<p>Begonnen: ${new Date(itemMeta.started).toLocaleDateString('de-DE', { year: 'numeric', month: 'long', day: 'numeric' })}</p>` +
 			(itemMeta.completed ? `<p>Fertiggestellt: ${new Date(itemMeta.completed).toLocaleDateString('de-DE', { year: 'numeric', month: 'long', day: 'numeric' })}</p>` : '')
-			: 'Startdatum unbekannt';
+				: '<p>Startdatum unbekannt</p>';
+
+		// Lesezeit für die Detailansicht berechnen (basierend auf vollem Inhalt)
+		let readingTimeHtml = '';
+		// Lesezeit nur für NICHT-Gedichte im Datumsbereich berechnen
+		if (itemMeta.contentPath && itemMeta.type !== 'poem') {
+			try {
+				const markdownResponse = await fetch(itemMeta.contentPath);
+				if (markdownResponse.ok) {
+					const markdownText = await markdownResponse.text();
+					// Entferne Markdown-Überschriften für genauere Wortzählung
+					const textOnly = markdownText.replace(/^#.*$/gm, '');
+					// Verwende den spezifischen WPM-Wert für Geschichten (oder Standard, falls nicht Story)
+					const wpm = itemMeta.type === 'story' ? siteConfig.words_per_minute_story : 200; // Fallback 200
+					const readingTime = calculateReadingTime(textOnly, wpm);
+					if (readingTime) {
+						readingTimeHtml = `<p>${readingTime}</p>`;
+					}
+				}
+			} catch (fetchError) {
+				console.warn(`Konnte Inhalt für Lesezeitberechnung nicht laden (${itemMeta.contentPath}): ${fetchError}`);
+			}
+		}
+		// Lesezeit für Gedichte wird später direkt vor dem Gedicht eingefügt
+
+		contentDate.innerHTML = dateHtml + readingTimeHtml; // Füge Lesezeit hinzu (nur wenn nicht Gedicht)
 
 		// Badge Logik: "Neu" wenn innerhalb 7 Tage abgeschlossen, sonst "In Arbeit" wenn nicht abgeschlossen
 		const now = new Date();
@@ -649,12 +723,20 @@ async function loadAndRenderPreview() {
 					// Optional: Entferne eine einzelne H1 am Anfang des Markdown-Textes,
 					// bevor er geparst wird. Funktioniert nur, wenn sie *ganz* am Anfang steht.
 					markdownText = markdownText.trim().replace(/^#{1,6}\s*.*?\r?\n(\r?\n)?/, ''); // Entfernt Zeile mit # und optional folgende Leerzeile
-					console.log(markdownText)
+					// console.log(markdownText) // Debugging entfernt
+
+					// Lesezeit für Gedicht berechnen VOR dem Parsen
+					const readingTime = calculateReadingTime(markdownText, siteConfig.words_per_minute_poem); // Nutze spezifischen Wert für Gedichte
+					let readingTimePoemHtml = '';
+					if (readingTime) {
+						readingTimePoemHtml = `<p class="poem-reading-time">${readingTime}</p>`;
+					}
+
 					// Markdown parsen
 					let poemHtml = marked.parse(markdownText.trim()); // Trim nach Entfernung
 
-					// HTML in den Gedichtbereich einfügen und anzeigen
-					poemDisplayArea.innerHTML = poemHtml;
+					// HTML in den Gedichtbereich einfügen (Lesezeit ZUERST) und anzeigen
+					poemDisplayArea.innerHTML = readingTimePoemHtml + poemHtml; // Lesezeit vor dem Gedicht
 					poemDisplayArea.style.display = 'block';
 
 				} catch (markdownError) {
@@ -794,7 +876,7 @@ async function loadAndRenderChapter(passedItemId = null) {
 			let manifestPath = siteConfig.storiesManifestPath;
 			const responseManifest = await fetch(manifestPath);
 			if (!responseManifest.ok) throw new Error(`Manifest nicht ladbar: ${responseManifest.status}`);
-			allItemsData = await responseManifest.json();
+			allItemsData = await response.json();
 		}
 
 		const parentItem = allItemsData.items.find(i => i.id === itemId);
@@ -1053,7 +1135,7 @@ async function loadAndRenderChapter(passedItemId = null) {
 // --- Listenansichten (werden über setupArchivePage gerendert) ---
 
 // --- Funktion zum Rendern der Items in einem Container ---
-function renderItems(container, items, displayType, emptyMessage) {
+async function renderItems(container, items, displayType, emptyMessage) { // Funktion wird async
 	if (!container) {
 		console.error("Render-Container nicht gefunden.");
 		return;
@@ -1062,8 +1144,12 @@ function renderItems(container, items, displayType, emptyMessage) {
 	if (items.length === 0) {
 		if (emptyMessage) container.innerHTML = `<p>${emptyMessage}</p>`;
 	} else {
-		items.forEach(item => {
-			const itemElement = createContentElement(item, displayType);
+		// Erstelle Promises für jedes Item-Element
+		const itemPromises = items.map(item => createContentElement(item, displayType));
+		// Warte, bis alle Promises aufgelöst sind
+		const itemElements = await Promise.all(itemPromises);
+		// Füge die aufgelösten Elemente zum Container hinzu
+		itemElements.forEach(itemElement => {
 			if (itemElement) { // Nur hinzufügen, wenn Element erstellt wurde
 				container.appendChild(itemElement);
 			}
@@ -1072,7 +1158,7 @@ function renderItems(container, items, displayType, emptyMessage) {
 }
 
 // --- Funktion zum Erstellen eines einzelnen Item-Elements für Archivseiten ---
-function createContentElement(item, type = 'full') {
+async function createContentElement(item, type = 'full') { // Funktion wird async
 	if (type === 'full') {
 		const article = document.createElement('article');
 		article.className = 'archive-card';
@@ -1121,6 +1207,42 @@ function createContentElement(item, type = 'full') {
 
 		const teaserText = item.teaser || item.description || ''; // Teaser, Fallback auf Description
 
+		// Lesezeit für Archivkarten berechnen (basierend auf VOLLSTÄNDIGEM Inhalt, wenn möglich)
+		let readingTime = '';
+		let wordsPerMinute;
+		if (item.type === 'poem') {
+			wordsPerMinute = siteConfig.words_per_minute_poem;
+		} else if (item.type === 'story') {
+			wordsPerMinute = siteConfig.words_per_minute_story;
+		} else {
+			wordsPerMinute = 200; // Fallback
+		}
+
+		if (item.contentPath) {
+			try {
+				// Versuche, den vollständigen Inhalt zu laden
+				const response = await fetch(item.contentPath);
+				if (response.ok) {
+					const markdownText = await response.text();
+					// Entferne Markdown-Überschriften für genauere Wortzählung
+					const textOnly = markdownText.replace(/^#.*$/gm, '');
+					readingTime = calculateReadingTime(textOnly, wordsPerMinute);
+				} else {
+					console.warn(`Konnte Inhalt für Lesezeit nicht laden (${item.contentPath}): ${response.status}. Fallback auf Teaser.`);
+					// Fallback auf Teasertext, wenn Laden fehlschlägt
+					readingTime = calculateReadingTime(teaserText, wordsPerMinute);
+				}
+			} catch (error) {
+				console.warn(`Fehler beim Laden von ${item.contentPath} für Lesezeit: ${error}. Fallback auf Teaser.`);
+				// Fallback auf Teasertext bei Fetch-Fehler
+				readingTime = calculateReadingTime(teaserText, wordsPerMinute);
+			}
+		} else {
+			// Fallback auf Teasertext, wenn kein contentPath vorhanden ist
+			readingTime = calculateReadingTime(teaserText, wordsPerMinute);
+		}
+
+
 		article.innerHTML = `
           <a href="${viewerPath}" class="card-image-link" aria-label="Details zu ${item.title} ansehen">
             <img class="card-image" src="${imagePath || 'assets/images/placeholder.jpg'}" alt="Bild zu ${item.title}" loading="lazy" onerror="this.onerror=null; this.src='assets/images/placeholder.jpg';">
@@ -1131,7 +1253,10 @@ function createContentElement(item, type = 'full') {
             </h2>
             <p class="item-excerpt">${teaserText}</p>
             <p class="item-meta">${dateFormatted}</p>
+			<div class="reading-meta">
+            <p class="item-meta">${readingTime}</p>
             <a href="${viewerPath}" class="read-button">Lesen</a>
+			</div>
           </div>
         `;
 
