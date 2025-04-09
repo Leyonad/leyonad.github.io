@@ -207,8 +207,6 @@ a:hover, a:focus {
     margin-top: 60px;
     border-top: 1px solid var(--border-color);
     font-size: 0.9em;
-    visibility: hidden; /* NEU: Standardmäßig ausblenden */
-    transition: var(--theme-transition), visibility 0s; /* NEU: Visibility nicht animieren */
 }
 .site-footer p {
      color: var(--footer-text-color); /* Explizit setzen */
@@ -1176,7 +1174,10 @@ html.dark-mode button.filter-chip.active {
 }
 
 @media (max-width: 940px) {
-    /* NEU: Originalen Dark Mode Button ausblenden */
+    .container {
+        padding: 0;
+    }
+    
     #dark-mode-toggle {
         display: none;
     }
