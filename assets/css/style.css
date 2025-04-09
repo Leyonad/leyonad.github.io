@@ -65,7 +65,7 @@ body {
     color: var(--text-color);
     background-color: var(--bg-color);
     /* Übergang hier anwenden, damit er nach dem initialen Laden wirkt */
-    transition: var(--theme-transition);
+    /* transition: var(--theme-transition); */ /* ENTFERNT */
 }
 
 /* Wichtig: Auch andere Elemente, die Farben direkt setzen, sollten die Transition bekommen */
@@ -207,6 +207,8 @@ a:hover, a:focus {
     margin-top: 60px;
     border-top: 1px solid var(--border-color);
     font-size: 0.9em;
+    visibility: hidden; /* NEU: Standardmäßig ausblenden */
+    transition: var(--theme-transition), visibility 0s; /* NEU: Visibility nicht animieren */
 }
 .site-footer p {
      color: var(--footer-text-color); /* Explizit setzen */
@@ -573,7 +575,7 @@ h1[data-page-title] {
 .about-content p {
      font-size: 1.1rem;
      line-height: 1.8;
-     color: var(--text-color);
+     color: var (--text-color);
      /* Margin-Bottom wird beibehalten für Absätze im Text */
 }
 
@@ -727,7 +729,7 @@ blockquote p {
 /* NEU: Styling für "Neu"-Badge */
 .new-badge {
     display: inline-block;
-    background-color: #28a745; /* Grüner Hintergrund für "Neu" */
+    background-color: #7b52d5; /* Grüner Hintergrund für "Neu" */
     color: #fff; /* Weißer Text */
     padding: 2px 8px;
     font-size: 0.75em;
@@ -799,7 +801,8 @@ blockquote p {
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
-    transition: background-color 0.2s ease, transform 0.2s ease;
+    transition: background-color 0.2s ease, transform 0.2s ease, visibility 0s; /* NEU: Visibility nicht animieren */
+    visibility: hidden; /* NEU: Standardmäßig ausblenden */
 }
 
 .chapter-nav button:hover:not(:disabled) {
@@ -1159,7 +1162,7 @@ html.dark-mode button.filter-chip {
 html.dark-mode button.filter-chip:hover {
     background-color: var(--border-color);
     border-color: var(--text-color-lighter);
-    color: var(--text-color);
+    color: var (--text-color);
 }
 
 html.dark-mode button.filter-chip.active {
@@ -1173,8 +1176,17 @@ html.dark-mode button.filter-chip.active {
 }
 
 @media (max-width: 940px) {
+    /* NEU: Originalen Dark Mode Button ausblenden */
+    #dark-mode-toggle {
+        display: none;
+    }
+
     #mobile-menu-toggle{
         display: block;
+    }
+
+    .chapter-body p {
+     font-size: 1.1rem;   
     }
 
     /* Dark Mode Toggle in der Sidebar */
@@ -1190,7 +1202,7 @@ html.dark-mode button.filter-chip.active {
         transform: translateX(100%); /* Standardmäßig außerhalb des Bildschirms */
         transition: transform 0.3s ease-in-out;
         z-index: 1050; /* Über dem Inhalt, unter dem Button */
-        padding: 60px 20px 80px; /* Mehr Padding unten für den Dark Mode Button */
+        padding: 60px 20px 40px; /* Mehr Padding unten für den Dark Mode Button */
         overflow-y: auto; /* Scrollen, falls nötig */
         display: flex; /* Flexbox für Inhalt */
         flex-direction: column; /* Inhalt untereinander */
@@ -1243,8 +1255,8 @@ html.dark-mode button.filter-chip.active {
 
     .sidebar-nav .main-nav::after {
         content: '';
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 20px; /* Abstand nach der Navigation */
+        margin-bottom: 20px; /* Abstand vor dem Button */
         border-bottom: 1px solid var(--border-color);
         width: 100%;
         display: block;
@@ -1259,6 +1271,7 @@ html.dark-mode button.filter-chip.active {
         border-radius: 5px;
         padding: 12px;
         text-align: center;
+        margin-top: auto;
     }
 
     /* Overlay */

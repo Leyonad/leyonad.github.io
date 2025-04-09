@@ -841,6 +841,7 @@ async function loadAndRenderChapter(passedItemId = null) {
 	const nextButton = document.getElementById('next-chapter'); // Vorwärts-Button
 	const pageTitleElement = document.querySelector('title'); // Browser-Tab Titel
 	const breadcrumbNav = document.getElementById('breadcrumb-nav'); // Breadcrumb-Navigation
+	const footerElement = document.querySelector('.site-footer'); // NEU: Footer-Element holen
 
 	// Prüfen ob wichtige Elemente vorhanden sind
 	if (!contentArea || !contentTextElement || !chapterIndicator || !prevButton || !nextButton || !breadcrumbNav) {
@@ -857,6 +858,18 @@ async function loadAndRenderChapter(passedItemId = null) {
 	prevButton.onclick = null; // Alte Handler entfernen
 	nextButton.onclick = null;
 	breadcrumbNav.innerHTML = `<p>${siteConfig.loadingText || 'Navigation wird geladen...'}</p>`;
+
+	if (prevButton) {
+		prevButton.disabled = true;
+		prevButton.style.visibility = 'hidden'; // NEU: Ausblenden
+		prevButton.onclick = null; // Alte Handler entfernen
+	}
+	if (nextButton) {
+		nextButton.disabled = true;
+		nextButton.style.visibility = 'hidden'; // NEU: Ausblenden
+		nextButton.onclick = null;
+	}
+	if (footerElement) footerElement.style.visibility = 'hidden'; // NEU: Footer ausblenden
 
 	try {
 		const urlParams = new URLSearchParams(window.location.search);
@@ -1068,6 +1081,7 @@ async function loadAndRenderChapter(passedItemId = null) {
 				};
 			} else {
 				prevButton.onclick = null;
+				prevButton.style.visibility = 'visible'; // NEU: Einblenden
 			}
 		}
 
@@ -1080,6 +1094,7 @@ async function loadAndRenderChapter(passedItemId = null) {
 				};
 			} else {
 				nextButton.onclick = null;
+				nextButton.style.visibility = 'visible'; // NEU: Einblenden
 			}
 		}
 
@@ -1128,7 +1143,9 @@ async function loadAndRenderChapter(passedItemId = null) {
 			backLink.innerHTML = finalBackText;
 			backLink.style.display = 'inline'; // Sicherstellen, dass er sichtbar ist
 		}
-	}
+	} finally { // NEU: Wird immer ausgeführt, egal ob try oder catch
+        if (footerElement) footerElement.style.visibility = 'visible'; // NEU: Footer wieder einblenden
+    }
 }
 
 
