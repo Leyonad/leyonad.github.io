@@ -578,17 +578,22 @@ async function loadAndRenderPreview() {
 		// --- Statische Metadaten rendern ---
 		contentArea.className = `container ${itemMeta.type}-type content-viewer-layout`;
 
-		contentImage.src = itemMeta.image || 'assets/images/placeholder.jpg';
-		contentImage.alt = `Illustration zu: ${itemMeta.title}`;
-		contentImage.onerror = () => {
-			console.warn(`Bild für ${itemMeta.title} konnte nicht geladen werden: ${contentImage.src}`);
-			contentImage.src = 'assets/images/placeholder.jpg';
-			contentImage.alt = 'Platzhalterbild';
-		};
+		// Bild setzen oder ausblenden
 		if (itemMeta.image) {
-			contentImage.style.display = 'block';
+			contentImage.src = itemMeta.image;
+			contentImage.alt = `Illustration zu: ${itemMeta.title}`;
+			contentImage.style.display = 'block'; // Erst anzeigen, wenn src gesetzt ist
+			// onerror nur einmalig setzen, um Schleifen zu vermeiden
+			contentImage.onerror = () => {
+				console.warn(`Bild für ${itemMeta.title} konnte nicht geladen werden: ${contentImage.src}`);
+				contentImage.style.display = 'none'; // Bild bei Fehler ausblenden
+				contentImage.onerror = null; // Error-Handler entfernen nach erstem Fehler
+			};
 		} else {
-			contentImage.style.display = 'none';
+			contentImage.style.display = 'none'; // Kein Bildpfad vorhanden, ausblenden
+			contentImage.src = ''; // src leeren, falls vorher was drin war
+			contentImage.alt = '';
+			contentImage.onerror = null; // Sicherstellen, dass kein alter Handler aktiv ist
 		}
 
 		// Beschreibung nur anzeigen, wenn es KEIN Gedicht ist
@@ -1256,7 +1261,7 @@ async function createContentElement(item, type = 'full') { // Funktion wird asyn
 
 		article.innerHTML = `
           <a href="${viewerPath}" class="card-image-link" aria-label="Details zu ${item.title} ansehen">
-            <img class="card-image" src="${imagePath || 'assets/images/placeholder.jpg'}" alt="Bild zu ${item.title}" loading="lazy" onerror="this.onerror=null; this.src='assets/images/placeholder.jpg';">
+            <img class="card-image" src="${imagePath || ''}" alt="Bild zu ${item.title}" loading="lazy" onerror="this.style.display='none'; this.onerror=null;">
           </a>
           <div class="card-content">
             <h2>
@@ -1270,6 +1275,12 @@ async function createContentElement(item, type = 'full') { // Funktion wird asyn
 			</div>
           </div>
         `;
+		// Nach dem Setzen von innerHTML, das Bild-Element holen und ggf. ausblenden, wenn src leer ist
+		const imgElement = article.querySelector('.card-image');
+		if (imgElement && !imgElement.getAttribute('src')) {
+			imgElement.style.display = 'none';
+		}
+
 
 		return article;
 	}

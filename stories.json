@@ -172,20 +172,31 @@
       "description": "",
       "image": "../assets/img/die-blume.webp",
       "type": "poem",
-      "started": "2022-11-22",
-      "completed": "2022-11-22",
+      "started": "2022-12-07",
+      "completed": "2022-12-07",
       "contentPath": "stories/die-blume.md"
     },
     {
-      "id": "zum-anfang",
-      "title": "Zum Anfang",
-      "teaser": "Über den Beginn.",
-      "description": "Nur zur Vollständgkeit halber hier aufgelistet, war das der Versuch, einen Beginn aus dem Nichts zu schaffen.",
-      "image": "../assets/img/zum-anfang.webp",
-      "type": "story",
-      "started": "2022-11-08",
-      "completed": "2022-11-08",
-      "contentPath": "stories/zum-anfang.md"
+      "id": "wo-becher-voll-und-aecker-stolz",
+      "title": "Wo Becher voll und Äcker stolz",
+      "teaser": "Von der Vergänglichkeit.",
+      "description": "",
+      "image": "../assets/img/wo-becher-voll-und-aecker-stolz.webp",
+      "type": "poem",
+      "started": "2022-11-22",
+      "completed": "2022-11-22",
+      "contentPath": "stories/wo-becher-voll-und-aecker-stolz.md"
+    },
+    {
+      "id": "die-vergangene-stadt",
+      "title": "Die vergangene Stadt",
+      "teaser": "Über eine einst blühende Stadt.",
+      "description": "",
+      "image": "../assets/img/die-vergangene-stadt.webp",
+      "type": "poem",
+      "started": "2022-11-29",
+      "completed": "2022-11-29",
+      "contentPath": "stories/die-vergangene-stadt.md"
     }
   ]
 }

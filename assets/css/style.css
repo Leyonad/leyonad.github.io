@@ -1,12 +1,8 @@
-/* assets/css/style.css */
-
 /* Basic Reset & Font Import */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* Sanfter Übergang für Farbwechsel - ENTFERNT für initiales Laden */
-    /* transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; */
 }
 
 /* Farbvariablen definieren */
@@ -64,8 +60,6 @@ body {
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--bg-color);
-    /* Übergang hier anwenden, damit er nach dem initialen Laden wirkt */
-    /* transition: var(--theme-transition); */ /* ENTFERNT */
 }
 
 /* Wichtig: Auch andere Elemente, die Farben direkt setzen, sollten die Transition bekommen */
@@ -340,6 +334,7 @@ a:hover, a:focus {
     color: var(--text-color-lighter); /* Pfeil etwas heller */
     pointer-events: none; /* Pfeil selbst nicht klickbar machen */
     flex-shrink: 0; /* Verhindert, dass der Pfeil schrumpft */
+    margin-right: 8px;
 }
 
 .content-type-card .card-description {
