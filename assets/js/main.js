@@ -7,7 +7,6 @@ let currentSortOrder = 'newest'; // Default sort order: newest first
 document.addEventListener('DOMContentLoaded', async () => {
 	applyConfigValues();
 	setupDarkMode();
-	// NEU: Mobile Sidebar Setup aufrufen
 	setupMobileSidebar();
 
 	// --- Daten einmalig laden, wenn auf einer relevanten Seite ---
@@ -18,12 +17,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 	const isHomePage = document.getElementById('stories-card'); // Prüfen ob Startseite
 
 	try {
-		// Pfad zum Manifest - annehmen, dass es im Root liegt oder relativer Pfad korrekt ist
-		let manifestPath = siteConfig.storiesManifestPath;
-		// Pfad ggf. anpassen, wenn von einer Unterseite (z.B. stories/) geladen wird
-		if (window.location.pathname.includes('/stories/')) {
-			manifestPath = `../${siteConfig.storiesManifestPath}`; // Beispiel: ../data/stories.json
-		}
+		// Pfad zum Manifest - direkt aus der Konfiguration verwenden
+		const manifestPath = siteConfig.storiesManifestPath;
 		const response = await fetch(manifestPath);
 		if (!response.ok) throw new Error(`Fehler beim Laden der Inhalte (${manifestPath}): ${response.status}`);
 		allItemsData = await response.json(); // Rohdaten speichern
@@ -1179,25 +1174,10 @@ async function createContentElement(item, type = 'full') { // Funktion wird asyn
 		const article = document.createElement('article');
 		article.className = 'archive-card';
 
-		// Pfad zum content-viewer.html anpassen, relativ zur *Archivseite*
-		let viewerPath = 'content-viewer.html'; // Default für Root-Seiten (gedichte, romane)
-		let imagePath = item.image; // Default - Annahme: Pfad im Manifest ist korrekt vom Root aus
-
-		// Wenn die aktuelle Seite geschichten.html im Unterordner /stories/ ist
-		if (window.location.pathname.includes('/stories/')) {
-			viewerPath = `../content-viewer.html`; // Pfad vom Unterordner zum Viewer im Root
-			// Bildpfad anpassen, WENN er relativ ist UND NICHT mit / beginnt
-			if (imagePath && !imagePath.startsWith('/') && !imagePath.startsWith('http')) {
-				// Nur relative Pfade müssen angepasst werden
-				// Annahme: Pfad im Manifest ist z.B. 'assets/img/bild.jpg'
-				// Dann wird er von /stories/ aus zu '../assets/img/bild.jpg'
-				// imagePath = `../${imagePath}`; // Diese Anpassung hängt STARK von der Struktur ab!
-				// Besser ist oft, absolute Pfade (/assets/img/bild.jpg) oder Pfade relativ zum Manifest im Manifest zu speichern.
-				// Wenn Manifest im Root ist und Pfade relativ dazu: Keine Anpassung hier nötig.
-			}
-		}
-		// Füge Item-ID zum Viewer-Pfad hinzu
-		viewerPath += `?item=${item.id}`;
+		// Pfad zum content-viewer.html (Annahme: im Root-Verzeichnis)
+		// Pfade im Manifest (image, contentPath) sollten relativ zum Root sein (z.B. /assets/img/bild.jpg, /stories/datei.md)
+		const viewerPath = `/content-viewer.html?item=${item.id}`; // Pfad relativ zum Root
+		const imagePath = item.image; // Direkt aus dem Manifest übernehmen
 
 		// Badge Logik: "Neu" wenn innerhalb 7 Tage abgeschlossen, sonst "In Arbeit" wenn nicht abgeschlossen
 		const now = new Date();
@@ -1237,7 +1217,7 @@ async function createContentElement(item, type = 'full') { // Funktion wird asyn
 		if (item.contentPath) {
 			try {
 				// Versuche, den vollständigen Inhalt zu laden
-				const response = await fetch(item.contentPath);
+				const response = await fetch(item.contentPath); // Direkter Fetch mit dem Pfad aus dem Manifest
 				if (response.ok) {
 					const markdownText = await response.text();
 					// Entferne Markdown-Überschriften für genauere Wortzählung

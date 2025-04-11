@@ -86,7 +86,7 @@
       "type": "poem",
       "started": "2024-02-24",
       "completed": "2024-02-24",
-      "contentPath": "stories/der-frosch-auf-dem-stein.md"
+      "contentPath": "poems/der-frosch-auf-dem-stein.md"
     },
     {
       "id": "der-protest",
@@ -97,7 +97,7 @@
       "type": "poem",
       "started": "2024-02-24",
       "completed": "2024-02-24",
-      "contentPath": "stories/der-protest.md"
+      "contentPath": "poems/der-protest.md"
     },
     {
       "id": "der-kluge-wolf",
@@ -108,7 +108,7 @@
       "type": "poem",
       "started": "2024-02-24",
       "completed": "2024-02-24",
-      "contentPath": "stories/der-kluge-wolf.md"
+      "contentPath": "poems/der-kluge-wolf.md"
     },
     {
       "id": "das-gold-in-der-saat",
@@ -119,7 +119,7 @@
       "type": "poem",
       "started": "2024-03-10",
       "completed": "2024-03-10",
-      "contentPath": "stories/das-gold-in-der-saat.md"
+      "contentPath": "poems/das-gold-in-der-saat.md"
     },
     {
       "id": "knabenheit",
@@ -130,7 +130,7 @@
       "type": "poetic-novel",
       "started": "2023-06-11",
       "completed": "2024-02-21",
-      "contentPath": "stories/knabenheit.md"
+      "contentPath": "poetic-novels/knabenheit.md"
     },
     {
       "id": "hexenmeister",
@@ -141,7 +141,7 @@
       "type": "poetic-novel",
       "started": "2024-02-18",
       "completed": "",
-      "contentPath": "stories/hexenmeister.md"
+      "contentPath": "poetic-novels/hexenmeister.md"
     },
     {
       "id": "zukunft-version-1",
@@ -163,7 +163,7 @@
       "type": "poem",
       "started": "2025-04-07",
       "completed": "2025-04-07",
-      "contentPath": "stories/der-koenig-im-sturm.md"
+      "contentPath": "poems/der-koenig-im-sturm.md"
     },
     {
       "id": "die-blume",
@@ -174,7 +174,7 @@
       "type": "poem",
       "started": "2022-12-07",
       "completed": "2022-12-07",
-      "contentPath": "stories/die-blume.md"
+      "contentPath": "poems/die-blume.md"
     },
     {
       "id": "wo-becher-voll-und-aecker-stolz",
@@ -185,7 +185,7 @@
       "type": "poem",
       "started": "2022-11-22",
       "completed": "2022-11-22",
-      "contentPath": "stories/wo-becher-voll-und-aecker-stolz.md"
+      "contentPath": "poems/wo-becher-voll-und-aecker-stolz.md"
     },
     {
       "id": "die-vergangene-stadt",
@@ -196,7 +196,7 @@
       "type": "poem",
       "started": "2022-11-29",
       "completed": "2022-11-29",
-      "contentPath": "stories/die-vergangene-stadt.md"
+      "contentPath": "poems/die-vergangene-stadt.md"
     }
   ]
 }
