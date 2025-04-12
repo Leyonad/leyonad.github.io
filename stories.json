@@ -197,6 +197,17 @@
       "started": "2022-11-29",
       "completed": "2022-11-29",
       "contentPath": "poems/die-vergangene-stadt.md"
+    },
+    {
+      "id": "zum-anfang",
+      "title": "Zum Anfang",
+      "teaser": "Über den Beginn.",
+      "description": "Nur zur Vollständgkeit halber hier aufgelistet, war das der Versuch, einen Beginn aus dem Nichts zu schaffen.",
+      "image": "../assets/img/zum-anfang.webp",
+      "type": "story",
+      "started": "2022-11-08",
+      "completed": "2022-11-08",
+      "contentPath": "stories/zum-anfang.md"
     }
   ]
 }
