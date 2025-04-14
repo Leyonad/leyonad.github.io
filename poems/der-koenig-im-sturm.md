@@ -91,7 +91,7 @@ Würden doch die beiden Diener,
 noch an seiner Seite sein.
 
 Auch käm da ein Ross gelegen,
-trüg' es einen Mensch doch fort.
+trüg' es einen Menschen fort.
 Selbst ein Bettler würd genügen,
 zweien wären besser noch.
 
