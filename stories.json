@@ -208,6 +208,17 @@
       "started": "2022-11-08",
       "completed": "2022-11-08",
       "contentPath": "stories/zum-anfang.md"
+    },
+    {
+      "id": "der-weber",
+      "title": "Der Weber",
+      "teaser": "Über einen verstoßenen Weber.",
+      "description": "",
+      "image": "../assets/img/der-weber.webp",
+      "type": "poem",
+      "started": "2025-04-24",
+      "completed": "2025-04-24",
+      "contentPath": "poems/der-weber.md"
     }
   ]
 }

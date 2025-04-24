@@ -13,7 +13,7 @@ und die Diener stürzten um.
 O wie da der König schaute,
 als dies Unglück ihn befiel.
 "Dass die Götter sich's erlauben,
-dieses Los zu schicken mir."
+dieses Los zu schicken mir!"
 
 Doch es ritt der gute König,
 weiter seines Wegs allein,
@@ -81,7 +81,7 @@ und die Furcht, die ließ in taumeln.
 "Dort ist doch ein Wolfsgesicht!"
 
 O wie da der gute Manne,
-rannte als er es vernahm,
+rannte als er das vernahm,
 ließ die Krone mit dem Samte,
 fallen, dass er schneller war.
 
