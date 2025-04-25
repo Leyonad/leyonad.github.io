@@ -3,7 +3,7 @@
 „Schaut zum Himmel!“, sagte er,
 der Frosch vor seinem Laichenmeer,
 dass sich die Blumen drumherum,
-vor ihm verbeugten ohne Grund.
+vor ihm verbeugten, tief und stumm.
 
 Auf einem hohen Steine stand,
 der König, der ein Frosch noch war.

@@ -219,6 +219,17 @@
       "started": "2025-04-24",
       "completed": "2025-04-24",
       "contentPath": "poems/der-weber.md"
+    },
+    {
+      "id": "die-geister",
+      "title": "Die Geister",
+      "teaser": "Ein Fest wird überfallen.",
+      "description": "",
+      "image": "../assets/img/die-geister.webp",
+      "type": "poem",
+      "started": "2025-04-25",
+      "completed": "2025-04-25",
+      "contentPath": "poems/die-geister.md"
     }
   ]
 }
