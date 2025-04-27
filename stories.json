@@ -230,6 +230,17 @@
       "started": "2025-04-25",
       "completed": "2025-04-25",
       "contentPath": "poems/die-geister.md"
+    },
+    {
+      "id": "der-gott-hörte",
+      "title": "Der Gott hörte",
+      "teaser": "Der Dialog zweier sehr verschiedenen Männer.",
+      "description": "",
+      "image": "../assets/img/der-gott-hörte.webp",
+      "type": "poem",
+      "started": "2025-04-27",
+      "completed": "2025-04-27",
+      "contentPath": "poems/der-gott-hörte.md"
     }
   ]
 }
