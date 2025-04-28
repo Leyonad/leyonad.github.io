@@ -84,8 +84,8 @@
       "description": "Ein selbstgefälliger Frosch verkündet seine zukünftige Herrschaft über den Teich, doch das Schicksal hat andere Pläne.",
       "image": "../assets/img/frog_on_stone.webp",
       "type": "poem",
-      "started": "2024-02-24",
-      "completed": "2024-02-24",
+      "started": "2025-02-24",
+      "completed": "2025-02-24",
       "contentPath": "poems/der-frosch-auf-dem-stein.md"
     },
     {
@@ -95,8 +95,8 @@
       "description": "So etwas wie eine Beschreibung würde vermutlich den Rahmen sprengen, deswegen lasse ich es gleich sein.",
       "image": "../assets/img/der-protest.webp",
       "type": "poem",
-      "started": "2024-02-24",
-      "completed": "2024-02-24",
+      "started": "2025-02-24",
+      "completed": "2025-02-24",
       "contentPath": "poems/der-protest.md"
     },
     {
@@ -106,8 +106,8 @@
       "description": "Eine Fabel über einen Wolf, der sich für besonders schlau hält.",
       "image": "../assets/img/der-kluge-wolf.webp",
       "type": "poem",
-      "started": "2024-02-24",
-      "completed": "2024-02-24",
+      "started": "2025-02-24",
+      "completed": "2025-02-24",
       "contentPath": "poems/der-kluge-wolf.md"
     },
     {
@@ -117,8 +117,8 @@
       "description": "Ein Gedicht über Ehrlichkeit und unerwarteten Lohn.",
       "image": "../assets/img/das-gold-in-der-saat.webp",
       "type": "poem",
-      "started": "2024-03-10",
-      "completed": "2024-03-10",
+      "started": "2025-03-10",
+      "completed": "2025-03-10",
       "contentPath": "poems/das-gold-in-der-saat.md"
     },
     {
