@@ -48,7 +48,7 @@
       "id": "die-beginnende-geschichte",
       "title": "Die beginnende Geschichte",
       "teaser": "Fangen Sie erst gar nicht an, diese Geschichte zu lesen.",
-      "description": "Jede Art von Beschreibung dieser Erzählung scheint mir irreführend, da sie entweder den wahren Charakter der Geschichte oder dessen Ende preisgeben würde. Warnen kann ich Sie nur, sich nicht so tief hineinziehen zu lassen, wie es mir passiert ist, sodass die Geschichte gar nicht erst an Sie rankommt.",
+      "description": "Jede Art von Beschreibung dieser Erzählung scheint mir irreführend, da sie entweder den wahren Charakter der Geschichte oder ihr Ende preisgeben würde. Warnen kann ich Sie nur, sich nicht so tief hineinziehen zu lassen, wie es mir passiert ist, sodass die Geschichte gar nicht erst an Sie herankommt.",
       "image": "../assets/img/die-beginnende-geschichte.webp",
       "type": "story",
       "started": "2024-12-18",
@@ -59,7 +59,7 @@
       "id": "der-neffe-des-leopoldius",
       "title": "Der Neffe des Leopoldius",
       "teaser": "Über den Nachfolger des größten Zirkusmeisters.",
-      "description": "Der junge Benedikt will in die Fußstapfen seines Onkels treten und den Leuten Unterhaltung an den Tag legen, wie sie sie noch nie zuvor erlebt haben, doch viele Steine werden ihm in den Weg gelegt und mehr als einmal denkt er an's Aufgeben.",
+      "description": "Der junge Benedikt will in die Fußstapfen seines Onkels treten und den Leuten Unterhaltung an den Tag legen, wie sie sie noch nie zuvor erlebt haben, doch viele Steine werden ihm in den Weg gelegt.",
       "image": "../assets/img/der-neffe-des-leopoldius.webp",
       "type": "story",
       "started": "2025-03-19",
@@ -241,6 +241,17 @@
       "started": "2025-04-27",
       "completed": "2025-04-27",
       "contentPath": "poems/der-gott-hörte.md"
+    },
+    {
+      "id": "den-löwen-zum-geschenk",
+      "title": "Den Löwen zum Geschenk",
+      "teaser": "Über eine verzweifelte Jagd mit hohem Lohn.",
+      "description": "",
+      "image": "../assets/img/den-löwen-zum-geschenk.webp",
+      "type": "poem",
+      "started": "2025-04-28",
+      "completed": "2025-04-28",
+      "contentPath": "poems/den-löwen-zum-geschenk.md"
     }
   ]
 }

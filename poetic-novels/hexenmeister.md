@@ -5599,7 +5599,7 @@ so sagte er zu Eva, als,
 er an der Küchentüre stand.
 
 „Du willst doch etwa nicht schon fort?“,
-rief zu ihm. „Dann bleib doch noch,
+rief sie zu ihm. „Dann bleib doch noch,
 zum Essen hier. Ich koche grad‘.
 Sonst hab‘ ich viel zu viel gemacht.“
 
