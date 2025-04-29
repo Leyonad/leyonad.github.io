@@ -243,15 +243,15 @@
       "contentPath": "poems/der-gott-hörte.md"
     },
     {
-      "id": "den-löwen-zum-geschenk",
-      "title": "Den Löwen zum Geschenk",
+      "id": "den-löwen-als-geschenk",
+      "title": "Den Löwen als Geschenk",
       "teaser": "Über eine verzweifelte Jagd mit hohem Lohn.",
       "description": "",
-      "image": "../assets/img/den-löwen-zum-geschenk.webp",
+      "image": "../assets/img/den-löwen-als-geschenk.webp",
       "type": "poem",
       "started": "2025-04-28",
       "completed": "2025-04-28",
-      "contentPath": "poems/den-löwen-zum-geschenk.md"
+      "contentPath": "poems/den-löwen-als-geschenk.md"
     }
   ]
 }
