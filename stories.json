@@ -252,6 +252,17 @@
       "started": "2025-04-28",
       "completed": "2025-04-28",
       "contentPath": "poems/den-löwen-als-geschenk.md"
+    },
+    {
+      "id": "der-schafhirte",
+      "title": "Der Schafhirte",
+      "teaser": "Der tragische Fall des Hirten und der Magd.",
+      "description": "",
+      "image": "../assets/img/der-schafhirte.webp",
+      "type": "poem",
+      "started": "2025-04-29",
+      "completed": "2025-04-29",
+      "contentPath": "poems/der-schafhirte.md"
     }
   ]
 }
