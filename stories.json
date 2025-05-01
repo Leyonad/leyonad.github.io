@@ -263,6 +263,17 @@
       "started": "2025-04-29",
       "completed": "2025-04-29",
       "contentPath": "poems/der-schafhirte.md"
+    },
+    {
+      "id": "zu-mitternacht",
+      "title": "Zu Mitternacht",
+      "teaser": "Ein paar Gedanken ohne größeren Sinn und Zweck.",
+      "description": "",
+      "image": "../assets/img/zu-mitternacht.webp",
+      "type": "poem",
+      "started": "2025-05-02",
+      "completed": "2025-05-02",
+      "contentPath": "poems/zu-mitternacht.md"
     }
   ]
 }
