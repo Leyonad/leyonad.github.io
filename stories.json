@@ -274,6 +274,17 @@
       "started": "2025-05-02",
       "completed": "2025-05-02",
       "contentPath": "poems/zu-mitternacht.md"
+    },
+    {
+      "id": "der-fischer-im-sturm",
+      "title": "Der Fischer im Sturm",
+      "teaser": "Ein Fischer kommt immer wieder ohne Fang zurück.",
+      "description": "",
+      "image": "../assets/img/der-fischer-im-sturm.webp",
+      "type": "poem",
+      "started": "2025-05-03",
+      "completed": "2025-05-03",
+      "contentPath": "poems/der-fischer-im-sturm.md"
     }
   ]
 }
