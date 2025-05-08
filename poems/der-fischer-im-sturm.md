@@ -53,7 +53,7 @@ Und dort sogleich erzählte er,
 was ihm heut' auf dem Meer gescheh'n,
 und viele lachten, meinten sie,
 "gefangen hast du etwa nichts,
-und hast dich das nur ausgedacht,
+und hast dir das nur ausgedacht,
 dass niemand dann wohl lachen kann."
 
 Da ging er fort zu seiner Frau,

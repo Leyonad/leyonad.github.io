@@ -285,6 +285,17 @@
       "started": "2025-05-03",
       "completed": "2025-05-03",
       "contentPath": "poems/der-fischer-im-sturm.md"
+    },
+    {
+      "id": "das-flehen-des-boten",
+      "title": "Das Flehen des Boten",
+      "teaser": "Ein Bote bittet um Gnade.",
+      "description": "",
+      "image": "../assets/img/das-flehen-des-boten.webp",
+      "type": "poem",
+      "started": "2025-05-05",
+      "completed": "2025-05-08",
+      "contentPath": "poems/das-flehen-des-boten.md"
     }
   ]
 }
