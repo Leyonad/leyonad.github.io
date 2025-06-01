@@ -13,7 +13,7 @@ als Vorruf zum folgenden Blitz.
 Drum schenkt einen Tage zum Handeln,
 und stimmet die Lieder schon an,
 doch wenn erst die Trommeln verstummt sind,
-so fallt in das Lande denn ein.
+so fallet ins Lande denn ein.
 
 Der Bote, als er dies gesprochen,
 lief fort und zum Könige hin,
@@ -22,5 +22,5 @@ da hörte nicht einer auf ihn.
 
 Und wo einst die Stadt hat gelegen,
 in Golde und Silber gefasst,
-entwich alles frevelnde Leben,
+entwich alles ruchlose Leben,
 und Platz war für Neues gemacht.

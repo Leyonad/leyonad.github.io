@@ -296,6 +296,17 @@
       "started": "2025-05-05",
       "completed": "2025-05-08",
       "contentPath": "poems/das-flehen-des-boten.md"
+    },
+    {
+      "id": "der-schatz-des-königs",
+      "title": "Der Schatz des Königs",
+      "teaser": "Über die Wette mit einem geizigen König",
+      "description": "Ein junger Prinz wettet mit all seinem Besitz um den großen Schatz des Königs, der diesen liebt wie nichts anderes. In sieben Tagen wird sich der Gewinner offenbaren.",
+      "image": "../assets/img/der-schatz-des-königs.webp",
+      "type": "poetic-novel",
+      "started": "2025-05-14",
+      "completed": "2025-06-01",
+      "contentPath": "poetic-novels/der-schatz-des-königs.md"
     }
   ]
 }
