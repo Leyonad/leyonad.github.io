@@ -16,7 +16,7 @@ Dann führte er die schöne Frau,
 zu seinem Lieblingsplatz hinauf,
 und setzte sich ins grüne Gras,
 die gute Magd doch aber sprach,
-"ich setze mich doch nicht dahin.
+"ich setze mich doch da nicht hin.
 Da ist mir mein Gewand zu dünn."
 
 Und wie es sich danach ergab,

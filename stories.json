@@ -307,6 +307,17 @@
       "started": "2025-05-14",
       "completed": "2025-06-01",
       "contentPath": "poetic-novels/der-schatz-des-königs.md"
+    },
+    {
+      "id": "das-wiederkehrende-schiff",
+      "title": "Das wiederkehrende Schiff",
+      "teaser": "Über Ankunft und Rückkehr.",
+      "description": "",
+      "image": "../assets/img/das-wiederkehrende-schiff.webp",
+      "type": "poem",
+      "started": "2025-06-10",
+      "completed": "2025-06-10",
+      "contentPath": "poems/das-wiederkehrende-schiff.md"
     }
   ]
 }
