@@ -315,9 +315,20 @@
       "description": "",
       "image": "../assets/img/das-wiederkehrende-schiff.webp",
       "type": "poem",
-      "started": "2025-06-10",
+      "started": "2025-06-09",
       "completed": "2025-06-10",
       "contentPath": "poems/das-wiederkehrende-schiff.md"
+    },
+    {
+      "id": "der-ritter-hohenweide",
+      "title": "Der Ritter Hohenweide",
+      "teaser": "Was einer leistete und womit er bezahlte.",
+      "description": "",
+      "image": "../assets/img/der-ritter-hohenweide.webp",
+      "type": "poem",
+      "started": "2025-06-10",
+      "completed": "2025-06-10",
+      "contentPath": "poems/der-ritter-hohenweide.md"
     }
   ]
 }
