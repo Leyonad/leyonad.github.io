@@ -37,8 +37,8 @@ die nah dem Licht im Walde haust,
 o bringt dem Tier den raschen Tod.
 Erlöst wär' dieses Land der Not."
 
-Weiter sprach das Schwert der Nöte,
-welche dieser Hirsche bracht'.
+Weiter sprach das Schwert von Nöten,
+die derselbe Hirsch gebracht.
 "Willst du meinen Rat nun hören?
 Denke gut darüber nach!"
 "Sag ihn mir, sonst schweige ewig!",
@@ -110,8 +110,8 @@ auf der rechten Hand verteilt'.
 O wie er in Todesplagen,
 seine Schmerzen in sich hielt,
 und noch immer reglos da lag,
-dass sein Plan nicht scheitern würd',
-beugte sich der Hirsch hernieder,
+dass sein Plan nicht scheitern würd'.
+Beugte sich der Hirsch nun nieder,
 zerrt' den Schleier von dem Arm,
 biss sodann in seinen linke,
 dann in seine rechte Hand.
@@ -120,7 +120,13 @@ Weh, wie da das Blut nun strömte,
 sich das Gras bald rot gefärbt,
 und der arme Ritter stöhnte,
 fort der Schleier, fort die Händ'.
-Und sein Leben war zu Ende,
+
+Wie nun sollte er sich heilen,
+mit dem arg verhexten Schleier,
+wenn ihm beide Hände ab,
+und er ihn nicht mehr fassen kann?
+
+O, sein Leben war zu Ende,
 noch in dieser selben Stund',
 und der Hirsch im klagend Lärme,
 starb am Gift, das er geschluckt.

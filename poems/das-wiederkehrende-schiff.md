@@ -16,5 +16,5 @@ von Freude und von Lob.
 
 Bei jedem andren fremden Schiff,
 das einfährt Tag und Nacht,
-da sagt man sich, "wie schön doch ist,
+da sagt man sich, "wie schön doch sind,
 das Segel und der Mast."
