@@ -101,8 +101,8 @@ in seiner Hand das Gift geschickt.
 Wie er bald ein Schnauben hörte,
 und die Zweige knisterten,
 als der Hirsch die Stille störte,
-hin zum Ritter langsam trat,
-zog er mit zwei flinken Fingern,
+hin zum Ritter langsam trat.
+Da zog er mit flinken Fingern,
 rasch den Korken leicht heraus,
 dass das Gift sich leichten Glimmens,
 auf der rechten Hand verteilt'.
@@ -110,14 +110,14 @@ auf der rechten Hand verteilt'.
 O wie er in Todesplagen,
 seine Schmerzen in sich hielt,
 und noch immer reglos da lag,
-dass sein Plan nicht scheitern würd'.
-Beugte sich der Hirsch nun nieder,
+dass sein Plan nicht scheitern würd',
+beugte sich der Hirsch hernieder,
 zerrt' den Schleier von dem Arm,
 biss sodann in seinen linke,
 dann in seine rechte Hand.
 
 Weh, wie da das Blut nun strömte,
-sich das Gras bald rot gefärbt,
+sich die Wiese rot gefärbt,
 und der arme Ritter stöhnte,
 fort der Schleier, fort die Händ'.
 
@@ -126,7 +126,7 @@ mit dem arg verhexten Schleier,
 wenn ihm beide Hände ab,
 und er ihn nicht mehr fassen kann?
 
-O, sein Leben war zu Ende,
+Ja, sein Leben war zu Ende,
 noch in dieser selben Stund',
 und der Hirsch im klagend Lärme,
 starb am Gift, das er geschluckt.

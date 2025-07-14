@@ -1,6 +1,6 @@
 # Den Löwen zum Geschenk
 
-"Wer immer jenen Löwen bringt,
+"Wer immer mir den Löwen bringt,
 den größten, den ihr finden könnt,
 dem soll die Hand der Tochter sein",
 so sprach der König, matt von Pein.

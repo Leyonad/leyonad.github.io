@@ -1,7 +1,5 @@
 # Der Schatz des Königs
 
-## Tag 1
-
 Wie der König seine Gemmen,
 um sich warf in seinem Schloss,
 diese nicht den größten Männern,
@@ -18,10 +16,9 @@ und Euch zur Kunde gibt,
 dann nimm ich mir so viel ich will,
 von Eurem großen Schatz,
 doch sollte es misslingen mir,
-dass mich die Eure Tochter liebt,
 gehört Euch, was ich hab'."
 
-Und schon rief die Beraterschaft,
+Und rief schon die Beraterschaft,
 "Den Löwen wirf ihn vor zum Fraß!
 Dass der noch seine Beine hat!
 Die hack' ich ihm persönlich ab!"
@@ -82,7 +79,7 @@ vom Prinzen heut' im Königssaal,
 und was er mit dem Schatze tät',
 wo er doch klug sei und beherzt."
 
-Und wie das Wort nun um sich sprach,
+Und wie das Wort so um sich sprach,
 das Land an Hoffnung rasch gewann,
 auf bessre Zeiten, dass der Prinz,
 den Schatz verteile rechten Sinns.
@@ -118,9 +115,6 @@ Vielleicht war trotzdem alles falsch."
 das wurd' vom Volk gehört.
 Die Sorgen, die du dir jetzt machst,
 die sind schon bald gezählt."
-
-
-## Tag 2
 
 Am nächsten Tage in der Früh,
 ein Sommermorgen war's,
@@ -181,9 +175,6 @@ Als er jedoch dem Schlaf verfiel,
 da tat das Tor sich auf,
 und langsam stieg herunter wer,
 der Herr von diesem Haus.
-
-
-## Tag 3
 
 Am nächsten Morgen sah der Prinz,
 wer da gekommen war:
@@ -256,9 +247,6 @@ verschwunden waren, sprang der Mann,
 vom Baum herab, o schweißgetränkt,
 und voller Furcht vor diesem Zwerg.
 
-
-## Tag 4
-
 Und als man ihn zum König ließ,
 da sprach er tiefgebeugt vor ihm,
 "der Prinz, den hab' ich nachts geseh'n,
@@ -313,9 +301,6 @@ Und wie sich da der Zwerge wehrte,
 um sich rief und tritt und schlug,
 doch in Windeseil' der Scherge,
 schnürte fest den Sacke zu.
-
-
-## Tag 5
 
 Und zu früher Stund' am Morgen,
 wurd' zum König er gebracht,
@@ -440,9 +425,6 @@ und sechste Tag auch um.
 Am siebten aber holte man,
 den Prinzen aus der Gruft.
 
-
-## Tag 7
-
 Wie man ihn der Menge zeigte,
 o, wie diese schrecklich sah,
 als man diesen Mann gewahrte,
@@ -492,7 +474,7 @@ Und niemals hat er mich geschlagen,
 noch mir etwas aufgetragen.
 Auch geraubt hat er mich nicht.
 Ich wollte selber fort von dir.
-Weil du doch nur mehr Reichtum siehst,
+Weil du doch nur mehr Gemmen siehst,
 und Gold und Silber nur mehr liebst!"
 
 Und wie die Tochter dies gesagt,
@@ -548,7 +530,7 @@ mit langem Bart und grauem Haar.
 Und sprach er krächzend, "es ist wahr,
 was dieses hübsche Fräulein sagt.
 Denn log ich euren König an,
-da er mir einen Schatz versprach,
+weil er mir einen Schatz versprach,
 der groß wie seiner selber war,
 von Gold und Silber, Perlenglas.
 Zuletzt doch auch betrog er mich,
@@ -578,7 +560,7 @@ zum Prinzen hin in voller Hast,
 und fiel voll Freud' in seinen Arm,
 und küsste ihn - wie schön das war. 
 
-Zuletzt doch stand der Prinz hoch auf,
+Zuletzt doch stand der Prinz noch auf,
 und sprach, als ihm dann jeder lauscht',
 "da ich die Wett' gewonnen hab',
 und mein ist nun des Königs Schatz,

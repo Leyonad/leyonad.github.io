@@ -13,8 +13,8 @@ Er trug sogar am ganzen Leib,
 zu diesem Zweck ein Wollekleid,
 und mischte sich, so klug er war,
 in diese frohe Schäfchenschar.
-Da fragten diese alle sich,
-„wir dachten, er hat dich gekriegt.“
+Da fragten alle ihn geschwind,
+„hat dich nicht erst der Wolf gekriegt?“
 
 Doch ehe dieses falsche Schaf,
 der Herde eine Antwort gab,
