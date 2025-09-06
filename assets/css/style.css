@@ -225,6 +225,48 @@ a:hover, a:focus {
     margin-top: 10px;
 }
 
+/* Verbesserte Styles für den Disclaimer im Hero-Bereich */
+.hero-title {
+    font-family: var(--font-ui);
+    font-size: 2.2rem; /* Etwas kleiner als standard H1 für bessere Hierarchie */
+    color: var(--heading-color);
+    margin-bottom: 0.5rem;
+}
+
+.hero-disclaimer {
+    max-width: 900px; /* Lesbarkeit auf großen Bildschirmen */
+    margin: 0.6rem auto 0;
+    padding: 18px 20px;
+    background-color: rgba(220,220,220,0.45); /* Heller Kasten, guter Kontrast im Hellmodus */
+    color: var(--text-color);
+    border-left: 4px solid var(--link-color);
+    border-radius: 6px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+
+/* Dark mode Anpassungen für den Disclaimer-Kasten */
+html.dark-mode .hero-disclaimer {
+    background-color: rgba(40,40,40,0.45);
+    color: var(--text-color-light);
+}
+
+/* Mobile Anpassungen */
+@media (max-width: 640px) {
+    .hero {
+        padding: 40px 0 30px;
+    }
+    .hero-title {
+        font-size: 1.6rem;
+    }
+    .hero-disclaimer {
+        padding: 14px;
+        font-size: 0.98rem;
+    }
+}
+
 .featured-stories, .featured-poems, .author-intro, .story-archive, .about-content, .content-navigation { /* .content-navigation hinzugefügt */
     padding: 40px 0;
 }
@@ -733,6 +775,25 @@ blockquote p {
     margin-left: 8px;
     vertical-align: middle;
     line-height: 1.2;
+}
+
+/* Styling für "Pausiert"-Badge */
+.paused-badge {
+    display: inline-block;
+    background-color: #6c757d; /* Dezentes Grau für pausiert */
+    color: #fff;
+    padding: 2px 8px;
+    font-size: 0.75em;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-left: 8px;
+    vertical-align: middle;
+    line-height: 1.2;
+}
+
+/* Dark-mode Anpassung für Pausiert-Badge */
+html.dark-mode .paused-badge {
+    background-color: #495057; /* Etwas dunkleres Grau im Dark-Mode */
 }
 
 /* Anpassung für Badge im Content Viewer H1 */

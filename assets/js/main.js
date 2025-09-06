@@ -109,33 +109,50 @@ function renderHomePagePreviews() {
 	const poemList = document.getElementById('poem-preview-list');
 	const poeticNovelList = document.getElementById('poetic-novel-preview-list');
 
-	// Hilfsfunktion zum Erstellen der Listeneinträge
-	const createPreviewListItem = (item) => {
-		const now = new Date();
-		const oneWeekAgo = new Date(now.setDate(now.getDate() - 7));
-		let badgeHtml = '';
-		if (item.completed) {
-			const completedDate = new Date(item.completed);
-			if (completedDate >= oneWeekAgo) {
-				badgeHtml = '<span class="new-badge">Neu</span>';
-			}
-		} else {
-			badgeHtml = '<span class="status-badge">In Arbeit</span>';
-		}
+		// Helper: returns appropriate badge HTML depending on item status/completion
+		const getBadgeHtml = (item) => {
+				const now = new Date();
+				const oneWeekAgo = new Date(now);
+				oneWeekAgo.setDate(now.getDate() - 7);
 
-		// Pfad zum content-viewer (angenommen im Root)
-		const viewerPath = `content-viewer.html?item=${item.id}`;
-		// Pfad zum Bild (angenommen, Pfad im Manifest ist korrekt relativ zum Root oder absolut)
-		const imagePath = item.image;
-		return `
-      <li data-image-src="${imagePath}" data-image-alt="Illustration zu: ${item.title}">
-        <a href="${viewerPath}">
-          <span class="item-title">${item.title}${badgeHtml}</span>
-          <span class="arrow-indicator">→</span>
-        </a>
-      </li>
-    `;
-	};
+				// Completed recently -> Neu
+				if (item.completed) {
+						const completedDate = new Date(item.completed);
+						if (!isNaN(completedDate) && completedDate >= oneWeekAgo) {
+								return '<span class="new-badge">Neu</span>';
+						}
+				}
+
+				// Explicit status field
+				if (item.status === 'paused') {
+						return '<span class="paused-badge">Pausiert</span>';
+				}
+
+				// Default: not completed -> In Arbeit
+				if (!item.completed) {
+						return '<span class="status-badge">In Arbeit</span>';
+				}
+
+				return '';
+		};
+
+		// Hilfsfunktion zum Erstellen der Listeneinträge
+		const createPreviewListItem = (item) => {
+				const badgeHtml = getBadgeHtml(item);
+
+				// Pfad zum content-viewer (angenommen im Root)
+				const viewerPath = `content-viewer.html?item=${item.id}`;
+				// Pfad zum Bild (angenommen, Pfad im Manifest ist korrekt relativ zum Root oder absolut)
+				const imagePath = item.image;
+				return `
+			<li data-image-src="${imagePath}" data-image-alt="Illustration zu: ${item.title}">
+				<a href="${viewerPath}">
+					<span class="item-title">${item.title}${badgeHtml}</span>
+					<span class="arrow-indicator">→</span>
+				</a>
+			</li>
+		`;
+		};
 
 	// Neuste zuerst für Vorschau (sort by 'started' DESC)
 	const sortByStartedDesc = (a, b) => {
@@ -630,18 +647,23 @@ async function loadAndRenderPreview() {
 
 		contentDate.innerHTML = dateHtml + readingTimeHtml; // Füge Lesezeit hinzu (nur wenn nicht Gedicht)
 
-		// Badge Logik: "Neu" wenn innerhalb 7 Tage abgeschlossen, sonst "In Arbeit" wenn nicht abgeschlossen
-		const now = new Date();
-		const oneWeekAgo = new Date(now.setDate(now.getDate() - 7));
+		// Badge Logik: Neu / Pausiert / In Arbeit
 		let badgeHtml = '';
+		const now = new Date();
+		const oneWeekAgo = new Date(now);
+		oneWeekAgo.setDate(now.getDate() - 7);
+
 		if (itemMeta.completed) {
 			const completedDate = new Date(itemMeta.completed);
-			if (completedDate >= oneWeekAgo) {
+			if (!isNaN(completedDate) && completedDate >= oneWeekAgo) {
 				badgeHtml = '<span class="new-badge">Neu</span>';
 			}
+		} else if (itemMeta.status === 'paused') {
+			badgeHtml = '<span class="paused-badge">Pausiert</span>';
 		} else {
 			badgeHtml = '<span class="status-badge">In Arbeit</span>';
 		}
+
 		workTitleElement.innerHTML = `${itemMeta.title}${badgeHtml}`;
 
 		const pageTitleElement = document.querySelector('title');
@@ -1179,15 +1201,18 @@ async function createContentElement(item, type = 'full') { // Funktion wird asyn
 		const viewerPath = `/content-viewer.html?item=${item.id}`; // Pfad relativ zum Root
 		const imagePath = item.image; // Direkt aus dem Manifest übernehmen
 
-		// Badge Logik: "Neu" wenn innerhalb 7 Tage abgeschlossen, sonst "In Arbeit" wenn nicht abgeschlossen
+		// Badge Logik: Neu / Pausiert / In Arbeit
 		const now = new Date();
-		const oneWeekAgo = new Date(now.setDate(now.getDate() - 7));
+		const oneWeekAgo = new Date(now);
+		oneWeekAgo.setDate(now.getDate() - 7);
 		let badgeHtml = '';
 		if (item.completed) {
 			const completedDate = new Date(item.completed);
-			if (completedDate >= oneWeekAgo) {
+			if (!isNaN(completedDate) && completedDate >= oneWeekAgo) {
 				badgeHtml = '<span class="new-badge">Neu</span>';
 			}
+		} else if (item.status === 'paused') {
+			badgeHtml = '<span class="paused-badge">Pausiert</span>';
 		} else {
 			badgeHtml = '<span class="status-badge">In Arbeit</span>';
 		}

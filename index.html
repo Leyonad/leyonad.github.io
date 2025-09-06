@@ -60,10 +60,9 @@
 
     <main>
         <section class="hero">
-           <!-- Hero bleibt wie vorher -->
            <div class="container">
-                <h1>Gesammelte Werke</h1>
-                <p class="subtitle">Erzählungen aus Fantasy und Abenteuer</p>
+                <h1 class="hero-title">Persönliches Text-Archiv</h1>
+                <p class="subtitle hero-disclaimer">Willkommen — hier findest du eine Sammlung meiner Texte. Die Seiten dienen nur als Archiv, wobei alles gelesen werden darf, jedoch nicht verbreitet. Wenn du etwas nutzen oder teilen möchtest, melde dich bitte kurz bei mir. Die Texte sind meist unverändert in ihrer Erstfassung und häufig noch nicht abgeschlossen.</p>
             </div>
         </section>
 
@@ -71,21 +70,6 @@
         <section class="content-navigation">
             <div class="container">
                 <div class="card-grid">
-                    <!-- Karte für Geschichten -->
-                    <div class="content-type-card full-width-card" id="stories-card"> <!-- Klasse hinzugefügt -->
-                        <div class="card-content">
-                            <!-- Bild wird von JS gesetzt -->
-                            <img class="card-image" alt="Zufälliges Bild einer Geschichte">
-                            <div class="card-text">
-                                <h2><a href="geschichten.html">Geschichten</a></h2>
-                                <ul class="card-titles" id="story-preview-list">
-                                    <!-- Liste wird von JS gefüllt -->
-                                </ul>
-                                <a href="geschichten.html" class="cta-button card-button" data-config="readAllStoriesBtn">Alle Geschichten ansehen</a>
-                            </div>
-                        </div>
-                    </div>
-
                     <!-- Karte für Gedichte -->
                     <div class="content-type-card full-width-card" id="poems-card"> <!-- Klasse hinzugefügt -->
                         <div class="card-content">
@@ -101,7 +85,7 @@
                         </div>
                     </div>
 
-                    <!-- NEU: Karte für Gedichtsromane -->
+                    <!-- Karte für Gedichtsromane -->
                     <div class="content-type-card full-width-card" id="poetic-novels-card"> <!-- Klasse ist bereits vorhanden -->
                         <div class="card-content">
                             <!-- Bild wird von JS gesetzt -->
@@ -115,7 +99,21 @@
                             </div>
                         </div>
                     </div>
-                    <!-- ENDE NEUE KARTE -->
+                    
+                    <!-- Karte für Geschichten -->
+                    <div class="content-type-card full-width-card" id="stories-card"> <!-- Klasse hinzugefügt -->
+                        <div class="card-content">
+                            <!-- Bild wird von JS gesetzt -->
+                            <img class="card-image" alt="Zufälliges Bild einer Geschichte">
+                            <div class="card-text">
+                                <h2><a href="geschichten.html">Geschichten</a></h2>
+                                <ul class="card-titles" id="story-preview-list">
+                                    <!-- Liste wird von JS gefüllt -->
+                                </ul>
+                                <a href="geschichten.html" class="cta-button card-button" data-config="readAllStoriesBtn">Alle Geschichten ansehen</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -134,6 +132,7 @@
         <!-- Footer bleibt wie vorher -->
         <div class="container">
             <p>© <span id="copyright-year"></span> <span data-config="authorName">Autor</span>. <span data-config="footerCopyrightText">Alle Rechte vorbehalten</span></p>
+            <p class="footer-contact">Kontakt: <a href="mailto:danielholzknecht1@gmail.com">danielholzknecht1@gmail.com</a></p>
         </div>
     </footer>
 

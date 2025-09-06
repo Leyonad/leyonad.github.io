@@ -9,6 +9,7 @@
       "type": "story",
       "started": "2023-01-01",
       "completed": "",
+      "status": "paused",
       "contentPath": "stories/der-siebte-brief.md"
     },
     {
@@ -20,6 +21,7 @@
       "type": "story",
       "started": "2023-03-02",
       "completed": "",
+      "status": "paused",
       "contentPath": "stories/ankunft-der-suedlinge.md"
     },
     {
@@ -64,6 +66,7 @@
       "type": "story",
       "started": "2025-03-19",
       "completed": "",
+      "status": "paused",
       "contentPath": "stories/der-neffe-des-leopoldius.md"
     },
     {
@@ -129,7 +132,7 @@
       "id": "knabenheit",
       "title": "Knabenheit",
       "teaser": "Ein Junge wird auf Reisen geschickt.",
-      "description": "Über das Abenteuer des Knaben, der von Zuhause weggeschickt wird, um die Tugenden eines guten Dieners zu lernen. Er wird lernen, dass nicht alle Menschen auf Gutes aus sind.",
+      "description": "Über das Abenteuer des Knaben, der von Zuhause weggeschickt wird, um die Tugenden eines guten Dieners zu lernen.",
       "image": "./assets/img/knabenheit.webp",
       "type": "poetic-novel",
       "started": "2023-06-11",
@@ -145,6 +148,7 @@
       "type": "poetic-novel",
       "started": "2024-02-18",
       "completed": "",
+      "status": "paused",
       "contentPath": "poetic-novels/hexenmeister.md"
     },
     {
@@ -359,6 +363,7 @@
       "allow_sending": false,
       "started": "2025-07-10",
       "completed": "",
+      "status": "paused",
       "contentPath": "poetic-novels/quintus.md"
     }
   ]
