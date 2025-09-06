@@ -230,7 +230,7 @@ a:hover, a:focus {
     font-family: var(--font-ui);
     font-size: 2.2rem; /* Etwas kleiner als standard H1 für bessere Hierarchie */
     color: var(--heading-color);
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .hero-disclaimer {
@@ -1167,7 +1167,7 @@ html.dark-mode .paused-badge {
     margin-bottom: 20px; /* Abstand zur Liste */
     padding-top: 10px; /* Kleiner Abstand nach oben */
     border-bottom: 1px solid var(--border-color); /* Leichte Trennlinie */
-    padding-bottom: 15px;
+    padding-bottom: 15px !important;
 }
 
 .filter-controls {
