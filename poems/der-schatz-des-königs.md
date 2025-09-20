@@ -188,7 +188,7 @@ ist Gold, das Silber, Edelsteine,
 nur das solche ist dir heilig."
 
 "O mein Lieber, jedem das,
-was ihm zu leben nützen kann".
+was ihm zu leben nützen kann."
 Und lachte frech der alte Zwerg,
 "ihr kommt noch drauf, ich sag' nicht spät."
 
@@ -209,7 +209,7 @@ zwei Schergen. O das Leid war groß.
 Und wie er um sich strampelte,
 da lachten diese beiden froh,
 "wir werden reich! Ich hab's gesagt",
-und knebelte den Burschen rasch,
+und knebelten den Burschen rasch,
 und fesselten ihm Fuß und Hand,
 und zerrten ihn so durch den Wald.
 
@@ -217,11 +217,11 @@ Doch als sie nah der Straße waren,
 alle Hoffnung schon vertan,
 kam zur Rettung seiner Plagen,
 wild ein Bär herangerannt.
-Der riss zu Boden beide Mann,
-dass auch der Prinz zu Falle kam,
-doch wehrten sich mit Messern sie,
-und starben beidesamt dahin.
-Der Prinz doch lag und rührt' sich nicht,
+Dieser riss zu Boden alle,
+auch der Prinz kam da zu Fall,
+doch mit Messern fochten beide,
+starben beidesamt in Plag.
+Doch der Prinz, der rührt' sich nicht,
 dass er sodann am Leben blieb,
 und als der Bär verschwunden war,
 die Schergen leblos liegen sah.
@@ -229,7 +229,7 @@ die Schergen leblos liegen sah.
 Und sprang der Zwerg aus dem Gebüsch,
 die Fesseln von dem Prinzen schnitt,
 und lachte, "wie's doch glücklich ist,
-wenn einem solch ein Monster hilft.
+wenn einem solch ein Wilder hilft.
 Den halben Schatz will ich dafür,
 und nicht ein Viertel, wie bisher."
 
@@ -257,7 +257,7 @@ und dass der Gold so stark begehrt'.
 Die Diener, die Beraterschaft,
 die taten dieses aber ab,
 indem sie riefen, "häng den Mann!
-Ich schneid ihm seine Zunge ab.
+Ich schneid ihm seine Zunge ab!
 Ein Zwergenwesen gibt es nicht!
 Er lügt, der stinkend Bauernwicht!"
 
@@ -502,7 +502,7 @@ Doch in dem Moment der Stille,
 hob sich eine Stimme an,
 und es war die eines Dieners,
 der voll Furcht doch Mut auch war.
-"Es war ein Zwerg, der das gesagt.
+"Alter Zwerg hat das gesagt.
 Ich war dabei, als es geschah.
 Und viele andre ebenfalls.
 Ein alter Zwerg, die Haare grau,
