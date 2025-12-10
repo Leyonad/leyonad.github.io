@@ -8,135 +8,144 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;600&display=swap"
+          rel="stylesheet">
     <!-- Inline Script to apply theme instantly -->
     <script>
-      (function() {
-        const theme = localStorage.getItem('theme');
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        if (theme === 'dark' || (!theme && prefersDark)) {
-          document.documentElement.classList.add('dark-mode'); // Apply to html tag
-        }
-        // Apply to body tag as well, once it exists
-        document.addEventListener('DOMContentLoaded', () => {
-           if (document.documentElement.classList.contains('dark-mode')) {
-               document.body.classList.add('dark-mode');
-           }
-        });
-      })();
+        (function () {
+            const theme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (theme === 'dark' || (!theme && prefersDark)) {
+                document.documentElement.classList.add('dark-mode'); // Apply to html tag
+            }
+            // Apply to body tag as well, once it exists
+            document.addEventListener('DOMContentLoaded', () => {
+                if (document.documentElement.classList.contains('dark-mode')) {
+                    document.body.classList.add('dark-mode');
+                }
+            });
+        })();
     </script>
 </head>
 <body>
-     <header class="site-header">
-        <div class="container">
-            <div class="logo"><a href="index.html" data-config="websiteName">Lädt...</a></div>
-            <div class="header-right">
-                <!-- NEU: Hamburger Button (nur mobil sichtbar) -->
-                <button id="mobile-menu-toggle" class="mobile-menu-button" aria-label="Menü öffnen" aria-expanded="false">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <!-- Bestehende Navigation wird zum Sidebar-Inhalt -->
-                <div id="mobile-sidebar" class="sidebar-nav">
-                    <nav class="main-nav">
-                        <ul>
-                            <li class="active"><a href="index.html" data-config="navHome">Startseite</a></li>
-                            <li><a href="geschichten.html" data-config="navStories">Geschichten</a></li>
-                            <li><a href="gedichte.html" data-config="navPoems">Gedichte</a></li>
-                            <li><a href="gedichtsromane.html" data-config="navPoeticNovels">Gedichtsromane</a></li>
-                            <li><a href="ueber-mich.html" data-config="navAbout">Über mich</a></li>
-                        </ul>
-                    </nav>
-                    <!-- Dark Mode Toggle HIER PLATZIERT -->
-                    <button id="dark-mode-toggle" aria-label="Farbschema wechseln">🌙 Dunkel</button>
-                </div>
+<header class="site-header">
+    <div class="container">
+        <div class="logo"><a href="index.html" data-config="websiteName">Lädt...</a></div>
+        <div class="header-right">
+            <!-- NEU: Hamburger Button (nur mobil sichtbar) -->
+            <button id="mobile-menu-toggle" class="mobile-menu-button" aria-label="Menü öffnen" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <!-- Bestehende Navigation wird zum Sidebar-Inhalt -->
+            <div id="mobile-sidebar" class="sidebar-nav">
+                <nav class="main-nav">
+                    <ul>
+                        <li class="active"><a href="index.html" data-config="navHome">Startseite</a></li>
+                        <li><a href="geschichten.html" data-config="navStories">Geschichten</a></li>
+                        <li><a href="gedichte.html" data-config="navPoems">Gedichte</a></li>
+                        <li><a href="gedichtsromane.html" data-config="navPoeticNovels">Gedichtsromane</a></li>
+                        <li><a href="ueber-mich.html" data-config="navAbout">Über mich</a></li>
+                    </ul>
+                </nav>
+                <!-- Dark Mode Toggle HIER PLATZIERT -->
+                <button id="dark-mode-toggle" aria-label="Farbschema wechseln">🌙 Dunkel</button>
             </div>
         </div>
-    </header>
+    </div>
+</header>
 
-    <!-- NEU: Overlay für Sidebar -->
-    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+<!-- NEU: Overlay für Sidebar -->
+<div id="sidebar-overlay" class="sidebar-overlay"></div>
 
-    <main>
-        <section class="hero">
-           <div class="container">
-                <h1 class="hero-title">Persönliches Text-Archiv</h1>
-                <p class="subtitle hero-disclaimer">Willkommen — hier findest du eine Sammlung meiner Texte. Die Seiten dienen nur als Archiv, wobei alles gelesen werden darf, jedoch nicht verbreitet. Wenn du etwas nutzen oder teilen möchtest, melde dich bitte kurz bei mir. Die Texte sind meist unverändert in ihrer Erstfassung und häufig noch nicht abgeschlossen.</p>
-            </div>
-        </section>
+<main>
+    <!-- <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">Persönliches Text-Archiv</h1>
+            <p class="subtitle hero-disclaimer">Willkommen — hier findest du eine Sammlung meiner Texte. Die Seiten
+                dienen nur als Archiv, wobei alles gelesen werden darf, jedoch nicht verbreitet. Wenn du etwas nutzen
+                oder teilen möchtest, melde dich bitte kurz bei mir. Die Texte sind meist unverändert in ihrer
+                Erstfassung und häufig noch nicht abgeschlossen.</p>
+        </div>
+    </section> -->
 
-        <!-- NEU: Abschnitt für die Navigation zu Geschichten/Gedichten -->
-        <section class="content-navigation">
-            <div class="container">
-                <div class="card-grid">
-                    <!-- Karte für Gedichte -->
-                    <div class="content-type-card full-width-card" id="poems-card"> <!-- Klasse hinzugefügt -->
-                        <div class="card-content">
-                            <!-- Bild wird von JS gesetzt -->
-                            <img class="card-image" alt="Zufälliges Bild eines Gedichts">
-                            <div class="card-text">
-                                <h2><a href="gedichte.html">Gedichte</a></h2>
-                                <ul class="card-titles" id="poem-preview-list">
-                                    <!-- Liste wird von JS gefüllt -->
-                                </ul>
-                                <a href="gedichte.html" class="cta-button card-button">Alle Gedichte ansehen</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Karte für Gedichtsromane -->
-                    <div class="content-type-card full-width-card" id="poetic-novels-card"> <!-- Klasse ist bereits vorhanden -->
-                        <div class="card-content">
-                            <!-- Bild wird von JS gesetzt -->
-                            <img class="card-image" alt="Zufälliges Bild eines Gedichtsromans">
-                            <div class="card-text">
-                                <h2><a href="gedichtsromane.html">Gedichtsromane</a></h2>
-                                <ul class="card-titles" id="poetic-novel-preview-list">
-                                    <!-- Liste wird von JS gefüllt -->
-                                </ul>
-                                <a href="gedichtsromane.html" class="cta-button card-button">Alle Gedichtsromane ansehen</a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Karte für Geschichten -->
-                    <div class="content-type-card full-width-card" id="stories-card"> <!-- Klasse hinzugefügt -->
-                        <div class="card-content">
-                            <!-- Bild wird von JS gesetzt -->
-                            <img class="card-image" alt="Zufälliges Bild einer Geschichte">
-                            <div class="card-text">
-                                <h2><a href="geschichten.html">Geschichten</a></h2>
-                                <ul class="card-titles" id="story-preview-list">
-                                    <!-- Liste wird von JS gefüllt -->
-                                </ul>
-                                <a href="geschichten.html" class="cta-button card-button" data-config="readAllStoriesBtn">Alle Geschichten ansehen</a>
-                            </div>
+    <!-- NEU: Abschnitt für die Navigation zu Geschichten/Gedichten -->
+    <section class="content-navigation">
+        <div class="container">
+            <div class="card-grid">
+                <!-- Karte für Gedichte -->
+                <div class="content-type-card full-width-card" id="poems-card"> <!-- Klasse hinzugefügt -->
+                    <div class="card-content">
+                        <!-- Bild wird von JS gesetzt -->
+                        <img class="card-image" alt="Zufälliges Bild eines Gedichts">
+                        <div class="card-text">
+                            <h2><a href="gedichte.html">Gedichte</a></h2>
+                            <ul class="card-titles" id="poem-preview-list">
+                                <!-- Liste wird von JS gefüllt -->
+                            </ul>
+                            <a href="gedichte.html" class="cta-button card-button">Alle Gedichte ansehen</a>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- ENDE NEUER ABSCHNITT -->
 
-         <section class="author-intro">
-           <!-- Author Intro bleibt wie vorher -->
-           <div class="container">
-                 <h2>Über den Autor</h2>
-                 <p>Hallo, ich bin <span data-config="authorName">Autor</span>. Ich schreibe gerne Geschichten und (lange) Gedichte. <a href="ueber-mich.html">Erfahre hier mehr über mich</a>.</p>
-            </div>
-         </section>
-    </main>
+                <!-- Karte für Gedichtsromane -->
+                <div class="content-type-card full-width-card" id="poetic-novels-card">
+                    <!-- Klasse ist bereits vorhanden -->
+                    <div class="card-content">
+                        <!-- Bild wird von JS gesetzt -->
+                        <img class="card-image" alt="Zufälliges Bild eines Gedichtsromans">
+                        <div class="card-text">
+                            <h2><a href="gedichtsromane.html">Gedichtsromane</a></h2>
+                            <ul class="card-titles" id="poetic-novel-preview-list">
+                                <!-- Liste wird von JS gefüllt -->
+                            </ul>
+                            <a href="gedichtsromane.html" class="cta-button card-button">Alle Gedichtsromane ansehen</a>
+                        </div>
+                    </div>
+                </div>
 
-    <footer class="site-footer">
-        <!-- Footer bleibt wie vorher -->
-        <div class="container">
-            <p>© <span id="copyright-year"></span> <span data-config="authorName">Autor</span>. <span data-config="footerCopyrightText">Alle Rechte vorbehalten</span></p>
-            <p class="footer-contact">Kontakt: <a href="mailto:danielholzknecht1@gmail.com">danielholzknecht1@gmail.com</a></p>
+                <!-- Karte für Geschichten -->
+                <div class="content-type-card full-width-card" id="stories-card"> <!-- Klasse hinzugefügt -->
+                    <div class="card-content">
+                        <!-- Bild wird von JS gesetzt -->
+                        <img class="card-image" alt="Zufälliges Bild einer Geschichte">
+                        <div class="card-text">
+                            <h2><a href="geschichten.html">Geschichten</a></h2>
+                            <ul class="card-titles" id="story-preview-list">
+                                <!-- Liste wird von JS gefüllt -->
+                            </ul>
+                            <a href="geschichten.html" class="cta-button card-button" data-config="readAllStoriesBtn">Alle
+                                Geschichten ansehen</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
+    </section>
+    <!-- ENDE NEUER ABSCHNITT -->
 
-    <script src="assets/js/config.js"></script>
-    <script src="assets/js/main.js"></script>
+    <section class="author-intro">
+        <!-- Author Intro bleibt wie vorher -->
+        <div class="container">
+            <h2>Über den Autor</h2>
+            <p>Hallo, ich bin <span data-config="authorName">Autor</span>. Ich schreibe gerne Geschichten und (lange)
+                Gedichte. <a href="ueber-mich.html">Erfahre hier mehr über mich</a>.</p>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <!-- Footer bleibt wie vorher -->
+    <div class="container">
+        <p>© <span id="copyright-year"></span> <span data-config="authorName">Autor</span>. <span
+                data-config="footerCopyrightText">Alle Rechte vorbehalten</span></p>
+        <p class="footer-contact">Kontakt: <a href="mailto:danielholzknecht1@gmail.com">danielholzknecht1@gmail.com</a>
+        </p>
+    </div>
+</footer>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>
