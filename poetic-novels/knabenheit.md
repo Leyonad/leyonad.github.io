@@ -1,7 +1,6 @@
 # Knabenheit
 
-## Ein guter Diener
-
+## EIN GUTER DIENER
 „Alter Recke, komm herbei,
 mit dem Besteck aus Silberblei!
 Der Hunger brummt im Bauche tief,
@@ -65,8 +64,11 @@ als dieser endlich kost‘ vom Fleisch,
 denn lange war es nicht mehr heiß.
 
 
-## In die Welt hinaus
 
+
+
+ 
+## IN DIE WELT HINAUS
 Am andern Tage selbes Spiel:
 der Knabe bringt dem Herren viel,
 doch wenig was der auch gewünscht,
@@ -195,9 +197,12 @@ dem Staubgewölk des Karrens nach,
 und dacht‘ sich selbst: „Was mach ich bloß,
 bin ich doch jetzt den Knaben los?“
 
- 
-## Der böse Bauer
 
+
+
+
+ 
+## DER BÖSE BAUER
 Es schien die Sonne hoch hernieder,
 auf des Wagens Pferdgewieher.
 Fröhlich singend war der Knab,
@@ -289,10 +294,13 @@ Da saß der Knab auf seiner Bank,
 die Zügel hielt er in der Hand,
 und schweigsam blieb er, siehe an,
 für eine ganze Stunde lang.
+ 
 
 
-## Zur Eberstube
 
+
+
+## ZUR EBERSTUBE
 Die Nacht brach schon mit Eil‘ herein,
 die Welt verließ der Sonnenschein,
 und kühle Winde bliesen laut,
@@ -432,10 +440,13 @@ Hernach war Frieden für die beiden,
 gingen in ihr Zimmer, weilten,
 dort für ihre morgig Meilen,
 die zu tun man sie nicht neidet.
+ 
 
 
-## Ein böses Erwachen
 
+
+
+## EIN BÖSES ERWACHEN
 Hahnenkrächzen, Glockenklang.
 Der Knab war außer Rand und Band.
 Der Tag war hell und warm und froh,
@@ -463,7 +474,7 @@ die ich zu den Euren zählte."
 
 "Welch ein Schreck!", so rief der Knab.
 "Wer tut denn solche Übeltat?
-Dass einer uns die Pferde stielt,
+Dass einer uns die Pferde stiehlt,
 ein böser, ach so böser Dieb!"
 
 "Seit wann, so sagt Ihr, sind sie fort?"
@@ -555,10 +566,13 @@ Groß und größer, noch und nöcher,
 grüne, gelbe, rote Dächer.
 Pflanz' und Wurz und Ast und Baum,
 und Plätschern fernes Wasserschaums. 
+ 
 
 
-## Das Erdgewitter
 
+
+
+## DAS ERDGEWITTER
 Doch ist's gerad' in dem Moment,
 da Böses in die Ruhe dringt:
 "Bumm-Ba-Rumm!", der Boden zittert',
@@ -650,10 +664,13 @@ Zuletzt dann fand sich der dahin,
 mit unerfülltem letztem Sinn.
 Doch sollte er der letzte sein,
 und damit wert des Knabenreims.
+ 
 
 
-## Ein dunkler Ort
 
+
+
+## EIN DUNKLER ORT
 Die Stimmung war nun umgekehrt,
 und auch der Knabe immer mehr,
 im Denken sich verlor. Im Traben,
@@ -791,10 +808,12 @@ Und auch der Knabe legte sich,
 hernieder auf das Laubesdicht.
 Im Fackelscheine schlief er ein,
 und ruhte bis zum Morgenschein.
+ 
 
 
-## Regenströme
 
+
+## REGENSTRÖME
 „Plitsche–Platsche“, prasseln ab,
 die Regentropfen, alles nass.
 Das Wasser hier und dort und da.
@@ -930,11 +949,13 @@ heißt das nicht, dass du’s nicht kannst.“
 der Knabe wunderlich.
 
 „Das wirst du früh genug erfahr’n,
-zum End‘ hin sicherlich.“
+zum End‘ hin sicherlich.“ 
 
 
-## Hinauf und hinab
 
+
+
+## HINAUF UND HINAB
 Stunden gingen bald dahin,
 die Stunden vollen Regensinns.
 Dann schwangen sich der Knab und Meister,
@@ -1106,60 +1127,68 @@ wusste nicht, was dies bedeutet‘.
 Und der rief mit lauter Stimme:
 „Hü, na los, ihr lahmen Tiere!
 Dass sie uns gar nimmer kriegen,
-lauft! So lauft um euer Leben!“
+lauft! So lauft um euer Leben!“ 
 
 
-## Nach Hams und zurück
 
+
+
+## NACH HAMS UND ZURÜCK
 Oh, da sprangen nun die Rösser,
 vorneweg mit Kriegsgeschrei,
 gut, dass sich der Knabe jetzt noch,
-hielt am Pferdezügelseil.
+hielt am Pferdezügelseil,
+hatte doch in blankem Schrecken,
+hoch das Pferd sich aufgebäumt,
+wieherte die Luft durchstechend,
+laut und grell die Angst sich aus.
 
-Denn sein Pferd, es hatte sich,
-in Angst und Schrecken aufgetürmt,
-doch lief es dann dem ander‘n nach.
-Die Zweien hingen nah doch dran.
+Dem Ross des Meisters aber folgend,
+lief es wie der Blitz dem nach,
+und die beiden Kriegsganoven,
+eilten ihnen hinten nach.
 
-Und wie die vielen Pferdehufen,
+Wie die vielen Pferdehufen,
 allesamt noch Feuer schlugen,
 rief der Knab dem Meister zu,
 „Sie kriegen mich! Sind kurz davor!“
+Und in der Tat: Man hatte schon,
+die Hand zum Knaben ausgeholt.
 
 Da rief zu ihm der Knechtenmeister:
-„Reite bis zur Stadt jetzt weiter!
+„Reite bis nach Hamse weiter!
 Halte nicht! Versteck dich dort!
 Ich finde dich danach schon noch!“
 
-Doch selber aber hielt er an,
-und damit auch die andern zwei.
-Der Knabe aber konnte fliehen,
-hielt dann an auf einem Hügel,
-sah zurück zur Wiese hin,
-vernahm in Schreck, was da passiert‘.
+Doch selber hielt er eilends an,
+und plötzlich auch die zweien Mann,
+und weiter ritt der Knabe rasch,
+hinfort, wie’s ihm befohlen ward.
+Der Meister doch, der Knechtenmann,
+der stieg von seinem Pferde ab,
+und zog sein Messer sich heraus.
+Der graue Bart im Wind sich kraust.
 
-Der Meister denn, der Knechtenmann,
-der stieg von seinem Reittier ab,
-und hielt ein Messer in der Hand.
-Sein Mantel sich im Winde wandt‘.
 Die andern beiden ebenfalls,
-die sprangen nieder, wohl bereit,
+sie sprangen nieder, wohl bereit,
 die langen Schwerter einzusetzen.
 O, wie schlimm das enden könnte.
 
 Um die Worte zu verstehen,
 die gewechselt dort im Gehen,
-war der Knab zu weit entfernt,
-er sah nur, wie die drei gekämpft.
+war der Knab zu weit entfernt.
+Zurück sah er, die Freud verlernt.
+Und was sich auf dem Feld nun bot,
+dran bangte er mit Schreck und Not.
 
-Sie gingen beide auf ihn zu,
-von jeder Seite einer klug,
-und hieben ein und schlugen stark,
-und schwangen ihre Klingen scharf,
-doch schien der Meister nicht zu fallen,
-der ein Messer nur gehabt,
-und er wich, so schien es, allen,
-Hieben aus, die man ihm gab.
+Denn beide Mannen, braunbedeckt, 
+sie schritten wie die Wölfe jetzt,
+im Kreis herum um seinen Meister,
+dunkelgrau die Messereisen.
+Da schon fiel ein Hieb herab,
+durchschnitt die Luft des Feldes rasch,
+und klirrte dumpf am Messerstahl,
+des Meisters, der dagegen stach.
 
 Da plötzlich sackte einer hin,
 und blieb dort liegen, o wie schlimm.
@@ -1171,7 +1200,7 @@ Und ebenso war der dahin,
 und fiel zu Boden ohne Sinn.
 
 Dann pfiff der Meister, rief sein Pferd,
-und ritt zum Knaben gar behänd.
+und ritt zum Knaben hin behänd.
 „Komm weiter! Los, zur Stadt hinab!“
 Und ritt der Knabe ihm nun nach.
 
@@ -1184,8 +1213,8 @@ als flohen sie vor einem wohl,
 wenn auch er überhaupt nicht wusst‘,
 warum man ihnen nachgehuscht.
 
-Es klapperte die steinern Straße,
-wenn die Hufen auf sie schlagen,
+Es klapperten die grauen Straßen,
+wenn die Hufen auf sie trabten,
 und die Leute machten Platz,
 als sie den schwarzen Meister sah’n.
 Der Knab jedoch, der hatt‘ bisher,
@@ -1218,7 +1247,7 @@ da sorgte sich zum ersten Mal,
 der Knabe, der bisweilen sich,
 beim Knechtenmeister wohlgefühlt,
 denn war der doch so weis‘ und stark.
-Wie könnte er verlieren dann?
+Was könnte schon passieren dann?
 
 Doch als soeben er sich dachte,
 wo der Meister denn wohl war, da,
@@ -1237,12 +1266,15 @@ He! Hörst du, was ich dir erzähl?“
 
 Da plötzlich kam dem Knaben Angst.
 „Was mach ich nur?“, so dacht‘ er grad.
+
 „Ich warte hier, ich geh‘ nicht weg“,
 das sagte er zum Manne keck. 
 
 „So, so. Auf wen den wartest du?“
 „Den Meister“, sprach der Knabe nun.
+
 „Dein Meister? So, wer ist das denn?“,
+
 „Den Knechtenmeister nennt man ihn.“
 
 Da wandelte der Blick des Manns,
@@ -1251,11 +1283,11 @@ und zornig wurd‘ er und sogar,
 Erbarmen deutete er an.
 Er flüsterte: „Der Knechtenmeister?“,
 sah sich um zu jeder Seite.
-„Bleib nicht bei dem! Von diesem Mann,
+„Bleib nicht bei ihm! Von dem Mann,
 nur fliehe fort so schnell du kannst!
 Du bist der erste Knabe nicht,
 der mit ihm durch das Lande zieht,
-und keinen hat man mehr gesehe’n.
+und keinen hat man mehr geseh‘n.
 Wer weiß, wie ihnen ist gescheh’n?“
 
 Da wurd’ dem Knaben mulmig, als,
@@ -1298,7 +1330,7 @@ dunkel war sein Aug‘ und Barte.
 O, wie er wohl selber dachte,
 dass der Tod ihn niedermachte.
 
-Der Meister aber zuckte nicht,
+Und der Meister zuckte nicht,
 und schleuderte ihn fort von sich,
 sodass der trunken Straßenbold,
 hernieder auf den Boden rollt‘,
@@ -1313,8 +1345,10 @@ und ritt in aller Eile fort.
 Der Knabe folgte ohne Wort.
 
 
-## Die Lehre des Meisters
 
+
+ 
+## DIE LEHRE DES MEISTERS
 Wie sie durch die Wiese ritten,
 diesmal doch nach Süden hin,
 wo der Wald in großen Schritten,
@@ -1324,8 +1358,8 @@ durch die Büsche und die Zweige,
 bis zu einer kleinen Wiese,
 eingezwängt von Baum und Triebe.
 
-Auf dieser Lichtung aber stand,
-ein altes Haus, so schief und alt.
+Auf der Lichtung aber stand,
+ein altes Haus, gar schief und alt.
 
 Und Vögel saßen auf dem Dache,
 glotzten runter zu dem Knaben.
@@ -1338,7 +1372,7 @@ die ihn nun schon oft gesehen:
 Er tut es gleich mit diesem Bub.“
 
 Denn sprach er jetzt, „hier schau mal, Knab,
-was ich dir heute hab beschafft.“
+was ich dir heut‘ beschaffen hab.“
 
 Und unter seinem Mantel zog,
 der Meister ihm ein Schwert hervor,
@@ -1395,7 +1429,7 @@ Jetzt komm und geh hinein und iss.
 Kartoffeln mach ich jetzt für dich.“
 
 Die Hütte schien vermodert, alt,
-der Wind pfiff stets und laut hinein,
+der Wind pfiff frisch und laut hinein,
 doch als der Knab am Tische saß,
 das Licht noch durch das Fenster strahlt‘,
 da aß er gut und aß er viel.
@@ -1465,10 +1499,10 @@ Nach einem Schlag er sich schon bog.
 So sprach der Knabe plötzlich jetzt.
 
 „Dann ist die Lehre für dich um“,
-gab Meister ihm zur Antwort nur.“
+bekam er da zur Antwort nur.
 
 Und links und rechts, vor und zurück,
-schlug er auf ihn im Morgenlicht,
+schlug er den Baum im Morgenlicht,
 sodass er nass vom Schweiße wurd‘.
 Für manche Stunden schlug er zu.
 Und als der Mittag endlich kam,
@@ -1480,7 +1514,7 @@ und auf das Essen wartet‘ auch.
 
 Doch trat der Meister dann heraus,
 aus seinem alten Waldeshaus,
-zur alten Ulme hin dann sah,
+zur alten Ulme hin sich wandt‘,
 mit der der Knabe sich abgab.
 
 „Mein Magen brummt schon“, rief der her. 
@@ -1503,7 +1537,7 @@ Kanntet Ihr sie?“, vollen Munds.
 „Wie ich schon sagte“, brummte er,
 der Knechtenmeister zu ihm her.
 „Der Mensch hasst, was er nicht versteht.
-Und was er liebt, das bringt ihm weh.
+Und was er liebt nur tut ihm weh.
 Und wenn wer einem Geld verspricht,
 zu jagen einen Bösewicht,
 dann fühlt man sich in seiner Sach‘,
@@ -1513,25 +1547,717 @@ ob man ihn böse heißen mag.“
 
 „Wieso sollt Ihr denn böse sein?“,
 fragt‘ da verwundert ihn der Knab.
-Doch wusst‘ er um die kurze Stille,
+
+Und wusst‘ er um die kurze Stille,
 die der Frage folgte würde,
 wenn der andre rechtgehabt,
 der zu ihm auf der Straße sprach.
 
 Und wie der Meister da noch schmatzte,
 abgewandt zum Boden schaute,
-spürt‘ er plötzlich in der Tat,
+spürt‘ er wieder in der Tat,
 dass etwas faul war mit dem Mann.
 
 „Das sag‘ ich dir ein ander‘s Mal“,
 gab er zur Antwort streng und knapp.
 
 Und nicht mehr weiter fragte da,
-aufgrund der dicken Luft der Knab.
+in dieser schweren Luft der Knab.
+
+ 
 
 
-## Die Mauern des Schmieds
 
+
+## EIN UNGEBETENER GAST
+Doch in der selben klaren Nacht,
+der Knabe schon im Bette lag,
+da hörte er, wie doch sein Meister,
+aus dem Hause trat nur leise.
+Dies wohl hat er oft getan,
+und nimmer hats den Knab geplagt,
+doch was der Meister denn wohl tat,
+vorm Hause in der finstren Nacht,
+das wollte er nun doch erfahr’n,
+und schlich dem Alten also nach.
+
+In einer Kiste hinterm Haus,
+da wühlte grad der Meister laut,
+und klirrten Flaschen hell von Glas,
+ein Korken sprang, ein dumpfer Schlag,
+und siehe, wie der Meister dann,
+aus einer gläsern Flasche trank.
+
+Der Knabe, der um eine Ecke,
+grade doch hinüber spähte,
+zog rasch seinen Kopf zurück,
+und wusste nun, was vor sich ging.
+Doch einmal noch blickt‘ er hervor,
+und schrak zurück in lautem Chor,
+als plötzlich also hoch und schwarz,
+der Knechtenmeister vor ihm stand.
+
+„Was tust du da?“, sprach der zwar ernst,
+mit schwacher Stimme doch nur erst,
+und silbern glänzte sein Gesicht,
+im schwachen, kalten Mondeslicht. 
+
+„Ich wollte seh’n, was Ihr hier treibt.
+Dürft’s mitten in der Nacht schon sein.“
+
+Und trank der Meister einen Schluck,
+und sagte dann, „und siehst du’s nun?“
+
+„Das seh‘ ich, ja“, sprach da der Knab,
+indem er seine Furcht verbarg.
+„Und warum tut Ihr’s?“, frage er.
+„Es gibt doch keinen Grund dafür.“
+
+Und zornig wurde das Gesicht,
+des Meisters in dem Augenblick.
+„Was weißt denn du davon?“, sprach er.
+„Du weißt nicht mal das Mindeste.
+Die Dummheit eines dummen Knabs,
+wie oft hab ich sie mitgemacht.
+Nicht besser als die andern sind.
+Du meinst, dass du wohl besser bist.“
+
+„Wo sind sie dann?“, rief da der Knab.
+„Wo sind die, die mal bei dir war’n?
+Was hast du mit den Vier’n gemacht?
+Das ist doch, warum man dich hasst!
+Wo sind sie also?“, rief erneut,
+der kühne Knabe ungebeugt.
+
+„Du willst es wissen? Sehen? Ja?“,
+rief schallend ihn der Meister an.
+Dann komm mal mit, ich zeig‘ sie dir!“
+Und an den Arm da packt er ihn,
+und zieht in von dem Hause fort.
+Ach, war da groß des Knaben Not.
+
+Die Kraft doch von dem jungen Knaben,
+war noch aber nicht erlahmt, denn,
+riss er sich vom Arme los,
+und lief davon durch Nacht und Hof.
+
+Der Meister warf die Flasche nach,
+die nebst dem Knab den Boden traf,
+und rief voll Bosheit, Wut und Zorn:
+„Verschwinde nur! Verschwind sofort!
+Ein jeder ist der bessre Knab.
+Der schlechteste, den ich gehabt.
+Du kannst nicht kämpfen, schwach und klein.
+Er frisst dich vor dem ersten Schrei’n!
+Verschwind und kehre nicht zurück!
+Verschwendet meine Zeit, hab ich.“
+
+Doch atemlos und ohne Halt,
+lief nun der Knabe durch den Wald,
+und sprang im schwachen Mondeslicht,
+gar über Wurz und Ast und Dicht.
+Und immer schwacher wurd‘ die Stimme,
+von dem Meister, der noch immer,
+etwas rief und fluchte, droht‘,
+bis man dann nichts mehr hören konnt‘.
+
+Und noch ein Stück lief er danach,
+getrieben gar von schierem Wahn,
+bis letztlich vor Erschöpfung er,
+zu Boden fiel und keuchte schwer.
+
+Wer weiß, wie lang der gute Knab,
+im Wald in dieser Senke lag,
+doch wie gar ein gehetztes Tier,
+so keuchte er und konnt‘ nicht mehr.
+
+Es zog der Monde seine Bahn,
+die Wolken nahmen gelb bald an,
+und wehte durch den lichten Wald,
+ein Windeshauch von Einsamkeit,
+und streifte auch den Knaben an,
+der lag noch wach, war ohne Schlaf.
+
+„Ach, wo bin ich, lieber Bauer?
+Bin doch so weit weg von dir.
+Kann nun weder heiß noch lau das,
+Essen dir zu Tisch servier’n.
+Sorgen machst du dir wohl große,
+seit ich fortgegangen bin.
+Glaub nur nicht, dass ich aus Bosheit,
+Dinge tat, die ohne Sinn,
+Zweck, Vernunft und Kopfe waren.
+Würde ich zuhause sein,
+wär‘ ich wohl dein guter Knabe,
+einer ohne Lebensheil.
+Nimmer könnt‘ ich böse sein,
+dass du mich fortgeschickt,
+doch traurig bin ich immer dann,
+wenn ich denn denk an dich.
+Ja, wenn du wüsstest, was ich sah,
+und hörte von den Leut‘,
+die viele böse Wörter tragen,
+um sich mit zur Freud‘.
+Vielleicht ist’s besser, wenn ich nicht,
+zurück nach Hause kann.
+Wer weiß schon, ob du mich noch willst,
+so wie ich mich benahm?
+Und jetzt, wo ich die Zeit mir nehme,
+alles zu bedenken über,
+mich und auch mein ganzes Leben,
+glaub‘ ich nicht, dass ich wohl fehlte.“
+
+So geschah‘s in dieser Nacht:
+Der Knabe hatte Mut gefasst,
+erhob sich zu der Morgenstunde, 
+als noch jeder andre grunzte,
+von dem Bette, hart wie Stein,
+von Wurzen, Ästen, kargem Zweig,
+begab sich von der Senke fort,
+nach Norden hin, zum Drachenhort.
+
+„Denn wenn ich schon ein Nichtsnutz bin,
+wer schert sich dann, wenn ich verschwind?
+Vielleicht weiß nur der Drache wie,
+es ist allein zu sein wie ich.“
+
+Und knackend huscht‘ der Knabe rasch,
+durchs Unterholz, durch Laub und Ast.
+Und Stunden gingen bald dahin,
+von Dunkelheit und trübem Sinn,
+als endlich er den Felsenplatz,
+erblickt‘, und sieh! die Sonn‘ erwacht‘.
+Da stand er stumm und müde dar,
+bis schlafend er zu Boden sank.
+
+Und auf den Steinen, platt und kahl,
+verschlief er manchen Sonnenstrahl,
+und erst zu Mittag öffnete,
+die Augen, recht verschlafen, er.
+
+Vom Traume mag man still erwachen,
+nach dem Schlaf, den einen Drachen,
+ebenfalls zu Bette zwingt,
+und morgens aus dem Bette bringt.
+
+„Oh-Weh! Beim Himmel, welcher Fluch!“
+Er tat gar manchen Atemzug.
+„Bumm–Ba–Rum“, es donnert‘ tief,
+im Felsenmeer, der Drache lief.
+
+Der Boden, weh, begann zu zittern,
+gleich wie einst beim Erdgewitter.
+Bloß noch lauter, bloß noch stärker,
+was den Knaben gar beherzte.
+
+Oh, sein Herz, es sprang und bebt‘,
+bei jedem Schritt, bis endlich er,
+zum Ausgang von der Höhle kam.
+Es roch nach Feuer, Glut und Dampf.
+
+Und lief er übern Platz geschwind,
+in einen Strauch zum Schutze hin,
+versteckt‘ sich hinter Zweig und Baum,
+zum Schutz vor dem, was folgte nun.
+
+„Bumm–Ba–Rumm!“, es donnert‘ wieder.
+Oh, der Boden, kahl und matt,
+wurd‘ gefüllt von Trommelschlägen.
+Glotzend schaut‘ ein Rab herab.
+
+Silberfeder reimte Lieder,
+von dem Knaben, welcher sich wohl,
+bald vergangen sah. „Gewiss,
+der Tod verbirgt vor keinem sich.“ 
+
+Keuchend setzte sich der Knabe,
+nieder an der alten Tanne,
+die schon oft das Angesicht,
+des Drachens sah im Mondeslicht.
+ 
+
+
+
+
+
+## DER DRACHE
+Stärker quollen nun die Dämpfe,
+aus dem Loch im Drachenberge,
+hoch zum Himmel, zu den Wolken,
+welche erst noch weiß geleuchtet.
+
+Nun, da hörte man ein Zischen,
+lauter erst, doch danach ward,
+es dann leiser, bald erlosch es.
+Plötzlich rief der Wurme da.
+
+„Räuberpack, du böser Wicht!
+Das Leben sollst‘ behalten nicht!
+Wenn ich nur riech die Angst und Pain,
+vor meinem golden, silbern Hain.“
+
+Glühend durch den Dampf und Rauch,
+nun ging der Drache stampfend aus,
+und warf mit Flammen, rief mit Sturm.
+So manche Tanne fiel da um.
+
+„Nun zeige dich, du falscher Gauner!
+Bist nur her um mich zu seh’n?
+Schau denn her, ich will’s erlauben.
+Darfst dann auch von dannen geh’n.“
+
+Drunten hinter Stamm und Triebe,
+kauert‘ sich der Knabe nieder.
+„Wo“, so fragte er sich wieder,
+„ist mein kühner Mut geblieben?
+Ach, ich gehe hier zu Grunde.
+War’s doch dumm, so dumm von mir!
+Was kann schon ein solcher Schurke,
+von der Einsamkeit versteh‘n?“
+
+Plötzlich beugten sich die Gräser,
+von dem brüllend Flügelschlag,
+dieses Drachens, der zum Feste,
+in die Lüfte sich begab.
+
+Da nun späht‘ der Knab hervor,
+und schaute hoch hinauf.
+Es schimmerte im Lichte rot,
+die glänzend Drachenhaut.
+
+Doch schnell schoss schon ein Feuerball,
+durch Wolke, Luft und Tag.
+Es stieg herab in Raserei,
+der Drache, wutentbrannt.
+
+„Hab‘ ich dich, du mieser Käfer!
+Winzig wie ein Schmetterling,
+bist du von den Krähennestern.
+Hast wohl keinen Stärkesinn.“
+
+Nun ergriff er mit den Krallen,
+einen Baum am Waldesrand,
+hinter welchem noch einstweilen,
+tiefgeduckt der Knabe stand.
+
+Da der dieses aber ahnte,
+huscht‘ er rasch zum nächsten hin,
+wo im Staunen er gewahrte,
+was den alten Wurm bedrückt‘.
+
+Um die Klauen dieses Drachens,
+lag ein schwarzer, eisern Reif.
+Angeschmiegt vor vielen Jahren,
+als der Große jung und klein.
+
+„Weh–Oh–Weh! Ein übles Leiden,
+welches ich so gut begreife,
+musste er wohl stets ertragen.
+Immerzu in Unbehagen.“
+
+Donnernd wütete der Grobe,
+riss die Wurzeln aus dem Boden,
+brüllte so, dass Tier und Vogel,
+meilenweit von dannen flohen.
+
+„Höre mir doch bitte zu.
+Ich kenn‘ das arge Leid,
+ein welches dir zuteile wurd‘,
+verfolgt dich alle Zeit.
+Drum seh‘ ich es als pflichtig an,
+als Mensch, wenn du‘s erlaubst,
+zu tun, was mir am besten scheint,
+zu helfen mit Verlaub.“
+
+Und da verflog das Feuerbrausen,
+und der Drache stand alsbald,
+vor der Höhle. Zornig sahen,
+Haupt und seine Augen aus.
+
+„Schlau, das glaubst du doch zu sein.
+Was hat man dir erzählt?
+Von meiner Kraft? Von meinem Reich?
+Ich jage, wie’s mir steht.“
+
+„Im Heime wohnst du doch allein,
+wie lange weiß kein Mensch.
+Und dieses Recht, zu leben drein,
+nahm niemand dir bis jetzt.
+Man spricht von dir, vom Ungeheuer,
+welches alle Leute scheut und,
+feurig brüllt und donnernd stampft.
+Und niemand weiß, warum du’s machst.
+Doch lass mich dich nun aber heilen,
+und dich lösen von dem Eisen,
+welches dir vor manchem Jahr,
+umbunden, angeschmiedet ward.
+So jage mich, wenn du’s gern tust,
+doch glaube ich wohl kaum,
+dass das dann unser beiden nützt:
+Wärst hungrig, trügst den Reif.“
+
+„Dann komm hervor! Ich tu dir nichts,
+die Ketten sollst du sehn.
+Doch schmähe ich jedwede List,
+drum denke und versteh!“
+
+Es kroch aus Laub und Zweigen, Strauch,
+der Knabe vollen Muts heraus,
+und stolpert‘ in den Felsenplatz,
+auf dem der große Drache saß.
+
+Voll Schärfe blitzen schon die Augen,
+dieses großen Wurms daher,
+auf den winzig kleinen Knaben,
+mitten in dem Felsenmeer.
+
+Düster wars zu dieser Stunde,
+denn die zogen Wolken auf,
+schoben sich bis hin zur Sonne,
+grau und dick, der Drachenhauch.
+
+„Welches winzig kleine Männchen,
+schreitet da denn auf mich zu?
+Hat nicht mal ein Schwert zum Kämpfen,
+wo sind seine Helfer nur?“
+
+„Brenn mich bitte nicht schon nieder.
+Friss mich nicht in einem Stück!
+Hoffe doch, du kennst die Lieder.
+Bitte werd‘ nun nicht verrückt.“
+ 
+
+
+
+
+## EIN SCHMIED IN DER HÖHLE
+Langsam schritt der Knab voran,
+zum Lindenwurme hin,
+und dieser rührt‘ sich nicht und saß,
+im Staunen, immerhin.
+
+„Die Tapferkeit, die kennst du wohl,
+obgleich dies viele tun.
+Doch wird die stets zuletzt besiegt von,
+donnernd, brüllend Furcht.“
+
+Vor den Klauen, scharf wie Klingen,
+stand der Knabe dar gediegen,
+schaute sich das runde Eisen,
+an von seinen vielen Seiten.
+
+Schwarz war dieses Stück Metall,
+die Kerben ragten tief,
+weshalb auch dieser rechte Arm,
+zu lahmen manchmal schien.
+Gefertigt, mit geringer Kunst,
+hat’s wohl ein Schmiedemensch,
+doch als der Drache größer wurd‘,
+da wurd‘ es nie getrennt.
+
+Ein Glück, dass doch der kühne Knabe,
+einer von den Menschen war, denn,
+könnte er das Eisen lösen,
+wär‘ der Drache nimmer böse.
+
+„Hast du einen Hammer drinnen?
+Auch ein spitzes Eisenstück?
+Dann will ich die Kette sprengen,
+dich befreien, hoffentlich.“
+
+„Vieles liegt in meinem Hause,
+alles, das, was mir gehört.
+Keinen lass ich lebend raus, doch,
+rein wie jedem es beliebt.“
+
+Und so nun schritt der Knabe nach,
+dem Wurm, von welchem er gedacht,
+wär erst die gute Tat vollbracht,
+dann ließ er ihn schon gehen dann.
+
+Sie stank, die große Felsenhöhle,
+wo der Wurme lange lebte.
+Glühend zeigte er sein Heime,
+voller Gold –und Silbersteinen,
+nun dem Knaben, der da staunte,
+sich so manches Wort erlaubte,
+davon, was so unbeschadet,
+in den Ecken lagert‘,
+hochgetürmt zu großen Haufen.
+Vieles könnte man sich kaufen,
+hätte man denn diesen Schatz,
+den dieser Wurm gestohlen hat.
+
+Die Schwerter, Gold und Edelstein,
+nun schimmerten im Lichte rein,
+der glühend, leuchtend Drachenhaut,
+die stampfend durch die Hallen taucht‘.
+
+Doch endlich fand auch dort der Knabe,
+einen Hammer, einen Nagel,
+welcher einem Bolzen glich,
+mit dem er nun die Tat verricht‘.
+
+So lag, wie selbst ein Haufen, dar,
+der Drache, schnaubend, qualmend gar,
+und streckte seinen rechten Arm,
+mit Klauen, die wie Schwerter war‘n,
+zum Knaben hin, der bei ihm saß,
+und guten Sinns und Hoffnung war.
+
+„Schmerzen kann es, sei gewarnt!
+Und zucke nicht! Ein kleiner Mann,
+wie ich es bin, ist rasch dahin.“	
+
+„Das weiß ich wohl. Nun mach geschwind!
+Vielleicht will ich dir geben dann,
+den Preis für deine rechte Hand.“
+
+Der Knabe zog die Kraft beisammen,
+hob empor den schweren Hammer,
+schmetterte mit Wucht gemein,
+den Bolzen in den Reif hinein.
+
+Funken schlugen. Hell der Klang.
+Ein Schauer fuhr durchs Drachenmark, 
+sodass der Wurme einmal zuckte,
+wieder stand, dann lag, dann hockte.
+
+Vollbesetzt mit Schweißestropfen,
+war die glänzend Stirn des Klopfers,
+welcher Schlag um Schlag verricht‘,
+im furchtbar bösen Angesicht,
+des argen Riesen. Mächtig klein,
+nur war der Knab im trüben Schein.
+Und trotz des Schuftens an dem Ringe,
+konnt‘ er‘s nicht zu Ende bringen,
+denn so gut das Herz ihm war,
+an Stärke fehlte es dem Knab,
+sodass auch nach dem zigsten Schlag,
+die kleinste Beule noch nicht sah.
+
+„Es gibt nicht einen Kratzer her“,
+so sprach der Knab und seufzte schwer,
+und wischte sich die Stirne ab,
+sein Kopf war rot, die Stimme stark.
+„Es bräuchte wen, der stärker ist,
+ja, kräftiger als ich es bin.
+Ich fürcht‘ so hat das keinen Sinn,
+da bringt das viele Schlagen nichts.“
+
+Und keine Zeit hat er gebraucht,
+dass er an seinen Meister dacht‘,
+der wohl der stärkste Manne war,
+den er bislang auf Erden kannt‘.
+
+Doch eh er noch ein Wort gesagt,
+dass er wen her beschaffen mag,
+da fuhr der Drache plötzlich auf,
+wie wenn ein Hund auf etwas lauscht.
+
+Mit furchtbar scharfem Geist und Sinn,
+gewahrt‘ der Drache jeden Schritt,
+und selbst zu dieser heiklen Stunde,
+wo vor Schmerzen er zu Grunde,
+bald, vielleicht, gegangen wäre,
+fuhr er plötzlich auf, denn hörte,
+er ein Tappen und ein Seufzen,
+aus der Richtung dort, von draußen.
+
+Schnell zog er die Klau‘ zurück,
+der Knabe flog beinah ein Stück.
+Dann lief der Drache stampfend los,
+und wütete, sein Herze tobt‘.
+Er schickte Flammen sich voraus,
+verbrennt war gleich die Tür zum Haus.
+
+Der Knab war aber hochverwirrt,
+denn selber hörte er noch nichts.
+Und langsam aber folgt‘ er nach,
+dem Drachen aus der Höhl‘ hinaus.
+
+ 
+
+
+
+## HACK UND KNACK
+Der Felsenplatz war aufgewühlt,
+von Staub und schwarzem Qualm,
+und rasch lief da der Knabe still,
+hindurch bis er wen sah.
+Es fuchtelte mit seinen Armen,
+hinter einem Baum hervor,
+o sein Meister, groß von Sorgen,
+sah nach dort und her und hoch.
+
+Und wie der Knabe ihn erkannte,
+blieb er steh’n für den Moment,
+da immer noch sein Herz gebrannt hat,
+von dem Schrecken, den er kennt.
+
+Dennoch schritt er hin zum Meister,
+der ihn froh willkommen hieß.
+„Schau nach oben, pass gut auf, denn,
+schaue stets, wo er grad fliegt!“
+
+Und blickte hoch der Knab zum Himmel,
+sah doch durch den Qualm noch nichts.
+„Und da auch du ihn noch nicht siehst,
+so sieht er auch uns beide nicht.
+Drum las uns jetzt verschwinden rasch!
+Nun folge mir, und folg mir rasch!“
+
+Und ehe noch der Knabe da,
+ein ganzes Wort gesagt bekam,
+da war auch schon der Meiser fort,
+und bald verlor’n an diesem Ort,
+und folgte so der Knabe nach,
+was er wohl gar nicht gern getan.
+
+„So eil dich jetzt!“ Mit wack‘rem wachem Blick,
+so späht‘ der Meister hoch ins Licht,
+und kam zuletzt am Pferde an,
+dass gar nicht weit im Schutze stand.
+
+„So warte noch!“, rief nun der Knab,
+und flüsterte da nicht einmal.
+Und sprach der Meister. „Los jetzt, rasch!
+Sonst sieht er uns und riecht uns bald.“
+
+Und wie der Knabe sich bedachte,
+dass dies vielleicht besser wäre,
+wenn man etwas waren würd‘,
+bis sich die Wut des Drachen leg‘,
+und dann, dass man nach etws Zeit,
+zusammen wieder hierher schreit‘,
+das wäre vielleicht gar nicht schlecht.
+So sprang er denn aufs Pferd zuletzt.
+
+Und ritten sie durch Wald und Baum,
+hinfort vom Felsenplatz, dem grau’n.
+
+Und gar nicht weit, wie sie gekommen,
+plötzlich man das Landen,
+von dem Drachen, der vom Himmel,
+niederstieß mit seinen Schwingen,
+dass der Boden da erbebte,
+dann war Ruhe etwas später.
+
+Knabe doch und Knechtenmeister,
+waren nun inzwischen Reiter,
+ritten fort, nach einer Weil‘,
+da sprachen sie erneut zu zweit.
+
+„Das hätte böse enden können“,
+sprach der Meister voll Bedenken,
+und er schien erneut zu sein,
+der er auch sonst bei Tage war.
+
+Der Knabe aber war nicht heiter,
+hatte nicht vergessen eines,
+aber mochte grad nichts sagen,
+nicht davon, was er getan hat.
+Der Meister doch war andren Sinns,
+und schien nun zornig da geschwind.
+
+„Was denn hast du da getrieben,
+bei dem Drachen?“, fragt‘ er ihn nun.
+„Hast du deine Lust am Leben,
+doch nicht plötzlich aufgegeben?“
+
+Wie der Knab doch nichts mehr sprach,
+beruhigte sich der Meister gar.
+
+„Ach, Knab, das ist bloß meine Schuld“,
+so gab es denn der Meister kund.
+„Ich habe Dinge dir gesagt,
+die niemand einem andern sagt.“
+
+Und nichts mehr sagte er dazu,
+der Knabe blieb auch weiters stumm.
+
+Es wohnte fortan noch der Knabe,
+bei dem Meister in dem Walde,
+schlug die Bäume, schlug mit Zweig,
+doch sprach nie von dem Drachenreif.
+
+Die Raben glotzten streng hernieder,
+„sieh dir diese beiden an!
+Sind einander doch zuwider,
+wieviel Zeit wird noch vertan?“
+
+Und wie die doch vorüberflog.
+Der Wald sich färbte gelb und rot,
+und sprach der Meister eines Tags,
+beim Hölzerhacken wohl zum Knab:
+„du hast es gar noch nicht erzählt,
+was du in dieser Höhle triebst,
+und wie du ohne tot zu sein,
+davongekommen bist und heil.“
+
+Und wehrte da der Knabe ab:
+„das ist schon viele Wochen alt.
+Was ganz genau geschehen ist,
+daran erinnere ich mich nicht.“
+
+Und weiter hackte „Krach!“ und „Knack!“,
+der Meister seinen dicken Ast,
+sodass enttäuscht der Knab auch wurd‘,
+dass er wen andren nun belog.
+
+„Er trägt an seinem linken Bein,
+ein viel zu kleines Eisen dran“,
+so sprach es nun der gute Knab,
+mit Sorgfalt und Bedenken aus.
+
+Und horchte da der Meister auf,
+und langsam holt‘ er nur mehr aus.
+
+Und weiter fuhr der Knabe fort,
+wie er so dachte an den Ort.
+„Es ist ein Ring, ein schwarzer Reif,
+der um das Bein des Drachens greift,
+und angelegt ward ihm wohl das,
+als er noch jung und kleiner war.“
+
+„Das kann wohl sein“, der Meister sprach,
+„ein Drache hat oft Ketten an.
+Doch wie bist du entkommen dann,
+wie, dass er dir gar nichts getan?“
+
+Und da erzählte es der Knab,
+was damals in der Höhl‘ geschah,
+und wie er auf den Reife schlug,
+die Kraft doch war ihm nicht genug.
+
+Der Meister, all das hörte er,
+und hackte keine Stöcker mehr.
+
+Und gar zuletzt sprach noch der Knab,
+„es bräuchte einen stärkren Mann,
+der es vielleicht dann schaffen könnt‘,
+den Reif zu sprengen, glaube ich.
+Und dann gäb’s keine Beben mehr,
+und Ruhe hätt‘ ein jeder hier,
+dass niemand mehr sein Haus verliert,
+wenn dieser Drache stampft und bebt.“
+
+Da wandelte des Meisters Blick,
+in wieder tiefem Zorne sich,
+und holte aus und schlug sein Beil,
+mit schwerer Wucht dem Hackstock rein. 
+
+„Das hebe auf und staple dort!“
+Er zeigte auf das Holz und Stock,
+und trank aus seinem Wasserschlauch,
+und ging davon, verschwand im Haus.
+ 
+
+
+
+
+
+## DIE MAUERN DES SCHMIEDS
 Wie die Tage nun vergingen,
 fand der Knabe sich am Üben,
 dort am Baume dreinzuschlagen,
@@ -1544,7 +2270,7 @@ fort vom Haus der Meister wollte.
 
 Und so marschierten sie davon,
 mit einem Beutel, der war voll,
-von Essen, Schlafzeug, Reisezeug,
+von Essen, Decken, Reisezeug,
 was noch der Meister eingepackt.
 Und stolz war auch der Knabe, dass,
 er nun sein Schwert zum ersten Mal,
@@ -1609,7 +2335,7 @@ als er dort sein Pferd erblickt‘,
 das er noch vor manchen Wochen,
 schweren Herzens fortgeschickt.
 
-Wie sie nun gegen Norden ritten,
+Wie sie nun gegen Osten ritten,
 über Weid‘ und Wiese blickten,
 sprach der Knabe jenes an,
 was einer in der Stadt gesagt.
@@ -1629,10 +2355,10 @@ und wie habt Ihr von mir erfahr‘n?
 Und warum, wenn ich jetzt schon frage,
 seid Ihr immer schwarzgekleidet?“
 
-Das war mehr als sich der Knab,
-zu fragen vorgenommen hat,
-doch wenn man einmal etwas sagt,
-dann hört man oftmals nicht mehr auf.
+Das war mehr als eigentlich,
+der Knabe fragen wollte ihn.
+Doch wie ist’s nur: Wer eines sagt,
+der macht vorm zweiten oft nicht Halt.
 
 „Was früher war, dran denke nicht“,
 das gab er nur zur Antwort ihm.
@@ -1650,7 +2376,7 @@ Und wegen meiner Kleider, Knab,
 die trage ich nicht nur zum Spaß.
 Man kann von guter Tugend sprechen,
 von der Disziplin, vom Kämpfen,
-doch wofür wär‘ ein Lehrer gut,
+doch was wär‘ ein Lehrer gut,
 wenn, was er predigt, er nicht tut?
 Sie sind ein Zeichen, guter Knab,
 dass du nicht wirst, wie ich es war.“
@@ -1660,18 +2386,13 @@ verstand er nicht sogleich,
 was alles dies bedeutet hat,
 was da der Meister meint‘.
 
-„Wie werd‘ ich denn?“, fragt‘ er sodann.
-„In meiner Lehr‘, wo steh‘ ich da?“
-
-„Du bist schon weiter“, sprach er da,
-als jeder Knab, den ich gehabt.
-Doch sieh dort drüben an der Straße.
+„Doch sieh dort drüben an der Straße:
 Dort stand mal ein Bauernhause.“
 
 Wie der Knab hinüberblickte,
 sah er dort die Überreste,
-eines alten Bauernhauses.
-Doch nur Mauern war’n erhalten.
+eines alten Bauernhauses,
+Mauersteine, schwarz und graue.
 
 „Was ist denn damit gescheh’n?“,
 so fragte er betroffen schwer.
@@ -1738,1847 +2459,2310 @@ dass genug war mit dem Fragen.
 „Ach, das tut mir wirklich leid.“
 Was Bessres fiel ihm nicht mehr ein.
 
+„Doch sag“, sprach er nach langer Zeit,
+„wo geh’n wir hin? Und ist’s noch weit?“
 
-## In der Räuberhöhle
+„Zum Goldfass zieh’n wir. Kennst du das?
+In diesem Land ist’s gut bekannt.
+Bei dir Zuhaus wohl eher nicht.
+Ein Wirtshaus östlich Hamsens ist’s.
+Man trifft sich dort viermal im Jahr,
+und streitet sich und kämpft bei Tag.
+Wir sollten, falls das Wetter taugt,
+dort sein am späten Nachmittag.“
 
-Und wie sie nun den Weg beschritten,
-der vorbei am Hofe führte,
-durch den Wald auf Pfad und Zweig,
-so kamen sie zum Drachenstein.
-Und dies war jener Felsenplatz,
-der vor des Drachen Höhle lag.
-
-„Jetzt sind wir da“, sprach dann der Meister,
-sah zum andren kleinen Reiter.
-„Binde nicht die Pferde an.
-Sie sollen tun, was ihnen passt.“
-
-Und dort, auf diesem Felsenplatz,
-der eingekreist vom Walde war,
-war eine Höhle, breit und hoch,
-wie man sie sah noch nie zuvor.
-
-„Da wohnt der Drache“, sprach er da,
-der Meister, hin zu seinem Knab,
-dass der gar plötzlich ängstlich wurd‘,
-und tiefentsetzt zum Meister guckt‘.
-
-„Der Drache?“, rief er allzu schnell.
-Die Stimme wurd‘ ihm schwach und hell.
-
-„Hab keine Angst!“, sprach ihm gut zu,
-der Knechtenmeister. „Rieche nur!
-Die Luft, die riecht nach Drache nicht.
-Du siehst auch keinen Qualme dicht.
-Und das bedeutet, dass er jetzt,
-gerade nicht da drinnen sitzt.
-Er geht dorthin, wo es ihm passt,
-und raubt und stielt für seinen Schatz,
-der drinnen hoch zu Türmen liegt,
-von Gold und Silber, Schwert und Schild.“
-
-„Oh, weh! Oh weh! Wo ist er dann?“,
-nun fragte ihn der Knab voll Angst,
-der schon hoch in den Himmel blickt‘,
-und Ausschau nach dem Drachen hielt.
-
-Und zögerlich nur sprach der Meister:
-„Ach, das weiß ich auch nicht, leider.
-Aber“, fuhr er schleunigst fort,
-„er ist an einem andren Ort,
-und kommt fürs erste nicht zurück.
-Denn länger bleibt er fort zum Glück.
-Ich sah ihn letztens in der Nacht,
-als du zu Haus geschlafen hast.
-Da flog er bis zum Mond empor,
-und dann nach Osten weiterflog.
-Er ist meist viele Wochen weg.
-Ich habe es schon oft geseh’n.“
-
-Doch wenig halfen diese Worte,
-seinem Knaben, da er dachte:
-„Was, wenn er jetzt wiederkommt,
-und manche Wochen um schon sind?“
-
-Doch ehe er ein Wort getan,
-da fing der Meister auch schon an,
-dem Knaben mitzuteilen, was,
-es überhaupt zu tun hier gab.
-
-„Als ich mich mit dem Bruder traf,
-als wir damals in Hamse war’n,
-da sagte er, er bräuchte jetzt,
-den Hammer, der uns mal gehört,
-das Werkzeug, welches unser Vater,
-immer in der Schmiede hatte.
-Denn mein Bruder, wie er ist,
-er sagt, er könne schmieden nicht,
-wenn er nicht diesen Hammer hat.
-Ich sagte ihm, dann hol ihn halt.
-Doch würde er das nimmer tun,
-drum bin ich hier jetzt und auch du.“
-
-„Dann schau’n wir in der Schmiede unten,
-wo der alte Hof gestanden“,
-sagte da der Knabe rasch.
-„Warum sind wir dann beide da?“
-
-„Da war der Hammer leider nicht“,
-sprach da der Meister trüben Blicks.
-„Er muss wohl in der Höhle sein,
-wie alles, was ihm nahe war.
-Ein Drache stielt und raubt all das,
-was einem Menschen Freude macht,
-dass er nur für sich selber hat,
-was der Besitz von andren war.“
-
-In Wahrheit, was der Meister wollte,
-war, dass nun sein Knabe sollte,
-Mut beweisen, Tapferkeit,
-und dass er reinen Herzens war,
-gebot er ihm hernach doch dies:
-„Nur diesen Hammer bringe mit!
-Und lass sonst alles, wie es ist.“
-Dann wünschte er ihm all sein Glück.
-
-„Warum tut Ihr’s nicht?“, fragte noch,
-der Knabe rasch, als er sich schon,
-inmitten von dem Platz befand,
-und schnell zurück zum Meister schaut‘.
-„Und überhaupt: wie schaut der aus?“
-Das wusste er noch nicht genau.
-
-„Ich halte Ausschau!“, kam’s zurück.
-„Er hat ganz einen langen Stiel,
-mit einem runden Silberknauf.
-Nun geh schon! Los! Ich passe auf!“
-
-Und so schritt durch das dunkle Loch,
-das wie ein Tunnel war gebohrt,
-der Knabe langsam nun hinein,
-mit stillen Schritten, leis und klein.
-
-„O weh! O weh!“, so dachte er.
-„Was, wenn der Drache jetzt nur schläft,
-und gar nicht fort ist? Ach, o Graus!
-Dann riecht er mich und frisst mich auf.“
-
-Das kleine Licht von seiner Fackel,
-leuchtete die Höhle auf und,
-und langsam war das rote Licht,
-verschwunden aus des Meisters Sicht.
-
-Je weiter er nach drinnen kam,
-nun stank es mehr von Rauch und Qualm,
-Verwesung auch, was noch der Knab,
-in seinem Leben nicht gekannt.
-
-„Es sollte mal wer lüften hier!“,
-so dachte er und packte sich,
-die Nase fest und drückt‘ sie zu,
-bis er gar nichts mehr roch dadurch.
-
-Es tat sich nach so mancher Zeit,
-ein großer Platz der Höhle auf,
-und plötzlich glänzten schwach im Licht,
-das Gold und Silber hochgetürmt.
-Zu vielen Bergen haufenweis,
-da lagen Schätze, gelb und grau,
-doch schwach nur sah er diese da,
-im fahlen Licht des Fackelscheins.
-
-„Na los jetzt!“, sagte er sich selbst.
-„Ich finde diesen Hammer jetzt.
-Warum nur hat der viele Berge?
-Ach, das nimmt gewiss kein Ende.“
-
-Und wie er nun im Golde wühlte,
-dass es klapperte und klirrte,
-hört‘ er einen dumpfen Stoß,
-der wohl von draußen kommen musst‘.
-
-Da schrak er auf. „Was war das denn?“
-Bewegte sich nicht mehr behänd,
-und lauschte gut, ob noch was kam.
-Und in der Tat auch das geschah.
-Denn folgten diesem dumpfen Ton,
-noch weitre, welcher leiser war’n,
-doch immer lauter wurden sie,
-als stampfte wer zu ihm wohl hin.
-
-„Oh weh!“, rief er. „Der Drache kommt!“
-Und schaurig kam die Angst ihm hoch,
-dass da sein Herz so laut nun schlug,
-wie nie zuvor so viel er wusst‘.
-
-Doch seinen Kopf besaß er noch,
-und dachte schnell und sprang in Not,
-vom großen Haufen Gold herab,
-und rannte schnell die Wand entlang,
-und warf sich hinter einem Felsen,
-hin zu Boden, wo auch gleich schon,
-seine Fackel ihren Gar,
-im Staube schließlich ausgemacht.
-
-So lag er also, wo der Schacht,
-zum Golde hin sein Ende macht‘,
-und wartete und lauscht‘ gespannt,
-dem Stampfen, das nun lauter war.
-
-Es war wie er es sich gedacht:
-Der Drache schritt die Höhl‘ herab,
-und stampfte an dem Knab vorbei,
-doch dieser sah zum Boden da,
-und hielt sich fest die Ohren zu,
-und machte nicht den kleinsten Mucks.
-
-Doch einen Blick noch wagte er,
-und spähte hinter‘m Fels daher,
-als grad das linke Hinterbein,
-des Drachen schritt an ihm vorbei.
-Und mit Erstaunten sah er gleich,
-den schwarzen, viel zu engen Reif,
-der um das Bein geschlungen war,
-und darum humpelte er auch.
-
-„Wie kommt denn dieser Reif dahin?“,
-so fragte er sich da geschwind,
-doch als er dann vorüber war,
-da lag er eine Weil‘ noch da,
-und hörte, wie der Drache sang,
-vom Schatz, den er heut‘ mitgebracht.
-
-„Zischend, speiend, Gold und Silber.
-Schatz ist meiner, heut‘ und immer.
-Axt und Speer und Lanz‘ und Schild.
-Es macht mir nichts. Es macht mir nichts.“
-
-Und da begann er gar zu wühlen,
-in den Haufen, die dort liegen,
-dass es hell und lauter klirrte,
-und er sich auch nicht beirrte,
-sich zu wenden und zu strecken,
-und das Golde sich zu zählen.
-
-Wie er doch vor Freude sprang,
-um seinen großen goldnen Schatz,
-da kam er auf den Boden auf,
-mit seinem linken Bein in Grau’n,
-und schrie er solchen Rufe aus,
-der fast dem Knab das Hören raubt‘.
-
-Und ließ er sich zu Boden fallen,
-dass die Erde laut erschallte,
-und der Boden also zittert‘,
-wie einst bei dem Erdgewitter.
-
-Ach, da kroch er auf dem Boden,
-glühend gleich den Feuerkohlen,
-hin zu seinem Haufen Gold,
-und lag dazwischen, tief im Groll.
-
-Und wie er sich noch dreht‘ und wandte,
-war’s der Knab, der klug nun dachte.
-„Wenn ich’s raus hier schaffen will,
-dann muss ich jetzt sofort schon geh’n.
-Danach, wenn er sich niederlegt,
-dann hört er jeden Schritt von mir.“
-
-Und allen Mut nahm er zusammen,
-stand von seinem Platze auf und,
-rannte durch die Dunkelheit,
-nach draußen an der Wand entlang.
-Und sie da: Er schaffte es,
-indes wer seinen Schatz gezählt.
+ 
 
 
-## Der schwerste Weg
 
-Doch als er dann zum Meister kam,
-der immer noch im Walde lag,
-gespannt zum Ausgang hingeblickt,
-nun atmete erleichtert tief.
 
-„Da bist du wieder“, sagte er.
-„Ich war voll Sorge schon um dich.
-Denn als er dort vom Himmel kam,
-da hab‘ ich ihn zu spät gewahrt,
-und konnte dich nicht warnen mehr.
-Zum Glück ist dir jetzt nichts gescheh’n.“
 
-Der Knabe keuchte von dem Laufen,
-ließ sich in die Wiese fallen.
-„Doch den Hammer fand ich nicht.
-Zu viel war da und schwach das Licht.“
+## DER WETTSTREIT ZUM GOLDFASS
+Viermal, mit der Jahreszeit,
+da fand im Fasse eines statt,
+(was also immer schon gewahrt,
+das letzte Wirtshaus Hamsens war),
+großbekannt das Reckenspiel,
+ein Wettstreit, wo man kämpfte viel.
 
-Doch sprach der Meister ihm gut zu,
-„das Wichtigste jetzt ist die Ruh‘,
-die du dir reichlich hast verdient,
-auch wenn den Hammer nicht gekriegt.“
+Und dort zur Hintertür hinaus,
+auf einem Platz mit Holz gebaut,
+umringt von hunderten von Volk,
+da rang man lang um Stücke Golds.
+Und tobte da die Menge wild,
+und rief, den Wahne ungestillt.
 
-Und diesem folgend machten sie,
-sich auf dem Weg nach Haus zurück,
-und wie sie auf dem Pfade trabten,
-stellt‘ der Knabe viele Fragen.
+„Das Ringen wird dir wohl nicht liegen“,
+sprach der Meister hin zum Knab,
+„doch das Schwert, das dir geblieben,
+kannst du schwingen wunderbar.“
 
-„Habt Ihr auch den Reif geseh’n,
-den er am linken Beine trägt?
-Ich glaub, der ist ihm wohl zu eng,
-und Schmerzen leidet er durch dem.“
+Und in dem Gedränge draußen,
+fand der Knabe sich allein,
+war der Meister in das Hause,
+doch geeilt noch schnell hinein.
 
-Der Meister aber sagte da,
-„von Schmerzen, die er an sich hat,
-erzähle allen, die gestorben.
-Alles haben sie verloren.“
+„Wirst du kämpfen?“, fragte einer,
+bald den Knaben lauter Stimm‘.
+„Hängt ein Schwert an deiner Seite,
+Bist du, der es schwingen wird?“
 
-Noch immer schlug das Herz dem Knaben,
-der an alles jenes dachte,
-was mit ihm geschehen konnte,
-wenn der Drache ihn bemerkte.
+„Das will ich sehen“, gab er da,
+zur Antwort nur, der gute Knab.
 
-„Mein Leben wäre dann dahin.
-Ich käme nie nach Haus zurück.
-Ich würd den Bauern nicht mehr seh’n,
-und niemals ihm zu Hilfe steh’n.“
+Doch als der Meister wiederkam,
+den Knaben in der Menge fand,
+da nahm er ihn zur Seite her,
+und stellt‘ im Hause vor ihn wen.
 
-Und wie er daran plötzlich dachte,
-kam ein Schauer ihm so kalt, dass,
-er zu zittern gar begann,
-obwohl es warm und sonnig war.
+„Mein Knab ist er“, sprach er da an,
+den Manne, der der Wirt wohl war,
+und eine schwarze Schürze trug,
+mit dunklem Bart, von großem Wuchs.
 
-„Du wirst“, so sprach der Meister dann,
-„im Leben vieles Leid erfahr’n.
-Und jedem geht es damit gleich,
-ob Mann und Frau, ob Kind und Greis.
-Und jedes Mal, wenn du danach,
-wenn du in schlechter Lage warst,
-dich oft daran erinnerst, was,
-geschehen hätte können, dann,
-wirst du mit jedem Missgeschick,
-ein bessrer Mensch mit Acht vorm Glück.
-Du hast das Schlimmste jetzt geseh’n,
-ab jetzt kann’s nur mehr besser geh’n.“
+Und müd sah der zum Knab herab,
+„der Kampf für ihn ist heute Nacht.
+Dass er doch aber kämpfen kann.“
+Dann wandt‘ sich fort der große Mann.
 
-Da schwieg der Knabe, bis er sprach:
-„Ich weiß nicht, ob’s das Schlimmste war,
-doch jedenfalls, was mich betrifft:
-Ich möchte‘ am liebsten helfen ihm.
-Wenn man nur diesen einen Reif,
-bekäme von dem Hinterbein.
-Doch frage ich mich immer noch,
-warum er stielt das ganze Gold.“
+Und so nun war es ausgemacht,
+dass kämpfen sollte nun der Knab,
+doch gegen wen und gegen was,
+das wurd‘ dem Knaben nicht gesagt.
 
-Da sah der Meister hin zum Knab.
-„Was ist denn schlimmer?“, fragt’ er da.
-„Wie kann schon etwas schlechter sein,
-als dieses Biest am Drachenstein?
-Wie würde jenem Ehr‘ erwiesen,
-der es tötete, das Tiere?
-Ach, wie würde jeder reich,
-der jetzt so arm im Felde weilt?
-Man müsste einen Recken finden,
-der das Tier zur Strecke bringt und,
-der so reinen Herzens wär‘,
-dass er den Schatz nicht selbst behält.
-Wie viele Häuser sollen brechen,
-bis der Drache sich beherrscht denn?
-Um wieviel soll Reichtum schwinden,
-bis der Drache sich besinnt schon?
-Wäre dieser Drache fort,
-die Welt wär‘ dann ein bessrer Ort.“
+Wie er da zusah diesem Spiel,
+das draußen länger vor sich ging,
+erkannte er, was vor sich ging:
+man wettete, wer wohl gewinnt.
+Und Münzen klirrten, Beutel voll,
+und böse rief der Leute Groll.
+Und Taschen klapperten zuhauf,
+und Schweiß floss viel und Blute auch.
 
-Und als der Meister dies gesagt,
-da wurde schwer das Herz des Knabs,
-und sprach er dann zum Meister trüb:
-„Verzeiht mir, wenn ich der nicht bin.
-Ich weiß, ich hab‘ Euch drum enttäuscht,
-dass ich nicht bin, den Ihr gewollt.
-Ich bin kein Krieger, bin kein Recke,
-bringe niemanden zur Strecke.
-Wenn es Eure Absicht war,
-zu finden wen, der’s schaffen kann,
-zu töten diesen bösen Drachen,
-habt die Wahl Ihr falsch getroffen.“
+„Bewahre mich vor solchem Kampf“,
+so wünschte es der Knabe bald.
+„Wie Hunde, die im Käfig sind,
+zerfleischen sie sich ohne Sinn.
+Und alle bluten, alle klagen,
+und die Menge ist am Mahnen.
+Bin kein Krieger, bin kein Kämpfer.
+Ach! Was wird man von mir denken.“
 
-Der Meister sah zum Knaben nicht.
-Wie könnte er? Denn was der spricht,
-das war die Wahrheit von Beginn.
-Er suchte wen mit kühnem Sinn.
+Doch es kam ihm in den Sinn,
+da niemand ihn noch kennen würd‘,
+nicht einer würde eine Münz‘,
+auf ihn dann wetten so geschwind.
 
-„Das ist wohl wahr“, sprach er zuletzt.
-„Ich dachte es mir doch schon längst.
-Du bist für diese Welt zu gut,
-und fügtest keinem Leide zu.
-Als Lehrer habe ich versagt,
-doch an mir selber, guter Knab.
-Ich wollte dich zu etwas machen,
-das nicht du bist, für den Drachen.“
+Und wie die Sonne unterging,
+die Nacht zuletzt vom Tag sich bricht,
+da wurd‘ es still für den Moment,
+und einer hob die Stimme schnell.
 
-Solches sprach man und nicht mehr,
-und Schwermut lag sich übern Weg,
-den sie zurück zur Hütte nahmen.
-Beide wussten, was geschah dann.
+„So will ich nun die Recken sagen,
+welche sich bei Nachte schlagen.“
 
-„Ist die Lehre wohl vorbei“,
-so dachte es der Knab zuweil‘,
-und sah zu Boden, tief wie nie.
-„Verschwendet hat er Zeit an mir.“
+Viele also rief er auf,
+und schrie die Menge immer laut,
+wenn sie den Namen schon gehört,
+und Wetten machten sie nun erst.
+
+Doch als er sprach vom kleinen Knabe,
+aus dem weiten Hahnenkiel,
+und dem Meister, welcher war denn,
+schwarz und wohl bekannt im Spiel,
+o da blieben viele stumm,
+doch Wetten gingen viele um.
+
+Und flüsterte man weggedreht,
+so dass es niemand auch versteht.
+„Dass dieser alte Hexenmann,
+schon wieder einen Knaben hat,
+der für ihn kämpft. Ich sage dir:
+er kennt dies so verflixte Spiel,
+und hat, seit ich erinnern kann,
+gehabt den besten jedes Mal.
+Die besten Kämpfer stellte er,
+die oft besiegten leicht und schwer.“
+
+Doch wenn sie diesen Knaben sahen,
+schauten sie recht wunderlich.
+„Wahrlich, dass man oft erwartet,
+breiter sei ein Krieger, nicht?
+Doch was soll’s schon heißen nun,
+er stellt ihn schon aus gutem Grund.“
+
+Und gingen durch die Menschenmenge,
+Flüsterstimmen um behände,
+die die Wetten mit sich trugen,
+auf des Meisters neuen Buben.
+
+„Hier“, so rief der Mann im Platze,
+ein Papier in seiner Hande,
+„sind die Regeln dieses Spiels,
+bei Nacht ist’s anders, wie ihr wisst.“
+
+Und lauschte da der Knabe gut,
+dem Mann dort mit dem Federhut.
+
+„Es stellt ein jeder seinen Recken,
+der sich streit‘ mit seinem nächsten,
+bis ein Kämpfer nicht mehr kann,
+auf beiden Beinen stehen lang.
+Es wird gekämpft mit Schwert und Schild,
+und Hand und Fuß, wenn’s etwas bringt.
+Wer bis zum Ende siegreich ist,
+den Siegerpreis verdient er sich.
+Doch wenn ein wer dazwischen geht,
+zur Hilfe da zu sein,
+dann scheidet aus, für wen er steht,
+ist nimmer mehr dabei.
+Den Preis, so bringt ihn nun hervor!“
+Das rief er laut, um ihn im Chor.
+
+Und kam vom Wirtshaus da heraus,
+hindurch der Menge krummen Haupts,
+ein dürrer Greis mit grauem Bart,
+und einem Helm in seiner Hand.
+Ein Büschel, grün und hoch und lang,
+das hing als Zierde schön herab.
+
+Und mitten auf dem Platze stand,
+den Helme zeigend groß der Mann.
+
+Und wieder ruf der andere,
+mit Federhut von seitlich her,
+„Als Zeichen, dass der Winter naht,
+den Helm, dass er das Haupt vermag,
+zu schützen, wärmen, doch den Blick,
+den kalten auf den Feinde schickt.
+Dies ist der Preis, den einer bald,
+erhalten soll noch heute Nacht.“
+
+Und fragte da der Knab verwirrt,
+„das ist der Preis für dieses hier?
+Was bringt ein Helm alleine was?
+Von großem Wert wohl muss der sein.“
+
+„Ein Teil von vielen“, sprach daher,
+der Meister zu dem Knaben schwer.
+„Wer je ein Teil davon gewinnt,
+dann muss er kommen, so lang bis,
+ein anderer ihn denn besiegt,
+und jener dann das Teil gewinnt.
+Die Schuhe, siehe diesen dort!
+Er trägt sie bei sich heute noch,
+denn vor drei Monden hat er sie,
+gewonnen hier bei diesem Spiel.
+Und wenn er heut‘ erneut gewinnt,
+so nimmt er auch den Helme mit.
+Doch falls es anders heute geht,
+so gibt er auch die Schuhe her.“
+
+Da seufzte nun der Meister laut,
+und blickte fort vom Knaben auf.
+„Ich weiß nicht, dass je einer mal,
+die ganze Rüstung angehabt.
+Man sagt, wer dies auch immer sei,
+befrei‘ das Land vom Drachenreich.
+Und würde Stärke ihm verlieh’n,
+wie es noch niemals ward geseh’n.“
+
+Nun, was der Knab darüber dachte,
+als er dieses Wort vernahm,
+dessen bleibt nun ungeachtet,
+da der Manne wieder sprach.
+
+„Lasst uns so beginnen denn!
+Das Glück dem, der den Sieg empfängt!“
+ 
+
+
+
+
+## DER KAMPF DES KNABEN
+Und Jubel klang denn laut daher,
+von fünfzig Leuten und noch mehr,
+und traten zweien auf sich zu,
+zu mitten von dem Platze nun,
+mit Lederriemen, Helm und Schild,
+das Schwert in ihrer Hand gezückt.
+
+Von hohem Wuchs der eine war,
+mit breiten Schultern, langem Haar,
+der andere entgegen ihm,
+war gleich im Wuchs, doch schmäler schien.
+
+Und so im Kreise gingen sie,
+auf sich der Blick des andren fiel,
+bis endlich nun der breitere,
+entgegen schritt dem anderen,
+und holte rasch zum Streiche aus,
+der Schild des anderen doch traf.
+
+Entgegen dem derselbe hieb,
+und klirrte Stahl auf Stahl geschwind,
+und fochten sie dahin daher,
+die Menge ward zum wilden Heer.
+
+Da ward dem Knaben bang ums Herz.
+Den Meister fragte er:
+„Wann ruft man mich zum Kämpfen denn?
+Mein Gegner, wo ist der?“
+
+„Es ist verschieden“, sagte er,
+der Meister zu dem Knaben schwer,
+„wann man zum Kampf gerufen wird,
+sodass kein Vorteil wem entspringt.
+Doch wirst du, wenn du siegen willst,
+auch gegen einen solchen hier,
+bestehen müssen, welcher grad,
+im Kampfe ist und überragt.“
+
+Der Knab nun spähte hin zum Kampf,
+zu sehen, was der eine macht,
+der andere, und wo sie denn,
+am schwächsten seien, so dass wenn,
+er ihnen bald entgegen stünd‘,
+er wüsste, wo er zielen müsst‘.
+
+Da fiel wer schon zu Boden hin,
+der andere die Klinge ihn,
+zum Halse hin entgegen streckt‘,
+das Schwert der andre fallen lässt,
+und so hat jener breitere,
+zuletzt gesiegt und leicht schien es.
+
+Noch andre Kämpfe folgten dem,
+bis endlich man den Knab erwählt‘,
+und diesen in den Platze schob,
+das Schwert und Schild er grad noch hob.
+
+Und wie er hin zum Gegner sah,
+ein großer Recke dieser war,
+wenn auch er schmal und dürre schien,
+so ragt‘ er weit doch über ihn.
+Und stürmend ward die Menge da,
+als dieser hergelaufen kam,
+zum Streiche rasch weit ausgeholt,
+der Knab das Schild noch vor sich zog.
+
+Doch nieder fiel er hinterrücks,
+das Schild, das ihm so schwer erschien,
+zu Boden flog und liegen blieb,
+doch selber stand er auf geschwind.
+
+Wie mochte er so kämpfen nun,
+mit nur dem Schwert und nichts dazu?
+Und plötzlich kam ihm große Angst,
+dass er verletzt nun werden kann.
+Was, wenn man ihm am Kopfe trifft,
+ach, wenn ein Hieb die Hand ihm bricht?
+
+Da strauchelte und zitterte,
+der Knabe plötzlich stark,
+und rückwärts ging zurück er mehr,
+die Menge traf er an.
+Doch schubsten sie ihn wohl zurück,
+zum Platz aus Sand hinein,
+den Löwen vor zum Fraße schien’s,
+der Knabe selbst zu sein.
+
+Der andere da schaute ihn,
+mit kalten Augen an,
+niemals vergaß er diesen Blick,
+des Feindes so von Grau’n.
+Und silbern funkelnd in der Nacht,
+und kalt ward wie der Mond,
+der Blick des Feindes ihm zur Last,
+und ohne Spott und Hohn.
+
+O, seelenleer, erwartungsvoll,
+stand dieser weit von ihm,
+und rannte da der Knabe los,
+erwartet doch von ihm.
+
+Und hieb er mit dem Schwerte nun,
+dem Feinde rasch hinein,
+doch dieser nur das Schilde hob,
+und stieß dem Knab ins Bein.
+
+Zu Boden flog er abermals,
+mit grauenvollem Schmerz,
+sodass er auf der Seite lag,
+die Hand ans Bein gepresst.
+Und spuckte er den Sande aus,
+der ihm im Munde hing,
+und merkte nun das Schwert am Hals,
+das tödlich ihm erschien.
+
+Da regte er sich keinen Mucks,
+das Schwert daneben lag,
+und so war dies voll Schmerz und kurz,
+des Knaben erster Kampf.
+
+An diesen Abend sollte sich,
+der Knab entsinnen stets,
+denn was geschah am Platz mit ihm,
+veränderte ihn jetzt.
+
+So sprach er nicht ein Wort danach,
+zum Meister von dem Kampf,
+wenn auch der ihn gelobt denn hat,
+dafür, was er vollbracht.
+
+In Zorn gefangen war der Knab,
+verstrickt dem Willen folgte nach,
+dass nimmer einen Kampfe er,
+bestreite, bis er sicher wär‘,
+dass er ihn nicht verlieren kann,
+erst dann nähm‘ er den Kampfe an.
+
+„Nicht noch einmal vor so viel Leut‘,
+geh ich hernieder, so wie heut!
+Was immer es auch kosten mag,
+nicht wieder wird’s gescheh’n,
+dass ich den Staub im Halse hab‘,
+und über mir wer steht,
+dass man sich freut, wie ich dort lieg‘,
+dass man nicht tuschelt über mich,
+ja dass man schreit: da liegt er schon,
+dass ich vernehm der Leute Hohn.“
+
+Ach, wie da sich der gute Knab,
+verfing in Stricke, die er spann,
+und dieses sich zum Ziel gesetzt:
+der beste Reck‘ zu werden jetzt.
+
+„Der Helm, die Schuhe, alles das,
+gewinn ich mir, dass niemand lacht.
+O, schwöre ich, nein, nimmermehr,
+wird dieses so wie heut gescheh’n!“
+
+Und alles dieses er empfängt‘,
+kein Wort zum Meister sich gedrängt,
+doch dieser sah, verstand und wusst‘,
+dass er noch nicht verzagen durft‘.
+
+
+
+
+
+ 
+## DER ENTSCHLUSS DES MEISTERS 
+Als der Knab zu Hause war,
+am Üben fand er sich,
+doch nicht, wie er es erst getan,
+mit einem Stock am Baumesstamm,
+mi voller Wucht hineingeschlag’n,
+o nein, so nun mehr nicht.
+
+Das Schwert denn hat er sich genommen,
+stellte sich der Herbstesluft,
+von dem Winde durch die Bäume,
+lange Kälte, kühle Sonne,
+und schlug so auf Dorn und Busch.
+
+Er mühte sich nun so zu tun,
+wie er geseh’n im Kampfessturm,
+am Goldfass vor dem dritten Tag,
+da sah er, wie man’s richtig macht.
+
+„Als ob ich das nicht ebenso,
+und besser schaff, als jene noch!“,
+so dachte er und sprach zu sich,
+das eisern Schwert in festem Griff.
+
+Und schlug er auch und hieb alsdann,
+erneut den einen Baume an,
+an den er schon ach so viel Zeit,
+so meint er jetzt, verschwendet hat.
+
+Und wütend wurd‘ er abermals,
+da dies in seinen Kopfe kam:
+„erneut nun steh‘ ich an dem Baum,
+der tausend Jahre hier schon schaut,
+und schlage drein wie eh und je.
+Das bringt mir nichts, so fürcht‘ ich es!“
+
+Zum Meister aber, dachte er,
+zu diesem wolle er nicht mehr.
+Er ließ ihn einen Ast nur schwingen,
+ohne Grund und ohne Klingen.
+
+„Ach, so welches Missgeschick,
+in welchem ich mich doch befind!
+Doch werd ich es alleine tun,
+der Meister hat von mir genug.“
+
+Doch anders kam es, nämlich so,
+dass an dem selben Tage noch,
+der Meiser vor die Türe trat,
+zum Baume schritt, heran zum Knab,
+und sagte dieses Wort zu ihm,
+mit müdem Blick, die Augen kühl:
+
+„Ich geb dir die Gelegenheit,
+zu lernen, wie du dich befreist,
+aus deiner Lage, wie du kämpfst,
+und wie du, dies ist wichtig jetzt,
+im Kampfe auch dann siegreich bist,
+wie du bezwingst den Feinde dir.
+Du wirst gehorchen, wirst das tun,
+wie ich es sag, von jetzt an nun!
+Du fechtest täglich mit dem Schwert,
+du lernst, wie dich im Platze hältst,
+und wirst in Körper, Geist und Seel‘,
+ein Kämpfer, wie du dort geseh’n.
+Und dieses eine ist mein Preis,
+dass, wenn du erst ein Sieger heißt,
+wenn du die Rüstung allesamt,
+zu guter Letzt beisammen hast,
+dass du dich jenem Drachen stellst,
+und dann ihn tötest, wohl und schnell.
+So sprich und stimme diesem zu,
+dein Name währt in langem Ruhm,
+der Kämpfer seist von Helm und Schuh,
+und Harnisch, alles dies dazu,
+und Drachenmeister nenn man dich,
+der, jung in Jahr, sein Land beschützt.
+Doch lehne ab und geh hinfort,
+zurück zum Hahnenkiele, dort,
+wo keiner weiß, was du getan,
+wo du zum Diener wächst heran,
+und wo das Leben einfach ist.
+Ist dies dein Wunsch? Dann kehr‘ zurück!“
+
+Da sprach der Knab sogleich von Zorn,
+„wie soll ich dir das glauben doch,
+was du da sagst, was ich denn wär‘,
+wenn ich nur endlich auf dich hör?
+Wenn du mir doch nur eines sagst,
+zu schlagen auf dem Baume da,
+und nicht ein Schwert benutzte ich,
+wenn ich nicht selbst es an mich riss.
+Ein Stock, den du mir hingestreckt,
+ein Stock gewinnt im Kampfe schlecht!“
+
+„Doch kämpft“, sprach da der Meister streng,
+„der Stocke nicht an deiner Stell‘.
+Was bringt ein Schuh, der auch nicht kämpft?
+Ein Helm kein Haupt vom Körper trennt,
+kein Stich mag auch dein Schilde tun,
+so scharf es sei, auch nicht dein Fuß.
+Was also denkst du, warum man,
+dies alles braucht in einem Kampf?
+Ein Schwerte nur, so scharf es sei,
+gewinnt nicht einen Kampf allein.
+Drum denke nicht, es war das Schwert,
+mit dem du selten kämpft‘st bis jetzt,
+das dir verloren hat den Kampf,
+auch war ich selber schuld daran.
+Mit einem Stocke in der Hand,
+anstatt dem Schwert, das du gehabt,
+da hättet du wohl gleich getan,
+es hätte nichts ein Speer gebracht.
+Und du denkst, es war meine Schuld,
+dass du verlorst und gingst zu Grund?“
+
+„Wenn du mir denn gezeiget hätt’st“,
+so rief der Knabe trotzdem jetzt,
+„wie ich im Kämpfen besser wär,
+dann wäre all dies nicht gescheh’n!“
+
+„Wenn du da schon der Beste wärst,
+ein Kämpfer, so wie du‘s gern hätt‘st,
+was wäre dann ein Sieg für dich?
+Dann wärst du ängstlich, fürchtest dich.
+Doch nun, da dieser lange Weg,
+noch vor den deinen Füßen steht,
+verspürst du Eifer, hast du Mut,
+in deinem Leben was zu tun.
+Du hast so also Eifer, Zorn,
+in deinen jungen Jahren schon.
+Was aus dem allen bald erwächst,
+das liegt in deinen Händen jetzt.
+Die Zeit, in denen dich versteckst,
+die seien nun vorbei,
+wenn du denn auch zu tun gedenkst,
+dass du mein Knabe bleibst!“
+
+Und wie der Knabe dies vernahm,
+er nach Bedenken bitter sprach:
+„Dann sage mir, was es dir brächt,
+wenn weiter ich dein Knabe wär?“
+
+Da sah der Meiser hin zum Knab,
+in seine Augen blickt‘ er lang,
+und sagte, „geh nach Hause, Bub!
+Wir sind hier fertig, ich und du.“
+Dann dreht‘ er sich vom Knaben fort,
+und ging ins Haus, verschwand denn dort.
+
+Und blieb der Knab allein zurück,
+das Schwerte noch in seinem Griff,
+und fasste trotzig den Entschluss,
+das er nun selber lernen muss.
+
+„Dann soll’s so sein“, so dachte er.
+„Ich brauch‘ dich sowieso nicht mehr.“
+
+Und hob er seine Habe auf,
+die er gerade mitgehabt,
+und schnallte seinen Gürtel um,
+das Schwert er an der Seite trug,
+und machte sich denn also auf,
+zu finden einen neuen Kauz,
+der ihm das Kämpfen lehren würd‘,
+der’s besser als der alte könnt.
+ 
+
+
+
+
+## DER DIENER IM GOLDFASS
+Auf die Weise war’s geschehen,
+dass er denn nach Hamse kam,
+denn die Reise wollt‘ er gehen,
+hin zur Stadt ins wache Leben,
+wo man meistens fündig war.
+
+So nun ging er durch die Straßen,
+fragte jeden netten Blick,
+wo man einen finden mag, der,
+guter Lehrer sich anschickt.
+
+Wie die Tauben von den Dächern,
+niederschauten, plapperten,
+und man hörte ihr Gelächter,
+und vernahm sie lachen denn.
+
+„Wie schon wird eir einen finden,
+wenn er mit den Müttern spricht,
+wie denn soll lsein Schwerte singen,
+wenn er wandert nur im Licht?“
+
+Und in der Tat, nicht einer sprach,
+dass manch wer einen Krieger kannt‘,
+der gut als Lehrer sich gezeigt,
+der wusste von der Kämpferzeit.
+
+Im Wirtshaus doch am selben Abend,
+wo zu bleiben er gedachte,
+rief ihn endlich einer an,
+der wohl auch gar betrunken war:
+„Dann geh zum Goldfass! Heul‘ nicht rum!
+Da prügelt man sich, bringt sich um.
+Und lass uns mit dem Rumgeheul,
+zufrieden, wo du kämpfen sollst!“
+
+Und manche, die das auch gehört,
+verstummten da, und still ward es,
+und schauten um, zu wem er schrie.
+„Ein Bube nur, gemein von ihm.“
+
+Der Knab ging auf die Straß‘ darauf,
+und dachte drüber nach.
+„Zurück soll ich zu diesem Haus,
+wo man mich ausgelacht?
+Man sagt, der Weg muss steinig sein,
+für jeden, der ihn geht.
+Von jetzt an bin auch ich bereit,
+zu gehen diesen Weg.“
+
+Und trat ins Wirtshaus er hinein,
+worauf der eine wieder schreit:
+„He, Bursch, komm her! Ich hab hier was.“
+Und diesem folgt‘ der Knabe nach.
+
+„Zum Glück bist du nochmal hier rein.
+Ich hab’s doch gar nicht bös gemeint.
+Du darfst dir nichts zu Herzen nehmen,
+was die Leute alles reden.
+Aber ist’s nur, dass das Kämpfen,
+viele von uns hat verendet.
+Als wir jung und kräftig war’n,
+da wollten wir auch Krieger sein,
+besitzen, was man sich erträumt,
+doch sieh uns an, wo sind wir heut?
+Ich will nicht sagen, lass es bleiben.
+Aber passe auf dich auf.
+Noch kein Krieger hatte einmal,
+spät im Leben Haus und Frau.“
+
+Da der Knabe dies vernommen,
+danke er und trat hinfort,
+hat ein Zimmer also sich genommen,
+für die Nacht an diesem Ort.
+
+„Also geht’s zum Goldfass hin“,
+so dachte er mit müdem Sinn,
+„wenn ich denn nur den Weg noch weiß.“
+Und früh am Morgen schlief er ein.
+
+So denn, es sollte sich ergeben,
+dass der Knab nach einem Tag,
+reitend auf dem rechten Wege,
+hin zum Goldfass endlich kam.
+
+Da trat er durch die Tür hinein,
+„mein kleiner Mann, was darf es sein?“,
+so fragte ihn der Wirt im Haus,
+der sah ganz streng und düster aus.
+
+„Ich brauche Arbeit“, sagte er,
+der Knabe zu dem Manne her.
+„Ich spüle ab und miste aus,
+und kümmre mich bei Tag ums Haus.
+Ein Bett zum schlafen brauche ich,
+und warmes Essen auf den Tisch.“
+
+„Der Winzling“, dachte da der Wirt.
+„Der schaut mir doch so aus,
+als ob er nichts zu essen kriegt,
+der Hunger ihm zum Halse steht,
+das Schuften ihn nicht graut.“
+
+„So soll es sein“, sprach er zuletzt.
+„Du sollst bekommen hier ein Bett,
+doch keinen Sold, verstehst du das?
+Nur, dass du bei uns wohnen darfst.
+Beim Kochen hilfst du und spülst ab,
+und putzt die Tische blitzeblank.
+Dann kannst du bleiben, wenn du auch,
+die Arbeit gut machst, sonst fliegst raus.“
+
+Und so geschah es, dass der Knab,
+zum Diener wurd‘ an diesem Tag,
+und für die nächsten Wochen tat,
+was ihm die andern angesagt.
+Doch als er in der Küche stand,
+zum Fenster raus zum Himmel sah,
+da sehnte er sich nach der Nacht,
+dass es bald endlich finster ward.
+
+Denn dann, wenn alles schlief und ruht‘,
+die Raben selbst das Aug zutun,
+da ging der Knab zum Holzschupp hin,
+wo Schwert und Schild und Lanze hing,
+und schlug auf einen Baumstumpf ein,
+von links und rechts, mit Schwert und Beil.
+Und tiefe Kerben überall,
+war’n bald zu sehen an dem Stamm.
+Und da in dieser Herbsteskälte,
+nachts kein Mensch zum Schuppen kam,
+nicht der Hund gar selber bellte,
+da auch er nichts mitbekam,
+so der Knabe heimlich üben,
+mit dem Schwert und mit dem Schild,
+und so gingen Wochen über,
+bis der Winter zeigte sich.
+
+Es war dies eben jene Zeit,
+an dem die Arme jeden Tag,
+ihm wehgetan, sich angefühlt,
+als wollten sie sich strecken nicht.
+Warum die Füße ihm geschmerzt,
+verstand er aber gar nicht erst.
+
+Die Arbeit, der er also dort,
+verbrachte an dem Fass von Gold,
+die war, so schätze er, wohl recht,
+und er zum Haus ein guter Knecht.
+Und wenn er dann am Fenster stand,
+nach draußen oft zum Platze sah,
+wo manche fochten, Hieb um Hieb,
+mit Schwert und auch mit Lanz‘,
+da spähte er und sah gut hin,
+dass er draus lernen kann.
+
+Und sah er auch, wie öfters mal,
+ein Recke auf den Platze kam,
+mit einem Gegner lange rang,
+bis einer auf den Boden lag.
+
+„Von solcher Stärke will ich sein“,
+so dacht‘ er in der Küche drein.
+
+Und wenn die Mannen dann herein,
+zum Essen kamen, tranken Wein,
+und aßen so viel, dass man meint:
+Warum sind die nicht dick am Leib?
+Doch sprachen sie beim Essen laut,
+und prahlten stolz daher,
+„ich schaff zwei Dutzend jetzt genau.
+Wer sagt, er schaffe mehr?“
+
+„Das Doppelte!“, rief einer nach.
+„Bestimmt schaffst fünfe nicht!“
+Und so geschah es wieder mal,
+dass man einander misst.
+
+Mit einem „Hops!“ ein großer Reck,
+der sprang vom Boden auf,
+und hielt sich an der Decke fest,
+am Balken, der gebaut.
+Und zog er sich mit aller Kraft,
+im Stimmenchor hinauf,
+und ließ er wieder sich hinab,
+dann zählten alle laut.
+
+„Und einer noch! Hinauf mit dir!
+Ach, hab‘ ich’s doch gewusst!
+Nicht fünfe hast du hingekriegt,
+Du lügst nur krumm und bunt!“
+
+Es war der Knab, der alles dies,
+vernommen und geschaut,
+und seinen Eifer packte es.
+„Ja, heut‘ versuch ich’s auch.“
+
+Von diesem Tage plötzlich an,
+da änderte sich was,
+dass nämlich nun der gute Knab,
+rasch werden wollt‘ ein starker Mann,
+der rang und auch gewann.
+Und nicht mehr mit dem Schwerte nur,
+da übte er bei Nacht,
+nein, auch zog er sich lang und stur,
+am Schuppendach hinauf.
+Und da er noch im Netze hing,
+von Fleiß und Tatendrang,
+und noch nicht wusste, wie viel Zeit,
+das ihm noch kosten mag,
+da tat er viele Wochen lang,
+dasselbe jeden Tag,
+und merkte wie er stärker bald,
+und breiter er auch ward.
+
+Er zog sich in der einen Nacht,
+schon zweimal hoch, nicht fünfmal. Ach!
+
+„Wenn ich schon jetzt die Hälfte schaff,
+von dem, was dieser Recke kann,
+dann nenn man mich ein Wunderkind!
+So lachte er mit kühnem Sinn.“
+ 
+
+
+
+
+## EIN ACHTBARER STREITER
+Wie der Winter kalt und weiß,
+im Sturme kam und eingeschneit,
+das Goldfass und das Land umher,
+da stand der Knabe schon am Herd.
+
+Und als das neue Jahr begann,
+der Knabe in der Küche stand,
+bis dass die Veilchen auf dem Felde,
+nun das Treiben wieder lernten.
+
+Die Arbeit an dem hellen Tage,
+in dem Leben von dem Knaben,
+war dieselbe immerzu,
+und ließ ihm daher keine Ruh.
+Doch wenn es finsterte des nachts,
+und man die Arbeit lassen darf,
+begann der Tag erneut für ihn,
+im Schuppen ja, und Hieb für Hieb.
+
+Das erste Fest von viel Besuch,
+das er im Frühling sah,
+das war der Kampf um zweien Schuh,
+aus Eisen auch gemacht.
+Und stand er dort mit seinem Freunde,
+der der Sohn des Wirtes war,
+etwas dick in Bauch und Leibe,
+braunes, krauses kurzes Haar.
+
+Ach, wie so der Knabe schließlich,
+hingeschaut zu dem Gefecht,
+und der Freund mit Namen Friedrich,
+sich hinzugesetzt zuletzt,
+sagte dieser hin zum Knaben:
+„Weh! Oh! Weh! Ist das ein Schreck!
+nächstes Mal, so sagt mein Vater,
+kämpf ich selber dort mit Schwert.“
+
+Und da sprach der Knabe wohl,
+„dann will ich es dir zeigen schon,
+zu Kämpfen. Oh, das wird ein Spaß,
+wo ich schon ein paar Dinge kann.
+Dann kann ich auch dein Lehrer sein,
+mit diesem, was ich jetzt schon weiß.“
+
+„Den Lehrer“, sprach der Friedrich rasch,
+„mit dem ist schon was ausgemacht.
+Er wird bezahlt, dass er mir zeigt,
+wie man denn kämpft, so ganz zu zweit.
+Und dass, obwohl ich überhaupt,
+nicht einmal Lust empfand,
+zu kämpfen dort in diesem Platz.
+Was ist’s für eine Plag!“
+
+Da überlegte gut der Knab,
+und dachte, was zu machen war.
+„Dann lehre mich“, so sprach er dann,
+„was immer dir dein Lehrer sagt.
+Und danach soll es so gescheh’n,
+dass ich an deine Stelle tret‘,
+zu kämpfen, wenn es soweit ist,
+dass deinen Vater ich vertritt.“
+
+Und sollte dies auch so gescheh’n.
+Denn wenn geschmolzen aller Schnee,
+da kam ein kühner Reck‘ herbei,
+der lange durch die Welt gestreift,
+und nun zum Lehrer werden sollt‘,
+im Herbst dann wieder gehen wollt‘.
+Und dieser übte jeden Tag,
+mit Friedrich auf dem weißen Sand.
+Doch wenn der Knabe dann gefragt,
+was alles ihm wurd‘ beigebracht,
+da stöhnte er, ward zornig rasch:
+„Wie hab den Tage ich gehasst!
+Ich weiß nicht, was er von mir wollt‘.
+Jetzt geh‘ nach hier! Jetzt geh‘ nach dort!
+Und renn nach da und renn nach hier!
+Und bleib im Kreise fern von mir!
+Und halt die Spitze über dir,
+das Schwert mit einer Hand nur führ!“
+
+Und vieles weitre, worauf er,
+der Friedrich sich nun aufgeregt.
+Und so geschah es, dass der Knab,
+was lernen konnte von dem Mann,
+der eigentlich dem Freunde half,
+um zu bestreiten einen Kampf.
+
+„Im Sommer dann, was tun wir da?“
+So fragte Friedrich nun den Knab.
+„Wenn ich dann aber kämpfen soll,
+wie lässt man aber dich dann vor?“
+
+„Das weiß ich noch nicht ganz genau“, 
+so sagte es der Knabe lau.
+
+Es war der Sommer schließlich da,
+im Juni denn geschah’s,
+dass Friedrich hin zum Kampfe trat,
+der Wirt und Vater sprach:
+„Das ist mein Sohn mit Schwert und Schild!
+Ich sag‘ euch, dieser Mann gewinnt!“
+
+Und trat er gegen einen an,
+der groß in Wuchs und Stärke war,
+und welcher, nicht wie selber er,
+die Zehen sah beim Vorwärtsgeh‘n.
+
+Umschlossen war der Kampfesring,
+geblasen wurde zum Beginn.
+Und zitternd stand der Arme dort,
+das Schwert in seiner Rechten noch.
+Wie lange das wohl gut geh’n würd?
+Da bangt‘ wohl auch der Vater mit.
+
+Da kam der Große auf ihn zu,
+und hieb dem guten, dicken Bub,
+mit einem Schlag das Schilde fort,
+und holte aus erneut und hoch.
+
+Doch ehe er noch einen Schlag,
+vollziehen konnte, sollte das,
+vereitelt sein von Friedrich selbst.
+Der nämlich wollte nicht mehr jetzt.
+
+Und warf er auf den Sandenplatz,
+das Eisenschwert hernieder rasch,
+und dreht‘ sich um und rücklinks lief.
+Hindurch die Menge drängt‘ er sich,
+und war in großem Lärm und Seh‘n,
+verschwunden aus dem Kampfgescheh’n.
+
+Da lachten alle jene laut,
+die nicht gewusst, dass dieser Kauz,
+der Sohn des Wirts gewesen war.
+Die andren zeigten kaum etwas.
+Und siegreich ging der Reck‘ im Kreis,
+die Arme hin zum Himmel greift,
+und trank den Jubel langsam aus,
+und ließ von Spotte achtbar ab.
+
+Der Kampf doch war noch nicht vorbei,
+auf einmal schwand das Jubelschrei’n,
+als einer Friedrichs Schwert und Schild,
+vom Boden hob und an sich hielt.
+Und dieser war der gute Knab,
+der keine Zeit lang nachgedacht,
+um zu verteidigen den Freund,
+und auch zu kämpfen, wie er wollt‘.
+
+Und riefen manche rasch herein:
+„Der Küchenhelfer! Sieh ihn an!
+Was macht er denn? Was tut er da?
+Wer putzt denn jetzt die Tische ab?“
+
+Und so verspotteten sie ihn,
+und ebenfalls manch andrer rief:
+„Der Kampf doch ist schon lange um!
+Verloren hat der dicke Bub!“
+
+Doch wie der Knab die Klinge hielt,
+die Spitze streckt‘ zum Recken hin,
+entflammte da der Kampf erneut,
+und mancher rief da aus vor Freud:
+„Ein ordentliches Kämpfen jetzt!
+Das seid ihr schuldig uns zuletzt!“
+
+Und tat der Knab den ersten Schritt,
+nach vorn und links, und nochmal dies,
+und ebenfalls der große Mann, 
+der näherte dem Feind sich an,
+und Zorn und Feuer loderte,
+im Herz des Knaben immer mehr,
+und tiefentschlossen war er grad‘,
+zu siegen nun in diesem Kampf.
+
+„Es soll das Üben, all die Pein,
+am Ende nicht verschwendet sein!“
+So dachte er und schritt heran,
+noch einen Schritt zum Kämpfermann,
+und holte mit dem Schwerte aus,
+und schlug aufs hölzern Schild hinauf.
+
+Doch stark war dieses, stark der Reck‘,
+der solches leicht hat weggesteckt,
+und hieb der nun mit aller Kraft,
+zum Schild hinauf des guten Knab.
+
+Und siehe! Wie der Knabe noch,
+das Schild in Händen hielt,
+und erstmals fühlte er sich doch,
+wie einer, welcher siegt.
+Und ging er einen Schritt zurück,
+und stellt‘ sich vor geschickt,
+wie er zu seinem Hackstock blickt,
+und nicht zu einem Reck‘.
+Und wieder ging er auf ihn los,
+geschickt mit gutem Aug‘,
+und schaute, was der Kämpfer wohl,
+als nächstes tat genau.
+
+Die Raben, die von oben glotzten,
+von dem Wirtshausdach herab,
+waren nun mit ihrem Hoffen,
+an den Punkt gelangt,
+dass sie sprachen: „Hoffentlich,
+nun stellt er sich nicht vor,
+dass er mit einem Hackstock ficht.
+Er ist doch jetzt kein Tor!“
+
+Ein Hackstock denn, der wehrt sich nicht,
+und weicht dem Schlag nicht aus,
+doch dieser Recke, groß mit Hirn,
+dem sind die Augen grau.
+
+Das Übel also naht‘ heran,
+der Recke raffte sich,
+und kämpfte mit dem Knaben nah,
+wie der noch niemals ficht.
+Und stärker, flinker war der Reck‘,
+und schlug den Knaben so zuletzt,
+das Schwert aus seiner rechten Hand,
+und stellt‘ ein Bein ihm hintendran,
+sodass der Knab zu Boden fiel,
+die Klinge auf den Halse zielt‘.
+
+Und so war dieser Kampf vorbei,
+der Reck‘ doch ihm die Hand gereicht,
+und aufgeholfen und gesagt:
+„Du hast gekämpft heut‘ gut und stark!“
+
+Und voll Verwunderung und blass,
+da sah der Knab den Recken an,
+und dachte sich, wie nett er doch,
+nach solchem Kampfe sein kann noch.
+
+Und achtete er nicht darauf,
+ob jemand ihn noch ausgelacht,
+ob jemand spottete erneut.
+Doch niemand wagte solches heut‘.
+ 
+## ZWEI GLOTZENDE AUGEN
+Und wie es nachher kommen sollt‘:
+Der Wirt sprach zu dem Knab,
+was dieser sich dabei gedacht,
+dass er dort kämpfte in dem Platz,
+doch zeigte auch sich stolz.
+
+Und einmal, zweien Tag danach,
+als er in seiner Küche stand,
+da kam der Friedrich doch herein,
+und sagte, „komm, das lass nun sein.“
+
+Und auf dem Platze stand der Lehrer,
+von dem Friedrich, hochgebaut,
+und er sah zum Knaben nieder,
+trug ein Lächeln auf dem Haupt.
+„Siehe an“, so rief er hell,
+„der Diener, der dem Kampf sich stellt!“
+
+Und so geschah es schließlich, dass,
+der Knabe wurd gelehret auch,
+denn wie der Wirt nun selber sah,
+es konnte kämpfen dieser Knab,
+und wollte lernen, ja er stand,
+in seiner Schulde nach dem Kampf.
+
+Am Vormittag und spät bei Nacht,
+da übten zweien auf dem Platz,
+der Knabe und der Lehrer nun,
+der Friedrich hatte wohl genug,
+und ließ es bleiben, sagte, dass,
+er nimmer wieder kämpfen mag.
+
+„Im Herbst“, versprach es ihm der Knab,
+„gewinne ich beim nächsten Mal,
+und leg das Kämpfen nicht mehr hin,
+bis ich nicht das Turnier gewinn.
+Und wenn ich alle Rüstung trag‘,
+ein jedes Teil errungen hab,
+dann werde ich der größte Mann,
+der je auf diesem Platze stand!“
+
+Und dachte Friedrich nach und sprach:
+„Und ziehst du dann auch durch das Land,
+und jagst du Löwen, kämpfst fürs Recht,
+und wirst ein großer Ritterheld?
+Wie jene, wie man sich erzählt,
+die selbst die Drachen schon gezähmt.“
+
+„Ein solcher werd ich!“, sagte er,
+der Knabe kühn zum Freunde her.
+„Denn jetzt, wo mich dein Lehrer lehrt,
+da steht mir gar nichts mehr im Weg!“
+
+Es sollte dies der Sommer sein,
+an dem der Knab dann auch gewann.
+Denn schlug er einen kühnen Reck‘,
+im Kampf mit dem, was er gelernt,
+und stand am Platze neben dran,
+sein neuer Lehrer stolz am Rand.
+
+„Talent hat dieser gute Bursch“,
+so sagte er zum Wirt,
+„wenn er behält die Kampfeslust,
+wer weiß, was aus ihm wird?“
+
+„Das ist nichts Neues“, kam’s zurück.
+„Wie viele suchten schon ihr Glück,
+im Kampfe, in dem Ruhm, der Ehr‘?
+Sie alle sind geendet jäh.
+Ein guter Diener ist er mir.
+Solang er kein Turnier gewinnt,
+da bleibt er weiter hinterm Herd,
+und spült die Teller wie bisher.“
+
+Es ging ein ganzes Jahr noch um,
+bis dies geschah, im Frühling nun,
+als er gewann, bei Eis und Schnee,
+den Handschuh, der aus Samt gewebt.
+
+Und wie der Wirt es angesagt,
+da er nun doch gewonnen hat,
+so musst‘ er nur die Hälfte tun,
+der Stunden, die er vorher musst‘.
+Denn hat der Wirt im Kopf gehabt:
+„Wenn er zum Besten wächst heran,
+und er das schafft, was niemand noch,
+zuvor geschafft, seit Jahren schon,
+dann kommen doch bestimmt daher,
+die Menschen aus der weiten Fern,
+und schauen zu, wie dieser Knab,
+im Platz beim Goldfass kämpfen mag.“
+
+Im Sommer dann, wo mancher kam,
+der noch im Frühling nicht da war,
+verlor er wieder seinen Preis,
+sein Herz doch blieb trotz allem heiß.
+Und hin und her ging es danach,
+Gewinn, Verlust, doch immer brav,
+da übte er und übte lang,
+und weiter blieb sein Lehrer da.
+
+„Ich sage dir, ich glaub daran,
+dass dieser Bursch es schaffen kann“,
+so sagte er mit wem er sprach,
+als er den Knaben kämpfen sah.
+
+Und sagte da der andere:
+„Wenn er nur seinen jungen Geist,
+verliert nicht in der Welt allein.
+Du hast geseh’n wie mancher Reck,
+zu hohen Ruhm, zu Ehr gelangt,
+ein jeder seinen Namen kannt‘,
+und dann im flüchtigen Moment,
+verlor, was er sich aufgestemmt.
+Der Teufel, och, das sag ich dir,
+der kommt zum Knaben auch noch her.
+Der schaut nur jetzt noch zu und lacht,
+und bringt den Knaben dann zu Fall.
+Und tiefer wird er niederfallen,
+wie von uns ein jeder, sag ich.“
+
+Und da brummte nur dazu,
+der Lehrer von dem Knaben nun.
+„Ich glaube“, sagte er danach,
+„wie jeder andre Bursche auch,
+wird er geprüft, wenn’s soweit ist.
+Bis dahin, bin sein Lehrer ich.“
+
+„Du weißt“, meint‘ da der andere,
+„dass du dann viele Pflichten trägst.
+Ich hoffe, das ist dir bewusst.
+Sein Vater aber bist nicht du.
+Wo ist der? Wo die Mutter? Ach!
+Ein solcher kommt noch früh zu Fall.“
+
+„Er sprach noch von der Mutter nie,
+und auch vom Vater meistens nicht.
+Er wuchs mit seinem Vater auf,
+auf einem Hof mit Hund und Haus,
+und vielmehr weiß ich selber nicht,
+wenn ich auch selbst gern mehr noch wüsst‘.
+Er habe dies schon oft geseh’n,
+die jungen Leute rennen weg,
+von ihren Teufeln, die sie jagen,
+die sie durch die Kindheit plagten.
+Fünfzig Stunden in der Woche,
+jeden Tag und jede Nacht,
+doch mit jedem Sieg errungen,
+scheint er leerer, nach und nach.
+Wo er noch früher hat gelacht,
+getobt, gehüpft, gewitzt,
+da scheint ihm dieses ausgemacht,
+versponnen hat er sich.
+Man will ihm helfen, will ihn leiten,
+doch das fürcht‘ ich, ist zu spät,
+nur kann ich ihn noch bereiten,
+dass er kämpft für Ehr‘ und Recht.“
  
-Und wie sie hin zur Hütte kamen,
-als die Sonne unterging,
-sprach der Meister gut zum Knaben:
-„Heute Nacht noch schlafe hier.
-Morgen bring‘ ich dich nach Haus,
-zum Hahnenkiel, da freu‘ dich drauf.“
-
-Und sonst wurd‘ dabei nichts gesagt,
-der Knabe ging zu Bette bald,
-doch wenn er sich auch freuen mochte,
-auf zuhause, war da doch noch,
-das Gefühl, das ihn so plagte:
-in der Lehr‘ versagt zu haben.
-
-Doch der Mond zog seine Runde,
-weiß und hell, dann ging er unter,
-und die Sonne färbte rot,
-den Himmel fern im Osten schon.
-Und während noch in tiefem Schatten,
-jene Hütte morgens da lag,
-machten zwei sich auf den Weg,
-nach Westen hin zum Hahnenkiel.
-
-
-## Zehn Pfeile
-
-Der Meister, als er es gewahrt,
-dass noch sein Knab recht trübe war,
-begann er, um ihn aufzuheitern,
-etwas, das er nie getan hat.
-Denn er stimmte plötzlich an,
-ein Lied, das er von früher kannt’.
-
-„Die Welt ist groß und ich so klein.
-Wer kann mich dafür strafen?
-Was ging ich über Wurz und Zweig?
-Wer will mich dafür mahnen?
-
-Hoch die Füße. Hoch den Kopf.
-Hast du keinen Honigtopf?
-Hol ihn dir doch selber, komm,
-und sing auf deinem Wagen!
-
-Schau dort oben! Siehst du’s nicht?
-Blau der Himmel, gelbes Licht.
-Zeigt die Sonne ihr Gesicht,
-dann lass sie drüber strahlen.
-
-Freue dich! O freue dich!
-Dass du es auch nicht vergisst:
-Wie bin schon ein Wunder ich,
-wenn ich so schön kann singen?“
-
-Doch wie der Meister dieses sang,
-und vor sich trabte durch den Wald,
-vernahm er einen lauten Piff,
-und packt‘ den Knaben festen Griffs.
-
-„Gib Acht!“, so flüsterte er ernst.
-Und schon die Stimmung war gekehrt.
-Er schaute um sich scharfen Blicks,
-als hört‘ er was im Waldesdicht.
-
-Doch ehe es der Knab verstand,
-warum der Meister angespannt,
-da zeigten sich aus allen Seiten,
-Bögen mit gespitzten Pfeilen,
-und es trat ein Dutzend Mannen,
-um sie her, die Jäger waren.
-
-„Achtung, Knabe! Her zu mir!“,
-befahl nun streng der Meister, wie,
-er sah, dass diese vielen Jäger,
-durch die Sträucher sich bewegten.
-
-Und der Knab‘, der eben noch,
-den Klang des frohen Lieds genoss,
-gewahrte plötzlich die Gefahr,
-und stellte sich zum Meister nah.
-
-„Tritt fort von ihm!“, doch einer rief,
-von diesen Mannen, welche sich,
-in grünem, braunem Lederlein,
-und Pfeil und Bogen still gezeigt.
-„Komm her zu mir! Wir tun dir nichts.
-Wir bringen dich nach Haus‘ geschwind.
-Dem Knechtenmeister, aber dem,
-dem werden wir bald etwas lehr‘n.“
-
-Und wie der Meister um sich sah,
-und keinen Ausweg mehr gewahrt,
-da sagte er zum Knaben trüb:
-„Tu, was sie sagen, jetzt geschwind.
-Sie könnten dich sonst ebenfalls,
-mit ihren Pfeilen treffen bald.“
-
-„Ich geh‘ nicht weg“, nun rief der Knab,
-und zog sein Schwert mit Mut heraus.
-
-Der Meister aber sagte leis‘,
-als er ihm in die Augen schaut‘:
-„Vertrau mir, Bursche. Geh schon! Los!
-Zu meinem Bruder gehe noch,
-und sag ihm, was geschehen ist.
-Ich büße jetzt die Schuld für mich.“
-
-„Dein Schwert leg nieder!“, rief sodann,
-zum Knaben hin ein Jägersmann,
-„sonst lauf davon, wir lassen dich.
-So lasst ihn durch!“, rief er zuletzt.
-
-Und ritt sodann der Knabe fort,
-doch sah er aus Entfernung noch,
-was nun geschah, o welche Übel,
-seinen Meister nun befielen.
-
-Denn er hört‘, wie einer sprach:
-„Du wirst des Mordes vierer Mann,
-bezichtigt, vor Gericht gestellt.
-Das Urteil wird vom Recht gefällt.
-Vom Pferde steig, du Knechtenmann,
-und bind‘ dir diese Seile an!“
-
-Und dem gefolgte auch der Meister,
-denn das Kämpfen war er leid jetzt.
-
-Und als sie ihn nun fesselten,
-da rief noch einer streng zu ihn:
-„Dann sage jetzt, was du getan,
-mit jenen vielen Knaben, da,
-als man sie nimmer mehr geseh’n.
-So sag’s doch jetzt, bevor du gehst!“
-
-Der Meister doch, in schwarz gehüllt,
-der schaute scharf zum Manne hin,
-und sagte: „Alle haben sich,
-ihr Schicksal selbst gesucht zum Glück.
-Ich tat kein Unrecht niemandem,
-ein jeder hat allein gewählt.“
-
-„Wo sind sie dann?“, ein andrer rief.
-„Im Totenflusse liegen sie.“
-
-„Und ist das jetzt dein letztes Wort?“,
-so rief der andre wieder grob,
-und darauf blieb der Meister still.
-Man band ihn auf das Pferde hin.
-
-Dann sprach der eine Jäger aus:
-„So ist’s getan mit diesem Greis.
-Jetzt bindet ihn aufs Pferde auf!
-Wir bringen ihn zum Bürgerhaus.“
-
-Und sah er scharf zum Meister hin,
-und fügte da hinzu noch dies:
-„Und dass du stirbst, sei dir gewiss!
-Denn ginge es allein nach mir,
-dann würd‘ ich dich mit allen Pfeilen,
-die ich grade bei mir trage,
-elendlich und rasch durchbohren.
-Zwei sind wegen dir gestorben,
-die die Brüder mir gewesen.
-In dem Feld sind sie gelegen.“
-
-Ach, da dacht‘ der Knab: „O, Meister nein!
-Was tun sie nur? Wie muss das sein?“
-Und schaurig wurde sein Gesicht.
-„Was mach ich nur? Was tu ich jetzt?“
-
-Doch wie die ganze Reiterschar,
-zu zehnt davongeritten war,
-da folgte ihr der Knabe rasch,
-versteckt‘ sich hinter Strauch und Bach,
-bis er erkannte, dass ihr Ziel,
-wohl Hamse war, so schien es ihm.
-
-
-## Die Maske am Feuer
-
-„Ich muss zum Schmied, hat er gesagt“,
-so dachte er, der gute Knab,
-und ritt auf einem andern Weg,
-nach Norden hin erst, dann erst spät,
-nach Osten, wo die Blumenfelder,
-jetzt im Juni sich erhellten,
-bis er schließlich in der Stadt,
-zur Mittagszeit schon angelangt.
-
-Und dort, in einer schmalen Gasse,
-hörte man die Schläge prasseln,
-auf die glühend Eisen nieder,
-in des Meisters Bruders Schmiede.
-
-Da lugt‘ der Knab durchs Tor hindurch,
-und sah zum Feuer hin, wo schon,
-zu tausend große Funken flogen,
-und ein Hammer durch sie tobte.
-Und ein Mann stand dem davor,
-mit breiten Schultern, Ledergurt,
-und schwang den Hammer mit der Wucht,
-wie niemand sonst es je vermocht.
-
-Da klopft‘ der Knabe erst und rief:
-„Seid Ihr des Meisters Bruders nicht?
-Es ist gar Schreckliches passiert.
-Man will ihn vors Gerichte führ’n.“
-
-Da lachte nur der breite Mann, 
-und schwang den Hammer weiter da.
-„Das hat man oft genug versucht.
-Und meistens sind dann andre tot.“
-
-„Doch diesmal nicht“, rief gleich der Knab.
-„Man band ihn auf dem Pferde an,
-und ritt zu zehnt mit ihm hinfort.
-Sie sind dann bald schon hier vor Ort.“
-
-Das Schlagen hörte plötzlich auf,
-der Mann zurück zum Knaben schaut‘,
-und jetzt erkannte der vor Furcht,
-dass eine Maske er grad trug.
-
-„Und wer bist du?“, fragt‘ da der Schmied,
-und schritt nun nah heran an ihn.
-
-Der Knabe dann erzählte rasch,
-wie er zum Knechtenmeister kam,
-und welche Reise sie getan,
-und wie es um den Drachen stand.
-
-„Und als ich letztlich ihm gesagt,
-dass ich kein Kämpfer werden kann,
-da brach er meine Lehre ab,
-und sagte: geh nach Hause, Knab.
-Doch dann kam diese Jägerschar,
-und nahm ihn fest und führt‘ ihn ab,
-und er hat noch zu mir gesagt,
-ich soll zum Bruder gehen rasch.
-Er büße seine Schuld jetzt ein.
-Was das bedeutet, weiß ich kaum.“
-
-Und wie der Schmied dies alles hörte,
-und er verstand, der Knab war ehrlich,
-seufzte er und sagte schwer:
-„So ist es dann wohl um mit ihm.“
-
-Der Knab doch aber rief entsetzt:
-„Was soll das aber heißen jetzt?
-Dass es gar nichts zu tun mehr gibt?
-Er ist doch dessen schuldig nicht!
-Er hat doch nimmer diese Knechten,
-umgebracht! Ich kann’s nicht denken!“
-
-„Er hat sie auch nicht umgebracht.
-Natürlich hat er’s nicht gemacht.“
-
-Dann seufzte er nun abermals,
-und sah den Knaben milde an.
-
-„Wieso dann aber glaubt man das?“,
-so rief der Knab von Wut erfasst.
-
-„Ach, sollst du’s eben wissen, Knab“, 
-so gab zuletzt der Schmiede nach,
-erzählte, was geschehen war,
-vor vielen Jahren schwerer Zeit.
-„Der Drache kam dem Bruder zu.
-Von einem ein Geschenk war’s nur.
-Dann zog er selbst den Kleinen auf,
-doch hielt ihn lang‘ versteckt, im Grau’n.
-Und als er schließlich größer wurd‘,
-und Feuer spie dann ohne Grund,
-da hing der Bruder kurzerhand,
-dem Drachen einen Reife an,
-und ließ im Walde ihn zurück,
-denn selber töten, konnt‘ er nicht.
-Doch unterschätzte er die Kraft,
-die dieser Drache schon gehabt,
-denn gar nicht lange Zeit danach,
-da brannt‘ er Haus und Hofe ab,
-und mir versengte er’s Gesicht,
-mein Bruder rann davon vor ihm.
-Und seither sind wir nur zu zweit,
-die Eltern starben in der Nacht.
-Mein Bruder aber mit der Zeit,
-der wurd‘ zur großen Kriegerheit,
-und schwor sich, diesen einen Drachen,
-umzubringen, der geschaffen,
-solches Leid und solchen Schmerz.
-Doch viele Male schlug er schon,
-den Drachen nieder, als der jung,
-doch konnte weder Axt noch Schwert,
-dem Drachen schaden, so schien es.
-Den Reif doch, der ihm angelegt,
-von meinem Bruder, trug er stets.
-Und mit der Zeit wuchs dieser mit.
-Daran erkennst du ihn geschwind.
-Mein Bruder hörte dann von einem,
-von dem Fluss der Todgebeinen,
-wo ein Schwert von Zauber lag,
-das wer mit in den Flusse nahm.
-Er meinte, nur mit diesem Schwert,
-könnt‘ er den Drachen nur erleg’n.
-Dann führte er mich aber hin,
-zum Totenfluss, und sagt‘, er schwimmt,
-hinein und holt‘ das Schwert heraus,
-und ich dann ziehe ihn hinaus.
-Doch fürchtete ich mich dabei,
-und sagte, welche Zauberei,
-die das nur ist? Welcher böser Ort?
-Und von dem Flusse rann ich fort.
-Und seitdem lagen wir im Streit,
-für solches war ich nicht bereit.
-So zog er plötzlich selbst umher,
-und suchte einen, welcher ihm,
-beim Holen von dem Schwerte half,
-und kühne Recken lehrt‘ er da,
-bis einer ihm wohl so vertraute,
-dass er in den Flusse tauchte.
-Alle aber, sagt‘ er mir,
-die runter auf den Grunde sind,
-die holten Gold und Silber rauf,
-vergaßen dieses Schwert, das grau,
-und alt und stumpf schon beinah war.
-Da zog er sie nicht mehr hinauf,
-und suchte einen andern sich,
-der bessren Herzens wär‘ für dies.
-Das Leid doch, das er dadurch tat,
-das blieb an seinem Namen dran,
-denn wussten alle: jeder Knab,
-der mit ihm je gesehen ward,
-der war schon bald nicht mehr geseh’n.
-Es war bei vieren so gescheh’n.
-Beim fünften aber, der du bist,
-da stellte er dem Rechte sich,
-und wird erhalten seine Straf‘.
-Wir können nichts mehr tun daran.“
-
-Der Knabe doch, als er’s vernahm,
-der dachte eine Weile nach,
-und sagte dann: „Dann hol’n wir doch,
-die Knechten aus dem Totenfluss,
-und bringen sie dem Richter vor,
-dann wären diese gar nicht tot,
-und von der Schuld wär‘ er befreit.
-Wie lange doch uns dafür bleibt?“
-
-Da brummte schwer der Schmied dahin,
-doch wie er länger daran denkt,
-da schien es ihm nicht falsch zu sein.
-„Doch ist’s unmöglich“, sprach er dann.
-„Wie soll das geh’n? Sie sind doch tot.
-Wer tot ist, kommt nicht mehr hervor.“
-
-„Doch lebten sie“, sprach rasch der Knab,
-„als sie getaucht sind in den Bach,
-und vielleicht sind sie jetzt noch dort.
-Wir müssen es versuchen doch!“
-
-Und endlich gab der Schmiede nach,
-und sprach: „Was lang‘ ich nicht getan,
-das tu ich jetzt für meinen Bruder,
-und die Recken in dem Flusse.“
-
-Gleich trat er der Schmiede aus,
-und schob den Wagen rasch heraus,
-und band zwei Pferde vorne dran.
-Der Knabe folgte ihm sodann.
-Zu dieser Stunde, o wie sie,
-geritten durch die Straßen sind,
-und durch das Tor der Stadt hinaus,
-nach Norden hin in Eil‘ und Braus‘.
-
-„Da kommen sie, die Jägerschaft“,
-so rief der Schmiede, als er sah,
-wie nah der Stadt die Schar schon war,
-mit der der Knechtenmeister kam.
-„Wir müssen eilen!“, rief er bang‘. 
-„Vielleicht wird heut’s Gericht schon sein.“
-
-
-## Schwarzes Wasser
-
-So also ritten sie dahin,
-nach Norden bis zum Fluss geschwind,
-und folgten dem ein gutes Stück,
-bis sie nach mancher Stunde sich,
-im Nebel plötzlich wiederfanden,
-wo auch nicht ein Tier sie sahen.
-Keine Vögel zwitscherten,
-und keine Hasen sah man mehr,
-und Eichhörnchen, die waren fort,
-die Bäume kahl und schwarz und morsch.
-
-Und immer finsterer wurd‘ da,
-die Luft und alles bald auch stank.
-Und plötzlich endete der Fluss,
-doch meinte da der Schmied in Furcht:
-„Noch weiter reite grade aus!
-Das Pferd halt ruhig, pass gut auf.“
-
-Und wie sie durch den Nebel ritten,
-eine Lampe nur mehr hielten,
-war es ihnen, als sei’s Nacht,
-so finster war es also da.
-
-Und wie sie dann denselben Fluss,
-nun wiederfanden, schien es doch,
-dass dieser nun nach Norden floss,
-und nicht nach Süden wie zuvor.
-
-„Der Fluss! Da, schau nur!“, sprach der Knabe.
-„Fließt jetzt anders, schwarz und grade.“
-
-„Ja, das ist er“, keuchte da,
-der Schmied, der hinter ihm noch saß.
-Und weh, sein Zittern spürt‘ der Knab,
-denn solche Angst hat er gehabt.
-„Das letzte Mal, als ich hier war,
-da war der Nebel noch nicht da.
-Und Berge gab es, schwarz und kahl,
-und Täler, dunkel, wüst und fahl.“
-
-Doch ehe er zu Ende sprach,
-da lichtete der Nebel auf,
-und zeigte nun sich ebendies,
-wie er es sagte grade ihm.
-
-„Da sind wir“, bracht‘ er noch hervor.
-„Die Wächterin! Da steht sie schon.“
-
-Und wie sie zu der Frau hin schritten,
-sprach der Knab mit kühner Stimme:
-„Sind die vieren Knechtenknaben,
-die einst mit dem Meister waren,
-noch bei Euch hier, noch im Fluss?
-Und leben sie dort unten noch?“
-
-Doch sprach die Wächterin nur knapp:
-„Sie schwimmen noch im Totenbach,
-wie einst der schwarze Knechtenmeister,
-sie dort losgelassen hatte.“
-
-Und da schritt der Knabe rasch,
-zum Steg hinaus und sah hinab,
-doch sah im schwarzen Wasser bloß,
-sein Spiegelbild, doch klar und groß.
-
-„Ich seh‘ sie nicht!“, rief er zurück.
-„Ich seh‘ allein im Wasser mich.“
-
-Doch sagte da die Wächterin:
-„Ins Wasser steige erst, mein Kind.“
-
-Doch rief der Schmied ihm da gleich zu:
-„So warte noch! So wart‘ noch, Bub!
-Du weißt nicht, was da unten ist,
-und ob du je nach oben kommst.
-Was, wenn du’s nicht mehr raus dann schaffst?“
-
-„Dafür seid Ihr da“, rief der Knab,
-zum Schmied, der noch am Ufer stand.
-„Kommt her zu mir und zieht mich raus,
-wenn ich nach oben wieder tauch.
-Wofür denn habt Ihr Eure Kraft,
-wenn sie Euch keinen Nutzen schafft?“
-
-Und da kam zögerlich heran,
-der Schmied, der seine Angst bezwang,
-und schon sprang da der Knab hinein,
-ins schwarze Wasser bösen Leids.
-
-Der Schmied, der oben wartete,
-der sah gespannt ins Wasser hin,
-doch, wie der Knab zuvor gesagt hat,
-sah er nur sich selbst, die Maske.
-O, wie er sich dabei schämte,
-dass er sich so lang versteckte.
-Dann nahm er sich kurzerhand,
-die Maske vom Gesichte ab,
-und warf sie in den Fluss hinein.
-„Hinfort mit dir!“, sprach er ihr nach.
-
-Und als er nun am Warten war,
-und merkte, wie die Zeit verschwand,
-begann er sich zu fürchten doch.
-„Wo bleibt der Knabe?“, dacht‘ er schon.
-
-Und da geschah’s, nach mancher Zeit,
-dass eine Hand nach oben greift.
-Da schrak der Meister arg zurück,
-doch griff er nach ihr dann zum Glück,
-und zog sie hoch und jenen Knaben,
-der dabei hing, jung in Jahren.
-
-Doch wie er sogleich erkannt‘,
-war’s nicht des Meisters Knaben Hand,
-doch eines Knaben seines Bruders,
-von den Vieren, die verloren.
-
-Und ehe er lang denken konnt‘,
-fuhr eine andre Knechtenhand,
-durchs dunkle Wasser rasch herauf,
-und diese zog er auch gleich rauf.
-Und alle Viere kamen so,
-vom Fluss herauf und war’n nicht tot.
-
-Nachdem der letzte aber sich,
-am Ufer auf den Boden schmiss,
-der Schmied schon an dem Stege stand,
-erwartete des Knaben Hand,
-da tauchte diese lange Zeit,
-nicht mehr vom schwarzen Wasser auf,
-sodass die Angst erneut ihm kam.
-„Wo steckt er bloß, der junge Mann?“
-
-Zuletzt doch nahm die Sorge ihm,
-die Hand, die aus dem Wasser stieg,
-und diese war nun in der Tat,
-des guten Knaben rechte Hand.
-
-„Was hast du bloß so lang gemacht?“,
-rief er ihn an, Gesicht schon blass.
-Doch sah er gleich, dass er noch was,
-in seiner Hand gehalten hat.
-
-„Den Hammer hab‘ ich noch geholt,
-der einem Drachen Leid gebot.“
-
-Und gleich erkannte da der Schmied,
-um welchen Hammer es hier ging.
-„Der hat dem Vater mal gehört!“,
-so rief er da, erstaunt war er.
-
-„Mit diesem“, sprach der Knabe gleich,
-„wurd‘ gebaut des Drachen Reif.
-Vielleicht hat der noch was zu sagen,
-übern Drachen, seine Plagen.“
-
-Doch wie sie zum Ufer schauten,
-saßen dort die vier, die glaubten,
-dass sie für die Ewigkeit,
-hier unten bleiben mussten bald,
-und dass sie jeden Augenblick,
-von einem in den Kampf geschickt.
-Denn trugen sie ein jeder Mann,
-ein Schwert, ein Messer, Gürtelband,
-und Lederschuhe, Waffenrock,
-Kapuze auch noch auf dem Kopf.
-
-„Und diese viere sind die Knaben,
-die in seiner Lehre waren“,
-sprach der Schmied mit schwerer Stimm‘.
-„Am Leben sind sie, immerhin.“
-
-Und so geschah es, dass sie alle,
-sich nun auf dem Weg begaben,
-fort zuerst vom Totenland,
-und dann in Eile rasch nach Hams.
-
-
-## Der Spruch des Meisters
-
-Und noch im Reiten sprach man drängend,
-zu den Pferden, wie es stünde:
-„Keine Zeit gibt’s zu verlieren,
-wenn erst das Gericht entschieden,
-würde man den Meister töten.
-Lauft nun, Freunde, um sein Leben!“
-
-Finster war es zu der Stunde,
-als die sechsen mit der Kunde,
-über Feld und Wiesen ritt,
-der Mond im klaren Himmel schien.
-Doch eh‘ die Sonne sich erhob,
-da war der Meister schon in Not.
-
-Am großen Platze stand er da,
-und drumherum das Volk der Stadt.
-Er stand auf dem Schafott in schwarz,
-der Strick schon lag ihm um den Hals,
-und trüb und ernst wie eh und je,
-so stand er dort, die Augen schwer.
-
-Er hatte schon die ganze Nacht,
-gestanden hier, vom Volk belacht.
-Doch nun, als sich die Sonne zeigte,
-und ihr Strahl sein Haupte streifte,
-sprach mit lauter Stimme wer,
-der saß auf einem Stuhl nicht fern,
-inmitten zweier anderer,
-auf einem großen Kasten, der,
-von weißem Tuch bekleidet war,
-und über jeden Kopf geragt.
-
-„So hört das Wort des Rats der Stadt!“,
-nun sprach der Mann in rotem Samt,
-und all das Volk verstummte da.
-Man hörte, was er sprach, der Mann.
-
-„Der Knechtenmeister, wie man ihn,
-schon lange anspricht, heiße ich,
-verurteilt für das folgende:
-Die Knechte hat er umgelegt,
-die in der Lehre ihm gestanden.
-Umgebracht hat er sie alle.
-Dieser Schluss folgt dem heraus,
-dass er es nicht erklären mag,
-wo sie nun umgeh’n, wo sie sind,
-und was mit ihnen bloß passiert‘.“
-
-Da rief wer aus dem Volk heraus,
-die Hände fest zum Zorn geballt:
-„Jetzt hängt ihn endlich! Hängt ihn! Los!“
-Und andre schrien ebenso.
-
-Doch fuhr der Mann in rotem Samt,
-mit Lesen fort und sprach sodann.
-„Der Stadtrat, der sich einig ist,
-dass dieser Mann den Tod verdient,
-hat unterzeichnet heute früh,
-dass er am Galgen hängt und stirbt.“
-
-Und wieder riefen sie heraus:
-„Jetzt hängt den Rattenbeißer auf!“
-
-Ein letztes aber fragt‘ der Mann,
-zum Abschluss noch den Meister da:
-„Doch wie die Stadt es stets getan,
-und wie wir es ins Buch gefasst,
-so steht ein jedem an dem Galgen,
-eine Sache noch zu melden.
-Hat er also noch ein Wort,
-das noch erfahren soll das Volk?“
-
-Und solche Stille trat da ein,
-wie Hams sie niemals noch vernahm.
-Doch sprach der Meister schließlich noch,
-indes ihm eine Träne floss:
-„Nicht kenn ich einen stärkren Mann,
-als es mein Bruder immer war.
-Und einer aus dem Hahnenkiel,
-der lehrt‘ mich mehr als ich je ihn.
-Doch wo auch immer sie grad sind,
-vergessen sollt ihr beide nicht.“
-
-Und wie er dies gesprochen hat,
-da rief erneut wer laut heraus,
-und jener Mann in rotem Samt,
-der gab ein Zeichen plötzlich an,
-dem Richter mit der Maske auf,
-der enger nun den Strick umschlauft.
-
-Doch wie er seine Hand da schon,
-an jenen Hebel lehnte, tobt‘,
-ein Reiter durch die Menge her,
-und war dies doch des Meisters Pferd.
-
-Und rief der junge Reiter laut:
-„So haltet ein mit diesem Grau’n!
-Die Knaben leben!“, rief er aus.
-„Zu Unrecht ist dies aufgebaut!“
-
-Natürlich war dies nun der Knab,
-der letzten Ends gekommen war,
-und mit der Spitze seines Schwerts,
-zum Mann in Maske zeigt‘ beherzt.
-
-Dann sprang er schon auf das Schafott,
-und zwang zurück den Richter noch,
-und ehe wer dazwischeneilt‘,
-zerschnitt er schon das Galgenseil,
-schwang das Schwert nach hier und da,
-dass jeder rasch nach hinten trat.
-
-Dann wandt‘ er sich zum Rat der Stadt,
-zum dicken Mann in rotem Samt,
-und rief zu ihm: „Ich bitte Euch,
-um etwas Zeit, denn kommen noch,
-die Knechten, wegen deren Tod,
-mein Meister angeklagt heut‘ wurd‘.
-Doch habe ich sie vor nicht lang,
-noch selbst geseh’n, denn vor mir stand,
-ein jeder ihrer, wohlgekleidet,
-aber war’n sie tiefen Leidens.
-Ich eilte ihnen jetzt voraus,
-ein Pferd denn hält nicht Viere aus.
-Doch seht! Da hinten kommen sie!
-Zu viert und dort der Schmiede sitzt!“
-
-Und wie das Volke sich empörte,
-dass sich solches nicht gehörte,
-sah’n sie doch zur Straß zurück,
-und zu des Schmieds verbrannt’s Gesicht.
-Und alle Blicke trafen da,
-der, der des Meisters Bruder war,
-und dann erst auch erkannte man,
-die Vieren, die dahinter war’n.
-
-Und hörte man da eine Mutter,
-plötzlich schreien, denn war drunter,
-unter diesen vieren Burschen,
-auch ihr Sohn, der lang verloren.
-
-Als der Wagen stehenblieb,
-inmitten von dem Volk, das schwieg,
-da weinte sie und sank zu Boden,
-doch hernieder sprang der Sohne.
-O, wie sie sich beide hielten.
-„Seht, ein Wunder!“, manche riefen,
-und das vorhin wütend Volke,
-wurde nun zu frohen Leuten.
-
-Doch die Vieren, die verloren,
-waren noch in tiefen Sorgen,
-lösten sich der weinend Arme,
-schritten vor den hohen Galgen.
-
-Siehe da! Wie alle Viere,
-auf die Knie niederfielen,
-vor dem Meister, der in schwarz,
-am Galgen noch im Stricke stand.
-
-Und da der Knabe schnitt noch rasch,
-die Fesseln von des Meisters Hand,
-und sah von Nah’n die Freudentränen,
-die den alten Meister tränkten.
-
-„Also“, sprach der dicke Mann,
-der, mit dem roten, weichen Samt,
-„da offenbar die Vier nicht fehlen,
-hat er sie wohl nicht erledigt.
-Demnach ist’s Gericht vorbei,
-der Angeklagte schuldlos frei.“
-
-Doch wie er sich vom Stuhl erhob,
-ein tiefes Grollen plötzlich tobt‘,
-und hin und her die Erde zittert‘.
-Weh! Oh, weh! Ein Erdgewitter.
-
-
-## Flammen am Himmel
-
-Dass der alte Knechtenmeister,
-auf den Tod sich vorbereitet‘,
-sprach sich durch das Land geschwind,
-dass auch der Drache das gehört.
-
-Doch wie er von der Ferne sah,
-dass man ihn letztlich nicht bestraft‘,
-da wurde er so zornig, dass,
-er von dem Berg herunter sprang,
-und sich dann in die Lüfte hob,
-dass plötzlich wie ein Sturme tobt‘.
-
-O, wie da die Leute schrien,
-als der kalte Wind zu ihnen,
-vorgeeilt als Bote kam,
-dass nun die Stund‘ des Drachen war.
-
-Die Wolken zogen sich zusammen,
-düster wurd’s, die Glocken rangen,
-und das Volk der Städtlein Hamse,
-löste sich in Schreck und Angst nun.
-
-Und der Meister sprach sodann,
-als er den Schatten kommen sah:
-„Dies also ist der letzte Kampf,
-den ich allein zu schlagen hab.
-Ich steh‘ ihm lang genug ihm Weg,
-dass ihr weit weg verschwinden könnt.
-So stehe ich nun endlich ein,
-für meine Schuld, die ich getan.
-So geht nun fort! Den Menschen helft!“
-Da liefen jene Vier behänd.
-
-Der Knabe doch dagegenhielt:
-„Doch diesen Hammer hab‘ ich hier!“
-Und aus dem Beutel, den er trug,
-da holte er den Hammer nun,
-dass groß des Meisters Augen wurden,
-lang schon hielt er ihn verloren.
-
-„Sag, wie kamst du denn daran?“,
-fragt‘ er erstaunt den Knaben da.
-„Er war der Hammer meines Vaters,
-ging mit ihm, als er verstarb da.“
-
-Und wie rasch der Knab erklärte,
-wie er aus dem Fluss ihn holte,
-sprach der Meister dennoch trüb:
-„Doch fürchte ich, er nützt nun nichts.“
-
-In dem Moment der Schatten flog,
-herüber über Hams, und groß,
-der Bogen war, den er umschrieb,
-bis schließlich er herniederfiel.
-
-Und vor dem Platze auf der Straße,
-landete der rote Drache,
-dass die Erde angstvoll bebte,
-nimmer war’s so laut gewesen.
-
-Wie er in die Höhe ragte,
-dick die Qualm- und Rauchesschwaden,
-sprach er wie ein Donnersturme,
-hin zum kleinen Meister drunten.
-
-„Hängen sollst du, schwarzer Meister,
-wie dich alle Menschen heißen.
-Keiner Schuld bist du befreit,
-denn eine, von der keiner weiß.“
-
-Da sah er um sich, merkte, dass,
-dort drüben jeder von ihm rann,
-und aus der Stadt nun flüchteten,
-die Menschen voller Angst vor ihm.
-
-Und sprach er wiederum zum Meister,
-voller Zorn und Hass und sagt‘ er:
-„Schau nur, wie sie vor mir fliehen!
-Hast du damals recht gehabt,
-als du mich im Wald zum Sterben,
-stumm zurückgelassen hast.“
-
-„Um die meinen zu beschützen!“,
-rief sodann der Meister laut.
-Schwer wurd‘ ihm das Herz dabei,
-als er nun hoch zum Drachen schaut‘.
-„Was nur wär‘ daraus geworden,
-wenn wer denn erfahren hätt‘,
-dass ein Drache bei uns wohnte,
-der das Feuerspeien lernt?
-Entgegen allen solchen Rat,
-dich mit dem Schwert zu töten rasch,
-entschied ich mich mit gutem Sinn,
-dagegen aber setzt‘ dich hin,
-im Walde in der Hoffnung, dass,
-du fort aus diesem Lande magst,
-und fern an einem andern Ort,
-ein bessres Leben führen konnt’st.
-Doch was hast du sogleich getan?
-Das Haus, den Hof uns abgebrannt!“ 
-
-„Ein kleines Übel“, sagte er,
-„für das, was du mir angelegt.
-Verraten, habt ihr alle mich.
-Drum tat ich rechtens euch zunicht.“
-
-„Es muss im Kampf nicht enden“, sprach,
-der Meister da den Drachen an.
-„Es ist genug schon Leid getan,
-ja, all die vielen Jahren lang.
-Drum bitte um Verzeihung dich,
-dafür, was ich je tat an dir.
-Und schaue her, was ich hier hab‘:
-Den Hammer, der den Reif gemacht,
-den du an deinem Beine trägst.
-Ich weiß nicht, wie viel Schmerz erlebst,
-doch soll der nun zu Ende sein,
-ich löse von dir diesen Reif.“
-
-Und dieses sprach er voller Schame,
-hatte doch der gute Knabe,
-diesen Vorschlag vorgebracht,
-bevor der Drache niederkam.
-
-Der Drache aber lachte laut,
-verspottete den Meister auch,
-und sagte: „Pah, dass ich nicht lach!
-Jetzt willst du helfen, alter Mann?
-Der frohen Worte sind genug.
-Nun brenn in meiner Feuerglut!“
-
-Und da schon spie er Flammen,
-wie ein tobend Feuersturm,
-doch rasch der Meister sich besann,
-und sprang da hinter Haus und Turm,
-und wich dem Feuer knapp nur aus,
-doch brannten Dächer, Hof und Haus.
-
-Und hinterm Turme in der Stadt,
-versteckte sich der Meister da,
-und zog sein Schwert, gedachte sich,
-zu stellen diesem Wüterich.
-
-Und rief er: „Halte damit an!
-Die Stadt hat dir doch nichts getan!“
-
-Doch unaufhörlich wütet‘ er,
-und rief: „Ein jeder soll versteh’n,
-dass dies die Schuld des Meisters ist.
-Der nahm mein ganzes Leben mir.“
-
-Und wieder spie er Höllenflammen,
-die wie durch die Straße schwammen.
-
-Doch der Meister rief mit Graus,
-aus einem andern Winkel aus:
-„Wie lange willst dein Eisen tragen?
-Hast du dich das schon gefragt?
-Ist es nicht dein größter Wille,
-es nicht mehr am Bein zu trag’n?“
-
-„Bis dass der Tod mich einholt“, sprach,
-der Drache stur und rasch.
-„Soll tausend Jahre an mir sein,
-wenn ich nur Rache hab‘“.
-
-„Der Hammer ist der einzige,
-der dich davon erlöst,
-dass tausend Jahre Schmerz dir hängt,
-und ich bin, der ihn trägt.“
-
-„Was ist das schon, der kleine Schmerz?
-Hast meinen Schatz geseh’n?
-Die großen Gold und Silberberge,
-trösten mich doch stets.
-Ein jedes Schwert und jeden Hammer,
-habe ich in meiner Kammer,
-die von Königen, dergleichen,
-stammen, nah wie fernen Reichen.
-Keiner hat den Reif zerschlagen,
-keiner hat es noch vermocht.
-Lügner nenn ich dich bei Namen,
-denn ein andrer ist das bloß!“
-
-Wieder spie er brausend Feuer,
-dass der Turme niederfiel,
-doch der Meister war gescheiter,
-war schon längst nicht mehr bei ihm.
-
-„Warst du also auf der Suche“,
-so der Meister staunend rief.
-„Alles hast du wohl gefunden,
-doch nur diesen Hammer nicht.
-O, wenn du nur wüsstest, dass,
-er gar nicht hier war, in dem Land.
-Denn lag er in dem Totenflusse,
-lange hättest du gesucht.
-Bis der Tod dich selbst gerufen,
-dann erst hättest du’s gewusst.“
-
-„Nimmer“, spottete der Drache,
-„bist du in den Fluss getaucht.
-Niemanden, dem du vertraut hast,
-der dich rausgezogen hätt‘.“
-
-„So ist’s wahr“, gab zu der Meister,
-„doch nicht ich hab‘ ihn geholt.
-Einer nämlich, welcher einem,
-hilft, selbst in der größten Not.“
-
-„Nichts hat sich seitdem geändert,
-seit du mich im Walde ließt.
-Selbst die Knechten, die du lehrtest,
-ließt du in dem Fluss zurück.
-O, ich sah die Vieren fahren,
-durch die Nacht in großer Eil‘.
-Nie noch hätt mein Herz gelacht mehr,
-wenn du Knechten dich sogleich,
-zurückgeschickt zum Flusse hätten,
-in den Tod mit einem Hieb.
-Allemal doch wär‘ es besser,
-als zu fallen auf die Knie.“
-
-„Ich fürcht‘, du bist er einzige,
-der sich nicht lehren lässt“,
-so rief alsbald der Meister her,
-und zeigte sich zuletzt.
-„Bedenke, wenn du mich versengst,
-dann ist der Hammer hin,
-und nimmer wird dein Schmerz vergeh’n,
-so lange, bis du stirbst.“
-
-Und holt‘ der Drache da bereits,
-in seinem Wahn und Zorn,
-zum Speien neuen Feuers aus,
-die Kehle rot schon wurd‘.
-
-Im gleichen Augenblick jedoch,
-ertönte eine Stimme noch,
-die heller war und leiser klang,
-als wie zuerst der Meister sprach.
-Der Knabe trat nun auf die Straße,
-kam aus dem Versteck hervor,
-keine Waffe, die er hatte,
-nur alleine stand er dort.
-
-„Du weißt, es ist der wahre Hammer,
-kennst ihn doch von früher noch,
-weißt noch, wie vor vielen Jahren,
-in der Schmied er schwang und oft.
-Ein langer Stiel mit Silberknauf:
-Du weißt, dass dieser Hammer auch,
-den engen Reif dir sprengen könnt‘,
-doch stur bist du und wie mancher Mensch.“
-
-Und wie der Drache diesen Knaben,
-auf der Straße reden sah, da,
-schaute er voll Neugier hin,
-und horchte, was der jetzt wohl will.
-
-„Man sagt, dass Drachen klüger sind,
-als jeder Mensch und jedes Kind,
-doch zögertest du nicht davor,
-die Heilung zu verlieren, nur,
-um deiner alten Rache Willen,
-was vor vierzig Jahr geschehen.
-Ich war’s, der den Hammer holt‘,
-im Totenflusse lag er noch.
-Du sahst mich auf dem Pferdewagen,
-mit dem Schmied, den vieren Knaben.
-Doch du weißt nicht, warum denn ich,
-den Hammer holte nur für dich.“
-
-„Dann sag es“, forderte der Drache,
-der den Knab ihm Blicke hatte.
-
-„Denn ich hab‘ daran geglaubt,
-dass einer dir den Schmerze raubt,
-und dass du endlich friedlich wärst,
-da’s nichts mehr zu beklagen gäb.“
-
-„Doch hast du dich darin getäuscht?
-Das willst du damit sagen doch.“
-
-„Das sage du mir!“, rief der Knab,
-und hoch mild zum Drachen auf.
-„Ich helfe dir, so gut ich kann,
-und lös von dir den Reife ab,
-doch nur, wenn du es mir versprichst,
-dass du uns dann in Frieden lässt.
-Kein andrer Drache, der hier lebt.
-Geh dorthin, wo es andre gibt,
-doch ohne Schmerzen wirst du sein,
-geheilt dein Bein und auch dein Geist.
-Und dieses ist mein Angebot.
-Ansonsten töt‘ uns hier sofort,
-und finde niemals deine Ruh‘,
-und bleibe weiter zornig, stur.“
-
-
-## Die Stunde des Eisens
-
-So bedachte sich der Drache,
-sprach sodann zum guten Knaben:
-„Also komme mit dem Hammer,
-denke aber meiner Warnung:
-wenn dies eine Täuschung ist,
-und du nicht tust, wie du versprichst -“
-
-„Dann wirst du uns schon niederbrennen“,
-führte fort der Knab behände,
-rannte los zum Meister hin,
-und nahm den Hammer nun an sich,
-und schritt zum Drachen gleich heran,
-zu seinem linken Hinterbein.
-
-Und dieser vor dem Mute staunte,
-was der kleine Mann sich traute,
-doch er schaute scharfen Blicks,
-ob was geschehe denn um ihn.
-
-Und vor den Klauen, scharf wie Klingen,
-stand der Knabe nun gediegen,
-schaute sich das runde Eisen,
-an von seinen vielen Seiten.
-
-„Schmerzen kann es, sei gewarnt!
-Und zucke nicht! Ein kleiner Mann,
-wie ich es bin, ist rasch dahin.
-Bewege dich am besten nicht!“
-
-Und schon fuhr da ein Schauder durch,
-den ganzen Körper dieses Wurms,
-dass er den Knaben fast erwischte,
-als der Hammer erstmals klirrte.
-
-Funken schlugen. Hell der Klang.
-Ein Schauer fuhr durchs Drachenmark, 
-sodass der Wurme einmal zuckte,
-wieder stand, dann lag, dann hockte.
-
-Vollbesetzt mit Schweißestropfen,
-war die glänzend Stirn des Klopfers,
-welcher Schlag um Schlag verricht‘,
-im Drachen bösen Angesicht.
-Doch trotz des Schuftens an dem Ringe,
-konnt‘ er‘s nicht zu Ende bringen,
-denn das Eisen wollt‘ sich nicht,
-verbiegen und auch brechen nicht.
-
-„Ich bin“, so sagte er nun denn,
-„zu schwach zu brechen diesen Ring.
-Der Meister ist der stärkste Mann,
-den ich bislang gesehen hab.“
-
-Und rief er da zum Meister hin,
-der Drache doch dazwischen ging,
-und forderte, dass dieser nicht,
-auch einen Schlag verrichten dürft‘.
-Und so rief man den Schmied herbei,
-den Bruder von dem Meister da,
-und dieser schlug mit voller Kraft,
-aufs Eisen ein, so wie er kann.
-
-„Es ist zu kalt“, rief da der Schmied,
-zum Drachen über ihm nun hin.
-„Wenn du es nur zum Glühen brächtest,
-wäre es mir leichter, denk ich.“
-
-Doch der Drache wehrte sich:
-„Mich selber soll verbrennen ich?
-Schon einmal hab ich das versucht,
-und ließ es bleiben, danach nun.
-Doch will ich es noch einmal tun.
-So tritt zurück der Feuerglut.“
-
-Und wie er da das Feuer spie,
-zum Reife hin, sein Bein, das ihm,
-so arge Schmerzen hat bereitet,
-o, wie er jetzt schrie im Leiden.
-
-Doch der Reifen färbte sich,
-erst blau, dann rot bis gelb schließlich,
-doch hört‘ er da vor Höllenschmerzen,
-auf und ließ zur Erd‘ sich sinken,
-und die Augen schlossen sich,
-und schwach wurd’s Atmen, fahl sein Licht.
-
-Und da begann der Schmied sogleich,
-zu schlagen auf den hellen Reif,
-doch ebenfalls geschah es, dass,
-nach Hams kam eine Reiterschar,
-von Jägern o mit vielen Bögen,
-und mit Schwertern und mit Speeren.
-
-O, dies war dieselbe Schar,
-die einst den Meister hergebracht,
-und war ihr Erster jener Mann,
-der Zorn noch für den Meister fand.
-
-Denn sprang er schon vom Pferde ab,
-und zog sein Schwert der Scheide raus,
-und rief zu ihm mit feurig Stimm‘:
-„Jetzt zahlst du endlich nun dafür,
-dass meine Brüder hast getötet,
-auf dem Blumenfeld am Wege!“
-
-Und er kam mit raschem Schritt,
-und blankem Schwert zum Meister hin,
-und holte mit der Klinge aus,
-dann klirrten beide Stahle auf.
-
-Denn hielt entgegen ihm der Meister,
-zog sein Schwert und wich ihm aus und,
-ficht mit ihm und merkte, dass,
-er wohlgeübt im Schwertkampf war.
-
-Und wie sie dort am Platze kämpften,
-packten nun die Jägermänner,
-mit den Bögen angespannt,
-den Knab bei beiden Armen an,
-und riefen dabei wütend laut:
-„Dieselbe Straf‘ ereilt dir auch,
-wie deinem Meister, denn auch du,
-trägst Schuld, dass unsre Brüder tot.“
-
-Und ebenfalls zum Schmiede hin,
-da zielten sie die Bögen still,
-dass der sich nicht bewegen durft‘:
-„Den Hammer leg zu Boden, du!“
-
-Und wie der Knabe da auch rang,
-und einen sogar niederwarf,
-so waren doch zu viele da,
-von dieser bösen Jägerschar.
-
-So hielt man ihn zu Boden denn,
-und holte schon die Fesseln ihm,
-doch siehe! wer da plötzlich kam:
-ein Knab mit Waffenrocke an,
-der einen an dem Kragen packte,
-nieder auf den Boden machte.
-Und ein weitrer war noch da,
-und noch wer, ja, zu viert sodann:
-„Zu Hilfe diesem guten Knab!“
-So riefen sie und schlugen nieder,
-alle, die sich wehrten ihnen.
-
-Und in diesem Kampfgewirr, 
-da nahm der Schmied den Hammer sich,
-und schlug die beiden Jäger nieder,
-die zu ihm so frech gewesen.
-
-Wie nun doch der Knab vernahm,
-dass noch der Meister ficht und rang,
-da zog er rasch sein Schwert und rann,
-den Platz hinüber, hin in Eil‘.
-
-Und wie der Jäger nun den Meister,
-hin zu Boden rang und da sein,
-Schwert zum letzten Hiebe hob,
-da sprang der Knab zum Jäger schon,
-und warf ihn so zu Boden hin.
-Doch siehe! was geschah geschwind:
-Denn rasch erhob der Jäger sich,
-und holte aus zum Todeshieb,
-doch eines hatt‘ er nicht bedacht:
-Wo er gerad‘ am Platze war.
-
-Denn stand er vor den Nüstern von,
-dem Drachen, der erwachte nun,
-und sah, was um ihn vor sich ging,
-und wer erhoben hatt‘ die Kling‘.
-
-Da packte er den Jägersmann,
-und richtete in Größ‘ sich auf,
-und streckte seine Flügel aus,
-ein Wirbelsturm, der niederbraust‘.
-
-Und jeder Kampf da ging zu Ende,
-doch der Jäger in den Fängen,
-von dem Drachen schrie um Hilfe,
-doch sein Ende war besiegelt.
-
-Denn erhob sich nun der Drache,
-schwang sich in den Himmel auf denn,
-tobt‘ und wandt‘ sich durch die Lüfte,
-kehrte auf den Platz zurück nun.
-Und der Jägersmann seitdem,
-der wurde niemals mehr geseh’n,
-denn in der Luft wurd‘ er zerfetzt,
-und war im Drachenmaul zuletzt.
-
-Doch wurden groß des Knaben Augen,
-als er hin zum Drachen schaute,
-denn als der grad landete,
-da klirrte es und knackste es,
-und sprang davon das schwarze Eisen,
-das zerschlagen ward in Zweien.
-
-Und der Drache streckte sich,
-und war nun frei und bückte sich,
-und sah zum Meister, dann zum Knab,
-und letztlich auch den Schmiede an.
-Doch nicht ein Wort, das er noch sprach,
-und in die Lüfte hob er ab.
-
-Und später sprachen alle jene,
-die am Bärenhang gewesen,
-dass sie einen dunklen Schatten,
-droben kurz gesehen hatten,
-welcher hin nach Norden flog,
-und nimmer mehr gesehen wurd‘.
-
-Doch jetzt in Hams, am großen Platze,
-kam ein Regenschauer prasselnd,
-rasch hernieder, löschte alles,
-Drachenfeuer, das noch brannte.
-Und hernach ein kühler Winde,
-trieb hinfort die Wolkenschwingen,
-dass die Sonne niederstrahlte,
-auf die Helden, die dort waren.
-
-
-## Goldene Schindeln
-
-Nun jedoch, der gute Knabe, 
-ließ sich auf die Knie fallen,
-holte Luft und atmete, 
-so lange aus wie nie bisher.
-
-„Dann ist es nochmal gutgegangen“,
-dachte er und sah die Mannen,
-welche auf dem Platz verstreut,
-nur standen ohne Wort und Freud‘.
-
-Bis einer von den Jägern sprach:
-„Und bleibt er fort von uns sodann?“
-
-„Das wird er wohl“, sprach da der Meister,
-der dem Drachen weit noch nachsah.
-„Ist es wohl vorüber nun,
-und sage ich: so ist es gut.“
-
-An diesem Tag zur Mittagsstunde,
-hatte sich die frohe Kunde,
-dass der Drache fortgeflogen,
-weit genug herumgesprochen,
-dass die Leute wieder kamen,
-und beim Saubermachen halfen.
-
-Und am meisten packte an,
-der Schmied, der wohl der stärkste war.
-
-Und wollte auch der Knabe helfen,
-doch der Meister sprach behände:
-„Ach, mein guter Knabe! Nein,
-du hast schon viel zu viel getan.
-Denn meine letzte Lehr‘ ist dies:
-Wer's selbst schon kann, dem tu es nicht.“
-
-Und an dem Tage, so geschah‘s,
-nun ruhte unser guter Knab,
-doch vieles, was noch vor sich ging,
-das es noch zu erzählen gibt.
-
-Der Meister denn und auch sein Bruder,
-halfen wie kein andrer wieder,
-Hams sogleich von Schutt und Asche,
-zu befreien und zu schaffen.
-Und der Zwist, der zwischen ihnen,
-lange Zeit gewesen schien, der,
-war letztendlich beigelegt,
-und gerne nahm man ihre Hilf‘.
-
-Denn wenn auch niemand offen sagte,
-dass man falschgelegen hatte,
-über diesen dunklen Meister,
-der sich immer schwarz gekleidet,
-so doch sprach man über ihn,
-nun nicht mehr schlecht und nicht mehr viel.
-
-Und jene Jäger, welche noch,
-am Boden lagen, schwer getroffen,
-waren ledig jenes einen,
-der sie lange Zeit geleitet,
-und so mancher legt‘ danach,
-den Bogen hin aus Schuld und Scham.
-
-Was aber nun das Gold betraf,
-das immer noch im Berge lag,
-das wurde unter Aufsicht von,
-den Jägersmannen rausgeholt,
-und dazu rechtens ausgegeben,
-Hamse wiederzubeleben.
-
-Heller wie noch nie zuvor,
-erstrahlte da der Turm in Gold,
-das auf dem spitzen Schindeldach,
-des neuen Turms ward angebracht,
-und höher war er als bislang.
-So wurd‘ das reiche Hams bekannt.
-
-Bevor dies doch vollendet war,
-doch saß der Knab zu Pferde auf,
-und sprach der Meister da zu ihm:
-„Den Weg nach Haus begleit‘ ich dich.
-Wenn du das denn auch gerne willst“,
-so fügte er hinzu geschwind.
-
-„Ich wär‘ drum froh“, sprach da der Knab,
-von Herzen fröhlich war er da.
-
-Und als am Abend, wenn die Wolken,
-rot erglühen, schimmernd leuchten,
-dieser Tag zu Ende ging,
-da war der Knabe müden Sinns.
-
-Er hielt die Zügel in der Hand,
-daneben jetzt der Meister saß,
-und grüßte in der Dämmersicht,
-der Eberstuben warmes Licht.
-
-„Nun hört! Ihr werdet mir nicht glauben,
-was sich manche heut‘ erlaubten.“
-So nun sprach mit großem Eifer,
-jener gute Hohenscheitler.
-„Einer kommt daher bei Tage,
-sagt, er hätte was zu sagen,
-dass heut‘ aus dem Walde kamen,
-Knechten, die verschollen waren.
-Pah! Da wurde ich ganz stumm,
-ich sagte, Was? - und lacht‘ mich rund.
-Und viel noch, was man sich erzählte. 
-Drachen hätt‘ man auch gesehen.“
-
-„Nun zum Wohl‘!“, der Meister sprach,
-„Zurück ist meine Knabenschar“.
-Da lachten sie und stießen an,
-so mancher, bis die Sonne kam.
-
-Wie fröhlich roch der Blumenduft,
-am Tage in der frischen Luft.
-Und mancher Weg war noch zu tun,
-zum Hahnenkiel, zum Bauern rund.
-
-„Und freust du dich auch, deinen Vater,
-anzutreffen, ihn zu fragen,
-was derweil geschehen ist?
-Gewiss hat er dich gut vermisst.“
-
-Da schwieg der Knabe, sagte nichts.
-Er dachte an das Angesicht,
-von seinem Bauern, seinem Herrn.
-Er hatt‘ ihn wie ein‘ Vater gern.
-
-„Du kannst ihm vieles wohl erzählen:
-Von dem Drachen, von den Wegen,
-von dem üblen Totenfluss,
-und denen du geholfen hast.“
-
-Es ging nun Täler auf und ab,
-durch manchen kalten, wilden Bach,
-durch Weid‘ und Weg im Hügelland.
-Die Sonne strahlt‘ am Himmelrand.
-
-Da sah der Knab‘ in naher Fern,
-den Hahnenkiel im Abendgelb,
-und dann den Hof, wo er gewohnt,
-der Schornstein war ein Kranichthron.
-
-„Nun denn, dann lass ich dich jetzt gehen,
-kannst den Pfad ja selber sehen.
-Denk daran, der Weg nach Haus‘,
-ist manchen öfters mal ein Graus.
-Drum denke nicht und wisse nur:
-Ein guter Knabenmann bist du!“
-
-Und schied er da in Eil‘ hinfort,
-und ließ zurück den schönen Ort.
-
-Die Luft war kühl und Wind kam auf,
-der Knabe nähert‘ sich dem Haus.
-Und wie er über Feld und Gras,
-daher nun schritt, im Hause saß,
-der runde Bauer stumm nur da,
-bis er das Hundgebrüll vernahm.
-
-Da stand er auf und sah hinaus,
-durchs Fenster, ob ein Gauner raubt‘.
-Doch winselte der Hund sodann,
-und sprang vor Freud‘ den Knaben an,
-der auf dem Pferd noch immer saß,
-und dort im Haus das Licht vernahm.
-
-Da schritt der Bauer, tiefverwirrt,
-zur Tür hinaus im Kerzenlicht,
-und glaubte seinen Augen nicht,
-als er erkannt‘ das Knabgesicht.
-
-Und mit den alten Filzpantoffeln,
-lief er in den Hof und konnte,
-es nicht glauben, wen er sah:
-Den seinen, so geliebten, Knab‘.
-
-Und beide Hände streckt‘ er ihm,
-entgegen. „Bist du wieder hier?“
-Dann brach ihm schon die Stimme ab,
-und Tränen flossen ohne Halt.
-
-Und gleich ging’s auch dem Knaben da,
-der fiel in seines Vaters Arm.
-
-Und glücklich waren beide Leut‘.
-„Mein Kind! Mein Kind! Was ich mich freu.“ 
+Und da lachte auf der andre:
+„Ach, beim Himmel!“, sagte er,
+„Plötzlich sitzt er auf dem Drachen,
+den zu töten er da wär!
+Kann nur hoffen, dass er nicht,
+den solchen Weg beschreiten wird!“
+
+„Das glaub ich wenig“, sprach der Lehrer,
+„denn er weiß von solcherlei.
+Recken sind die guten Leute,
+und so einer will er sein.
+Doch sein größter Kampf, der kommt noch.
+Ob’s sein einziger auch wird?
+Ach, ich will’s für alle hoffen,
+wenn ich ehrlich bin mit dir.“ 
+
+
+
+
+
+## AM BAUM IM SOMMER
+Im Sommer dann, im Hangenwalde, 
+wie derselbe oft genannt,
+wenn auch dieser eigne Name,
+nicht in einem Buche stand,
+stapfte wohlgelaunt der Knabe,
+durch die Wiesen, grün und satt,
+und die Vöglein lieblich sangen,	
+wie so oft die Nachtigall.
+
+Und die Silberfedern sprachen,
+in den Lüften, klug ihr Wort:
+„Hört sein Herz von Liebe schlagen.
+Seht, wer auf ihn wartet dort!“
+
+Gold das Haar im Morgenlichte,
+das durch Blatt und Blüte fiel,
+auf dem Hügel an der Linde,
+unterm Baum im Schattenspiel,
+saß ein Fräulein, duftend Kranze,
+in der einen Hand sie hielt,
+von Jasmine, Nelk und Farne,
+duftete so zärtlich lieb.
+
+Und der Knabe stieg zum Hügel,
+seiner Liebe Aug in Aug,
+und sie kam ihm rasch entgegen,
+streckte ihre Arme aus.
+Und sie fielen sich einander,
+hielten, schmiegten, küssten sich.
+O wie da die Vöglein sangen,
+dass so schön die Liebe ist.
+
+„Schau den Kranze“, sagte sie,
+zu ihrem liebsten Knaben hin.
+„Den pflückt‘ ich dir, komm setz ihn auf.
+Jetzt siehst du wie ein König aus.“
+
+Vor Schame doch der Knabe sprach,
+„Ein König bin ich keinesfalls,
+und werde niemals einer sein.
+Ein Schloss nenn niemals ich mein Heim.“
+
+Dann nahm er sich die Krone ab,
+setzt‘ sie dem Fräulein auf das Haupt.
+„Sie steht dir besser“, sagte er.
+„Schaust aus, wie die Prinzessinnen.“
+
+Und lange lagen sie am Baume,
+sahen in die weite Fern,
+malten sich die schönsten Träume,
+spaßten, lachten viel und gern.
+
+„Magst du einmal Kinder haben?“,
+sagte schließlich sie zu ihm.
+„Denn mein Vater hat gesagt mir,
+frage dies zum Richtigen,
+und er wird dir Antwort geben,
+wie du selber sie gewünscht.
+Wenn er’s nicht tut, sollst du leben,
+ohne ihn auf immer hin.“
+
+Und da drehte sich Knabe,
+hin zur Liebsten, sah sie an.
+„Will dir meine Antwort sagen,
+wenn du sie zuerst getan.“
+
+Keinen Augenblick die Dame,
+sprach das aus, was sie gedacht.
+„Zweien Kinder mag ich haben,
+einen Jungen, eine Dam‘.“
+
+Und da dachte nach der Knabe,
+schaute in den Himmel hoch,
+doch bevor das Wort er hatte,
+sprach das Mädchen plötzlich los.
+
+„Kannst dir denken, wie ich bange,
+wenn ich dich dort kämpfen seh‘.
+Wenn ihr euch die Schädel einschlagt,
+nur für euren Ruhm und Ehr‘.
+Weißt du, wie ich dauernd klage,
+wenn ihr mit den Schwertern ficht?
+Bin so ängstlich alle Tage,
+wo du grad nicht bei mir bist.
+Ach, ich wünscht‘ ich könnte tun,
+dass du das alles lässt.
+Bin ich noch immer nicht genug,
+dass du im Kampf dich misst?“
+
+Da hielt der Knabe scharf dagegen,
+„nicht für solches kämpfe ich!
+Nicht für Jubel, nicht für Reden,
+nicht, was Ruhm und Ehr mir geben, 
+Kennst du mich noch immer nicht?
+Hast du nach den vielen Kämpfen,
+je mich einmal jubeln seh’n?
+Hoch die Hand zum Himmel strecken,
+stolz und hoch vom Platze geh’n?“
+
+„Nein“, sprach da die Liebste ihm,
+„das hast du nie getan.
+Drum liebe ich, wie niemand, dich,
+und doch versteh‘ ich kaum.
+Und wie, das sag‘ ich auch dazu,
+ja soll ich das denn auch?
+Wenn du nicht sagst, was weh dir tut.
+Ich seh’s, wenn mich anschaust.
+Du sprichst von deinen Eltern nicht,
+versteckst das hinter trübem Blick,
+und von dem Ort, aus dem du stammst.
+Was ist denn für dich schlimm daran?
+Ich möchte dich nur glücklich seh’n.“
+Dann schmiegte sie sich fest an ihn.
+
+Und da kam Stille über sie,
+zur Ferne hin sein scharfer Blick,
+und langsam sprach er: „Siehe da!
+Da hinten, trübe heut am Tag.
+Da liegt die Stadt, die Hams genannt.
+Dahinter hoch der Bärenkamm.
+Und weiter noch, in Feld und Tal,
+ein Dorf, das Hahnenkiel genannt.
+Es gibt dort Äcker, Hof und Weid‘,
+und Pferde, die drei Ochsenbreit.
+Ich wuchs dort auf als Einzelkind.“
+Und da nun sprach er plötzlich nicht.
+
+Und sah die Liebste ihn dann an.
+„Und weiter? Was geschah sodann?
+Wieso bist du dann so weit fern,
+und nicht Zuhaus? Wärst da nicht gern?“
+
+„Es ist“, begann der Knab zuletzt,
+so knapp, als ob’s nicht wichtig wär,
+„so wie es ist. Man schickt‘ mich fort.
+Und seitdem ist es besser dort.“
+
+Da setzte sich die Schöne auf.
+„Jetzt besser? Hör, was sagst du da?
+Wie kann es denn jetzt besser sein,
+wenn du nicht bist mehr dort daheim?“
+
+„Mein Vater hat mich fortgeschickt!
+Er hat gesagt: Verbessre‘ dich!
+Er wollte mich nicht, wie ich war.
+Bloß, dass ich das noch nicht verstand.
+Doch mit der Zeit begriffs auch ich,
+dass ich ihm nicht mehr wichtig bin.
+Man schickt nur einen Knaben fort,
+wenn er nicht ist, wie man ihn wollt‘.
+Drum schaue ich auch nicht zurück,
+und sing darüber Lieder nicht!
+Der Junge, der ich damals war,
+den gibt‘s nicht mehr, der ist vertan.“
+
+Da folgte eine lange Stille,
+Zorn im Blick des Knabens lag,
+Wut im Herzen, Kalt die Blicke,
+die er in die Ferne warf.
+
+Bald doch sprach die seine Liebste,
+zärtlich Worte guten Sinns.
+„Ach das hat der Vater sicher,
+nicht gemeint, wie du’s vernimmst.
+Alle Menschen machen Fehler,
+mögen jung sein oder alt.
+Doch es ist uns nicht gegeben,
+dran zu messen eine Tat.
+Ach, ich weiß nicht wie’s gescheh’n ist,
+ob er dich hat fortgejagt,
+oder ob er schon im Wald dich,
+denn zurückgelassen hat.“
+
+„Nein, so war’s nicht“, sprach der Knabe.
+„Einem Mann gab er mich mit,
+der ein Krieger war, ein Alter,
+der mich lehren sollt‘ geschwind.“
+
+Und er sprach so manches davon,
+wie ihm nachher ist gescheh’n,
+dass auch er vom Knechtenmeister,
+fortgeschickt ward, fort von ihm.
+
+„Weißt du, wie der nachgerufen,
+durch den Wald mich fortgejagt?
+Allem geb‘ ich nicht ein Urteil.
+Alles sagt mir jene Tat.“
+
+„Doch dein Vater wird dich lieben,
+hat damit nie aufgehört.
+Frage ihn, warum er dich denn,
+fortgeschickt allein mit dem.
+Wieviel Jahr denn ist das her,
+dass dieses ist gescheh’n?
+Und meinst du nicht, dass auch dich er,
+vermisst, wo er dich nicht geseh’n?“
+
+Doch sprach da rasch der Knab in Zorne,
+schlecht von seinem alten Herrn.
+„Fast sechs Jahre sind verronnen,
+da ich ging vom Hofe fern.
+Hätte selber ich je Kinder,
+eines tät‘ ich jedenfalls:
+Ohne Geld und ohne Mittel,
+fände ich sie überall.
+Welcher Vater kann den Sohne,
+finden nicht in diesem Land?
+Einer, der sich lieber schont und,
+sich nicht schert um seinen Knab.“
+
+Wie er sich in Zorn geweidet,
+nahm er schließlich ihre Hand.
+„Lass uns nicht darüber streiten“,
+sagte er und küsst‘ sie dann.
+ 
+
+
+
+
+
+## DEM TOTEN NACH
+Wer schon weiß der Welten Pläne,
+um das Schicksal, das bestimmt,
+welches einem vorgesehen,
+das man immer übelnimmt?
+
+Gar nicht lange nach dem Tage,
+traf die Nachricht leise ein,
+dass am Hahnenkiel im Tale,
+einer krank war, jetzt schon lang.
+
+Und da wurd dem Knaben bange,
+als er solches Wort gehört,
+von dem braungekleidet Manne,
+der als Mönch ward angeseh’n.
+
+„Her durch Wind und Sturmesflut,
+getrieben hat es mich, 
+den Worten nach von großem Mut,
+des Knabens, der du bist.“
+
+Und so der Nacht der Unterredung,
+mit der Liebsten folgendlich,
+ritt der Knab gedenk des Lebens,
+fort vom Goldfass, fort von ihr.
+
+„Einen Sieg noch“, sprach der Knabe,
+„nur ein Kampf mehr steht noch an,
+dass ich alle Rüstung trage,
+wie es niemand noch getan.
+Schnell nun reite, schnell mein Freund!
+Zum Hahnenkiele hin!
+Auf dass ich keine Zeit vergeud,
+und bald zurück ich bin.“
+
+Wie er also vieles dachte,
+als er durch das Lande ritt,
+früh am Tage, spät bei Nachte,
+immerzu in schnellem Schritt,
+kam er durch so manches Dorfe,
+wo er dunkles Wort vernahm,
+dass das Tor zur Todespforte,
+lang nicht her gefunden ward.
+
+„Dumm’s Geschwätz!“, so sagte er,
+als er die Red‘ vernahm.
+„Wer ist’s, der dieses hat gesagt,
+und selbst gesehen hat?“
+
+Und leise, achtsam sprach man drüber,
+in dem Wirtshaus Rum zu Hams,
+und ein Mann erzählt‘ von Liedern,
+die man, meint‘ er, jetzt schon sang.
+„Will ich’s also dir schon sagen,
+wenn du dieses willst erfahren.
+Aber acht! Wenn du wem sagst,
+von dem du dieses alles hast,
+dann helf‘ dir nur der Himmel mehr!
+So denn, mein Bursch‘, so höre her.“
+
+Und an dem Tisch in einer Ecke,
+bärtig, grau der dürre Mann,
+wirr die Haare, hielt Besteck und,
+kaltes Bier in seiner Hand,
+sprach er, was er hat gehört,
+von wem, das wüsst‘ er selbst nicht mehr.
+
+„Es ist bei Nacht an einem Tisch,
+bei solchem, der wie dieser ist,
+besprochen worden, was man tät‘,
+um fortzuschaffen ein Problem.
+Es geht ein Mann durch dieses Land,
+trägt schwarze Kleider, grauen Bart,
+den nicht ein Pfeil verletzen kann,
+und der schon viele Knechten stahl.
+Er gibt sich aus als Knechtenmeister,
+sorgenloses Leben preist er.
+Hoff‘, dass du ihn niemals triffst,
+sonst ist es aus mit dir, sag ich!“
+
+Es lauschte gut und besser noch,
+der Knabe auf des Mannes Wort,
+als er vernahm, dass dieses was,
+mit seinem Meister auf sich hatt‘.
+
+„Doch höre“, fuhr der Manne fort.
+„Den letzten Knechte, den hatt‘ er noch,
+vor ein paar Jahren, o wie da,
+die Reden bös in Hamse war’n.
+Doch lang noch nicht so bös wie dann,
+als man ihn dann alleine sah,
+und nirgends mehr sein Diener steckt‘.
+Oh! Sag‘ ich dir, der wurd‘ verhext!
+Man traf sich nachts bei Lampenschein,
+an solchem Tisch, ich sagt’s bereits,
+und redete, was man den tät‘,
+dass man den Mann zur Strafe stellt.
+Verwunschen und verzwickt doch ist’s,
+da keiner ihn im Kampf besiegt.
+Es wurden schon die besten Krieger,
+welche man auf diesen schickte,
+leblos aufgefunden bald,
+nachdem der Tod sie hat ereilt.
+Und wer mit Pfeilen auf ihn schießt,
+und ihn auch an dem Herze trifft,
+so zieht er sich den Pfeil heraus,
+und lebt hernach wie vorher auch.
+Und dieses bösen Umstands wegen,
+plante man, wie vorzugehen.“
+
+„Also sprich nun, was man tat“,
+so fordert‘ endlich nun der Knab.
+„Nicht alle Zeit der Welt hab‘ ich.
+Von einer Pforte sprachst du. Nicht?“
+
+„Man folge nach dem Knechtenmann,
+bei Tage wie in jeder Nacht,
+zu schauen, was der Alte trieb,
+ob man ihn nicht studieren könnt‘,
+zu wissen, was ihm Schmerz bereit‘,
+zu schützen auch vor neuem Leid,
+die Bauern, die die Knaben sich,
+verlieren an dem Wüterich.
+Denn wenn man einen Knechten sah,
+der grad in seine Lehre kam,
+so kann man ihn belehren noch,
+vor diesem schlimmen Schicksal doch!
+Und wie dies also so geschah,
+man folgte diesem Alten nach,
+so fand man, welchen Schritt er tat,
+und wie’s um seines Lebens stand.“
+
+„Was also at er?“, fragt‘ der Knab.
+„Was fand man raus um diesen Mann?“
+
+Da knurrte laut der alte Mann,
+und sah sich um, da Angst ihm kam.
+
+„Es wollte so, dass Zweien ihn,
+verfolgten gar auf Schritt und Tritt,
+und eines Tags ging er hinfort,
+von seiner Hütte, seinem Hort,
+und stapft‘ des Winters tief im Schnee,
+nach Norden hin und rasch im Geh’n.
+Und wird gesagt von dieser Reis‘,
+ein Dutzend Stund verging sogleich,
+bis endlich sich das Grau’n gezeigt,
+das dunkelste im Lebensreich.
+Denn plötzlich, wie der Wind verstummt,
+der Nebel aufzog zu der Stund‘,
+und lag wie dichter, schwarzer Rauch,
+kein Licht der Welt strahlt diesen aus.
+Und war das Rauschen, das noch blieb,
+des Flusses, der nach Süden trieb,
+das hielt sie noch auf rechtem Weg,
+doch dieser sich auch umgekehrt.
+Denn als der Nebel lichter wurd‘,
+da sich nun Bäume, schwarz und wund,
+die standen wie ein krummer Ast,
+auf braunem Boden, leblos starr.
+Wie Hände aus der Erd‘ heraus,
+das Licht zu greifen, sah’n sie aus.
+Doch ewig harrten sie dort aus,
+die schwarzen Bäume, leer und faul.
+Und dies war jener Unglücksort,
+an dem der Fluss nun anders floss.
+Denn wo er eh nach Süden ging,
+nach Norden plötzlich leise trieb.“
+
+Da sprach der Knab, um kundzutun,
+wie er sich dies erklärte nun:
+„Dann fanden sie die Quelle wohl,
+von diesem Fluss, denn ist es so,
+dass jeder Bach von dieser fließt,
+und wenn die Quell‘ im Berge ist,
+es durchaus sei, dass Nord und Süd,
+zu beider Seit‘ der Flusse fließt.“
+
+„So mag es sein, so wünsch man sich’s,
+doch weh, wenn dies nicht anders ist!
+Beim Himmel doch sei der verflucht,
+der solchereine Quelle sucht!
+Von einem Berg doch sprach man nicht,
+noch, dass es eine Pforte gibt,
+doch sag‘ ich dir: Zum Totenreich,
+die Grenze ist nicht scharfgeteilt.
+Wenn doch das Ufer flache war,
+erhob sich rings ein bergig Tal,
+von kargen Hängen, braunem Fels,
+der rollt, verfällt, die Form doch hält.
+Das Wasser war wie Pech so schwarz,
+wie auch der Himmel dunkel war.
+Und trotz der großen Übelkeit,
+doch folgten sie dem Gauner nach.
+Doch weh! sag ich, was dann geschah!
+Wie uns das Schicksal treffen mag!
+Der Gauner, wie man hinten nach,
+ihm leis entfernt geschlichen war,
+der war wie aus dem Nichts hinfort,
+dass man ihn nicht mehr sehen konnt‘.
+Zum Steg hinaus, wo Nebel lag,
+dort sah man ihm zum letzten Mal,
+und dann gewartet hat man lang,
+dass er zurück wohl käme bald.
+Vergeblich aber. Stund‘ um Stund‘,
+nun gingen dort am Strand herum.
+Und stets zum Stege sah man hin,
+zum Nebel, der ihn eingehüllt,
+doch nimmer kam der schwarze Greis,
+zurück zum Ufer mehr gereist.“
+
+„Dann ist er also endlich fort!“,
+so gab’s der Knabe von sich noch.
+
+„Zumindest sagen viele das“,
+der alte dürre Mann noch sprach.
+„Die Zweien, die ihm nachgefolgt,
+die kehrten um sagten uns,
+er habe wohl die andre Seit,
+gefunden von dem Lebensreich,
+und hätt‘ den Flusse überquert,
+und sei nun, wo er hingehört.
+Der Weg doch, der dahingeführt,
+die beiden wissen ihn bestimmt,
+doch sag‘ ich dir: ein solches Grau’n,
+mit dem sei besser nicht vertraut!
+Ihr Knaben seid darum verflucht,
+her nachzujagen Wort und Ruhm,
+doch sei es dir von mir gesagt:
+dem Tode lauf nicht hinten nach!
+Das Leben bietet viel zu viel,
+was du im Totenfluss erst siehst.“
+
+
+
+
+
+
+
+
+
+ 
+
+## ZUM KRANICHNEST
+Hochgestreckt zur Sonne hin,
+das Haar im Winde weht‘,
+von junger Stärke, kühnem Sinn,
+der Knab war auf dem Weg.
+Leicht im Schritt den Berg hinauf,
+als Bärenkamm bekannt,
+und leicht führt er sein Pferd hinab,
+durch Fluss und über Tal.
+
+Schimmernd strahlte in der Sonne,
+glänzend wie ein Stern der Helm,
+den er aus dem Kampf gewonnen,
+und das Schwert an seinem Pferd.
+
+Schön das Tier, von dunkler Farbe,
+kraftvoll, brav, von stolzer Höh‘,
+trug es seinen wackren Reiter,
+hin, wohin der’s ihm befehlt.
+
+So nun kam’s, an heißem Tage,
+nicht mehr lang zum Herbstbeginn,
+dass der Knab die Reiseplage,
+endlich los ward, so wie’s ging.
+Denn an jener Eberstube,
+ritt er raschen Zugs vorbei,
+da er sich nicht zeigen wollte,
+vor des Hohenscheitlers Laun‘.
+
+„Mir ist heute nicht zum Lachen,
+nicht zum Spaßen, wie bisher.
+Dass ich ihm den Spaß nur lasse,
+nicht mit meinen Sorgen stör‘,
+will ich rasch des Weges sein.
+Doch eines Tages kehr‘ ich ein.“
+
+Und weiter ritt er hin nach Westen,
+wo die Sonne unterging,
+und dort hielt man es zum Besten,
+nach der Ernt‘ im Feld zu steh’n,
+
+Dort im Schatten eines Baumes,
+stand denn nah dem Pfade wer,
+eine Truppe müder Bauern,
+Karren voller Korn danebst.
+
+Wie sie nun den Reiter sahen,
+hoch zu Ross mit Schwert und Schild,
+rief ein alter krächzend Rabe,
+zu dem fremden Recken hin:
+„Oh! Die Ehr‘ ist meinerseits!
+Herr Ritter, der so schön ihr seid!“
+Und beugte er sich tief herab,
+wo nun dem Knaben Schame kam,
+und mit der Hand ein Zeichen gab,
+dass er vernahm die nette Tat.
+
+Der Mann doch fuhr sogleich herauf,
+vom Boden einen Stein hob auf,
+und schleuderte denselben weit,
+zum Knaben hin und traf ihn auch.
+Und brüllte er noch hintendrein:
+„Verschwind von hier! Zurück sogleich!
+Der nächste, der vorbei hier kommt,
+den töt‘ ich, habe ich geschwor‘n!
+Halunken ihr! Ihr Gaunerschaft!
+Genug, die wir schon bei uns hab’n!“
+
+Der Knab erkannte wieder ihn,
+der Mann, der auch schon damals schrie,
+als er noch mit dem Meister fuhr,
+den Rattenbeißer nannte nur.
+
+Zur Schulter flog der Stein nun hin,
+und nieder dann zu Boden fiel,
+und Wut kam ihm und Zorne auf.
+Mit einem Streich wär’s mit ihm aus,
+und nimmer würf‘ er einen Stein,
+kein böses Wort könnt‘ er verteil’n.
+Doch wie sein Lehrer ihm gelernt,
+man warne vor der Tat zuerst.
+
+So rief er denn mit kluger Stimm‘,
+zu dieser Bauerstruppe hin:
+„Ihr, haltet diesen Mann zurück,
+wenn er euch etwas wichtig ist.
+Behalten soll er seinen Zorn,
+und Fremden nicht ein Leid antun.
+Der erste Wurf sei dem geschenkt,
+der vor der ersten Tat nicht denkt,
+doch hebt er nochmal einen Stein,
+dann wird das Feld sein Grabe sein.“
+
+Da wurden stumm die Bauersleut‘,
+als sie den Recken hörten dort.
+Doch rief dann eine Frau heraus,
+„nicht wir sind’s, die ins fremde Haus,
+hereingetreten, stürmend geh’n,
+und rauben, plündern, nehmen stehl’n.
+Ihr kommt daher von eurer Art,
+von fremder Sprache, fremden Land,
+und tut und lasst, wie’s euch beliebt.
+Dann tun auch wir, wie’s uns grad steht!“
+
+Und rief der Knabe dem zurück,
+zur Frau auch hin sein scharfer Blick,
+„ein Fremder aber bin ich nicht.
+Im Hahnenkiel, da wohnte ich,
+bis ich vor vielen Jahren dann,
+hinfort bin, fort aus diesem Land.
+Und jetzt, wo ich zurückgekehrt,
+da nennt ihr Fremdling mich daher?“
+
+Und so nun löste sich die Wut,
+der guten Frau, des Bauerntrupps,
+denn als er sprach, wer er wohl war,
+und was er jetzt zuhause tat,
+erzählten sie ihm lang davon,
+was vor sich ging seit Jahren schon.
+
+Da früher er ein Bub noch war,
+verstand er nicht, was da geschah,
+doch jetzt hört‘ er mit klugem Ohr,
+verstand und Zorn kam ihm empor.
+
+Dass zuerst die Krankheit kam,
+nachdem der Krieg zu Ende war,
+und viele hin zu Grunde sind,
+gestorben Mann und Frau und Kind.
+Doch dies noch ward der Anfang nur,
+gesprossen war noch anders nun:
+Dass ein Kult des Aberglaubens,
+hier und dort entstanden ist,
+man zur schlimmen Red‘ sich traute,
+aus dem Buche laut geschrien.
+Jeder, der zum Leb‘ nichts tauge,
+jeder der bei Trauer lacht‘,
+der noch fütterte die Tauben,
+sie nicht totgeschossen macht,
+sei dem Dorfe ab nun ein Feind,
+der fortgehört, verbrennt, gesteint.
+So schickte man die Kinder fort,
+die’s wert gewesen, dass man noch,
+ein jedes Stücklein Golds bezahl,
+dass wer genau sein Kinde nahm.
+
+Und als der Knab dies angehört,
+verstand er so viel Neues mehr,
+und dankte, machte sich rasch auf,
+zu seines alten Herren Haus.
+
+„Nun Eil!“, gebot er seinem Ross.
+„Nach Haus bring uns bei Tage noch!“
+ 
+
+
+
+## DAS HAUS DES VATERS
+„Soll zum letzten Mal die Sonne,
+meines Lebens untergeh’n,
+und mich meine Kampfeswonne,
+in ein Grab des Todes tun,
+doch dass man es nicht vergisst,
+den Vater mir vergess‘ ich nicht!“
+
+Und solches hatte er gedacht,
+als er vorm Hof des Vaters stand,
+in welchem Lichter brannten hell,
+und Stimmen lachten, tief und grell.
+
+Doch wie er an das Hause schlich,
+den Knecht dort an dem Kragen nimmt:
+„Wer sind die Leut‘ in diesem Haus?
+Jetzt sprich! Sonst ist es mit dir aus!“
+
+Und war das Schwert am Hals bereit,
+zu tun dem einen Todesstreich.
+
+Da zitterte der gute Knecht.
+„Ich sag‘s Euch schon! Ich sag’s Euch, Herr!
+Ihr seid von hier nicht. Seid hier fremd.
+Sonst wüsstet Ihr, wer hier drin lebt.
+Der Herr von Wolf, in Jahren drei,
+ist er jetzt hier, ist das sein Heim.
+Und ich bin hier nicht lange noch,
+drum weiß ich nicht, was er verbockt.
+Doch bitte, tut mir nicht ein Leid!
+Ein Knecht bin ich nur, auch nicht frei.“
+
+„Das Haus ist das von einem Mann,
+der lange hier davor schon war,
+der dieses Haus hat aufgebaut,
+wo ist der jetzt? Das weißt du auch?“
+
+Und sprach der Knecht, nachdem er hört‘,
+wie dieser Mann hat ausgeseh’n,
+das folgende zum Knaben hin:
+„ich hab den Mann noch nicht geseh’n.
+Doch wenn er noch am Leben ist,
+dann wohl eh‘r nicht im Hahnenkiel.
+Dann muss er, wenn er klug auch war,
+geflohen sein aus diesem Land.
+Denn viele Fremde kommen her,
+zu nehmen sich, was sie begehr’n:
+Ein Hof und Acker, Weid und Vieh,
+von Bauern, die gestorben sind.
+Und Arbeit finden viele hier,
+als Knecht und solches, wie auch ich.“
+
+Da ließ der Knab vom Knecht bald ab,
+nachdem er dann erfahren hat,
+wie schlecht der Herr von Wolf ihm war,
+und auch zur ganzen Knechtenschar.
+
+„Der miese Gauner“, sagte er.
+„Der gröbste in Gestalt als Herr,
+der mich hier draußen schuften lässt,
+zu putzen jedes Krähennest,
+und bei der größten Hitze schon,
+da band er auf dem Dach mich an,
+weil ich gefragt nach Speis und Trank,
+nachdem ich davon nichts gehabt.
+Ich würd‘ ihm selbst den Hals umdreh’n,
+doch keine Kraft besitz‘ ich mehr.
+Und brächte ich sie dennoch auf,
+ich wäre tot dann selber auch,
+wo um ihn Schurken reichlich sind,
+mit Schwert und Messer, Pfeil und Schild.
+Vom Fürsten wurde er gesandt,
+um ihm zu pflegen Gut und Land.“
+
+Der Zorn kann einen Berg zerstören,
+niedermachen hin zu Staub,
+wie nun Wut im Knab ertönte,
+hin zur Tür ging er getraut.
+
+Drinnen stand ein Mahl gerichtet,
+rund zu sechst saß man am Tisch,
+und die Diener brachten hitzig,
+alles rasch, wie man gewünscht.
+Hier nun trat der Knab ins Zimmer,
+Hand am Griff des Schwerts geruht,
+silbern wie ein Eisenritter,
+da er seine Rüstung trug.
+
+„Ich suche“, sprach der kühne Knab,
+indem er in die Runde sah,
+von Mannen, welche gar erstaunt,
+zu diesem Ritter hochgeschaut,
+„den Mann, dem dieses Haus gehört,
+der hier schon viele Jahre lebt.“
+
+Da rief mit Essen noch im Munde,
+einer von den Männern aus,
+„setz dich ruhig zu unsrer Runde.
+Mir gehört das schöne Haus.“
+
+Dieser war ein dicker Manne,
+froh der Blick mit Backenbart,
+und er aß, so viel er schaffte,
+mehr als zweien ganzen Mann.
+
+„Ihr seid also Herr von Wolf?“,
+das fragte da der Knabe stolz,
+worauf derselbe Antwort gab,
+dass dies durchaus sein Name war.
+
+Dann blickte sich der Knabe um,
+den Zorn verbarg der Helm ihm gut,
+denn dieses Zimmer, dieser Gang,
+hier lebte er sein Leben lang.
+Und nun ist’s eine Räuberhöhle,
+böser Schurken schlechter Art.
+Doch wo jetzt sein Vater bliebe,
+war ihm immer noch nicht klar.
+
+„Doch nicht Euretwegen, Wolf,
+kam ich von fern herbei.
+Denn einen andren jag‘ ich noch,
+der hier im Hause sei.“
+
+Und war’s da, dass ein Manne sprach,
+der grade jetzt am Tische saß:
+„Jetzt fällt’s mir also doch noch ein!
+Ein Zufall ist das, guter Mann!“
+Dann sprach er in die Runde froh:
+„Ja wisst ihr nicht, wer dies ist dort?
+Der Bursche, der im Goldfass kämpft,
+und ungeschlagen sich noch hält.“
+Dann sah er wieder hin zum Knab.
+„So setz dich doch zu Trank und Mahl!
+Es ist uns allen eine Ehr‘,
+dass Ihr uns heut‘ besucht so spät.“
+
+Doch lehnte der bescheiden ab,
+indem er dieses also sprach:
+„Ein Mann versteckt sich in dem Haus,
+gibt sich vielleicht als Diener aus.
+Ich suche ihn, aus diesem Grund,
+bin ich heut‘ her zu eurem Bund.“
+
+Da rief der Herr von Wolf geschwind:
+„Na wenn’s so ist, gewähr‘ die Bitt‘.
+Wir wollen einem solchen Gast,
+nicht schlecht erscheinen in der Nacht.“
+
+Dann brüllte man durchs ganze Haus,
+zur Scheune und zum Hof hinaus,
+dass bald im Raum versammelt stand,
+vom Herrn von Wolf die Dienerschar.
+
+Den Kopf zu Boden hin gesenkt,
+die Hände hinter sich verschränkt,
+so standen sie in einer Reih‘,
+drei Mannen und auch Frauen drei.
+Und alle trüb und lebensschwach,
+und dünn, so standen sie nun da,
+gehorchend, was man ihnen sagt‘,
+ein schwerer Anblick für den Knab.
+
+Wie gut nur, dass der Helm des Knabs,
+noch immer auf dem Kopfe saß,
+denn plötzlich fuhr ein Schauer ihm,
+durch Mark und Bein, durch Ohr und Knie,
+als er den zweiten Mann von links,
+erkannte als der Vater ihm.
+Ein ehemals gar dicker Mann,
+der nun so dünn wie Seide war,
+und alt schien, wie mit hundert fast,
+und einen Kittel angehabt.
+
+Nun blickte übern Kopf er ihm,
+dem Mann, zu dem er aufgeseh’n,
+der ihm sein erster Freunde war,
+und der ihm selbst das Leben gab.
+
+Und mitleidsvoll sah er ihn an,
+der leer und stumm zu Boden sah,
+und sprach der Knab: „Wie viel für ihn,
+der hier als zweiter vor mir steht?“
+
+Da schaute ihn der Vater an,
+erstaunt durch diesen fremden Mann.
+
+Doch lachte rasch der Wolf und rief:
+„Beim Himmel! Was sagst du?
+Dass du den Alten kaufst von mir?
+Aus welchem schlechten Grund?“
+
+„Lasst ihn euch gehen“, sprach er doch,
+mit fester Stimme, tiefem Ton.
+„Und in Erinnerung bliebt mir,
+als jene, die von Geld versteh’n.“
+
+Dem Ritter, der in Rüstung steht,
+in glänzend Eisen prächtig geht,
+dem widerspricht man gar nicht gern,
+doch dieses gab der Wolf zu hör’n:
+„Der beste Diener ist er mir.
+Versteh‘, dass er mir wichtig ist.
+Man kommt nicht in ein fremdes Haus,
+und nimmt sich einfach, was man braucht,
+und wirft ein Säckchen Goldes hin,
+zum Zeichen, dass man Standes ist.
+Was liegt dir schon an diesem Mann,
+dass du für ihn dein Leben wagst?“
+
+Und merkte da der gute Knab,
+dass er gar fast umzingelt war,
+von Dreien, die mit jeder Hand,
+das Heft des Schwerts schon angepackt. 
+
+„Zum Kämpfen kam ich heut‘ nicht her“,
+sprach ruhig der Knab dem ungestört.
+„Den Preis nennt mir für diesen Mann.
+Und nimmer wieder seht mich dann.“
+
+Da lächelte der Wolf vor Spott.
+„Dein Schwert ist mir als Preis genug.
+Wie viele Männer schickt‘ es schon,
+mit ihrer Klinge in den Tod?“
+
+Alsbald verlor der Knab Geduld,
+sodass er dieses sprach:
+„Gebt mir denn, was ich haben wollt‘,
+sonst schreibt es vier sich auf!“
+
+Und wieder lachte da der Wolf:
+„Verschwinde, junger Mann!
+Verliere nicht dein Leben, horch,
+in einem fremden Land!
+Zurück geh‘, wo du herkamst, Bub,
+du hast hier nichts verlor’n!
+Und misch dich nicht in andrer Tun,
+auf fremden Grund und Hof!“
+
+Dann rief er zu dem einen hin:
+„nach draußen jetzt begleite ihn!
+Und wünsch ihm alles Glück der Welt,
+und dass er Freude uns beschert‘!“
+
+Wenn auch der Sinn des guten Knabs,
+in bösen Dingen grade stand,
+so war es dennoch das Gefühl,
+dass er zuhause grade ist,
+und dass der Vater vor ihm stand,
+dass er grad nimmer kämpfen kann.
+Und dass er tat, wie man ihm sagt‘,
+und so ging er zur Tür hinaus.
+Und draußen blies ein Winde kalt,
+und finster war es weit und breit.
+Die Nacht umschloss ihn kühl und scharf,
+und Schreie hallten drinnen nach.
+
+Da stiegen Klagerufe auf,
+zum Knaben traten sie hinaus,
+von Angst und Pein und bösem Schmerz,
+dass ihm entflammte nun sein Herz,
+und er das Schwert mit Funken zog,
+zur Hilfe nun des Vaters Not.
+
+Und nah dem Hof die glotzend Raben,
+flogen fort vom guten Knaben,
+als sie hörten nach und nach,
+wie einer fiel mit dumpfem Schlag.
+Und rasch die Knechten liefen fort,
+von diesem Haus und Hofe dort,
+bis auf die Dreien und dem Wolf,
+die lagen in dem Hause tot.
+
+Und nur mehr war der Knabe da,
+den blutend Vater in dem Arm,
+das Schwert, rot, auf dem Boden lag,
+der Helm daneben niederkam. 
+So sah der Vater seinen Sohn,
+den er gedachte lange tot.
+
+
+
+
+ 
+## EIN SCHWARZER TAG
+Es fiel der Vater ach so bald,
+in einen tiefen Schlaf, so dass,
+der Knabe also nicht mehr sah,
+ob noch der Vater lebend war.
+Denn blutig ward des Alten Mund,
+und seine Nas von Schlägen wund.
+
+„O! Wenn ich nur ein Heiler wär!
+Doch wenig weiß ich drüber mehr.
+Oh! So lang war ich nicht da,
+weiß nicht, ob man hier so wen hat.
+Die Knechten alle sind hinfort,
+wie auch die Mägde, wohl ist’s doch!
+Doch nicht für mich! Oh, könnt‘ ich nur,
+ich heilte meinen Vater schon.“
+
+Da wachte nun der Vater auf,
+und hustete gar schwach, nicht laut,
+als schien er krank auch noch zu sein,
+und voll war seine Stirn von Schweiß.
+
+„So hat der Mönch es recht gesagt.
+Von Krankheit wirst du auch geplagt.
+Nur einen weiß ich, der vielleicht,
+dir helfen kann in diesem Fall.
+Doch wird es dauern einen Tag,
+bis er dir vielleicht helfen kann.“
+
+So kam es, dass der Knab bei Nacht,
+hinaus aus seinem Hause trat,
+und seinen Vater auf sein Pferd,
+hinaufgesetzt hat, warm und fest.
+
+Und spornte er sein Pferde an,
+zu reiten viele Meilen lang,
+und Eile war die Peitsche ihm,
+dass ihm nicht weg der Vater stirbt.
+
+So kamen sie nach einem Tag,
+dazwischen eine kurze Rast,
+zu einem Haus in einem Wald,
+an dem der Knab schon vorher war.
+Und wie er nah dem Hause kam,
+er einen Hölzer hacken sah,
+der sich gebückt und umgedreht,
+den Knaben so schon ausgespäht.
+
+Da lief der Mann in schwarzem Lein,
+gar schnell schon in das Haus hinein,
+dass rasch der Knab nach vorne rief:
+„Lauf nicht davon! Wir brauchen dich!“
+
+Und vor der Tür kam er zu Halt,
+die Stimme schon des Meisters hallt‘:
+„Bring ihn herein in aller Eil!
+Der Küchentisch ist für ihn frei!“
+
+Und nieder legte man den Vater,
+auf den Küchentische hin,
+wo der Meister schon mit Salben,
+wie ein Heiler rasch beginnt.
+O, was dort der Meister tat,
+was er an Heilungskünsten kann,
+verstand der Knabe damals nicht,
+als er bloß stand am Küchentisch.
+
+Der Meister aber hin und her,
+in Eile und von Wissen schwer,
+und tat und machte, nuschelte,
+und loderte und qualmte es.
+
+Und nach so mancher bangen Stund‘,
+des Heilens und der vielen Wund‘,
+da legten sie den Vater sanft,
+ins Zimmer auf das Bett hinan. 
+Und immer wieder kam zu ihm,
+der Meister, wohl zu seh’n nach ihm.
+Und nebenbei der Knabe bangt‘,
+auf einem Stuhl im Eckelein.
+
+Oh! Wie die Spatzen traurig blickten,
+durch das Fenster trüb herein,
+nicht ein Wörtlein sagten sie mehr,
+keinen Laut, den sie getan.
+
+Doch der gute Knabe weinte,
+weinte, wie er drinnen saß,
+und er hasste sich und meinte:
+„Meine Schuld allein ist das.
+Immer wollte er mein Bestes,
+gab mich fort, zerging daran,
+nur damit ich dummer Bengel,
+irgendwann auch leben kann.“
+
+Als er dann den Meister fragte,
+wie es um den Vater stand,
+blickte dieser ernst und bangend,
+seinen guten Knaben an:
+„Wenn das Glück ihm zugewandt,
+und er es schafft durch diese Nacht,
+dann will ich guten Trostes sein,
+dass er gesund wird bald einmal.
+Doch wenn das Unglück ihn befällt,
+dann fürcht‘ ich, dass es schlimmer wird.
+Die Krankheit, die er in sich trägt,
+für sie ist Heilung fast zu spät,
+Es ist ein Wunder, dass er noch,
+mit solchem Leibe leben konnt‘,
+als ob ihn eine andre Kraft,
+am Leben nur gehalten hat.“
+
+Denn war sein Leibe aufgebläht,
+von dunklen Flecken übersät,
+wie es der Knabe schon geseh’n,
+an Bettlern, die in Hams umgeh‘n.
+
+Der Müdigkeit in jenen Tagen,
+fiel der Knabe nach und nach denn,
+so zum Opfer, dass er schlief,
+und lange bis zum Morgen tief.
+
+Wie er also dort erwachte,
+als ein Windhauch zog und pfiff,
+und die Kühle an ihm nagte,
+wie er leicht im Stuhle sitzt,
+war es draußen grau und düst,
+kein Licht, das ihm den Morgen grüßt,
+doch laute Tropfen hörte er,
+die niederschlugen draußen schwer.
+
+Sein Blick doch fiel sogleich hinab,
+zum Bett des Vaters, das dort stand,
+und weiß wie Kalk war sein Gesicht,
+und hart und kalt, so schien es ihm.
+
+Und kam der Meister auch zuletzt,
+den schwarzen Hut nicht aufgesetzt,
+und blieb bloß an der Türe steh’n,
+und sprach: „Im Schlafe ist’s gescheh’n.
+Wenn auch im Leben er viel litt,
+in dieser Nacht doch sicher nicht.“
+
+Dann ging er wieder schwer hinaus,
+und stand im Schutze vor dem Haus.
+Und lange Zeit verfloss geschwind,
+bis dass der Knab nach draußen ging. 
+
+Da sprach der Meister gut zu ihm:
+„Es gab nichts mehr zu tun für ihn.
+Auch wär ein Heiler an dem Tag,
+an dem du ihn gefunden hast,
+bei ihm gewesen, hätte das,
+den Tod nicht aufgehalten, Knab.
+Du hast das Beste ihm getan,
+als du zu ihm gegangen warst.
+Er konnte seinen Frieden finden,
+wenige tun solche Dinge.“
+
+„Ein Grabe will ich ihm erbauen“,
+sprach der Knabe schwer im Kauern,
+wie er in den Regen sah,
+und streng sein Blick und finster war.
+
+„Dann lass mich dein Gehilfe sein“,
+so sagte es der Meister dann.
+„Wenn du mich auch gewiss nicht brauchst.
+Doch lass mich helfen, wenn’s erlaubst.“
+
+Zum Hahnenkiel am selben Tag,
+nun fuhren sie zu zweit hinab,
+mit einem Wagen wie auch einst,
+und einem Sack, der oben lag.
+Und wenn man Seit‘ and Seit‘ auch saß,
+nicht einer je ein Worte sprach,
+das unbedingt nicht nötig war.
+Und so verging ein ganzer Tag.
+
+Auf einem Hügel, nah vom Hof,
+wo eine Weide lang gewohnt,
+begruben sie den Vater dann,
+und wälzten einen Stein heran.
+
+Und nieder warf der Knab sein Schwert:
+„Nicht einen Kampf bestreit ich mehr!“
+Und grub er dort sein Schwerte ein:
+„Was tot ist, soll vergraben sein.“
+
+Und lange noch an diesem Grabe,
+standen beide, alt und Knabe,
+düster auf dem Hügelkamm,
+in dunklem Leder beidesamt.
+Und kalt und beißend schoss herab,
+der Regen an dem schwarzen Tag.
