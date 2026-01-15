@@ -4765,4 +4765,56 @@ standen beide, alt und Knabe,
 düster auf dem Hügelkamm,
 in dunklem Leder beidesamt.
 Und kalt und beißend schoss herab,
-der Regen an dem schwarzen Tag.
+der Regen dieses schwarzen Tags.
+
+„Nun siehe dort! Das Fackellicht,
+der Männer, die gekommen sind!“
+
+Den Grabeshügel an dem Stamm,
+erschien aus Lichtern eine Schar, 
+und glänzend waren Schwert und Speer,
+ein Dutzend Mann und kamen mehr.
+Und Stimmen hört‘ man zäh und krumm.
+Drei liefen um den Berg herum.
+
+Und schweigsam stand der Knabe da,
+den Blick auf seines Vaters Grab.
+Der Meister doch erkannt‘ das Los,
+das auf sie zukam, ihre Not,
+und packte fest den Knaben an,
+entriss ihn aus dem Schweigebann,
+und rief: „Beeil dich! Reite fort!
+Komm nie zurück an diesen Ort!
+Gehängt wirst du nach ihrem Recht.
+Drum fort mit dir! Und reite schnell!“
+
+Doch schwer zermürbt und gramgebeugt,
+der Knabe hört‘ nicht auf sein Wort,
+und sagte: „So viel Schuld trag ich,
+davor verstecke ich mich nicht.
+Denn nahm ich einst drei einzig Leben.
+Eines kann ich dafür geben.“
+
+Da erkannt‘ erzürnt der Meister,
+um des Knaben sturen Sinn.
+„Danke dieser Lebensweise,
+wenn du an dem Stricke bist!“
+
+Und da nun wandte der sich hinfort,
+hernieder stürzt er einen Hang,
+welcher noch an diesem Ort,
+verdeckt in Finsternisse lag.
+
+Und alleine stand der Knabe,
+immer noch in Geist und Selbst,
+als man ihm zu Boden warf und,
+anband Fuß und Handgelenk.
+
+Auf die Frage, die man stellte,
+wo der andre hin nun sei,
+wie auch darauf, ob derselbe,
+ein Kumpan gewesen war,
+gab der Knabe keine Antwort,
+nicht ein Mucks mehr kam von ihm.
+Und man führte ihn vom Grabmal,
+fort zur Straß‘ und fort von hier.
