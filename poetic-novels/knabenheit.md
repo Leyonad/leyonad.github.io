@@ -4818,3 +4818,413 @@ gab der Knabe keine Antwort,
 nicht ein Mucks mehr kam von ihm.
 Und man führte ihn vom Grabmal,
 fort zur Straß‘ und fort von hier.
+
+
+
+
+
+## DAS WORT DES VOLKES
+Von der Zeit im schwarzen Loche,
+wo der Knabe lange saß,
+will an andrer Textepoche,
+mehr erzählt sein irgendwann.
+
+Dass man aber nun den Knaben,
+warten ließe auf den Strick,
+wusste dieser selbst und dachte,
+dass es so nun enden wird.
+
+Und nach manchem zähen Tag,
+nachdem man ihm zu essen gab,
+da zerrte man den Knaben raus,
+zur brüllend Menge kranker Schau.
+
+Am großen Platze stand er da,
+und drumherum das Volk der Stadt.
+Er stand auf dem Schafott in schwarz,
+der Strick schon lag ihm um den Hals,
+und trüb und ernst wie eh und je,
+so stand er dort, die Augen schwer.
+
+Er hatte schon die ganze Nacht,
+gestanden hier, vom Volk belacht.
+Doch nun, als sich die Sonne zeigte,
+und ihr Strahl sein Haupte streifte,
+sprach mit lauter Stimme wer,
+der saß auf einem Stuhl nicht fern,
+inmitten zweier anderer,
+auf einem großen Kasten, der,
+von weißem Tuch bekleidet war,
+und über jeden Kopf geragt.
+
+„So hört das Wort des Rats der Stadt!“,
+nun sprach der Mann in rotem Samt,
+und all das Volk verstummte da.
+Man hörte, was er sprach, der Mann.
+
+„Den Mördermenschen, wie man ihn,
+seit kurzem anspricht, heiße ich,
+verurteilt für das folgende:
+Drei Herren hat er umgelegt,
+den edlen Herren Wolf und auch,
+zwei’n andern stach er in den Bauch.“
+
+Da rief wer aus dem Volk heraus,
+die Hände fest zum Zorn geballt:
+„Jetzt hängt ihn endlich! Hängt ihn! Los!“
+Und andre schrien ebenso.
+
+Doch andre da besannen sich,
+und dachten nach mit neuem Sinn,
+dass dies doch gut gewesen war,
+dass wer die Drei’n vom Acker schafft‘.
+
+Doch fuhr der Mann in rotem Samt,
+mit Lesen fort und sprach sodann.
+„Der Stadtrat, der sich einig ist,
+dass dieser Mann den Tod verdient,
+hat unterzeichnet heute früh,
+dass er am Galgen hängt und stirbt.“
+
+Doch keiner jubelte da noch.
+Empörung nämlich hob sich hoch,
+dass man nun ernst und mürrisch blickt‘,
+zum Richter und zum Henker hin.
+
+Ein letztes aber fragt‘ der Mann,
+zum Abschluss noch den Meister da:
+„Doch wie die Stadt es stets getan,
+und wie wir es ins Buch gefasst,
+so steht ein jedem an dem Galgen,
+eine Sache noch zu melden.
+Hat er also noch ein Wort,
+das noch erfahren soll das Volk?“
+
+Und solche Stille trat da ein,
+wie Hams sie niemals noch vernahm.
+Doch sprach der Knabe schließlich noch,
+indes ihm eine Träne floss:
+„Nicht kenn ich einen stärkren Mann,
+als es mein Vater immer war.
+Und meiner Liebsten, sagt ihr, dass,
+sie doch in allem richtig lag.“
+
+Und jener Mann in rotem Samt,
+der gab ein Zeichen plötzlich an,
+dem Henker mit der Maske auf,
+der enger nun den Strick umschlauft‘.
+
+Doch wie er seine Hand da schon,
+an jenen Hebel lehnte, tobt‘,
+die Menge plötzlich tosend auf,
+und einer rief so schrill heraus,
+dass alles zu dem Manne sah,
+dem alten Bauer, der da stand.
+
+„Genug! Halt ein mit diesem Wahn!
+Uns allen ist es wohlgetan,
+dass dieser Wolf verreckt uns ist,
+bei allen uns vom Hahnenkiel!
+Gefeiert sollt‘ der Knabe sein,
+dass er getötet hat den Mann!“
+
+Da hielt der Henker plötzlich an,
+der Richter zapplig wurde da,
+und merkte wie ein jeder Blick,
+auf ihn nun drohend, wütend fiel.
+
+„Genau! Der nächste seid Ihr dann,
+wenn heute hängt der Knabenmann!“,
+so rief ein Fräulein gar heraus,
+und Rufe folgten diesem laut.
+
+„Ich reiß dir deinen Samt vom Leib,
+wenn du nicht lässt den Knaben frei!“,
+so schrie ein Mann von wilder Wut,
+der einen Knüppel auf sich trug.
+
+Und tosend ward das gute Volk,
+je mehr sich trauten, sprachen wohl,
+und immer mehr der Richter sah,
+dass dies nicht zu gewinnen war.
+Da rief er schließlich dieses aus:
+„Ins Kloster mit ihm! End‘ und Aus!“
+
+Und schon als er dies Wort gesagt,
+den Hammer fort zu Boden warf,
+und von der Bühne rasch verschwand,
+mit seinem roten feinen Samt,
+und manche sprangen ihm noch nach,
+doch rief der Knabe diese an:
+„So lasst ihn geh’n! Lasst ihn in Ruh‘!
+Ich leiste meine Straf‘ genug.“
+
+Und wenn auch manche sagten, dass,
+er frei sei nun, nicht büßen brauch,
+so sagte er, „mir wurde heut‘,
+das Leben neu geschenkt von euch!
+Das will ich Danken. Meine Straf‘,
+leg ich im Kloster von mir ab.“
+
+Und so geschah es schließlich, dass,
+der Knabe dann ins Kloster kam,
+und seine Kleider von sich gab,
+und schwarze trug den ganzen Tag.
+
+ 
+
+
+
+## SÜHNE
+Doch dass die Zeit im Klosterbau,
+verging nur schweren Schritts,
+das sei woanders einsehbar,
+die Zeit denn schritt geschwind.
+
+Verschlossen hinter Turm und Stein,
+erfuhr man manches doch,
+und oftmals las der Knab allein,
+und bangend solches Wort.
+Dass eben sich das Volk des Landes,
+hochgebeugt hat sich dem Samte,
+fortgejagt mit Beil und Spieß,
+so manchen, der als Herr geschickt.
+
+Und da er nun das Wort gekannt,
+als sündhaft sah er solches an,
+wenn auch er wusste um der Welt,
+dass sie nicht war, wie man sie stellt.
+Die Rösser doch des Königs schnaubten,
+feurige ihre Reiter war’n,
+auf dem Weg nach Süden laufend,
+hin nach Hahnenkiel und Hams.
+
+Jetzt begann man zu verfolgen,
+zu vergelten rasch und scharf,
+und so manches Haupte rollte,
+aus der kühnen Bauernschaft.
+
+Stimmen riefen hoch zum Himmel,
+wo die ganzen Reiter sei’n,
+die im Goldfass bei Gewimmel,
+stritten sich mit Schwert und Beil.
+
+„Alle haben sich verkrochen,
+hinter Tür und Schrank versteckt!
+So war uns’re letzte Hoffnung,
+auch nur stets ein Hirngespinst!
+Dass die feigen Raufboldhunde,
+mehr für uns als solche war’n.
+Oh! Wie Blinde und wie Dumme,
+hielten wir sie so für Hams.
+Her mit euch! Den Sold erfüllt,
+den jeder Mann als Bube kriegt!
+Wir weinen nicht, wir trauern nicht,
+wir Frauen, die noch sind.
+Doch wo ist heut‘ das Mannesbild,
+in diesem Lande hin?“
+
+Von solchen Schriften las der Knabe,
+immer wieder trüben Sinns.
+Denn er wollte es nicht haben,
+dass im Goldfass nichts geschieht.
+Und tatsächlich hatten manche,
+auch der Wirt desselben Haus,
+schon geplant und vorbereitet,
+was man tät bei diesem Graus.
+
+Und der Knabe las bald bangend,
+wie es in den Schlachten stand,
+die man schlug im grünen Lande,
+wie auch hoch am Bärenhang.
+
+„Was soll Rut‘ und Spieß bewirken,
+gegen Schwert und stählern Helm?
+Mühelos wird aufgerieben,
+wer sich Söldnern soldlos stellt.
+Wie ein Trupp versprengter Küken,
+gackern wir die Feinde voll.
+Viele Tote sind zu büßen,
+und auch der, der uns befohl.
+Raufen können wir und streiten,
+kämpfen auch mit Kraft und Herz,
+doch es fehlt uns allen einer,
+der uns anführt auf dem Feld!
+Wer die Strategie des Kampfes,
+überblickt, verstanden hat,
+als ein Hauptmann gar geleistet,
+und erfolgreich damit war,
+mög‘ sich melden flink und rasch!
+Die letzte Bitte, die ich hab!“
+
+Und schrieb der Knabe seinem Meister,
+einen Brief mit Eile hin,
+dass er selbst nur hinter Steinen,
+beten kann fürs Land und ihn,
+dass die Leute ihn nun brauchten,
+da er um des Krieges wiss‘,
+da er wie er selbst behauptet‘,
+siegreich war zur Zeit des Kriegs.
+
+„Wollen sie dir auch vergeben,
+wie sie dich einst angeschaut,
+wofür sie dich ausgegeben,
+was sie dir einst nachgesagt.
+Führe sie mit solcher Stärke,
+solcher Hoffnung, solchem Sinn.
+Hol‘ herbei das End des Sterbens,
+dass die Glocke wieder schwingt!“
+
+All das Zweifeln und das Hadern,
+das befiel den guten Knaben,
+half ihm dennoch nichts im Kloster,
+wenn auch er nach draußen wollte.
+Tun und richten mit dem Schwerte,
+wie es ihm so lang gelehrt ward,
+solches sah er sich bestimmt,
+zu beten nicht, zu knien nicht.
+Den Schwur doch, den er einst getan,
+an seines Vaters Eigengrab,
+der ließ ihn von sich nimmer los.
+Das Schwert auch lag vergraben schon.
+
+Den höchsten in dem Klosterbau,
+nun fragte er um Rat dabei,
+und solches Wort sprach dieser dann,
+mit Ruhe, Weisheit ohne Scham:
+„Mit Schwertern schlagen sich die Wilden,
+richten Leben und den Tod.
+Alle diese werden sühnen,
+eh‘ der Teufel sie noch holt.
+Lass uns für die armen Seelen,
+Lieder singen, Worte beten,
+dass der Herr sie richten mag,
+und führen auf dem rechten Pfad.“
+
+Da rief der Knab zum Bruder hin:
+„Doch Bruder, hör! Was bringt das denn?
+Nur gleich wird’s ihnen dann ergeh’n,
+ob wir nun knien oder steh’n!
+Die Leute, gute Bürgerschaft,
+die sterben, werden totgemacht!
+Und sagtet Ihr einst groß an mich,
+das Helfen sei des Menschen Pflicht.
+Und nun, da ich viel helfen könnt‘,
+da sagt Ihr es mir ab geschwind?“
+
+„Der Glaube ist die größte Kraft,
+die unsereiner für sie schafft.
+Und wenn das solche anders wär‘,
+dann säh‘ niemand den Himmel mehr.“
+
+„Was soll das heißen?“, sprach der Knab.
+„Du sprichst in Rätseln, nenn’s beim Nam‘!“
+
+„Du sollst nicht richten! Sollst nicht töten!
+Gott allein hat diese Macht.
+Wär’s kein Hammer, nein ein Schwerte,
+wird zerbrochen, was geschafft.
+Und das größte käm‘ von oben,
+Feuerschlagend auf die Welt,
+denn sie wäre ausgegoren,
+und die Menschen nichts mehr wert!
+Flammenwinde, heiß und tötend,
+führen über Stadt und Haus,
+und zunichte würde grölend,
+alles, was der Mensch gebaut.
+Denn der Herr bestraft die Bösen,
+lass uns drum für unsre beten.“
+
+Doch dem Knaben kam ein Lichte,
+als der Bruder dies gesagt,
+und den Bruder ließ er hinten,
+lief davon in Eil‘ und Hast.
+„Mag man mir die Schuld verzeihen,
+ein Gebet doch sprech‘ ich noch“,
+dacht‘ der Knabe als er eilig,
+niederlegte seinen Rock.
+„Mög‘ der Himmel mich begleiten,
+auf dem Weg, der vor mir liegt.
+Mög‘ er auch versteh’n das Leiden, 
+das mich zu dem Pfad bewegt.
+Glück und Segen mag ich haben,
+dass es kommt, wie ich’s mir wünsch‘.
+Dass der Drache einen Knaben,
+niederbrennt doch nicht geschwind!“
+
+
+
+
+
+ 
+## ZU SPÄTER STUNDE
+Eingehüllt in schwarzen Kleidern,
+die Kapuze übers Kinn,
+schlich der Knabe nun alleine,
+durch die Gassen Hamsens hin.
+An der Tür des Schmiedes stand er,
+klopfte daran etlich mal,
+bis der riesenhafte Manne,
+endlich aus dem Hause kam.
+
+„Lass uns hier nicht drüber sprechen!“,
+sprach der Schmied mit leiser Stimm‘,
+„deinen Brief erhielt ich gestern,
+seitdem ist gar viel passiert.“
+
+So nun gingen sie nach drinnen,
+zündeten ein Lichte an,
+und man sprach, wie man gewinne,
+für die Freiheit dieses Lands.
+
+„Aufgenommen hat mein Bruder,
+deine Worte wohl und ernst,
+dennoch hat er wenig Grund,
+so zu tun, wie du ihm rätst.“ 
+
+„Für den Weg, den ich genommen,
+brauch‘ ich deine Hilfe auch.
+Du kannst ihn dazu bekommen,
+dass er da ist, wenn’s ihn braucht.
+Meine Absicht lautet folgend:
+Lassen wir den Drachen frei,
+sprengen wir den Reif und hoffen,
+dass er sich uns dankbar zeigt.“
+
+„Von dem Reif um seinen Fuße,
+sprichst du? Ist es doch nicht so?
+Wie beim Himmel willst du dies nun,
+schaffen, eh er dich verkohlt?
+Was soll dies auch schon bezwecken?
+Ist das Biest er gänzlich frei,
+wird es sich an alle rächen,
+die ihm zugefügt ein Leid!
+Die Stadt wird er in Asche legen,
+keiner haltet ihn mehr auf.
+Lange Zeit kann er dann fliegen,
+da der Reif ihn nicht mehr taubt.
+Drachenfeuer ist gefährlich!
+Nicht zu spaßen ist damit!“
+
+Und da drehte sich der Schmiede,
+fort vom Knaben aus dem Licht,
+um die Maske sich zu richten,
+die an sein Gesicht sich schmiegt‘“
+
+Doch es sprach der Knabe drängend:
+„Wohl gefährlich ist es, ja!
+Wenn er aber uns dann helfe,
+käm‘ vielleicht Hams immer frei.
+Denn der Schatz in seiner Höhle,
+ist nicht Silber, Gold allein:
+Waffen, Schwerter, Schild und Speere,
+liegen dort jetzt unerreicht. 
+Zeigt er also sich dann dankend,
+wenn wir ihm den Reif abtun,
+bitten wir um jene Waffen,
+und wir wären stark genug!
+Einer müsste uns dann führen,
+der von Krieg und Kampf versteht.
+Und mit dem ist noch zu reden,
+eh‘ wir vor dem Drachen steh’n.
+
