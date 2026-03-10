@@ -5228,3 +5228,921 @@ der von Krieg und Kampf versteht.
 Und mit dem ist noch zu reden,
 eh‘ wir vor dem Drachen steh’n.
 
+In der Nacht nun schlichen beide,
+aus der Stadt, aus Hams heraus,
+durch die Gassen huscht‘ man leise,
+so dass niemand sie belauscht‘.
+
+Danach hielt man sich nach Norden,
+hin zum Hause jenes Manns,
+der zum Hauptmann einst geworden,
+und der Knechtenmeister war.
+
+Nun, wie es das Unglück wollte,
+waren beide endlich dort,
+doch den Meister finden, konnten,
+sie doch nicht an diesem Ort.
+
+„So lass uns zum Goldfass gehen,
+ob der Alte dort sich treibt.
+Einiges auch wird man wissen,
+wie es steht um Krieg und Leid.“
+
+Solches sprach der Schmiede also,
+dass sie rasch sich aufgemacht.
+Und dort sollen sie nun bald schon,
+sehen, wer sich aufgebracht.
+
+
+
+
+ 
+## FEUER UND WEIN
+Niemand grölte als am Morgen,
+eh‘ die Sonne sich gezeigt,
+jene beiden angekommen,
+nun am Goldfass ganz in Eil‘.
+Drinnen denn bei kargem Lichte,
+wie wenn Geister drinnen wär’n,
+sprach man leise, sah man bitter,
+sich einander an mit Ernst.
+
+„Düster ist die Stunde, Freunde,
+ungewiss was kommen mag!“
+
+Solches sprach der Knechtenmeister,
+zu den Leuten in der Nacht.
+Vieles sprach man von der Lage,
+welche Waffen man besaß,
+welche Ziele sein‘ bei Tage,
+welche für die Nacht gemacht.
+Und der Meister sprach von Taktik,
+Stategie und List und Kampf.
+
+„Dieses, meine Freunde, weiß ich:
+Dass sie siegen jede Schlacht.
+Nur jedoch auf offnem Felde,
+nur bei Tage, Sonnenschein.
+Niemand kämpft im strömend Regen,
+außer wir, den dies noch bleibt.“
+
+So nun sprach man also lange,
+bis zum Schluss das Wort gefällt,
+dass man alles vorbereite,
+für die Morde, die man tät.
+
+„Hin zum Fürsten will ich gehen,
+schauen, was ich leisten kann,
+wie mein Messer seine Wehnen,
+wie ein Mehlsack schneiden mag!“
+
+Denn die Kunde, die man sandte,
+eilends hin zum Könige,
+der der wahre Herr des Landes,
+und ein guter auch noch wär,
+ließ die Mannen schlechten Sinnes,
+wo er Hilf‘ doch abgesagt,
+da noch andres war im Bilde,
+dessen er sich kümmern mag.
+
+„Da wir nun alleine bleiben,
+tun wir, was uns nötig scheint.
+Lieber sterb‘ ich mit dem Beile,
+als Gefangener daheim!“
+
+„Morgen zieh‘ ich los zu Pferde,
+woll’n wir seh’n, wenn das nicht klappt,
+ob ich diesen fremden Schergen,
+wohl bei Nacht nicht töten kann!
+Alles andre ist verloren,
+keine Waffen haben wir,
+keine Rüstung, keine Horden,
+die uns helfen, wenig Tier.“
+
+Solches sprach ein wackrer Bauer,
+still im Kreis mit düstren Augen. 
+
+Nachher sprachen noch der Knabe,
+mit dem Knechtenmeister Wahres,
+dass er hin zum Drachen schritt,
+zu Bitten, ob er helfen will.
+
+Da sprach der Meister: „Meinen Hammer,
+der bei mir zuhause liegt,
+in der Kiste hinterm Hause,
+nimm ihn mit zum Drachensteg!
+Mög dir er dir vielleicht dann helfen,
+wenn es soweit letztlich ist.
+Tu mit ihm, was du gedenkst denn,
+ich vertraue nun auf dich.“
+
+Also schritt hinfort der Knabe,
+doch der Schmied, der blieb zurück,
+da der Knabe selber sagte:
+„Bleibe hier, hier braucht man dich!“
+
+Hoch ins Zimmer, in die Kammer,
+wo die Liebste ihm gewartet,
+weinend auf dem Bette saß,
+und grad die Treppe wohl gewahrt,
+da ging er noch und nahm die Liebste,
+fest in seinen Arm und sprach:
+„Bald schon ist der Kampf vorüber,
+und ich bin dann wieder da.
+Wirst du danach auf mich warten,
+wenn ich dann zurückgekehrt?“
+
+„Geh!“, sprach sie von Tränen blasse.
+Und der Knabe ging gar schwer.
+
+Blitze schlug das Ross des Knaben,
+als es fort vom Goldfass ritt,
+und die Mannen schauten nach noch,
+murmelten einander sich:
+„Flieht er jetzt, der arme Bursche,
+jetzt, wo man ihn so bedurfte?“
+
+Doch der Meister sprach geschwind:
+„Die letzte Hoffnung liegt bei ihm.
+Vertrauen wir, dass er es schafft,
+was er zum Ziel gesetzt sich hat.
+Doch müssen wir nun Unsres tun.
+Drum auf nach Hams! Es droht ein Sturm.“
+
+
+
+ 
+## DIE FESTUNG HAMS
+Hin zur Stadt nun ritten manche,
+andere in alle Weiten,
+einzusammeln Mann und Knecht,
+zu kämpfen für des Landesrecht.
+
+Die Worte ließ man laut erklingen,
+Unheil müsse man verhindern:
+„Wenn der Fürst erst Hams einnimmt,
+dann ist die Freiheit aller hin!
+Die Truppe um den goldnen Ritter,
+ruft zum Kampfe! Auf nach Hamse!
+Dort beginnet das Gewitter!“
+
+Solche Worte ließ man rufen,
+durch das Land in kurzer Zeit,
+wenn auch niemand noch begriff nun,
+wer als Ritter denn gemeint.
+
+Hunderte doch kamen tapfer,
+Lanz und Knüppel aufgepackt,
+hin zur Stadt, zum düstren Hamse,
+das jetzt grau und fade war.
+Kunde war schon eingetroffen,
+dass ein Tross, unzählbar groß,
+hergeschritten kam vom Norden,
+und dass bald der Kriege tobt‘.
+Also floh man rasch in Scharen,
+raus aufs Land, nahm alles mit,
+und so wurde Hams in Tagen,
+tot und still zum Fürsten Glück.
+
+Dies doch sollte sich nun ändern,
+als der Meister erstens kam,
+und mit ihm ein Trupp von Männern,
+und nach ihnen mehr noch mal.
+
+Alle Waffen, die man hatte,
+sammelte man, Rüstung auch,
+und verteilte sie zum Manne,
+setzte ihnen Helme auf.
+
+„Diese Bauern sollen kämpfen?“,
+sprach der Schmied zum Bruder schwer.
+Was denn wird der Fürst sich denken,
+wenn er sieht, wer sich ihm stellt?“
+
+„Soll er denken, was er will!
+Was kümmert uns das nun?
+Die Hoffnung, die die letzte ist,
+ist, was der Knab jetzt tut.“
+
+So gingen zweien Tage um,
+zum dritten frühster Stund‘,
+gewahrte man am Hügelkamm,
+dass dort ein Reiter stand.
+
+Nieder wie die Hasen hüpften,
+nun die Späher, die man sah,
+riefen, ihre Stimme drückend,
+dass der Fürst gekommen war.
+
+Bis zum Abend sei das Heere,
+vor der Stadt mit Zelt und Mann,
+und mit Kriegsmaschinen schwerer,
+als man sah je auf dem Land.
+
+Und der Meister sprach in Plage:
+„In der Nacht sind wir im Krieg“,
+doch die andren Späher fragt‘ er,
+„ob es nichts vom Knaben gibt?“
+
+Und wie er es schon gesaget:
+in der Nacht war es so weit,
+Tausende von roten Fackeln,
+glommen feurig, hell im Schein.
+Doch zum Morgen wollt‘ man warten,
+bis der Tag des Fürsten käm‘,
+und auch sandt‘ man hin nach Hamse,
+einen Boten, vorzugeh’n.
+
+„Räumt die Stadt! Die Türe öffnet!
+Oder sterbt vorm Fürst Wasil!
+Der dies Land für sein erkläret,
+von dem König, der nicht hier!“
+
+Keine Antwort wollt‘ man geben.
+„Fahr zur Hölle!“, rief man hin.
+„Warne deinen Fürsten flehend,
+dass er nicht die Stadt betritt!
+Oder es wird Feuer geben,
+Sturm und donnernd Flügelschlag,
+denn der Wächter kommt zugegen,
+der die Stadt beschützen mag!“
+
+Aber lachte bloß der Bote:
+„Bring den Wächter, zeig‘ ihn vor!“
+Und dann ritt er fort, die Drohung,
+ausgesprochen, wie er sollt.
+
+Nun, da er verschwunden war,
+zum Himmel man mit Hoffen sah,
+da fielen Steine nun herab,
+hernieder auf die kleine Stadt.
+Die Kriegsmaschinen schossen nun,
+von hinterm Hügel her und gut,
+sodass so mancher Mauerstein,
+davonflog und ein Loch nur bleibt.
+Und viele kamen so geflogen, 
+und Verzweiflung brach da aus,
+lauter Steine kamen tosend,
+schlugen nieder Trog und Haus.
+
+Was zu tun nun also wäre,
+rief man um sich gar entsetzt,
+also schoss man raus aufs leere,
+hinterm Hügelkamm zuletzt.
+
+Da jedoch erschien in Kürze,
+eine Reihe glänzend Speer,
+und dahinter tausend Rufe,
+die ertönten aus dem Heer.
+Und ein Horn blies laut zum Angriff,
+und ein zweites folgte nach,
+und den Hügel runter rannten,
+alle Mann der Fürstenschar.
+
+Wie ein Strom des grauen Meeres,
+wie die Wogen nieder geh’n,
+füllte sich der Wiese Leere,
+tausendfach mit Schwert und Speer.
+
+O wie da die Mannen stutzten,
+in der Stadt am Mauerwall,
+dass sie einen Ausweg suchten,
+oder tot sein würden bald.
+Laut sprach das Entsetzen Bänder,
+die Gesichter starr und weiß.
+„So denn geht die Welt zu Ende,
+und nicht viel hab‘ ich erreicht.“
+
+Solches sprachen nun die Männer,
+wackre Bauern, Bursch und Greis,
+und man sah nicht mehr zum Meister,
+alles Tun wär‘ toter Fleiß. 
+
+Dieser aber stand dort wacker,
+auf dem Walle kerzenhoch.
+„Kämpft!“, rief er, „beschützt den Walle!
+Fürchtet weder Schand‘ noch Tod!“
+
+Doch in dem Moment der Boden,
+bebte schwer und krachte laut.
+Und der Ansturm, der gedroht hat,
+kam zu Halt und horchte auf.
+
+„Steh uns bei!“, rief man von oben,
+auf dem Walle fürchterlich.
+Und es zitterte der Boden,
+und es schied das Sonnenlicht. 
+
+ 
+
+
+
+
+## EIN ABGEKARTETES SPIEL
+Durch die Wälder, groß in Eile,
+ritt der Knabe also hin,
+bis er endlich dann erreichte,
+was der Meister meint‘ zu ihm.
+
+Dessen Hütte nämlich hatte,
+eine Kiste hinterm Haus,
+und dort lag ein kleiner Hammer,
+den der Meister nie gebraucht.
+
+„Ach, da liegst du“, sprach der Knabe.
+„Lange schwang dich niemand mehr.
+Diese Zeit doch ist vergangen,
+drum sei nun zurückgekehrt.“
+
+Wie er nach so mancher Stunde,
+als die Sonne unterging,
+endlich kam zur Felsenrunde,
+wo der Drache hat gelebt,
+rief er rein zum großen Wurme,
+„Höre, wer gekommen ist!
+Bald schon ist dein Reif zu Grunde,
+und dein Leiden ist zunicht‘!“
+
+„Hast du mich denn schon vergessen?“,
+rief er nochmals laut hinein,
+als kein Laut nach draußen drängte.
+Doch der Wurm war nicht daheim.
+
+Plötzlich und mit Donnerschlägen,
+wie ein Sturm, der niederkam,
+stieß der Drache tief hernieder,
+kam zum Boden hinterm Knab.
+
+Und sein Krächzen übertönte,
+so von Schmerzen diesen Stoß,
+und er reckt‘ sich auf in Höhe,
+und der Knabe fiel da um.
+
+Stinkend war die Luft geworden,
+Staub durchwehte nun den Platz,
+und der Knabe sah nach oben,
+über ihm das Drachenmaul.
+
+„Ich hab‘ dir versprochen einst,
+dass ich wen hol‘, der dich befreit,
+der stärker ist als ich es war.
+Doch nun ist dieser Mann nicht da.
+Mit seinem Hammer kam ich her,
+im Kampfe denn, im Krieg ist er.
+Ein Fürst von Norden greift uns an.
+Die Stadt, die er nun will, ist Hams.“
+
+„Dann solltest du bei ihnen sein!“,
+sprach da der Drache gar gemein,
+und prüfte mit dem glänzend Aug‘,
+des Knaben Angesicht genau.
+
+Dem Knaben nun auch schien es so,
+als sei der Drache größer nun,
+wo doch auch schon so manches Jahr,
+vergangen ist, seit letztem Mal.
+
+„Ich selber war da noch ein Kind,
+und niemand brauchte damals mich,
+und kam ich her zu helfen dir,
+verzweifelt wohl auch schien ich mir.
+Doch nun, wo man mich dringend bräucht‘,
+zu Kämpfen für dies Lande heut‘,
+da weiß ich, dass es unnütz‘ wär‘,
+denn ist zu groß das Fürstenheer.“
+
+„Dann kommst du also darum her.
+Dass ich euch helfen soll.
+Nichts, was mir mehr bedeutet hätt‘,
+als Fressen euer Volk.“
+
+„Nicht uns friss, noch das Fürstenheer,
+nur jag sie fort, das hälfe sehr.
+Und wenn in deiner Höhle du,
+gestapelt hast von Rüstungsgut,
+und Waffen, Schwerter guter Art,
+dann würden diese helfen auch.“
+
+Und wie sie also lange sprachen,
+gingen man in den Berg hinein,
+und wieder sah der wackre Knabe,
+leuchtend hell den Schatz dort sein.
+
+So bedachte sich der Drache,
+sprach sodann zum guten Knaben:
+„Also komme mit dem Hammer,
+denke aber meiner Warnung:
+wenn dies eine Täuschung ist,
+und du nicht tust, wie du versprichst -“
+
+„Dann wirst du mich schon niederbrennen“,
+führte fort der Knab behände,
+schritt zum Drachen gleich heran,
+zu seinem linken Hinterbein.
+
+Und dieser vor dem Mute staunte,
+was der wackre Bursch sich traute,
+doch er schaute scharfen Blicks,
+ob was geschehe denn um ihn.
+
+Und vor den Klauen, scharf wie Klingen,
+stand der Knabe nun gediegen,
+schaute sich das runde Eisen,
+an von seinen vielen Seiten.
+
+Und fast der Wurm den Knab erwischte,
+als der Hammer erstmals klirrte.
+
+„Es ist zu kalt“, rief der zu ihm,
+zum Drachen über ihm nun hin.
+„Wenn du es nur zum Glühen brächtest,
+wäre es mir leichter, denk ich.“
+
+Doch der Drache wehrte sich:
+„Mich selber soll verbrennen ich?
+Schon einmal hab ich das versucht,
+und ließ es bleiben, danach nun.
+Doch will ich es noch einmal tun.
+So tritt zurück der Feuerglut.“
+
+Und wie er da das Feuer spie,
+zum Reife hin, sein Bein, das ihm,
+so arge Schmerzen hat bereitet,
+o, wie er jetzt schrie im Leiden.
+
+Doch der Reifen färbte sich,
+erst blau, dann rot bis gelb schließlich,
+doch hört‘ er da vor Höllenschmerzen,
+auf und ließ zur Erd‘ sich sinken,
+und die Augen schlossen sich,
+und schwach wurd’s Atmen, fahl sein Licht.
+
+Und da begann der Knab sogleich,
+zu schlagen auf den hellen Reif,
+und keinen Mucks mehr tat der Wurm,
+der lag als wär er tot und stumm.
+
+Das Eisen doch nach manchen Schlägen,
+zeigte Risse immer mehr,
+und die Funken waren Späne,
+und es klirrt‘ und knackte schwer.
+Und da nun sprang das schwarze Eisen,
+das zerschlagen ward in Zweien.
+
+Hier nun wartete der Knabe,
+ob der Drache bald erwacht‘,
+doch da dieser dies nicht machte,
+gab er Zeichen raus bedacht.
+
+Und ein Trupp von duzend Männern,
+kam hereingelaufen rasch,
+und sie nahmen Schwerter, Helme,
+Rüstung, wie’s versprochen war.
+
+Und der Knabe doch gewahrte,
+eine Rüstung, gold und schön,
+und ein Drache war der Helme,
+und das Schwert schön anzuseh’n.
+
+„Diese ist des Meisters Rüstung,
+wie er mir erzählet hat.
+Heute soll sie mich beschützen,
+in dem Kampf, der folgen mag.“
+
+Dann verließen sie die Höhle,
+standen auf dem Felsenplatz,
+und es donnerte und bebte,
+dass man keinen Schritt mehr macht‘.
+
+Am Eingang nun erschien der Drache,
+feurig, zornig, humpelnd, laut,
+und er richtete sich auf und,
+streckte seine Flügel aus.
+
+Dann erhob sich nun der Wurme,
+schwang sich in den Himmel auf,
+krächzt‘ und spie aus seinem Rachen,
+tobt‘ und wandt‘ in Sturmesbraus.
+
+Und Angst bekamen alle Männer:
+„Fort von hier!“, rief man alsbald.
+
+Doch der Knabe hielt entgegen.
+„Wartet, was der Drache sagt!“
+
+Dieser aber kam nicht wieder,
+und verstummte sein Gebrüll,
+und nach etwas Warten schieden,
+nun die Männer endlich hin.
+
+„Hat er also uns verraten“,
+sagten sie einander sich.
+„Zu erwarten von dem Drachen,
+war dies doch, was dacht‘ denn ich?“
+
+Doch der Knabe sah zum Himmel,
+immer wieder auf dem Weg,
+ob er nicht ein Schattenspiele,
+sah, das sich als Wurm bewegt‘.
+Und so ging es viele Stunden,
+bis man schließlich Hams erreicht‘,
+aus dem Wald sah man nach unten,
+wartete gar lange bald,
+bis die Schlacht begann, so dass,
+die Überraschung wirken mag.
+ 
+
+
+
+## FEUER UND EISEN
+„Sehet dort!“, rief man in Glücke,
+auf dem Walle, wer dort stand.
+„Ist das nicht der goldne Ritter,
+der dort aus dem Walde rannt‘?
+Mit der Schar der goldnen Reiter,
+läuft er auf das Schlachtfeld zu!“
+
+Und es lachte laut der Meister,
+wie er niemals solches tut.
+
+Denn als er sah den großen Drachen,
+der mit Sturmesflammen kam,
+nieder schoss der aus dem Rachen,
+Glut und Feuer auf den Mann.
+O wie da das Heer des Fürsten,
+rief und krächzte so in Furcht,
+und man lief in jede Richtung,
+fort von diesem Drachenfluch.
+
+Doch der Fürst gab den Befehle,
+mit Geschossmaschinerie,
+um den Drachen so zu treffen,
+hoch am Himmel, hoch zu ihm.
+
+Dieses doch erzürnt‘ den Drachen,
+der nun einen Bogen flog,
+und mit einer Flammenstraße,
+brennt‘ er nieder solch Geschoss.
+
+Währenddessen doch die Mannen,
+die dem Fürsten untertan,
+welche hin zur Stadt gelangten,
+an dem Tore nun schon war’n,
+sahen ihren einzig Ausweg,
+in der Stadt, in Hams allein,
+da der Drache die nicht anrührt‘,
+war er ihr zum Schutz doch da.
+
+Und es standen viele Leitern,
+plötzlich an der Mauer an,
+und schon kämpfte man zusammen,
+und es fielen viele da.
+
+Und der Meister griff zum Schwerte,
+wehrte ab und kämpfte gut.
+Viele tötete er letztens,
+und hielt stand noch lang genug.
+
+Bald denn kam der Knab nach oben,
+und sein Helm ein Drachenhaupt,
+und die Rüstung glänzte golden,
+mit dem Schwert in seiner Hand.
+Und er kam an Meisters Seite,
+war die Hilf‘ in größter Not,
+und man schlug die Feinde leichter,
+wo man roch des Krieges Blut.
+
+Dies war eine üble Lage,
+in der Stadt auch wurd‘ gekämpft,
+und der Hügel stand in Flammen,
+und die Stadt war zugedrängt. 
+
+Und die Feinde lagen richtig,
+nicht ein Feuer in der Stadt,
+war vom Drachen angerichtet,
+bloß das Schlachtfeld stand in Brand.
+
+Viele aus des Fürsten Heere,
+die noch fern von Hamse war’n,
+sahen zwischen dort und jenem,
+einen unbezwingbar Pfad,
+da die Wiese angezündet,
+schwarzer Rauch und Todgestank.
+So nun flohen sie einander,
+auch der Fürst gedachte das.
+
+Wie er dort mit seinem Helme,
+hoch zu Rosse stand und sah,
+etwas ferner noch vom Felde,
+doch nicht allzu fern auch war,
+wie die Fliehenden wie Fliegen,
+einer nach dem andern starb,
+da der Drache sie wie Viecher,
+jagte, wie der Wolf das Schaf.
+
+Da rief er zu seinem Wächter:
+„Hin zur Stadt nun reite ich!
+Dort ist’s, wo der Kampf was brächte,
+hier denn sind zu offen wir!“
+
+Und er kam zuletzt tatsächlich,
+hin zur Stadt durchs Tor hindurch,
+wo man schon zu Haufen kämpfte,
+und versteckend Schutz gesucht.
+
+Und er kam nicht allzu weit,
+da stellte sich wer ihm:
+Der Schmied mit seinem Hammer eilte,
+auf der Straß‘ zu ihm.
+
+„Dieses sollst du nimmer haben!“,
+rief er vollen Muts ihm hin.
+„Diese Stadt und diese Straßen,
+bauten wir nach unsrem Sinn!
+Kehre um und komm nie wieder,
+oder stirb zu dieser Stund‘!“
+Und er nahm die Maske nieder,
+sah ihn zornig an und stumm.
+
+Da lachte nur der Fürst und spottet:
+„Welch ein grässlich Haupt du hast!
+Dieses schlag mit gutem Wollen,
+ich zum Trost dir gerne ab!“
+
+O wie da der Schmied erboste,
+rannte auf den Fürsten hin,
+schwang den Hammer groß im Bogen,
+zielte auf des Fürsten Kinn.
+
+Dieser doch entwich dem Schlage,
+schnell und mühelos und flink,
+und zur Schmiedes großer Plage,
+schnitt er seinen Arm geschwind.
+
+Und das Blut gerann zu Boden,
+doch der Schmied nun hört‘ nicht auf,
+war als Krieger nicht geboren.
+Und der Kampf ging böse aus,
+wenn da nicht der Meister käme,
+und das Schwert auf einmal kreuzt,
+mit dem Fürsten, der im Lärme,
+für den Bruder kämpfte heut‘.
+
+Und er ging im Kampf dazwischen:
+„Lass von meinem Bruder ab!
+Dunkel wird dein Blut zerrinnen,
+so nur bist dem Lande nah!“
+
+Und sie kämpften Schlag um Schlage,
+jeder sehr geschickt im Kampf,
+doch der Fürst in jungen Jahren,
+hielt zuletzt die Oberhand.
+
+„Einen alten Mann zu schlagen,
+zu bezwingen auf dem Feld,
+ist für meine Ehr‘ zu schade,
+bring‘ den besten, den du kennst!“
+
+Doch der Meister kämpfte weiter,
+hörte nicht auf solches Wort.
+Und er fühlte, dass die Zeit nun,
+gegen ihn bisweilen kroch.
+Müde denn schien er zu werden,
+da von Alter er schon war,
+während noch der Fürst im Stehen,
+tanzte wie noch jung der Tag.
+
+Letztlich lag der Meister drunter,
+auf dem Boden, staubbedeckt,
+und der Fürst nun hielt gar munter,
+hin zu seinem Hals das Schwert.
+
+„Also stirb nach wackrem Kampfe,
+dieses will ich lassen dir.
+Warst der beste hier in Hamse,
+doch der Sieg gehört nun mir!“
+
+Wie er schon zum Streich ausholte,
+rief von anderswo zu ihm:
+„Halte ein mit seinem Tode,
+kämpfe erst noch gegen mich!“
+
+Und der Fürst nun dreht‘ sich hörig,
+hin zur Stimme, die er hört‘.
+Und ein Recke, gold und rötlich,
+stand dort auf der Straß‘ nicht fern.
+
+„Also ist es doch geschehen,
+dass es wahr ist, was man sagt,
+dass wer endlich jeden,
+Kampf bei Nacht gewonnen hat.
+Diese Rüstung ist bald meine,
+keine Angst hab‘ ich vor dir.
+Mir alleine steht sie eigens,
+ich, der Länder mir verdien‘!“
+
+So begann der Kampf des Knaben,
+mit dem Fürsten allzu rasch.
+Und man schenkte keinen Tadel,
+denn kein Fehler wurd‘ gemacht.
+
+O wie sie nun lange fochten,
+während man noch kämpft‘ und schoss,
+und der Drache aus den Wolken,
+jagte Fliehende noch fort.
+
+Eisen klirrte gegen Eisen,
+Rüstung gegen Schwert und Stahl,
+und kein Wort sprach da der Meister,
+der daneben lag und sah.
+
+Und der Fürst auch wurde stiller,
+und sein Atem schwerer dann,
+während noch der Knabe nimmer,
+einen Satz noch Worte sprach.
+So denn wurd‘ der Fürst ermüdet,
+wankte plötzlich hin und her,
+und er keuchte schon besieget,
+und von Schmerzen nur noch schwer.
+
+Schließlich schlug der Knab das Schwerte,
+aus der Hand und fort von ihm,
+und die Klinge zeigt‘ aufs Herze,
+wo der Fürst noch unten liegt‘.
+
+„Stich schon zu!“, rief da der Fürst,
+mit blutigem Gesicht.
+„Im Kampfe stirbt ein jeder Wicht,
+das weiß am besten ich.
+Den Wolf hast du getötet, nicht?
+So sagte man es mir.
+Dann zeige mir, dass du’s noch bist,
+ein blutegierig Tier!“
+
+Doch der Knabe zeigte Gnade:
+„Flieh, solange ich dich lass!
+Meinen Schwur will ich nicht tadeln,
+für wen, der nicht leben mag.“
+
+Und da kroch der Fürst davon,
+und rannte übern Platz,
+und ritt ein Ross zum Horizont,
+zum Hügel und verschwand.
+
+Doch nieder ging der Drache eilends,
+wo der Fürst noch eben war,
+und mit seinen Armen greifend,
+packte er des Fürsten Arm.
+Und er hob ihn in die Wolken,
+bis er ihn dann fallen ließ,
+dass vom großen Fürst des Nordens,
+nur ein Knall mehr übrig blieb.
+ 
+ 
+## EIN VERSPRECHEN
+Dann nachdem der Fürst gefallen,
+war die Schlacht noch nicht vorbei,
+denn man kämpfte noch bisweilen,
+in den Straßen allerlei.
+
+Und der Knabe kämpfte wacker,
+wie der Schmied und Meister auch,
+und die Bauern, die noch waren,
+räumten so die Straßen auf.
+Denn das Heer, vom Wurm verstreuet,
+und verbrannt auf grünem Gras,
+ward zum größten Teil zu Feuer,
+und verschwunden fort im Wald.
+
+Viele von den Fürstenrecken,
+warfen ihre Waffen weg,
+und sie sahen hoch in Schrecken,
+was denn grad der Drache tät.
+
+So geschah es an dem Tage,
+dass die Stadt bestehen blieb,
+wenn auch Feuer lang noch brannten,
+und manch Haus auch niederfiel.
+
+Reiter sandte man nach draußen,
+und dem Heere Späher nach,
+und die Leute kamen brausend,
+her nach Hams zu ihrer Stadt.
+
+Der Drache doch, was den betraf,
+der setzte keinen Fuß in Hams.
+Und später sprachen alle jene,
+die am Bärenhang gewesen,
+dass sie einen dunklen Schatten,
+droben kurz gesehen hatten,
+welcher hin nach Norden flog,
+und nimmer mehr gesehen wurd‘.
+
+Doch jetzt in Hams, am großen Platze,
+kam ein Regenschauer prasselnd,
+rasch hernieder, löschte alles,
+Drachenfeuer, das noch brannte.
+Und hernach ein kühler Winde,
+trieb hinfort die Wolkenschwingen,
+dass die Sonne niederstrahlte,
+auf die Helden, die dort waren.
+
+Nun jedoch, der gute Knabe, 
+ließ sich auf die Knie fallen,
+holte Luft und atmete, 
+so lange aus wie nie bisher.
+
+„So ist es nochmal gutgegangen“,
+dachte er und sah die Mannen,
+welche auf dem Platz verstreut,
+nur standen ohne Wort und Freud‘.
+
+An diesem Tag zur Mittagsstunde,
+hatte sich die frohe Kunde,
+dass der Fürst hinfortgeflogen,
+weit genug herumgesprochen,
+dass die Leute wieder kamen,
+und beim Saubermachen halfen.
+
+Und am meisten packte an,
+der Schmied, der wohl der stärkste war.
+
+Und wollte auch der Knabe helfen,
+doch der Meister sprach behände:
+„Ach, mein guter Knabe! Nein,
+du hast schon viel zu viel getan.
+Denn meine letzte Lehr‘ ist dies:
+Wer’s selber kann, dem tu es nicht.“
+
+Doch an dem Tage, so geschah‘s,
+da ruhte wenig unser Knab,
+denn ritt er alsbald schleunigst fort,
+zum Goldfass hin, wo er ankommt,
+und abends ohne Rüstung kam,
+am Baum, wo eine Dame stand.
+
+Da fielen sie sich in die Arme,
+o wie dies ein Anblick war,
+und die Vöglein sangen lange,
+schöne Lieder an dem Tag.
+
+Nun der Meister und sein Bruder,
+halfen wie kein andrer wieder,
+Hams sogleich von Schutt und Asche,
+zu befreien und zu schaffen.
+Und der Zwist, der zwischen ihnen,
+lange Zeit gewesen schien,
+war letztendlich beigelegt,
+und gerne nahm man ihre Hilf‘.
+
+Wenn auch niemand offen sagte,
+dass man falschgelegen hatte,
+über diesen dunklen Meister,
+der sich immer schwarz gekleidet,
+sprach man dennoch über ihn,
+nun nicht mehr schlecht und nicht mehr viel.
+
+
+Was aber nun das Gold betraf,
+das immer noch im Berge lag,
+das wurde unter Aufsicht von,
+den Hamse Männern rausgeholt,
+und dazu rechtens ausgegeben,
+Hamse wiederzubeleben.
+
+
+
+ 
+## EPILOG
+Dem Tage folgten viele nach,
+an denen man vom Knaben sprach,
+von seiner Reis, von seinem Mut,
+vom Drachen, dessen Beutetum,
+verteilt bald ward. Zurückgegeben, 
+wurd‘ das Land den Leuten wieder.
+Und es sollten dann dem Grollen,
+in dem ganzen Lande folgen,
+Fest und Spiel mit frohem Singen,
+und der Lieder waren viele.
+
+Später kam, sieh an, sogar,
+der Knabe hin zum Königssaal,
+da ihn derselbe eingeladen,
+um zu treffen diesen Manne,
+welcher so viel hat getan,
+wie man sich nun im Lande sprach.
+
+Und vieles nun erzählt‘ der Knabe,
+bis er sagte: „Nun genug.
+Meine Gattin, die schon wartet,
+wünschst sich mich, ihr wisst es gut.“
+
+Und da verließen sie den König,
+reisten wieder südwärts heim,
+wo er wohnte, hingehörte,
+und sein Platz war, alle Zeit.
+
+Und er pflanzte einen Baume,
+stellte sich ein Heime auf,
+und er lebte nun den Traume,
+wie so mancher Manne auch.
