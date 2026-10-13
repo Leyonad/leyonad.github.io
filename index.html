@@ -1,24 +1,24 @@
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Titel wird von JS gesetzt, Basis aus config.js -->
-    <title data-page-title="Startseite"></title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <title data-page-title="Texte &amp; Schriften">Texte &amp; Schriften - Daniel Holzknecht</title>
+    <link rel="stylesheet" href="assets/css/style.css?v=3.3">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;600&display=swap"
-          rel="stylesheet">
-    <!-- Inline Script to apply theme instantly -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Marked.js für Markdown-Rendering im In-Page Reader -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- Sofortiges Theme Handling gegen Flackern -->
     <script>
         (function () {
             const theme = localStorage.getItem('theme');
             const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
             if (theme === 'dark' || (!theme && prefersDark)) {
-                document.documentElement.classList.add('dark-mode'); // Apply to html tag
+                document.documentElement.classList.add('dark-mode');
             }
-            // Apply to body tag as well, once it exists
             document.addEventListener('DOMContentLoaded', () => {
                 if (document.documentElement.classList.contains('dark-mode')) {
                     document.body.classList.add('dark-mode');
@@ -28,124 +28,362 @@
     </script>
 </head>
 <body>
-<header class="site-header">
-    <div class="container">
-        <div class="logo"><a href="index.html" data-config="websiteName">Lädt...</a></div>
-        <div class="header-right">
-            <!-- NEU: Hamburger Button (nur mobil sichtbar) -->
-            <button id="mobile-menu-toggle" class="mobile-menu-button" aria-label="Menü öffnen" aria-expanded="false">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <!-- Bestehende Navigation wird zum Sidebar-Inhalt -->
-            <div id="mobile-sidebar" class="sidebar-nav">
-                <nav class="main-nav">
-                    <ul>
-                        <li class="active"><a href="index.html" data-config="navHome">Startseite</a></li>
-                        <li><a href="geschichten.html" data-config="navStories">Geschichten</a></li>
-                        <li><a href="gedichte.html" data-config="navPoems">Gedichte</a></li>
-                        <li><a href="gedichtsromane.html" data-config="navPoeticNovels">Gedichtsromane</a></li>
-                        <li><a href="ueber-mich.html" data-config="navAbout">Über mich</a></li>
-                    </ul>
-                </nav>
-                <!-- Dark Mode Toggle HIER PLATZIERT -->
-                <button id="dark-mode-toggle" aria-label="Farbschema wechseln">🌙 Dunkel</button>
+<div id="reading-progress" class="reading-progress-bar" aria-hidden="true"></div>
+
+<main>
+    <!-- Hero Section (Clean & Typographic - Ohne Top-Bar, ohne Logo, ohne Chips) -->
+    <section class="hero" id="hero">
+        <div class="hero-ambient-glow" aria-hidden="true"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">
+                Texte &amp; Schriften
+                <span class="hero-title-accent">Literarisches Archiv</span>
+            </h1>
+            <p class="hero-subtitle">
+                Sammlung ungekürzter Kurzgeschichten, freier Verse und lyrischer Langwerke. Frei und direkt im Browser lesbar.
+            </p>
+        </div>
+    </section>
+
+    <!-- Navigationsleiste (Unter dem Haupt-Titel, zentriert, sticky beim Herunterscrollen - Ersetzt "Sortierung: ...") -->
+    <nav class="archive-nav-bar-section" id="archive-nav-bar" aria-label="Hauptnavigation">
+        <div class="container">
+            <div class="nav-pill-capsule">
+                <div class="nav-chips-container" role="tablist">
+                    <button class="nav-chip active" data-filter="all" aria-pressed="true">Alle</button>
+                    <button class="nav-chip" data-filter="story" aria-pressed="false">Geschichten</button>
+                    <button class="nav-chip" data-filter="poem" aria-pressed="false">Gedichte</button>
+                    <button class="nav-chip" data-filter="poetic-novel" aria-pressed="false">Gedichtsromane</button>
+                    <a href="#autor" class="nav-chip nav-chip-link" data-section="autor">Autor</a>
+                    <a href="#impressum" class="nav-chip nav-chip-link" data-section="impressum">Impressum</a>
+                </div>
+
+                <div class="header-right-tools">
+                    <div class="nav-search-wrapper">
+                        <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <input type="text" id="global-search" placeholder="Suchen..." aria-label="Werke durchsuchen" autocomplete="off">
+                        <button id="search-clear-btn" class="search-clear-btn" aria-label="Suche leeren" style="display: none;">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                        </button>
+                    </div>
+
+                    <button id="dark-mode-toggle" class="theme-toggle-btn" aria-label="Farbschema wechseln">
+                        <svg class="theme-icon icon-moon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                        <svg class="theme-icon icon-sun" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- DEDICATED FULL-PAGE READER VIEW (Vollbild-Leseansicht wie eine eigene Seite) -->
+    <div class="reader-page-view" id="werk-reader" style="display: none;" aria-label="Leseansicht" aria-hidden="true">
+        <!-- Lesefortschrittsbalken oben -->
+        <div class="reader-fullscreen-progress-bar" id="reader-fullscreen-progress" aria-hidden="true"></div>
+
+        <!-- Sticky Header der Leseansicht -->
+        <header class="reader-page-topbar">
+            <div class="reader-topbar-inner">
+                <button type="button" id="reader-close-btn" class="reader-return-btn" aria-label="Zurück zur Übersicht">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                    <span>Zurück zur Übersicht</span>
+                </button>
+
+                <div class="reader-header-titles">
+                    <span class="reader-category-crumb" id="reader-crumb-type">Werk</span>
+                    <span class="reader-crumb-separator" aria-hidden="true">/</span>
+                    <span class="reader-title-crumb" id="reader-crumb-title">Titel</span>
+                </div>
+
+                <div class="reader-tools-cluster" aria-label="Schrifteinstellungen">
+                    <button type="button" id="reader-btn-smaller" class="reader-tool-btn" title="Schrift verkleinern" aria-label="Schrift verkleinern">A-</button>
+                    <button type="button" id="reader-btn-larger" class="reader-tool-btn" title="Schrift vergrößern" aria-label="Schrift vergrößern">A+</button>
+                    <button type="button" id="reader-btn-family" class="reader-tool-btn font-toggle-btn" title="Schriftart wechseln" aria-label="Schriftart wechseln">Serif</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Leseinhalt Container -->
+        <div class="reader-page-content-wrapper">
+            <div class="reader-page-card">
+                <div class="reader-prose-container">
+                    <div class="reader-work-header">
+                        <div class="reader-work-cover-col">
+                            <img id="reader-cover-image" src="" alt="Illustration zum Werk" class="reader-hero-artwork" style="display: none;">
+                        </div>
+                        <div class="reader-work-meta-col">
+                            <div class="reader-work-meta-banner">
+                                <span class="reader-type-pill" id="reader-type-badge">Geschichte</span>
+                                <span class="reader-status-pill" id="reader-status-badge">Fertiggestellt</span>
+                                <span class="reader-time-pill" id="reader-time-badge">5 Min. Lesezeit</span>
+                            </div>
+                            <h1 class="reader-primary-title" id="reader-work-title">Titel</h1>
+                            <p class="reader-work-dates" id="reader-work-dates"></p>
+                            <div class="reader-work-synopsis" id="reader-work-synopsis"></div>
+                        </div>
+                    </div>
+
+                    <!-- Modernes Custom Kapitel-Dropdown (kein Browser-Standard-Select!) -->
+                    <div class="reader-chapter-select-bar" id="reader-chapter-select-bar" style="display: none;">
+                        <div class="custom-chapter-dropdown" id="custom-chapter-dropdown">
+                            <button type="button" class="chapter-dropdown-trigger" id="chapter-dropdown-btn" aria-haspopup="listbox" aria-expanded="false">
+                                <span class="chapter-trigger-icon" aria-hidden="true">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
+                                </span>
+                                <span class="chapter-trigger-label" id="chapter-dropdown-label">Kapitel auswählen</span>
+                                <span class="chapter-trigger-chevron" aria-hidden="true">
+                                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                                </span>
+                            </button>
+                            <div class="chapter-dropdown-panel" id="chapter-dropdown-list" role="listbox" tabindex="-1">
+                                <!-- Dynamisch befüllt mit .chapter-item-btn -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hauptlesebereich für Markdown -->
+                    <article class="reader-prose-body" id="reader-prose-body">
+                        <p class="reader-loading-note">Inhalt wird geladen...</p>
+                    </article>
+
+                    <!-- Kapitelnavigation Unten (Vor/Zurück) -->
+                    <nav class="reader-chapter-nav-bottom" id="reader-chapter-nav-bottom" style="display: none;" aria-label="Kapitelnavigation">
+                        <button type="button" id="reader-prev-chapter" class="reader-chapter-nav-btn" disabled>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                            <span>Vorheriges Kapitel</span>
+                        </button>
+                        <span id="reader-chapter-indicator" class="reader-chapter-indicator">Kapitel 1 von 1</span>
+                        <button type="button" id="reader-next-chapter" class="reader-chapter-nav-btn" disabled>
+                            <span>Nächstes Kapitel</span>
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </button>
+                    </nav>
+
+                    <div class="reader-bottom-close-wrapper">
+                        <button type="button" id="reader-bottom-close-btn" class="reader-bottom-close-btn">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                            <span>Zurück zur Übersicht</span>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</header>
 
-<!-- NEU: Overlay für Sidebar -->
-<div id="sidebar-overlay" class="sidebar-overlay"></div>
-
-<main>
-    <!-- <section class="hero">
+    <!-- SECTION 1: Geschichten (Visuell differenziert: Editorial Cards) -->
+    <section class="content-section section-stories" id="geschichten" data-section-type="story">
         <div class="container">
-            <h1 class="hero-title">Persönliches Text-Archiv</h1>
-            <p class="subtitle hero-disclaimer">Willkommen — hier findest du eine Sammlung meiner Texte. Die Seiten
-                dienen nur als Archiv, wobei alles gelesen werden darf, jedoch nicht verbreitet. Wenn du etwas nutzen
-                oder teilen möchtest, melde dich bitte kurz bei mir. Die Texte sind meist unverändert in ihrer
-                Erstfassung und häufig noch nicht abgeschlossen.</p>
+            <div class="section-header">
+                <div class="section-eyebrow">Prosa &amp; Erzählungen</div>
+                <h2 class="section-title">Geschichten</h2>
+                <p class="section-desc">Erzählungen über Menschen, Schicksale, Reisen und vergessene Welten.</p>
+            </div>
+
+            <div class="netflix-row-container" data-row-id="stories">
+                <button type="button" class="netflix-nav-arrow prev-arrow" aria-label="Vorherige Geschichten" data-direction="-1" disabled>
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                </button>
+                <div class="works-grid netflix-row-track stories-grid" id="stories-grid">
+                    <div class="loading-placeholder">Inhalte werden geladen...</div>
+                </div>
+                <button type="button" class="netflix-nav-arrow next-arrow" aria-label="Nächste Geschichten" data-direction="1">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+            </div>
         </div>
-    </section> -->
+    </section>
 
-    <!-- NEU: Abschnitt für die Navigation zu Geschichten/Gedichten -->
-    <section class="content-navigation">
+    <!-- SECTION 2: Gedichte (Visuell differenziert: Dunklerer Kontrast / Lyrik-Lounge) -->
+    <section class="content-section section-poems" id="gedichte" data-section-type="poem">
         <div class="container">
-            <div class="card-grid">
-                <!-- Karte für Gedichte -->
-                <div class="content-type-card full-width-card" id="poems-card"> <!-- Klasse hinzugefügt -->
-                    <div class="card-content">
-                        <!-- Bild wird von JS gesetzt -->
-                        <img class="card-image" alt="Zufälliges Bild eines Gedichts">
-                        <div class="card-text">
-                            <h2><a href="gedichte.html">Gedichte</a></h2>
-                            <ul class="card-titles" id="poem-preview-list">
-                                <!-- Liste wird von JS gefüllt -->
-                            </ul>
-                            <a href="gedichte.html" class="cta-button card-button">Alle Gedichte ansehen</a>
+            <div class="section-header">
+                <div class="section-eyebrow">Lyrik &amp; Verse</div>
+                <h2 class="section-title">Gedichte</h2>
+                <p class="section-desc">Gedanken über Natur, Zeit, Philosophie und stille Momentaufnahmen.</p>
+            </div>
+
+            <div class="netflix-row-container" data-row-id="poems">
+                <button type="button" class="netflix-nav-arrow prev-arrow" aria-label="Vorherige Gedichte" data-direction="-1" disabled>
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                </button>
+                <div class="works-grid netflix-row-track poems-grid" id="poems-grid">
+                    <div class="loading-placeholder">Inhalte werden geladen...</div>
+                </div>
+                <button type="button" class="netflix-nav-arrow next-arrow" aria-label="Nächste Gedichte" data-direction="1">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: Gedichtsromane (Visuell differenziert: Flagship Buchformat) -->
+    <section class="content-section section-novels" id="gedichtsromane" data-section-type="poetic-novel">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-eyebrow">Großformate &amp; Epen</div>
+                <h2 class="section-title">Gedichtsromane</h2>
+                <p class="section-desc">Groß angelegte epische Erzählungen in mehrteiliger freier Versform.</p>
+            </div>
+
+            <div class="netflix-row-container" data-row-id="novels">
+                <button type="button" class="netflix-nav-arrow prev-arrow" aria-label="Vorherige Gedichtsromane" data-direction="-1" disabled>
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                </button>
+                <div class="works-grid netflix-row-track novels-grid" id="novels-grid">
+                    <div class="loading-placeholder">Inhalte werden geladen...</div>
+                </div>
+                <button type="button" class="netflix-nav-arrow next-arrow" aria-label="Nächste Gedichtsromane" data-direction="1">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: Über den Autor (Visuell differenziert: DeepMind Researcher Profile) -->
+    <section class="content-section section-author" id="autor">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-eyebrow">Porträt &amp; Kontext</div>
+                <h2 class="section-title">Über den Autor</h2>
+                <p class="section-desc">Hintergrund, Schreibweise und Philosophie des Archivs.</p>
+            </div>
+
+            <div class="author-profile-card">
+                <div class="author-hero-grid">
+                    <div class="author-media-col">
+                        <img src="assets/img/profile.webp" alt="Porträt von Daniel Holzknecht" class="author-avatar-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="author-avatar-fallback" style="display: none;" aria-hidden="true">DH</div>
+                        <div class="author-media-caption">
+                            <strong>Daniel Holzknecht</strong>
+                            <span>Autor &amp; Texter</span>
                         </div>
                     </div>
-                </div>
 
-                <!-- Karte für Gedichtsromane -->
-                <div class="content-type-card full-width-card" id="poetic-novels-card">
-                    <!-- Klasse ist bereits vorhanden -->
-                    <div class="card-content">
-                        <!-- Bild wird von JS gesetzt -->
-                        <img class="card-image" alt="Zufälliges Bild eines Gedichtsromans">
-                        <div class="card-text">
-                            <h2><a href="gedichtsromane.html">Gedichtsromane</a></h2>
-                            <ul class="card-titles" id="poetic-novel-preview-list">
-                                <!-- Liste wird von JS gefüllt -->
-                            </ul>
-                            <a href="gedichtsromane.html" class="cta-button card-button">Alle Gedichtsromane ansehen</a>
+                    <div class="author-text-col">
+                        <div class="author-badge-pill">Archiv &amp; Schriften</div>
+                        <h3 class="author-name-headline">Daniel Holzknecht</h3>
+                        <p class="author-lead">
+                            Ich schreibe Geschichten, lyrische Großformen und Gedichte. Diese Website dient als öffentliches Werkarchiv meiner Texte und ermöglicht den ungekürzten Zugang zu allen verfassten Arbeiten.
+                        </p>
+                        <p class="author-body-text">
+                            Die Texte sind bewusst in ihrem ursprünglichen Zustand belassen worden und haben keine nachgelagerte Lektoratsrevision durchlaufen. Sie dokumentieren den spontanen Ausdruck und die Erzählweise zum Zeitpunkt ihrer Niederschrift.
+                        </p>
+
+                        <div class="author-meta-stats">
+                            <div class="author-stat-item">
+                                <span class="author-stat-num" id="author-stat-total">31</span>
+                                <span class="author-stat-label">Werke Gesamt</span>
+                            </div>
+                            <div class="author-stat-item">
+                                <span class="author-stat-num">11</span>
+                                <span class="author-stat-label">Geschichten</span>
+                            </div>
+                            <div class="author-stat-item">
+                                <span class="author-stat-num">17</span>
+                                <span class="author-stat-label">Gedichte</span>
+                            </div>
+                            <div class="author-stat-item">
+                                <span class="author-stat-num">3</span>
+                                <span class="author-stat-label">Gedichtsromane</span>
+                            </div>
+                            <div class="author-stat-item">
+                                <span class="author-stat-num">100%</span>
+                                <span class="author-stat-label">Frei lesbar</span>
+                            </div>
                         </div>
-                    </div>
-                </div>
 
-                <!-- Karte für Geschichten -->
-                <div class="content-type-card full-width-card" id="stories-card"> <!-- Klasse hinzugefügt -->
-                    <div class="card-content">
-                        <!-- Bild wird von JS gesetzt -->
-                        <img class="card-image" alt="Zufälliges Bild einer Geschichte">
-                        <div class="card-text">
-                            <h2><a href="geschichten.html">Geschichten</a></h2>
-                            <ul class="card-titles" id="story-preview-list">
-                                <!-- Liste wird von JS gefüllt -->
-                            </ul>
-                            <a href="geschichten.html" class="cta-button card-button" data-config="readAllStoriesBtn">Alle
-                                Geschichten ansehen</a>
+                        <div class="author-principles-grid">
+                            <div class="principle-card">
+                                <h4>Ungekürzte Fassungen</h4>
+                                <p>Alle Werke werden ungekürzt bereitgestellt, genau wie sie entstanden sind.</p>
+                            </div>
+                            <div class="principle-card">
+                                <h4>Direkt im Browser</h4>
+                                <p>Schneller In-Page-Lesemodus mit Lesefortschritt und anpassbarer Typografie.</p>
+                            </div>
+                            <div class="principle-card">
+                                <h4>Frei &amp; werbefrei</h4>
+                                <p>Keine Bezahlschranken, keine Werbeanzeigen und keine Registrierung notwendig.</p>
+                            </div>
+                        </div>
+
+                        <div class="author-actions">
+                            <a href="mailto:danielholzknecht1@gmail.com" class="author-contact-btn">
+                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                <span>Kontakt aufnehmen</span>
+                            </a>
+                            <span class="author-email-label">danielholzknecht1@gmail.com</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ENDE NEUER ABSCHNITT -->
 
-    <section class="author-intro">
-        <!-- Author Intro bleibt wie vorher -->
+    <!-- SECTION 5: Impressum & Rechtliches (Visuell differenziert: Document Card) -->
+    <section class="content-section section-impressum" id="impressum">
         <div class="container">
-            <h2>Über den Autor</h2>
-            <p>Hallo, ich bin <span data-config="authorName">Autor</span>. Ich schreibe gerne Geschichten und (lange)
-                Gedichte. <a href="ueber-mich.html">Erfahre hier mehr über mich</a>.</p>
+            <div class="section-header">
+                <div class="section-eyebrow">Rechtliche Hinweise</div>
+                <h2 class="section-title">Impressum</h2>
+                <p class="section-desc">Angaben gemäß § 5 TMG sowie Hinweise zum Urheberrecht.</p>
+            </div>
+
+            <div class="impressum-card">
+                <div class="impressum-grid">
+                    <div class="impressum-block">
+                        <h3>Angaben gemäß § 5 TMG</h3>
+                        <p><strong>Daniel Holzknecht</strong><br>
+                        Verfasser und Herausgeber dieses Literaturarchivs<br>
+                        Kontakt: <a href="mailto:danielholzknecht1@gmail.com">danielholzknecht1@gmail.com</a></p>
+                        <p class="impressum-note">
+                            Verantwortlich für den redaktionellen Inhalt gemäß § 55 Abs. 2 RStV: Daniel Holzknecht.
+                        </p>
+                    </div>
+
+                    <div class="impressum-block">
+                        <h3>Urheberrecht</h3>
+                        <p>
+                            Alle auf dieser Internetpräsenz veröffentlichten Texte, Gedichte, Romane und Grafiken unterliegen dem Urheberrecht von Daniel Holzknecht.
+                        </p>
+                        <p>
+                            Das Lesen und private Betrachten ist ausdrücklich gestattet. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der vorherigen schriftlichen Zustimmung des Autors.
+                        </p>
+                    </div>
+
+                    <div class="impressum-block">
+                        <h3>Haftung für Inhalte</h3>
+                        <p>
+                            Die Inhalte dieses Archivs wurden mit Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann jedoch keine Gewähr übernommen werden.
+                        </p>
+                        <p>
+                            Als Dienstanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </main>
 
 <footer class="site-footer">
-    <!-- Footer bleibt wie vorher -->
     <div class="container">
-        <p>© <span id="copyright-year"></span> <span data-config="authorName">Autor</span>. <span
-                data-config="footerCopyrightText">Alle Rechte vorbehalten</span></p>
-        <p class="footer-contact">Kontakt: <a href="mailto:danielholzknecht1@gmail.com">danielholzknecht1@gmail.com</a>
+        <p>© <span id="copyright-year"></span> <span data-config="authorName">Daniel Holzknecht</span>. <span data-config="footerCopyrightText">Alle Rechte vorbehalten</span></p>
+        <p class="footer-contact">Kontakt: <a href="mailto:danielholzknecht1@gmail.com">danielholzknecht1@gmail.com</a></p>
+        <p class="footer-sublinks">
+            <a href="#geschichten">Geschichten</a> · 
+            <a href="#gedichte">Gedichte</a> · 
+            <a href="#gedichtsromane">Gedichtsromane</a> · 
+            <a href="#autor">Über den Autor</a> · 
+            <a href="#impressum">Impressum</a>
         </p>
     </div>
 </footer>
 
-<script src="assets/js/config.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="assets/js/config.js?v=3.3"></script>
+<script src="assets/js/main.js?v=3.3"></script>
 </body>
 </html>

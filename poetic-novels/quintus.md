@@ -21,7 +21,7 @@ melde dich als Prügelknabe! Sag, dein ganzes Leben lang!
 Hast du das verstanden, ja? O weh, mein Quintus, Sohn, o weh!
 Ach, mein Sohn, du packst das schon, bis wir uns wiedersehn."
 
-Da wurden starre seine Augen, grau und leer und seelenlos,
+Dann wurden starr des Vaters Augen, grau und leer und seelenlos,
 und heulend fiel die Magde trauernd auf des Herren kühlen Schoß.
 O wie diese schluchzte, weinte, als ihr Herr gestorben war,
 nimmer hatte sie so einen guten Herrn wie ihn gehabt. 

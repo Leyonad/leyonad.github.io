@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;600&display=swap"
-        rel="stylesheet">
+          rel="stylesheet">
     <script>
         (function () {
             const theme = localStorage.getItem('theme');
@@ -28,84 +28,98 @@
 </head>
 
 <body>
-    <header class="site-header">
-        <div class="container">
-            <div class="logo"><a href="index.html" data-config="websiteName">Lädt...</a></div>
-            <div class="header-right">
-                 <!-- NEU: Hamburger Button (nur mobil sichtbar) -->
-                <button id="mobile-menu-toggle" class="mobile-menu-button" aria-label="Menü öffnen" aria-expanded="false">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <!-- Bestehende Navigation wird zum Sidebar-Inhalt -->
-                <div id="mobile-sidebar" class="sidebar-nav">
-                    <nav class="main-nav">
-                        <ul>
-                            <li><a href="index.html" data-config="navHome">Startseite</a></li>
-                            <li><a href="geschichten.html" data-config="navStories">Geschichten</a></li>
-                            <li><a href="gedichte.html" data-config="navPoems">Gedichte</a></li>
-                            <li><a href="gedichtsromane.html" data-config="navPoeticNovels">Gedichtsromane</a></li>
-                            <li><a href="ueber-mich.html" data-config="navAbout">Über mich</a></li>
-                        </ul>
-                    </nav>
-                    <!-- Dark Mode Toggle HIER PLATZIERT -->
-                    <button id="dark-mode-toggle" aria-label="Farbschema wechseln">🌙 Dunkel</button>
-                </div>
+<div id="reading-progress" class="reading-progress-bar" aria-hidden="true"></div>
+
+<header class="site-header">
+    <div class="header-pill">
+        <div class="logo"><a href="index.html" data-config="websiteName">Lädt...</a></div>
+        <div class="header-right">
+            <div id="mobile-sidebar" class="sidebar-nav">
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" data-config="navHome">Startseite</a></li>
+                        <li><a href="geschichten.html" data-config="navStories">Geschichten</a></li>
+                        <li><a href="gedichte.html" data-config="navPoems">Gedichte</a></li>
+                        <li><a href="gedichtsromane.html" data-config="navPoeticNovels">Gedichtsromane</a></li>
+                        <li><a href="ueber-mich.html" data-config="navAbout">Über mich</a></li>
+                    </ul>
+                </nav>
             </div>
+            <button id="dark-mode-toggle" class="theme-toggle-btn" aria-label="Farbschema wechseln">
+                <svg class="theme-icon icon-moon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                <svg class="theme-icon icon-sun" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                <span class="theme-label">Theme</span>
+            </button>
+            <button id="mobile-menu-toggle" class="mobile-menu-button" aria-label="Menü öffnen" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
-    </header>
+    </div>
+</header>
 
-    <!-- NEU: Overlay für Sidebar -->
-    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+<!-- Overlay für Sidebar -->
+<div id="sidebar-overlay" class="sidebar-overlay"></div>
 
-    <main>
-        <nav id="breadcrumb-nav" class="container" aria-label="Breadcrumb">
+<main>
+    <div class="reader-header-bar container">
+        <nav id="breadcrumb-nav" aria-label="Breadcrumb">
             <!-- Breadcrumbs werden hier dynamisch von JS eingefügt -->
             <p>Navigation wird geladen...</p>
         </nav>
-
-        <article id="content-area" class="container">
-            <!-- Wrapper für Bild (links) und rechte Spalte (Info/Titel/Gedicht) -->
-            <div class="content-main-wrapper">
-                <!-- Bild (wird von JS befüllt) -->
-                <img id="content-image" src="" alt="Bild zum Inhalt" class="content-main-image" style="display: none;">
-                <!-- Rechte Spalte -->
-                <div class="content-right-column">
-                    <h1 id="work-title" class="content-title">Lädt Titel...</h1>
-                    <div id="content-description" class="content-description"></div>
-                    <p id="content-date" class="content-date"></p>
-                    <!-- NEU: Platzhalter für Gedicht-Anzeige -->
-                    <div id="poem-display-area" style="display: none;">
-                         <!-- Gedicht wird hier von JS eingefügt -->
-                    </div>
-                    <!-- "Lesen beginnen" Button (wird von JS für Stories/Novels gesteuert) -->
-                    <a id="start-reading" href="#" class="cta-button" style="display: none;">Mit dem Lesen beginnen</a>
-                    <!-- Kapitelübersicht (wird von JS für Stories/Novels gesteuert) -->
-                    <nav id="chapter-toc" class="chapter-toc" style="display: none;">
-                        <h3>Kapitelübersicht</h3>
-                        <ul></ul>
-                    </nav>
-                </div>
-            </div>
-        </article>
-
-        <!-- Navigation (Zurück-Link) -->
-        <nav class="story-nav container" style="margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border-color);">
-            <a id="back-link" href="index.html" style="display: none;">« Zurück</a>
-        </nav>
-    </main>
-
-    <footer class="site-footer">
-        <div class="container">
-            <p>© <span id="copyright-year"></span> <span data-config="authorName">Autor</span>. <span data-config="footerCopyrightText">Alle Rechte
-                    vorbehalten</span>.</p>
-            <p class="footer-contact">Kontakt: <a href="mailto:danielholzknecht1@gmail.com">danielholzknecht1@gmail.com</a></p>
+        <div class="reader-tools" id="viewer-reader-tools" aria-label="Lese-Einstellungen">
+            <span class="reader-tools-label">Text:</span>
+            <button id="btn-font-smaller" class="reader-tool-btn" title="Schrift verkleinern" aria-label="Schrift verkleinern">A-</button>
+            <button id="btn-font-larger" class="reader-tool-btn" title="Schrift vergrößern" aria-label="Schrift vergrößern">A+</button>
+            <button id="btn-font-toggle" class="reader-tool-btn font-toggle-btn" title="Schriftart wechseln (Serif / Sans)" aria-label="Schriftart wechseln">Serif</button>
         </div>
-    </footer>
+    </div>
 
-    <script src="assets/js/config.js"></script>
-    <script src="assets/js/main.js"></script>
+    <article id="content-area" class="container">
+        <!-- Wrapper für Bild (links) und rechte Spalte (Info/Titel/Gedicht) -->
+        <div class="content-main-wrapper">
+            <!-- Bild (wird von JS befüllt) -->
+            <img id="content-image" src="" alt="Bild zum Inhalt" class="content-main-image" style="display: none;">
+            <!-- Rechte Spalte -->
+            <div class="content-right-column">
+                <h1 id="work-title" class="content-title">Lädt Titel...</h1>
+                <div id="content-description" class="content-description"></div>
+                <p id="content-date" class="content-date"></p>
+                <!-- NEU: Platzhalter für Gedicht-Anzeige -->
+                <div id="poem-display-area" style="display: none;">
+                    <!-- Gedicht wird hier von JS eingefügt -->
+                </div>
+                <!-- "Lesen beginnen" Button (wird von JS für Stories/Novels gesteuert) -->
+                <a id="start-reading" href="#" class="cta-button" style="display: none;">Mit dem Lesen beginnen</a>
+                <!-- Kapitelübersicht (wird von JS für Stories/Novels gesteuert) -->
+                <nav id="chapter-toc" class="chapter-toc" style="display: none;">
+                    <h3>Kapitelübersicht</h3>
+                    <ul></ul>
+                </nav>
+            </div>
+        </div>
+    </article>
+
+    <!-- Navigation (Zurück-Link) -->
+    <nav class="story-nav container"
+         style="margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border-color);">
+        <a id="back-link" href="index.html" style="display: none;">« Zurück</a>
+    </nav>
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <p>© <span id="copyright-year"></span> <span data-config="authorName">Autor</span>. <span
+                data-config="footerCopyrightText">Alle Rechte
+                    vorbehalten</span>.</p>
+        <p class="footer-contact">Kontakt: <a href="mailto:danielholzknecht1@gmail.com">danielholzknecht1@gmail.com</a>
+        </p>
+    </div>
+</footer>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 
 </html>

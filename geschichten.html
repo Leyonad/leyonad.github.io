@@ -4,92 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Titel wird von JS gesetzt, Basis aus config.js -->
-    <title data-page-title="Gedichte"></title>
-    <link rel="stylesheet" href="./../assets/css/style.css">
+    <title data-page-title="Geschichten"></title>
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;600&display=swap"
+          rel="stylesheet">
     <!-- Inline Script to apply theme instantly -->
     <script>
-      (function() {
-        const theme = localStorage.getItem('theme');
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        if (theme === 'dark' || (!theme && prefersDark)) {
-          document.documentElement.classList.add('dark-mode'); // Apply to html tag
-        }
-         // Apply to body tag as well, once it exists
-        document.addEventListener('DOMContentLoaded', () => {
-           if (document.documentElement.classList.contains('dark-mode')) {
-               document.body.classList.add('dark-mode');
-           }
-        });
-      })();
+        (function () {
+            const theme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (theme === 'dark' || (!theme && prefersDark)) {
+                document.documentElement.classList.add('dark-mode'); // Apply to html tag
+            }
+            // Apply to body tag as well, once it exists
+            document.addEventListener('DOMContentLoaded', () => {
+                if (document.documentElement.classList.contains('dark-mode')) {
+                    document.body.classList.add('dark-mode');
+                }
+            });
+        })();
     </script>
 </head>
 <body>
-    <header class="site-header">
-        <div class="container">
-            <!-- Logo Link angepasst für Unterverzeichnis -->
-            <div class="logo"><a href="../index.html" data-config="websiteName">Lädt...</a></div>
-            <div class="header-right">
-                <!-- NEU: Hamburger Button (nur mobil sichtbar) -->
-                <button id="mobile-menu-toggle" class="mobile-menu-button" aria-label="Menü öffnen" aria-expanded="false">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <!-- Bestehende Navigation wird zum Sidebar-Inhalt -->
-                <div id="mobile-sidebar" class="sidebar-nav">
-                    <nav class="main-nav">
-                        <ul>
-                            <!-- Pfade angepasst für Unterverzeichnis -->
-                            <li><a href="../index.html" data-config="navHome">Startseite</a></li>
-                            <li><a href="geschichten.html" class="active" data-config="navStories">Geschichten</a></li>
-                            <li><a href="../gedichte.html" data-config="navPoems">Gedichte</a></li>
-                            <li><a href="../gedichtsromane.html" data-config="navPoeticNovels">Gedichtsromane</a></li>
-                            <li><a href="../ueber-mich.html" data-config="navAbout">Über mich</a></li>
-                        </ul>
-                    </nav>
-                    <!-- Dark Mode Toggle HIER PLATZIERT -->
-                    <button id="dark-mode-toggle" aria-label="Farbschema wechseln">🌙 Dunkel</button>
-                </div>
+<header class="site-header">
+    <div class="header-pill">
+        <div class="logo"><a href="index.html" data-config="websiteName">Lädt...</a></div>
+        <div class="header-right">
+            <div id="mobile-sidebar" class="sidebar-nav">
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" data-config="navHome">Startseite</a></li>
+                        <li><a href="geschichten.html" class="active" data-config="navStories">Geschichten</a></li>
+                        <li><a href="gedichte.html" data-config="navPoems">Gedichte</a></li>
+                        <li><a href="gedichtsromane.html" data-config="navPoeticNovels">Gedichtsromane</a></li>
+                        <li><a href="ueber-mich.html" data-config="navAbout">Über mich</a></li>
+                    </ul>
+                </nav>
             </div>
+            <button id="dark-mode-toggle" class="theme-toggle-btn" aria-label="Farbschema wechseln">
+                <svg class="theme-icon icon-moon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                <svg class="theme-icon icon-sun" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                <span class="theme-label">Theme</span>
+            </button>
+            <button id="mobile-menu-toggle" class="mobile-menu-button" aria-label="Menü öffnen" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
-    </header>
+    </div>
+</header>
 
-    <!-- NEU: Overlay für Sidebar -->
-    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+<!-- Overlay für Sidebar -->
+<div id="sidebar-overlay" class="sidebar-overlay"></div>
 
-    <main>
-        <section class="page-title">
-            <div class="container">
-                <h1>Geschichten</h1>
+<main>
+    <section class="page-title">
+        <div class="container">
+            <h1>Geschichten</h1>
+        </div>
+    </section>
+
+    <section class="filter-controls-container container">
+        <div class="search-and-filter-wrapper">
+            <div class="search-box">
+                <span class="search-icon" aria-hidden="true">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                </span>
+                <input type="search" id="archive-search" class="archive-search-input" placeholder="Geschichten durchsuchen..." aria-label="Geschichten durchsuchen">
             </div>
-        </section>
-        
-        <section class="filter-controls-container container">
             <div class="filter-controls">
-                <span>Sortieren nach:</span>
+                <span class="filter-label">Sortieren:</span>
                 <button id="sort-newest" class="filter-chip active" data-sort="newest">Neuste zuerst</button>
                 <button id="sort-oldest" class="filter-chip" data-sort="oldest">Älteste zuerst</button>
             </div>
-        </section>
-
-        <section class="story-archive container" id="story-archive" data-story-list-archive>
-            <!-- Inhalte werden dynamisch durch JavaScript geladen -->
-        </section>
-
-    </main>
-
-    <footer class="site-footer">
-       <div class="container">
-            <p>© <span id="copyright-year"></span> <span data-config="authorName">Autor</span>. <span data-config="footerCopyrightText">Alle Rechte vorbehalten</span></p>
-            <p class="footer-contact">Kontakt: <a href="mailto:danielholzknecht1@gmail.com">danielholzknecht1@gmail.com</a></p>
         </div>
-    </footer>
+        <div class="archive-results-count" id="results-count" aria-live="polite"></div>
+    </section>
 
-    <!-- Script-Pfade angepasst für Unterverzeichnis -->
-    <script src="../assets/js/config.js"></script>
-    <script src="../assets/js/main.js"></script>
+    <section class="story-archive container" id="story-archive" data-story-list-archive>
+        <!-- Inhalte werden dynamisch durch JavaScript geladen -->
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <p>© <span id="copyright-year"></span> <span data-config="authorName">Autor</span>. <span
+                data-config="footerCopyrightText">Alle Rechte vorbehalten</span></p>
+        <p class="footer-contact">Kontakt: <a href="mailto:danielholzknecht1@gmail.com">danielholzknecht1@gmail.com</a>
+        </p>
+    </div>
+</footer>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js"></script>
 </body>
 </html>

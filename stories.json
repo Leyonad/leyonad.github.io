@@ -129,6 +129,18 @@
       "contentPath": "poems/das-gold-in-der-saat.md"
     },
     {
+      "id": "die-untergrabene-mauer",
+      "title": "Die untergrabene Mauer",
+      "teaser": "Über einen jungen Baumeister, der sich in seiner Rache verliert.",
+      "description": "Der Geist von Neapel als poetische Kurzfassung über den Hauptcharakter.",
+      "image": "./assets/img/die-untergrabene-mauer.webp",
+      "type": "poem",
+      "allow_sending": true,
+      "started": "2026-10-07",
+      "completed": "2026-10-12",
+      "contentPath": "poems/die-untergrabene-mauer.md"
+    },
+    {
       "id": "knabenheit",
       "title": "Knabenheit",
       "teaser": "Ein Junge wird auf Reisen geschickt.",

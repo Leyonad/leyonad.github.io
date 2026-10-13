@@ -160,7 +160,7 @@ Und wie denn? Niemand weiß gewiss,
 dass du hier heut' im Walde bist.
 
 Es wissen drei, wo ich grad bin,
-auch wenn du meinst, das das nicht stimmt.
+auch wenn du meinst, dass das nicht stimmt.
 
 Da lach ich doch. Dann sage mir,
 wer deine Krüppelfreunde sind!
